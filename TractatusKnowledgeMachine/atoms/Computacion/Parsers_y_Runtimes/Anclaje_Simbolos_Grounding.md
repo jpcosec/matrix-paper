@@ -20,7 +20,7 @@ tags:
 ---
 
 ## Qué es
-Es el proceso de mapear signos perceptibles (tokens de texto, cadenas de caracteres o identificadores externos) a símbolos unificados y normalizados dentro del catálogo del sistema.
+Es el sub-proceso — **plegado dentro de la etapa 1 (Descomposición en Forma Estándar)** del [[Pipeline_Ingesta_Lenguaje_Matrix]], no una etapa separada — de mapear signos perceptibles (tokens de texto, cadenas de caracteres o identificadores externos) a símbolos unificados y normalizados dentro del catálogo del sistema.
 
 ## Por qué es necesario
 Previene la duplicación y ambigüedad de conceptos (ej. "drei", "3", "tres" apuntando a diferentes identificadores) y gestiona la unificación mediante la meta-relación `equivalent` y el tipado `instance`.
@@ -31,7 +31,7 @@ Previene la duplicación y ambigüedad de conceptos (ej. "drei", "3", "tres" apu
 3. **Unificación via Kernel (`equivalent`):** Pliega alias y sinónimos a un único representante canónico.
 
 ## Cuándo interviene
-Durante el registro de entidades (`register_thing`), parsing de entradas y resolución de referencias.
+Durante la descomposición de entradas en lenguaje natural (etapa 1 del pipeline, ejecutada por el descompositor de superficie), el registro de entidades (`register_thing`) y la resolución de referencias.
 
 ## Dónde reside
 En el catálogo de registro del núcleo (`logical_system_registry.py`) y en los espacios de símbolos (`symbol_spaces.py`).

@@ -25,7 +25,7 @@ Es la prueba de concepto de ingesta e inferencia sobre ontologías complejas de 
 ---
 
 ## Mecanismo
-Parsea clases OWL, propiedades de objetos, individuos nombrados y jerarquías `subClassOf`, traduciéndolos a S-Expressions canonicales e inyectándolos directamente en la estructura $V_i, S_i$ de `LogicalSystem`.
+Parsea clases OWL, propiedades de objetos, individuos nombrados y jerarquías `subClassOf` — contenido **ya estandarizado** que omite la etapa de descomposición — traduciéndolos a S-Expressions canónicas (proposiciones candidato) que se validan por el chequeo de sentido en dos pasos antes de materializarse en la estructura $V_i, S_i$ de `LogicalSystem`.
 
 ---
 

@@ -21,7 +21,7 @@ tags:
 ---
 
 ## Qué es
-Es el conjunto de formalizaciones lógicas (Anexo A.3.9) para detectar y resolver afirmaciones contradictorias ($p \land \neg p$) ingresadas en un mismo contexto $W_i$.
+Es el conjunto de formalizaciones lógicas (Anexo A.3.9) para detectar y resolver afirmaciones contradictorias ($p \land \neg p$) ingresadas en un mismo contexto $W_i$. Opera como el **paso (b) del chequeo de sentido** del [[Pipeline_Ingesta_Lenguaje_Matrix]]: tras la indexación por contexto (paso a), todo candidato admisible se contrasta contra los hechos ya asertados $V_i$; un conflicto emite una **señal explícita de contradicción** (nunca sobrescritura silenciosa), y las 3 estrategias siguientes son las políticas de resolución disponibles una vez emitida la señal.
 
 ---
 

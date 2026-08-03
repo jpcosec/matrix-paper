@@ -16,7 +16,7 @@ tags:
 * [populates:: [[Hipertensor_Canonico]]]
 
 ## Qué es
-Implementación del `MatrixFeeder` especializada en la ingesta, canonización y traducción de tripletas RDF y axiomas OWL 2 (Description Logic) a coordenadas hiper-matriciales.
+Implementación del `MatrixFeeder` especializada en la ingesta, canonización y traducción de tripletas RDF y axiomas OWL 2 (Description Logic) a coordenadas hiper-matriciales. Como OWL/RDF **ya es una representación estandarizada**, este contenido **omite la etapa 1 (Descomposición)** del [[Pipeline_Ingesta_Lenguaje_Matrix]]: entra directamente a la reducción a proposiciones candidato y pasa el mismo chequeo de sentido en dos pasos que cualquier otra ingesta.
 
 ## Por qué es necesario
 Permite importar la vasta infraestructura global de la Web Semántica. Abandona la ejecución basada en motores de resolución lentos al convertir rígidamente los grafos en productos tensoriales estáticos evaluables instantáneamente en la matriz.
@@ -27,7 +27,7 @@ Permite importar la vasta infraestructura global de la Web Semántica. Abandona 
    * Transforma relaciones como `rdfs:subClassOf(A, B)` en una implicación directa enviada al `RuleMatrixCompiler`.
    * El Compilador reduce esto a un Mintermo direccional en la Matriz de Incidencia $I$, tal que $A \implies B$.
    * Reglas de dominios y rangos (`rdfs:domain`) se traducen en restricciones espaciales en la máscara de sentido $S_i$.
-3. **Aserciones Empíricas (`feed_facts`):** Escribe el tejido de hechos (ABox) directamente como encendidos binarios en el bloque relacional correspondiente de $V_i$.
+3. **Aserciones Empíricas (`feed_facts`):** Reduce el tejido de hechos (ABox) a proposiciones candidato que se validan por el chequeo de sentido en dos pasos (indexación por contexto + contradicción) antes de materializarse como encendidos binarios en el bloque relacional correspondiente de $V_i$.
 
 ## Cuándo interviene
 Durante el aprovisionamiento estructural inicial de un $W_i$, consumiendo archivos estáticos (`.owl`, `.ttl`) para establecer las reglas del juego.

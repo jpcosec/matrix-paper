@@ -25,7 +25,7 @@ tags:
 ---
 
 ## Qué es
-Es la demostración end-to-end ejecutable (`examples/ragout_demonstration.py`) que ilustra cómo el motor Booleano MEEL resuelve las ambigüedades categoriales y evita alucinaciones en un dominio culinario real mediante un pipeline de 5 etapas.
+Es la demostración end-to-end ejecutable (`examples/ragout_demonstration.py`) que ilustra cómo el motor Booleano MEEL resuelve las ambigüedades categoriales y evita alucinaciones en un dominio culinario real, siguiendo el [[Pipeline_Ingesta_Lenguaje_Matrix]] (descomposición → candidatos → chequeo de sentido en dos pasos → cómputo) en un flujo de demostración de 5 pasos.
 
 ---
 
@@ -34,7 +34,7 @@ Es la demostración end-to-end ejecutable (`examples/ragout_demonstration.py`) q
 ```mermaid
 sequenceDiagram
     autonumber
-    actor LLM as Parser Semántico LLM
+    actor LLM as Descompositor de Superficie (LLM chica)
     participant Engine as MEEL Runtime
     participant World as Partición W_ragout
 

@@ -19,54 +19,72 @@ do_not_use_when: "No utilizar fuera del dominio formal de walkthrough."
 ---
 
 ## Qué es
-Es el recorrido paso a paso del pipeline completo desde la entrada en lenguaje natural hasta la decisión de aceptar o rechazar una proposición, con un ejemplo concreto ejecutado.
+Es el recorrido paso a paso del pipeline completo (4 etapas) desde la entrada en lenguaje natural hasta la decisión de aceptar o rechazar una proposición, con un ejemplo concreto ejecutado.
 
 ## Ejemplo: "El ragout tiene champiñones"
 
-### Paso 1 — Anclaje de Símbolos (Symbol Grounding)
+### Paso 1 — Descomposición en Forma Estándar
+
+El descompositor de superficie (propuesta: LLM chica, sin decisiones lógicas) separa el significado del azúcar sintáctico y lo expresa en una representación estandarizada. El anclaje de símbolos ocurre **plegado aquí**:
 
 ```
 Input:  "El ragout tiene champiñones"
         ↓
-LLM extrae: sujeto="ragout", relación="tiene_ingrediente", objeto="champinon"
+Descomposición: sujeto="ragout", relación="tiene_ingrediente", objeto="champinon"
         ↓
-Anclaje:
+Anclaje (plegado en esta etapa):
   sign("ragout")     → Symbol("ragout")
   sign("champiñones") → Symbol("champinon")  (normalización de alias)
   sign("tiene")      → Relation("tiene_ingrediente")
 ```
 
-### Paso 2 — Parseo a S-Expression Canónica
+### Paso 2 — Reducción a Proposición Candidato
+
+La forma estándar se reduce a una proposición candidato homogénea, **aún sin estatus de verdad**:
 
 ```
-Input canónico: (tiene_ingrediente ragout champinon)
+Candidato: (tiene_ingrediente ragout champinon)
 ```
 
-### Paso 3 — Identificación del WiGame
+### Paso 3 — Chequeo de Sentido, paso (a): Indexación por Contexto
 
 ```
-MEEL evalúa: ¿Qué WiGame acepta (tiene_ingrediente ragout champinon)?
+MEEL evalúa: ¿qué contexto indexa el cruce (tiene_ingrediente, ragout, champinon)?
   → WiGame "cocina" admite:
      axis_a: [ragout, risotto, paella, ...]
      axis_b: [champinon, arroz, azafran, ...]
      relation: tiene_ingrediente
   → Resultado: wigame:cocina
-```
 
-### Paso 4 — Validación por Máscara de Sentido ($S_i$)
+Si ningún contexto admite el cruce → Si = "unsinnig" → 🚫 RECHAZAR
+(el absurdo se evita por construcción, antes de cualquier evaluación de verdad)
 
-```
-Si.get("ragout", "champinon")?
-
+Casos al consultar Si.get("ragout", "champinon"):
 Caso A: Si = "sinnvoll"  → ✅ La combinación es categorialmente válida
-Caso B: Si = "unsinnig"  → 🚫 RECHAZAR: "El ragout no puede tener champiñones como ingrediente en este contexto"
+Caso B: Si = "unsinnig"  → 🚫 RECHAZAR: absurdo semántico en este contexto
 Caso C: Fuera de ejes    → 🚫 RECHAZAR: "La proposición no pertenece a este espacio lógico"
 ```
 
-### Paso 5 — Evaluación de Verdad ($V_i$)
+### Paso 4 — Chequeo de Sentido, paso (b): Contradicción contra $V_i$
 
 ```
-(Continuación del Caso A: Si = sinnvoll)
+(Caso A: candidato admisible)
+
+¿Conflicto con hechos ya asertados en V_i del contexto?
+
+Sin conflicto  → continuar al cómputo matricial
+Con conflicto  → 🚫 SEÑAL EXPLÍCITA DE CONTRADICCIÓN
+                 (nunca sobrescritura silenciosa; ver Manejo_de_Contradicciones)
+
+Ejemplo: (sonido gato ladra) tras haber asertado (sonido gato maulla)
+  → pasa (a): el cruce es admisible en el contexto
+  → falla (b): contradicción con el hecho existente
+```
+
+### Paso 5 — Cómputo Matricial y Decisión Final ($V_i$)
+
+```
+(Solo si pasó (a) y (b))
 
 Vi.get("ragout", "champinon")?
 
@@ -75,8 +93,6 @@ Resultado posible:
   "false" → ❌ "No, el ragout no tiene champiñones."
   "∅"     → ⚠️ "No se sabe si el ragout tiene champiñones (ausencia de dato)."
 ```
-
-### Paso 6 — Decisión Final
 
 ```python
 # Código real de s_expression_runtime.py (_eval_check)
@@ -95,12 +111,12 @@ return OperationResult(status="accept", sinn=sense,
 ## Ejemplo de Rechazo: "El electrón tiene color rojo"
 
 ```
-Paso 1: sujeto="electron", relación="tiene_color", objeto="rojo"
-Paso 2: (tiene_color electron rojo)
-Paso 3: Buscar WiGame → "fisica:particulas" tiene axis con electrones
-        pero la relación "tiene_color" NO está en este WiGame
-Paso 4: accepts() = False → OperationResult(status="reject", sinn="unsinnig")
-Paso 5: No se ejecuta — la proposición fue rechazada antes de evaluar verdad
+Paso 1: descomposición → sujeto="electron", relación="tiene_color", objeto="rojo"
+Paso 2: candidato (tiene_color electron rojo)
+Paso 3a: indexación por contexto → "fisica:particulas" tiene axis con electrones
+        pero la relación "tiene_color" NO está indexada en este contexto
+        → accepts() = False → OperationResult(status="reject", sinn="unsinnig")
+Pasos 3b-5: no se ejecutan — el candidato fue rechazado antes de evaluar verdad
 ```
 
 ## El Pipeline Completo como S-Expression

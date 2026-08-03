@@ -26,8 +26,8 @@ Es la clarificación explícita de las fases de integración entre el LLM (model
 
 ## Arquitectura por Fases
 1. **Fase 2 (Implementación Actual Ejecutable):**
-   * El LLM opera como un **Parser Semántico de Superficie**. Realiza el *lowering* del lenguaje natural a *ImperativeFrame* / *QueryFrame* y S-Expressions canonicalizadas `(assert ...)`, `(check ...)`.
-   * El motor **MEEL** recibe las S-Expressions y ejecuta las validaciones $S_i$ y $V_i$ de manera inmutable fuera del LLM.
+   * El LLM (propuesta: **LLM chica**) opera como **Descompositor de Superficie** — etapa 1 del [[Pipeline_Ingesta_Lenguaje_Matrix]]: separa el significado del azúcar sintáctico y lo expresa en una representación estandarizada (S-Expressions canonicalizadas `(assert ...)`, `(check ...)`, RDF/Turtle u OWL), absorbiendo la variabilidad de signos (anclaje y alias plegados aquí). **No toma decisiones lógicas**.
+   * El motor **MEEL** recibe las proposiciones candidato y ejecuta el chequeo de sentido en dos pasos (indexación por contexto + contradicción) y las validaciones $S_i$ y $V_i$ de manera inmutable fuera del LLM.
    * Prototipo funcional: `prototypes/shrdlu/` y runtime `SExpressionRuntime`.
 2. **Fase 3 (Trabajo Futuro):**
    * Modificación profunda de las máscaras de atención latente y pérdidas intermedias durante el entrenamiento de la red neuronal.

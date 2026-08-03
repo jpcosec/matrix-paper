@@ -22,7 +22,7 @@ tags:
 ---
 
 ## Qué es
-Es el módulo compilador y parser (`src/operational_model/language/owl2matrix.py`) que permite importar ontologías ontológicas estándar Web Ontology Language (OWL / RDF-XML) y traducirlas automáticamente a **S-Expressions canónicas e ingresarlas en el motor MEEL**.
+Es el módulo compilador y parser (`src/operational_model/language/owl2matrix.py`) que permite importar ontologías ontológicas estándar Web Ontology Language (OWL / RDF-XML) y traducirlas automáticamente a **S-Expressions canónicas e ingresarlas en el motor MEEL**. OWL/RDF juega un doble rol en el pipeline: es una de las **representaciones estándar destino** de la etapa de descomposición del lenguaje natural, y un **formato importable directamente** (ya estandarizado, no requiere descomposición).
 
 ## Por qué es importante
 Permite interoperabilidad inmediata con ontologías existentes (como las desarrolladas por Zöllner-Weber 2021 o bases de datos de conocimiento empresariales en OWL/RDF), transformando ontologías basadas en grafos en **matrices Booleanas bitwise densas** operadas a nivel de silicio (`uint64`).
