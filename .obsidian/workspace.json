@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "ed470c403d258a1e",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e47b458808b951b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "143d43b8fabe630b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "review/response3_draft.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "response3_draft"
+            }
+          },
+          {
+            "id": "4b2a7cb88385b403",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "review/response1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "response1"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "66374ed524da98c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "9f41be8083722c23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "336e33dffe3976fa",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "0a85d94d110efb7a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "1d36497d7e117051",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 553.5
+  },
+  "right": {
+    "id": "1b3a2faec7ab99d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cb5b4fc6710ae4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aae34bb21726f056",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TractatusKnowledgeMachine/roadmap/fase-3-texto-natural.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de fase-3-texto-natural"
+            }
+          },
+          {
+            "id": "d3b52cc4ef06f0da",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "TractatusKnowledgeMachine/roadmap/fase-3-texto-natural.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de fase-3-texto-natural"
+            }
+          },
+          {
+            "id": "701dd9cb4ed20262",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "f4d0ee425426cd06",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "6acb0e3459f87371",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "TractatusKnowledgeMachine/roadmap/fase-3-texto-natural.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de fase-3-texto-natural"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false
+    }
+  },
+  "active": "143d43b8fabe630b",
+  "lastOpenFiles": [
+    "Matrix/desk/primitives/edges/edge-task-meelengine-fixpoint-deduction-algorithm-close-to-complete.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-fixpoint-deduction-algorithm-closeout-to-close.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-fixpoint-deduction-algorithm-ready-to-closeout.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-fixpoint-deduction-algorithm-testing-to-ready.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-fixpoint-deduction-algorithm-activate-to-testing.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-fixpoint-deduction-algorithm-execution-to-activate.md",
+    "Matrix/desk/primitives/operators/operator-task-meelengine-fixpoint-deduction-algorithm-close.md",
+    "Matrix/desk/primitives/operators/operator-task-meelengine-fixpoint-deduction-algorithm-ready-for-testing.md",
+    "Matrix/desk/primitives/operators/operator-task-meelengine-fixpoint-deduction-algorithm-activate.md",
+    "Matrix/desk/primitives/checklists/checklist-task-meelengine-fixpoint-deduction-algorithm-closeout-ready.md",
+    "Matrix/desk/primitives/checklists/checklist-task-meelengine-fixpoint-deduction-algorithm-testing-ready.md",
+    "Matrix/desk/primitives/checklists/checklist-task-meelengine-fixpoint-deduction-algorithm-execution-ready.md",
+    "Matrix/desk/primitives/conditions/condition-task-meelengine-fixpoint-deduction-algorithm-ready-for-closeout.md",
+    "Matrix/desk/primitives/conditions/condition-task-meelengine-fixpoint-deduction-algorithm-has-closeout-evidence.md",
+    "Matrix/desk/primitives/conditions/condition-task-meelengine-fixpoint-deduction-algorithm-has-validation.md",
+    "Matrix/desk/primitives/conditions/condition-task-meelengine-fixpoint-deduction-algorithm-has-implementation-path.md",
+    "Matrix/desk/routines/routine-task-meelengine-fixpoint-deduction-algorithm.md",
+    "Matrix/desk/tasks/task-meelengine-fixpoint-deduction-algorithm.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-core-api-facade-close-to-complete.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-core-api-facade-closeout-to-close.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-core-api-facade-ready-to-closeout.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-core-api-facade-testing-to-ready.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-core-api-facade-activate-to-testing.md",
+    "Matrix/desk/primitives/edges/edge-task-meelengine-core-api-facade-execution-to-activate.md",
+    "Matrix/desk/primitives/operators/operator-task-meelengine-core-api-facade-close.md",
+    "Matrix/desk/primitives/operators/operator-task-meelengine-core-api-facade-ready-for-testing.md",
+    "Matrix/docs/specs/architecture_reflection.yaml",
+    "Matrix/docs/specs/architecture_deployment.yaml",
+    "Matrix/docs/specs/architecture_state.mmd",
+    "Matrix/docs/specs/architecture_sequence.mmd",
+    "Matrix/docs/specs/architecture_activity.mmd",
+    "Matrix/docs/specs/architecture_activity.yaml",
+    "Matrix/docs/specs/architecture_state.yaml",
+    "Matrix/docs/specs/architecture_sequence.yaml",
+    "Neurips_peiper/paper/neurips_2026.pdf",
+    "Matrix/docs/specs/architecture_component.mmd"
+  ]
+}

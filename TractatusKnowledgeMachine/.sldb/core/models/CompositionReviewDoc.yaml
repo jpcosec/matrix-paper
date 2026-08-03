@@ -1,0 +1,13 @@
+name: CompositionReviewDoc
+model_ref: sldb_models.composition:CompositionReviewDoc
+path: sldb_models/composition.py
+documents_index: .sldb/core/documents/CompositionReviewDoc.yaml
+sections_index: .sldb/runtime/sections/CompositionReviewDoc.yaml
+hash_b: 99cd7e97941d445f6de4c9b0d5e91bfc00702e58500c442234dd6f6e634b60d1
+version: 1
+canonical: false
+family: null
+semantics:
+- type.knowledge.composition-review
+- workspace.desk.atoms.composiciones_review
+base_models: []

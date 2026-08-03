@@ -1,0 +1,22 @@
+# Review: `specs/operations/boolean_algebra.md`
+
+- `archivo actual`: `specs/operations/boolean_algebra.md`
+- `rol actual`: pseudocodigo operacional completo del sistema booleano
+- `tipo`: formal + operacional
+- `duplicaciones detectadas`:
+  - estructuras formales con `specs/formalization/mathematical_formalization.md`
+  - matrices con `specs/data_model/matrix_representation.md`
+- `afirmaciones canonicas que deben sobrevivir`:
+  - `project`, `well_formed`, `matches`, `denote`, `status`
+  - cuatro mascaras: valid, sense, discriminative, observed
+  - `outside_context`
+  - construccion matricial, buckets, colisiones, arbol
+  - distincion entre total algebraica y restriccion semantica
+- `destino propuesto en atomos/`:
+  - `20_formal/masks.md`
+  - `20_formal/logical_status.md`
+  - `20_formal/closure_and_partiality.md`
+  - `30_operations/projection.md`
+  - `30_operations/validation.md`
+  - `30_operations/lookup.md`
+- `destino final`: archivar como fuente principal del pseudocodigo canonico

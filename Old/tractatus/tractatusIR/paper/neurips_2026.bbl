@@ -1,0 +1,42 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Farquhar et~al.(2024)]{semantic_entropy2024}
+Sebastian Farquhar et~al.
+\newblock Detecting hallucinations in large language models using semantic
+  entropy.
+\newblock \emph{Nature}, 2024.
+
+\bibitem[Ferrone and Zanzotto(2019)]{ferrone2019}
+Lorenzo Ferrone and Fabio~Massimo Zanzotto.
+\newblock Symbolic, distributed, and distributional representations for nlp in
+  the era of deep learning: A survey.
+\newblock \emph{Frontiers in Robotics and AI}, 2019.
+
+\bibitem[Ibrahim(2026)]{ibrahim2026}
+Ahmed Ibrahim.
+\newblock Neuro-symbolic agents for hallucination-free requirements reuse.
+\newblock \emph{arXiv preprint arXiv:2605.01562}, 2026.
+
+\bibitem[Min et~al.(2023)]{factscore2023}
+Sewon Min et~al.
+\newblock Factscore: Fine-grained atomic evaluation of factual precision in
+  large language models.
+\newblock \emph{EMNLP}, 2023.
+
+\bibitem[Peer and Stabinger(2025)]{ata2025}
+David Peer and Sebastian Stabinger.
+\newblock Ata: A neuro-symbolic approach to implement autonomous and
+  trustworthy agents.
+\newblock \emph{arXiv preprint arXiv:2510.16381}, 2025.
+
+\bibitem[Wittgenstein(1922)]{wittgenstein1922}
+Ludwig Wittgenstein.
+\newblock \emph{Tractatus Logico-Philosophicus}.
+\newblock Kegan Paul, 1922.
+
+\end{thebibliography}

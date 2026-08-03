@@ -1,0 +1,313 @@
+documents:
+- doc_name: atom-spec-canonical-hypertensor
+  sections:
+  - path: spec-del-canonicalhypertensor
+    title: Spec del CanonicalHypertensor
+    breadcrumbs:
+    - Spec del CanonicalHypertensor
+    about:
+    - Spec del CanonicalHypertensor
+    - spec del canonicalhypertensor
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: spec-del-canonicalhypertensor
+    level: 1
+    line_start: 11
+    line_end: 12
+  - path: spec-del-canonicalhypertensor/componente-sistema-objetivo
+    title: Componente/Sistema Objetivo
+    breadcrumbs:
+    - Spec del CanonicalHypertensor
+    - Componente/Sistema Objetivo
+    about:
+    - Spec del CanonicalHypertensor
+    - spec del canonicalhypertensor
+    - Componente/Sistema Objetivo
+    - componente sistema objetivo
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: componente-sistema-objetivo
+    level: 2
+    line_start: 13
+    line_end: 14
+  - path: spec-del-canonicalhypertensor/tipo-de-especificaci-n
+    title: "Tipo de Especificaci\xF3n"
+    breadcrumbs:
+    - Spec del CanonicalHypertensor
+    - "Tipo de Especificaci\xF3n"
+    about:
+    - Spec del CanonicalHypertensor
+    - spec del canonicalhypertensor
+    - "Tipo de Especificaci\xF3n"
+    - tipo de especificaci n
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: tipo-de-especificaci-n
+    level: 2
+    line_start: 17
+    line_end: 18
+  - path: spec-del-canonicalhypertensor/cadena-de-tomos-fundacionales
+    title: "Cadena de \xC1tomos Fundacionales"
+    breadcrumbs:
+    - Spec del CanonicalHypertensor
+    - "Cadena de \xC1tomos Fundacionales"
+    about:
+    - Spec del CanonicalHypertensor
+    - spec del canonicalhypertensor
+    - "Cadena de \xC1tomos Fundacionales"
+    - cadena de tomos fundacionales
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: cadena-de-tomos-fundacionales
+    level: 2
+    line_start: 21
+    line_end: 22
+  - path: spec-del-canonicalhypertensor/detalle-de-la-especificaci-n
+    title: "Detalle de la Especificaci\xF3n"
+    breadcrumbs:
+    - Spec del CanonicalHypertensor
+    - "Detalle de la Especificaci\xF3n"
+    about:
+    - Spec del CanonicalHypertensor
+    - spec del canonicalhypertensor
+    - "Detalle de la Especificaci\xF3n"
+    - detalle de la especificaci n
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: detalle-de-la-especificaci-n
+    level: 2
+    line_start: 28
+    line_end: 29
+- doc_name: atom-spec-meel-engine
+  sections:
+  - path: spec-del-meelengine
+    title: Spec del MEELEngine
+    breadcrumbs:
+    - Spec del MEELEngine
+    about:
+    - Spec del MEELEngine
+    - spec del meelengine
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: spec-del-meelengine
+    level: 1
+    line_start: 11
+    line_end: 12
+  - path: spec-del-meelengine/componente-sistema-objetivo
+    title: Componente/Sistema Objetivo
+    breadcrumbs:
+    - Spec del MEELEngine
+    - Componente/Sistema Objetivo
+    about:
+    - Spec del MEELEngine
+    - spec del meelengine
+    - Componente/Sistema Objetivo
+    - componente sistema objetivo
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: componente-sistema-objetivo
+    level: 2
+    line_start: 13
+    line_end: 14
+  - path: spec-del-meelengine/tipo-de-especificaci-n
+    title: "Tipo de Especificaci\xF3n"
+    breadcrumbs:
+    - Spec del MEELEngine
+    - "Tipo de Especificaci\xF3n"
+    about:
+    - Spec del MEELEngine
+    - spec del meelengine
+    - "Tipo de Especificaci\xF3n"
+    - tipo de especificaci n
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: tipo-de-especificaci-n
+    level: 2
+    line_start: 17
+    line_end: 18
+  - path: spec-del-meelengine/cadena-de-tomos-fundacionales
+    title: "Cadena de \xC1tomos Fundacionales"
+    breadcrumbs:
+    - Spec del MEELEngine
+    - "Cadena de \xC1tomos Fundacionales"
+    about:
+    - Spec del MEELEngine
+    - spec del meelengine
+    - "Cadena de \xC1tomos Fundacionales"
+    - cadena de tomos fundacionales
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: cadena-de-tomos-fundacionales
+    level: 2
+    line_start: 21
+    line_end: 22
+  - path: spec-del-meelengine/detalle-de-la-especificaci-n
+    title: "Detalle de la Especificaci\xF3n"
+    breadcrumbs:
+    - Spec del MEELEngine
+    - "Detalle de la Especificaci\xF3n"
+    about:
+    - Spec del MEELEngine
+    - spec del meelengine
+    - "Detalle de la Especificaci\xF3n"
+    - detalle de la especificaci n
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: detalle-de-la-especificaci-n
+    level: 2
+    line_start: 27
+    line_end: 28
+- doc_name: atom-spec-rule-matrix-compiler
+  sections:
+  - path: spec-de-feeders-y-rulematrixcompiler
+    title: Spec de Feeders y RuleMatrixCompiler
+    breadcrumbs:
+    - Spec de Feeders y RuleMatrixCompiler
+    about:
+    - Spec de Feeders y RuleMatrixCompiler
+    - spec de feeders y rulematrixcompiler
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: spec-de-feeders-y-rulematrixcompiler
+    level: 1
+    line_start: 11
+    line_end: 12
+  - path: spec-de-feeders-y-rulematrixcompiler/componente-sistema-objetivo
+    title: Componente/Sistema Objetivo
+    breadcrumbs:
+    - Spec de Feeders y RuleMatrixCompiler
+    - Componente/Sistema Objetivo
+    about:
+    - Spec de Feeders y RuleMatrixCompiler
+    - spec de feeders y rulematrixcompiler
+    - Componente/Sistema Objetivo
+    - componente sistema objetivo
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: componente-sistema-objetivo
+    level: 2
+    line_start: 13
+    line_end: 14
+  - path: spec-de-feeders-y-rulematrixcompiler/tipo-de-especificaci-n
+    title: "Tipo de Especificaci\xF3n"
+    breadcrumbs:
+    - Spec de Feeders y RuleMatrixCompiler
+    - "Tipo de Especificaci\xF3n"
+    about:
+    - Spec de Feeders y RuleMatrixCompiler
+    - spec de feeders y rulematrixcompiler
+    - "Tipo de Especificaci\xF3n"
+    - tipo de especificaci n
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: tipo-de-especificaci-n
+    level: 2
+    line_start: 17
+    line_end: 18
+  - path: spec-de-feeders-y-rulematrixcompiler/cadena-de-tomos-fundacionales
+    title: "Cadena de \xC1tomos Fundacionales"
+    breadcrumbs:
+    - Spec de Feeders y RuleMatrixCompiler
+    - "Cadena de \xC1tomos Fundacionales"
+    about:
+    - Spec de Feeders y RuleMatrixCompiler
+    - spec de feeders y rulematrixcompiler
+    - "Cadena de \xC1tomos Fundacionales"
+    - cadena de tomos fundacionales
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: cadena-de-tomos-fundacionales
+    level: 2
+    line_start: 21
+    line_end: 22
+  - path: spec-de-feeders-y-rulematrixcompiler/detalle-de-la-especificaci-n
+    title: "Detalle de la Especificaci\xF3n"
+    breadcrumbs:
+    - Spec de Feeders y RuleMatrixCompiler
+    - "Detalle de la Especificaci\xF3n"
+    about:
+    - Spec de Feeders y RuleMatrixCompiler
+    - spec de feeders y rulematrixcompiler
+    - "Detalle de la Especificaci\xF3n"
+    - detalle de la especificaci n
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    semantic_tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+    slug: detalle-de-la-especificaci-n
+    level: 2
+    line_start: 27
+    line_end: 28

@@ -1,0 +1,25 @@
+documents:
+- name: atom-spec-canonical-hypertensor
+  path: atoms/composiciones_spec/atom-spec-canonical-hypertensor.md
+  hash_c: 26ec2372b69d5d55311600be9ce82f9eb1f3855d13a2514c5cf9a70ca1cecd17
+  hash_d: 3235a83d12c5f9daf146648ea09e6c61e1011b457ca14ff1fd255ad621ae4d2c
+  semantic_tags:
+  - system:matrix
+  - type.knowledge.composition-spec
+  - workspace.desk.atoms.composiciones_spec
+- name: atom-spec-meel-engine
+  path: atoms/composiciones_spec/atom-spec-meel-engine.md
+  hash_c: 3599375196493065d5d88a0d2f44ff4a553d0b7f8a1707ed575b336751805d18
+  hash_d: d0d35e79a4072d9934635efee55af0704c86e64c5395a73efb72922b213718c1
+  semantic_tags:
+  - system:matrix
+  - type.knowledge.composition-spec
+  - workspace.desk.atoms.composiciones_spec
+- name: atom-spec-rule-matrix-compiler
+  path: atoms/composiciones_spec/atom-spec-rule-matrix-compiler.md
+  hash_c: 2e773a751fb12c66df54af6dc0aee6331145bf9f2ebeb8986eba40e73a90e071
+  hash_d: 0c39a9833296232b2794394efed59fd015788a050b6e6fe4d6c069ae79603dd3
+  semantic_tags:
+  - system:matrix
+  - type.knowledge.composition-spec
+  - workspace.desk.atoms.composiciones_spec

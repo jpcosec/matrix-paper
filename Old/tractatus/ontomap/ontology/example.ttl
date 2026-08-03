@@ -1,0 +1,39 @@
+@prefix onto: <http://ontomap.io/ontology#>
+@prefix ex:   <http://ontomap.io/example#>
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+# ─────────────────────────────────────────────
+# INSTANCIA DE EJEMPLO: Pipeline LLM → FileSystem
+# ─────────────────────────────────────────────
+
+# Nodos
+ex:llm_agent   a onto:LLMAgent ;    onto:id "llm_agent" .
+ex:cli         a onto:CLI ;         onto:id "cli" .
+ex:task_model  a onto:DataModel ;   onto:id "task_model" .
+ex:fs_zone     a onto:FileSystem ;  onto:id "fs_zone" .
+ex:task_file   a onto:Document ;    onto:id "task_file" .
+
+# Arista 1: llm_agent escribe task_file en fs_zone durante exec
+ex:edge_001 a onto:OntologyEdge ;
+    onto:source  ex:llm_agent ;
+    onto:target  ex:task_file ;
+    onto:contains ex:fs_zone ;           # where: persiste en fs_zone
+    onto:informs  ex:task_model ;        # what:  informa al modelo
+    onto:when    "ExecPhase" ;
+    onto:how     "writes_markdown" ;
+    onto:why     "zero_context_sufficiency" ;
+    onto:who     ex:cli .
+
+# Arista 2: task_model valida task_file (mismos nodos, semántica distinta)
+ex:edge_002 a onto:OntologyEdge ;
+    onto:source   ex:task_model ;
+    onto:target   ex:task_file ;
+    onto:validates ex:task_file ;        # what: valida
+    onto:when     "PreExecPhase" .
+
+# Arista 3: cli depende de llm_agent para ejecutar
+ex:edge_003 a onto:OntologyEdge ;
+    onto:source    ex:cli ;
+    onto:target    ex:llm_agent ;
+    onto:dependsOn ex:llm_agent ;        # what: dependsOn (DAG)
+    onto:when      "ExecPhase" .

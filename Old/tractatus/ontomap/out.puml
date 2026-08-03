@@ -1,0 +1,65 @@
+@startuml
+title Ontological Graph
+
+package "desk/" as zone_desk {
+}
+
+package "desk/design/" as zone_desk_design {
+  [ActiveSpec] as active_spec
+}
+
+package "desk/pills/" as zone_desk_pills {
+  [ContextPill] as pill
+}
+
+package "desk/tasks/" as zone_desk_tasks {
+  [Board] as board
+  [Phase] as phase
+  [Task] as task
+}
+
+package "drawers/" as zone_drawers {
+  [ADR] as adr
+  [DesignSpec] as design_spec
+  [ModuleContract] as mod_contract
+}
+
+package "runs/ & git/" as zone_runs_git {
+  [Evidence.json] as evidence
+  [SourceCode] as source_code
+  [GitCommit] as git_commit
+}
+
+' Jerarquía de zonas
+zone_desk --> zone_desk_design : {where: contains}
+zone_desk --> zone_desk_tasks : {where: contains}
+zone_desk --> zone_desk_pills : {where: contains}
+
+[Supervisor LLM] as supervisor
+[Executor LLM] as executor
+[Motor CLI] as cli
+
+[ADR] --> [DesignSpec] : {what: informs}, {why: rationale_preservation}
+[ActiveSpec] --> [Task] : {what: transitionsTo}, {when: PlanPhase}, {how: atomize_logic}
+[Board] --> [Phase] : {what: organizes}, {how: timeline_index}
+[DesignSpec] --> [ActiveSpec] : {what: transitionsTo}, {when: InitPhase}, {how: promote-spec}
+[Evidence.json] --> [GitCommit] : {what: transitionsTo}, {when: AuditPassed}, {how: atomic_commit}
+[Evidence.json] --> [Task] : {what: stateUpdate}, {when: AuditFailed_max_retries}, {how: circuit_breaker}, {why: prevent_llm_deadlock}
+[Executor LLM] --> [Evidence.json] : {what: validates}, {how: runs_pytest}, {why: unit_validation}
+[Executor LLM] --> [SourceCode] : {what: informs}, {how: implements_logic}, {why: feature_completion}
+[Executor LLM] --> [Task] : {what: informs}, {how: reads_constraints}, {why: execution_bounds}
+[GitCommit] --> [Board] : {what: stateUpdate}, {when: InitPhase}, {how: cli_sync_state}, {why: git_drift_reconciliation}
+[GitCommit] --> [Task] : {what: stateUpdate}, {when: TaskClosed}, {how: state_update}
+[Motor CLI] --> [Board] : {what: validates}, {how: topological_and_trait_audit}, {why: prevent_cycles_and_semantic_collision}
+[Motor CLI] --> [GitCommit] : {what: organizes}, {how: executes_git}, {why: strict_traceability}
+[Motor CLI] --> [Task] : {what: organizes}, {how: serializes_pydantic}, {why: prevent_markdown_drift}
+[Phase] --> [Task] : {where: contains}, {how: dependency_graph}
+[SourceCode] --> [Evidence.json] : {what: transitionsTo}, {when: WrapPhase}, {how: unit_test_run}
+[Supervisor LLM] --> [ContextPill] : {what: informs}, {how: writes_markdown}, {why: zero_context_sufficiency}
+[Supervisor LLM] --> [DesignSpec] : {what: informs}, {how: conceptual_design}, {why: blueprinting}
+[Supervisor LLM] --> [Evidence.json] : {what: validates}, {how: parses_trace}, {why: quality_gate}
+[Supervisor LLM] --> [SourceCode] : {what: validates}, {how: writes_e2e_tests}, {why: phase_validation}
+[Task] --> [ContextPill] : {what: refsById}, {why: scope_isolation}
+[Task] --> [SourceCode] : {what: transitionsTo}, {when: ExecPhase}, {how: write_code}
+
+@enduml

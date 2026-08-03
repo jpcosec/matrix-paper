@@ -1,0 +1,9 @@
+@startuml
+component "Context: computation_atoms (E=0.68)" as computation_atoms <<storage>>
+component "Context: math_atoms (E=0.75)" as math_atoms <<storage>>
+component "Context: philosophy_atoms (E=0.75)" as philosophy_atoms <<storage>>
+
+philosophy_atoms --> computation_atoms : phil_to_comp
+math_atoms --> computation_atoms : math_to_comp
+computation_atoms --> math_atoms : comp_to_math
+@enduml

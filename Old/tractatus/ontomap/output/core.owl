@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sh="http://www.w3.org/ns/shacl#"
+>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#validates">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Process">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Entity"/>
+    <rdfs:label>Process</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+    <owl:members rdf:nodeID="n6918241e99014f439e95794b7df99ba8b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b3">
+    <rdf:first rdf:resource="http://ontomap.io/ontology#Zone"/>
+    <rdf:rest rdf:nodeID="n6918241e99014f439e95794b7df99ba8b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Actor">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Entity"/>
+    <rdfs:label>Actor</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b2">
+    <rdf:first rdf:resource="http://ontomap.io/ontology#Actor"/>
+    <rdf:rest rdf:nodeID="n6918241e99014f439e95794b7df99ba8b3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#how">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>how</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b4">
+    <rdf:first rdf:resource="http://ontomap.io/ontology#Artifact"/>
+    <rdf:rest rdf:nodeID="n6918241e99014f439e95794b7df99ba8b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#source">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:range rdf:resource="http://ontomap.io/ontology#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#where">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:label>where</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#target">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:range rdf:resource="http://ontomap.io/ontology#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b7">
+    <sh:path rdf:resource="http://ontomap.io/ontology#target"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+    <sh:class rdf:resource="http://ontomap.io/ontology#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#when">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>when</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#dependsOn">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#LogicSpace">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#who">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:range rdf:resource="http://ontomap.io/ontology#Actor"/>
+    <rdfs:label>who</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Artifact">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Entity"/>
+    <rdfs:label>Artifact</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Zone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Entity"/>
+    <rdfs:label>Zone</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b6">
+    <sh:path rdf:resource="http://ontomap.io/ontology#source"/>
+    <sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+    <sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+    <sh:class rdf:resource="http://ontomap.io/ontology#Entity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#composes">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#stateUpdate">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#implements">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#what">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:label>what</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Document">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#organizes">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Database">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#EdgeShape">
+    <rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
+    <sh:targetClass rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <sh:property rdf:nodeID="n6918241e99014f439e95794b7df99ba8b6"/>
+    <sh:property rdf:nodeID="n6918241e99014f439e95794b7df99ba8b7"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n6918241e99014f439e95794b7df99ba8b5">
+    <rdf:first rdf:resource="http://ontomap.io/ontology#Process"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#isLocatedIn">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#where"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Entity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Entity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#CodeModule">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#DataModel">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Artifact"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#why">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://ontomap.io/ontology#OntologyEdge"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>why</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#OntologyEdge">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Ontology Edge</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#inherits">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#referencesById">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Ritual">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Process"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+    <rdfs:label>OntoMap Core Ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#LLMAgent">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#refsById">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#informs">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#contains">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#where"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#Algorithm">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Process"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#transitionsTo">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#what"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#HumanAgent">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#CLI">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Actor"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#belongsTo">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#where"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#persistsAt">
+    <rdfs:subPropertyOf rdf:resource="http://ontomap.io/ontology#where"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://ontomap.io/ontology#FileSystem">
+    <rdfs:subClassOf rdf:resource="http://ontomap.io/ontology#Zone"/>
+  </rdf:Description>
+</rdf:RDF>

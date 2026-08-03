@@ -1,0 +1,42 @@
+# Catálogo de Registro de Predicados 5W1H+ (Matrix SSOT & SLDB)
+predicates:
+
+  # --- DIMENSIÓN HOW (Mecanismo & Resolución) ---
+  is_solved_by:
+    5w1h_type: HOW
+    description: "Indica cómo un problema o patología es resuelto por un componente o algoritmo Booleano."
+    example: "[is_solved_by:: [[Capa_Sentido_Si]]]"
+
+  implements:
+    5w1h_type: HOW
+    description: "Mapea un teorema o especificación teórica a un módulo de código ejecutable."
+    example: "[implements:: [[RuleMatrixCompiler]]]"
+
+  # --- DIMENSIÓN WHY (Causalidad & Demostración) ---
+  mathematically_proves:
+    5w1h_type: WHY
+    description: "Demostración matemática formal de una falla, límite o propiedad."
+    example: "[mathematically_proves:: [[Fenomeno_de_Gibbs]]]"
+
+  explains_failure_of:
+    5w1h_type: WHY
+    description: "Explicación teórica del porqué falla un enfoque estocástico o continuo."
+    example: "[explains_failure_of:: [[Incongruencia_Decodificacion_Estocastica]]]"
+
+  # --- DIMENSIÓN +PROVENANCE (Evidencia & Oráculo) ---
+  grounded_by:
+    5w1h_type: PROVENANCE
+    description: "Anclaje fáctico directo a un documento fuente oráculo o PDF científico."
+    example: "[grounded_by:: [[Hornik_1991_PDF]]]"
+
+  # --- DIMENSIÓN WHEN / WHERE (Fronteras & Ámbito) ---
+  restricts:
+    5w1h_type: WHEN_WHERE
+    description: "Define el dominio de aplicabilidad o frontera de la máscara de sentido Si."
+    example: "[restricts:: [[Contexto_Logico]]]"
+
+  # --- DIMENSIÓN WHAT (Ontología & Estructura) ---
+  defines:
+    5w1h_type: WHAT
+    description: "Definición formal de una entidad, estructura o matriz omnirepresentativa."
+    example: "[defines:: [[BlockMatrix]]]"

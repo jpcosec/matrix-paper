@@ -1,0 +1,8 @@
+@startuml
+component "Context: cosmology (E=0.50)" as cosmology <<storage>>
+component "Context: habitability (E=0.69)" as habitability <<storage>>
+component "Context: planetary_types (E=0.88)" as planetary_types <<storage>>
+
+cosmology --> planetary_types : cosmo_to_types
+planetary_types --> habitability : types_to_hab
+@enduml

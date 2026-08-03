@@ -1,0 +1,44 @@
+id: proposition_lifecycle
+title: Proposition Semantic Status Lifecycle
+version: "1.0.0"
+type: state
+metadata:
+  author: Gemini CLI
+  description: Lifecycle of a proposition as it moves through the MEEL engine filters.
+data:
+  entity: Proposition
+  initial: unvalidated
+  states:
+    - id: unvalidated
+      label: Unvalidated Sign
+    - id: unsinnig
+      label: Unsinnig (Absurd/Out of Context)
+    - id: sinnlos_tautology
+      label: Sinnlos (Tautology)
+    - id: sinnlos_contradiction
+      label: Sinnlos (Contradiction)
+    - id: sinnvoll_true
+      label: Sinnvoll (True Fact)
+    - id: sinnvoll_false
+      label: Sinnvoll (False Fact)
+  transitions:
+    - from: unvalidated
+      to: unsinnig
+      "on": structural_validation_fail
+      guard: "S_i[o,p] == 0"
+    - from: unvalidated
+      to: sinnlos_tautology
+      "on": logical_evaluation_tautology
+      guard: "forall o, M_i[o,p] == 1"
+    - from: unvalidated
+      to: sinnlos_contradiction
+      "on": logical_evaluation_contradiction
+      guard: "forall o, M_i[o,p] == 0"
+    - from: unvalidated
+      to: sinnvoll_true
+      "on": factual_evaluation_true
+      guard: "M_i[o,p] == 1 AND S_i[o,p] == 1"
+    - from: unvalidated
+      to: sinnvoll_false
+      "on": factual_evaluation_false
+      guard: "M_i[o,p] == 0 AND S_i[o,p] == 1"

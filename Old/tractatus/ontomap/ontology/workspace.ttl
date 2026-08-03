@@ -1,0 +1,241 @@
+@prefix onto: <http://ontomap.io/ontology#> .
+@prefix ws:   <http://ontomap.io/workspace#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+# ═══════════════════════════════════════════════
+# NODOS — ZONAS
+# ═══════════════════════════════════════════════
+
+ws:zone_drawers     a onto:Zone ; rdfs:label "drawers/" .
+ws:zone_desk        a onto:Zone ; rdfs:label "desk/" .
+ws:zone_desk_design a onto:Zone ; rdfs:label "desk/design/" .
+ws:zone_desk_tasks  a onto:Zone ; rdfs:label "desk/tasks/" .
+ws:zone_desk_pills  a onto:Zone ; rdfs:label "desk/pills/" .
+ws:zone_runs_git    a onto:Zone ; rdfs:label "runs/ & git/" .
+
+# ═══════════════════════════════════════════════
+# NODOS — ARTIFACTS
+# ═══════════════════════════════════════════════
+
+ws:adr          a onto:Document  ; rdfs:label "ADR" .
+ws:design_spec  a onto:Document  ; rdfs:label "DesignSpec" .
+ws:mod_contract a onto:Document  ; rdfs:label "ModuleContract" .
+ws:active_spec  a onto:Document  ; rdfs:label "ActiveSpec" .
+ws:board        a onto:DataModel ; rdfs:label "Board" .
+ws:phase        a onto:DataModel ; rdfs:label "Phase" .
+ws:task         a onto:DataModel ; rdfs:label "Task" .
+ws:pill         a onto:Document  ; rdfs:label "ContextPill" .
+ws:evidence     a onto:DataModel ; rdfs:label "Evidence.json" .
+ws:source_code  a onto:CodeModule ; rdfs:label "SourceCode" .
+ws:git_commit   a onto:Artifact  ; rdfs:label "GitCommit" .
+
+# ═══════════════════════════════════════════════
+# NODOS — ACTORES
+# ═══════════════════════════════════════════════
+
+ws:supervisor a onto:LLMAgent   ; rdfs:label "Supervisor LLM" .
+ws:executor   a onto:LLMAgent   ; rdfs:label "Executor LLM" .
+ws:cli        a onto:CLI        ; rdfs:label "Motor CLI" .
+
+# ═══════════════════════════════════════════════
+# ARISTAS — TOPOLOGÍA (where: containment)
+# ═══════════════════════════════════════════════
+
+ws:e_c01 a onto:OntologyEdge ;
+    onto:source ws:zone_drawers ; onto:target ws:adr ;
+    onto:contains ws:adr .
+
+ws:e_c02 a onto:OntologyEdge ;
+    onto:source ws:zone_drawers ; onto:target ws:design_spec ;
+    onto:contains ws:design_spec .
+
+ws:e_c03 a onto:OntologyEdge ;
+    onto:source ws:zone_drawers ; onto:target ws:mod_contract ;
+    onto:contains ws:mod_contract .
+
+ws:e_c04 a onto:OntologyEdge ;
+    onto:source ws:zone_desk ; onto:target ws:zone_desk_design ;
+    onto:contains ws:zone_desk_design .
+
+ws:e_c05 a onto:OntologyEdge ;
+    onto:source ws:zone_desk ; onto:target ws:zone_desk_tasks ;
+    onto:contains ws:zone_desk_tasks .
+
+ws:e_c06 a onto:OntologyEdge ;
+    onto:source ws:zone_desk ; onto:target ws:zone_desk_pills ;
+    onto:contains ws:zone_desk_pills .
+
+ws:e_c07 a onto:OntologyEdge ;
+    onto:source ws:zone_desk_design ; onto:target ws:active_spec ;
+    onto:contains ws:active_spec .
+
+ws:e_c08 a onto:OntologyEdge ;
+    onto:source ws:zone_desk_tasks ; onto:target ws:board ;
+    onto:contains ws:board .
+
+ws:e_c09 a onto:OntologyEdge ;
+    onto:source ws:zone_desk_tasks ; onto:target ws:phase ;
+    onto:contains ws:phase .
+
+ws:e_c10 a onto:OntologyEdge ;
+    onto:source ws:zone_desk_tasks ; onto:target ws:task ;
+    onto:contains ws:task .
+
+ws:e_c11 a onto:OntologyEdge ;
+    onto:source ws:zone_desk_pills ; onto:target ws:pill ;
+    onto:contains ws:pill .
+
+ws:e_c12 a onto:OntologyEdge ;
+    onto:source ws:zone_runs_git ; onto:target ws:evidence ;
+    onto:contains ws:evidence .
+
+ws:e_c13 a onto:OntologyEdge ;
+    onto:source ws:zone_runs_git ; onto:target ws:source_code ;
+    onto:contains ws:source_code .
+
+ws:e_c14 a onto:OntologyEdge ;
+    onto:source ws:zone_runs_git ; onto:target ws:git_commit ;
+    onto:contains ws:git_commit .
+
+# ═══════════════════════════════════════════════
+# ARISTAS — SEMÁNTICA ESTRUCTURAL (what)
+# ═══════════════════════════════════════════════
+
+ws:e_s01 a onto:OntologyEdge ;
+    onto:source ws:adr ; onto:target ws:design_spec ;
+    onto:informs ws:design_spec ;
+    onto:why "rationale_preservation" .
+
+ws:e_s02 a onto:OntologyEdge ;
+    onto:source ws:board ; onto:target ws:phase ;
+    onto:organizes ws:phase ;
+    onto:how "timeline_index" .
+
+ws:e_s03 a onto:OntologyEdge ;
+    onto:source ws:phase ; onto:target ws:task ;
+    onto:contains ws:task ;
+    onto:how "dependency_graph" .
+
+ws:e_s04 a onto:OntologyEdge ;
+    onto:source ws:task ; onto:target ws:pill ;
+    onto:refsById ws:pill ;
+    onto:why "scope_isolation" .
+
+# ═══════════════════════════════════════════════
+# ARISTAS — FLUJO DE ESTADOS (when + how)
+# ═══════════════════════════════════════════════
+
+ws:e_f01 a onto:OntologyEdge ;
+    onto:source ws:design_spec ; onto:target ws:active_spec ;
+    onto:transitionsTo ws:active_spec ;
+    onto:when "InitPhase" ;
+    onto:how  "promote-spec" .
+
+ws:e_f02 a onto:OntologyEdge ;
+    onto:source ws:active_spec ; onto:target ws:task ;
+    onto:transitionsTo ws:task ;
+    onto:when "PlanPhase" ;
+    onto:how  "atomize_logic" .
+
+ws:e_f03 a onto:OntologyEdge ;
+    onto:source ws:task ; onto:target ws:source_code ;
+    onto:transitionsTo ws:source_code ;
+    onto:when "ExecPhase" ;
+    onto:how  "write_code" .
+
+ws:e_f04 a onto:OntologyEdge ;
+    onto:source ws:source_code ; onto:target ws:evidence ;
+    onto:transitionsTo ws:evidence ;
+    onto:when "WrapPhase" ;
+    onto:how  "unit_test_run" .
+
+ws:e_f05 a onto:OntologyEdge ;
+    onto:source ws:evidence ; onto:target ws:git_commit ;
+    onto:transitionsTo ws:git_commit ;
+    onto:when "AuditPassed" ;
+    onto:how  "atomic_commit" .
+
+ws:e_f06 a onto:OntologyEdge ;
+    onto:source ws:git_commit ; onto:target ws:task ;
+    onto:stateUpdate ws:task ;
+    onto:when "TaskClosed" ;
+    onto:how  "state_update" .
+
+ws:e_f07 a onto:OntologyEdge ;
+    onto:source ws:git_commit ; onto:target ws:board ;
+    onto:stateUpdate ws:board ;
+    onto:when "InitPhase" ;
+    onto:how  "cli_sync_state" ;
+    onto:why  "git_drift_reconciliation" .
+
+ws:e_f08 a onto:OntologyEdge ;
+    onto:source ws:evidence ; onto:target ws:task ;
+    onto:stateUpdate ws:task ;
+    onto:when "AuditFailed_max_retries" ;
+    onto:how  "circuit_breaker" ;
+    onto:why  "prevent_llm_deadlock" .
+
+# ═══════════════════════════════════════════════
+# ARISTAS — ACTORES (who → artifact)
+# ═══════════════════════════════════════════════
+
+ws:e_a01 a onto:OntologyEdge ;
+    onto:source ws:supervisor ; onto:target ws:design_spec ;
+    onto:informs ws:design_spec ;
+    onto:how "conceptual_design" ;
+    onto:why "blueprinting" .
+
+ws:e_a02 a onto:OntologyEdge ;
+    onto:source ws:supervisor ; onto:target ws:pill ;
+    onto:informs ws:pill ;
+    onto:how "writes_markdown" ;
+    onto:why "zero_context_sufficiency" .
+
+ws:e_a03 a onto:OntologyEdge ;
+    onto:source ws:supervisor ; onto:target ws:evidence ;
+    onto:validates ws:evidence ;
+    onto:how "parses_trace" ;
+    onto:why "quality_gate" .
+
+ws:e_a04 a onto:OntologyEdge ;
+    onto:source ws:supervisor ; onto:target ws:source_code ;
+    onto:validates ws:source_code ;
+    onto:how "writes_e2e_tests" ;
+    onto:why "phase_validation" .
+
+ws:e_a05 a onto:OntologyEdge ;
+    onto:source ws:executor ; onto:target ws:task ;
+    onto:informs ws:task ;
+    onto:how "reads_constraints" ;
+    onto:why "execution_bounds" .
+
+ws:e_a06 a onto:OntologyEdge ;
+    onto:source ws:executor ; onto:target ws:source_code ;
+    onto:informs ws:source_code ;
+    onto:how "implements_logic" ;
+    onto:why "feature_completion" .
+
+ws:e_a07 a onto:OntologyEdge ;
+    onto:source ws:executor ; onto:target ws:evidence ;
+    onto:validates ws:evidence ;
+    onto:how "runs_pytest" ;
+    onto:why "unit_validation" .
+
+ws:e_a08 a onto:OntologyEdge ;
+    onto:source ws:cli ; onto:target ws:task ;
+    onto:organizes ws:task ;
+    onto:how "serializes_pydantic" ;
+    onto:why "prevent_markdown_drift" .
+
+ws:e_a09 a onto:OntologyEdge ;
+    onto:source ws:cli ; onto:target ws:board ;
+    onto:validates ws:board ;
+    onto:how "topological_and_trait_audit" ;
+    onto:why "prevent_cycles_and_semantic_collision" .
+
+ws:e_a10 a onto:OntologyEdge ;
+    onto:source ws:cli ; onto:target ws:git_commit ;
+    onto:organizes ws:git_commit ;
+    onto:how "executes_git" ;
+    onto:why "strict_traceability" .

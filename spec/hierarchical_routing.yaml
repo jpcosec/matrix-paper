@@ -1,0 +1,53 @@
+id: hierarchical_routing
+title: TKM Hierarchical Query Routing
+version: "1.0.0"
+type: activity
+metadata:
+  author: Gemini CLI
+  description: Flow of a hierarchical query through recursive dimensional collapse.
+data:
+  start: input_query
+  steps:
+    input_query:
+      label: Input S-Expression Query
+      kind: action
+      next: parse_symbol
+    parse_symbol:
+      label: Parse Sign to Symbol
+      kind: action
+      next: select_context
+    select_context:
+      label: Select Base Context (W_base)
+      kind: action
+      next: check_sense
+    check_sense:
+      label: Check Sense (S_i)
+      kind: decision
+      branches:
+        applicable: evaluate_truth
+        unsinnig: reject_query
+    evaluate_truth:
+      label: Evaluate Truth (V_i)
+      kind: action
+      next: has_subcontext
+    has_subcontext:
+      label: Has Subcontext?
+      kind: decision
+      branches:
+        "yes": dimensional_collapse
+        "no": terminal_result
+    dimensional_collapse:
+      label: Dimensional Collapse (C^k)
+      kind: action
+      next: select_context
+    terminal_result:
+      label: Project Operational Result (W*)
+      kind: action
+      next: end_node
+    reject_query:
+      label: Return "Unsinnig" Error
+      kind: error
+      next: end_node
+    end_node:
+      label: Query Finished
+  end: end_node

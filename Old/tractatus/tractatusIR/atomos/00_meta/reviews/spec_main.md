@@ -1,0 +1,37 @@
+# Review: `specs/spec_main.md`
+
+- `archivo actual`: `specs/spec_main.md`
+- `rol actual`: macro-spec general del sistema
+- `tipo`: normativo + explicativo + integrador
+- `duplicaciones detectadas`:
+  - contexto y capas con `specs/concepts/context_layer.md`
+  - matrices y firmas con `specs/data_model/*`
+  - operaciones con `specs/operations/*`
+  - tractatus con `specs/formalization/tractarian_core.md` y `specs/tractatus/tractatus_connection.md`
+- `afirmaciones canonicas que deben sobrevivir`:
+  - tres dimensiones: vertical, local-discriminativa, horizontal
+  - concepto como nodo estable con multiples proyecciones
+  - contexto como espacio local de interpretacion
+  - la firma contextual como representacion + hash + camino de busqueda
+  - colisiones como senal de estructura faltante
+  - reglas base del sistema
+  - separacion tractarian core vs domain layer
+- `contradicciones o ambiguedades`:
+  - usa `feature` donde otros docs posteriores prefieren `dimension/value/bit`
+  - mezcla spec core con ejemplos, indices y narrativa de uso
+  - pipeline `Sign -> Symbol -> Concept` no coincide del todo con otros docs donde concepto puede anteceder a la proyeccion
+- `sustrato tractariano implicado`:
+  - objeto, signo, simbolo, proposicion, espacio logico, proyeccion, limite del sentido
+- `heuristica implicada`:
+  - por que representar es indexar localmente
+  - por que colisionar obliga a articular mas
+- `destino propuesto en atomos/`:
+  - `05_tractatus/*`
+  - `10_core/concept.md`
+  - `10_core/context.md`
+  - `10_core/dimension.md`
+  - `15_heuristics/*`
+  - `30_operations/insertion.md`
+- `si falta un nuevo atomo intermedio`:
+  - si la distincion `feature` vs `dimension/value/bit` no se resuelve limpiamente, crear un atomo puente de modelo de representacion
+- `destino final`: archivar como fuente macro y conservar como referencia de migracion

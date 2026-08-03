@@ -1,0 +1,41 @@
+id: structural_masks
+title: MEEL Structural Masks Matrix
+version: "1.0.0"
+type: component_view_matrix
+metadata:
+  author: Gemini CLI
+  description: Operational matrix showing the 4 structural masks for integrity enforcement.
+data:
+  views:
+    - id: ontic_validation
+      label: Ontic Validation
+      stages:
+        - id: valid
+          label: Valid (Structural)
+        - id: sense
+          label: Sense (Contextual)
+    - id: empirical_validation
+      label: Empirical Validation
+      stages:
+        - id: observed
+          label: Observed (Factual)
+        - id: discriminative
+          label: Discriminative (Sinnvoll)
+  components:
+    - name: atomic_fact
+      label: Atomic Fact (C x D x V)
+      kind: core
+      stages:
+        ontic_validation: ["valid", "sense"]
+        empirical_validation: ["observed", "discriminative"]
+    - name: tautology
+      label: Tautological Property
+      kind: info
+      stages:
+        ontic_validation: ["valid", "sense"]
+        empirical_validation: ["observed"]
+    - name: absurdity
+      label: Categorical Absurdity
+      kind: error
+      stages:
+        ontic_validation: ["valid"]

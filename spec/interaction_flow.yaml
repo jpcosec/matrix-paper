@@ -1,0 +1,42 @@
+id: tkm_interaction_flow
+title: LLM-MEEL Interaction Flow
+version: "1.0.0"
+type: sequence
+metadata:
+  author: Gemini CLI
+  description: Sequence of interaction between an LLM (proposer) and the MEEL engine (validator).
+data:
+  participants:
+    - id: user
+      kind: actor
+    - id: llm
+      kind: component
+    - id: meel
+      kind: core
+    - id: storage
+      kind: storage
+  messages:
+    - from: user
+      to: llm
+      message: "Natural Language Input"
+    - from: llm
+      to: meel
+      message: "Proposed S-Expression (Relation Subject Object)"
+    - from: meel
+      to: meel
+      message: "Check Sense Mask (S_i)"
+    - from: meel
+      to: meel
+      message: "Check Truth Matrix (V_i)"
+    - from: meel
+      to: storage
+      message: "Query Contextual Rules"
+    - from: storage
+      to: meel
+      message: "Axioms/Constraints"
+    - from: meel
+      to: llm
+      message: "Logical Feedback (Sinnvoll/Unsinnig/Sinnlos)"
+    - from: llm
+      to: user
+      message: "Validated Response with Logical Grounds"

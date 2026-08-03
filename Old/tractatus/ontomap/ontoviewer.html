@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ontology Force-Directed Graph</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body { margin: 0; background-color: #121212; color: #ffffff; font-family: monospace; overflow: hidden; }
+        svg { width: 100vw; height: 100vh; }
+        .node-entity { fill: #4caf50; stroke: #388e3c; stroke-width: 2px; }
+        .node-value { fill: #2196f3; stroke: #1976d2; stroke-width: 2px; }
+        .node-relation { fill: #ff9800; stroke: #f57c00; stroke-width: 3px; }
+        .link { stroke: #555; stroke-opacity: 0.6; stroke-width: 2px; }
+        .link-label { fill: #aaa; font-size: 10px; pointer-events: none; }
+        .node-label { fill: #fff; font-size: 12px; pointer-events: none; text-shadow: 1px 1px 2px #000; }
+        tooltip { position: absolute; background: rgba(0,0,0,0.8); padding: 5px; border-radius: 4px; display: none; }
+    </style>
+</head>
+<body>
+    <svg></svg>
+    <script>
+        const graphData = {
+            nodes: [
+                { id: "active_spec", type: "entity" },
+                { id: "task", type: "entity" },
+                { id: "transitionsTo", type: "value" },
+                { id: "PlanPhase", type: "value" },
+                { id: "atomize_logic", type: "value" },
+                { id: "rel_001", type: "relation" }
+            ],
+            links: [
+                { source: "rel_001", target: "active_spec", label: "source" },
+                { source: "rel_001", target: "task", label: "target" },
+                { source: "rel_001", target: "transitionsTo", label: "what" },
+                { source: "rel_001", target: "PlanPhase", label: "when" },
+                { source: "rel_001", target: "atomize_logic", label: "how" }
+            ]
+        };
+
+        const width = window.innerWidth;
+        const height = window.innerHeight;
+        const svg = d3.select("svg");
+
+        // Definición de marcadores para flechas dirigidas
+        svg.append("defs").append("marker")
+            .attr("id", "arrow")
+            .attr("viewBox", "0 -5 10 10")
+            .attr("refX", 25)
+            .attr("refY", 0)
+            .attr("markerWidth", 6)
+            .attr("markerHeight", 6)
+            .attr("orient", "auto")
+            .append("path")
+            .attr("fill", "#555")
+            .attr("d", "M0,-5L10,0L0,5");
+
+        const simulation = d3.forceSimulation(graphData.nodes)
+            .force("link", d3.forceLink(graphData.links).id(d => d.id).distance(150))
+            .force("charge", d3.forceManyBody().strength(-500))
+            .force("center", d3.forceCenter(width / 2, height / 2))
+            .force("collide", d3.forceCollide().radius(40));
+
+        const link = svg.append("g")
+            .selectAll("line")
+            .data(graphData.links)
+            .enter().append("line")
+            .attr("class", "link")
+            .attr("marker-end", "url(#arrow)");
+
+        const linkLabel = svg.append("g")
+            .selectAll("text")
+            .data(graphData.links)
+            .enter().append("text")
+            .attr("class", "link-label")
+            .text(d => d.label);
+
+        const node = svg.append("g")
+            .selectAll("circle")
+            .data(graphData.nodes)
+            .enter().append("circle")
+            .attr("class", d => `node-${d.type}`)
+            .attr("r", d => d.type === 'relation' ? 12 : 20)
+            .call(drag(simulation));
+
+        const nodeLabel = svg.append("g")
+            .selectAll("text")
+            .data(graphData.nodes)
+            .enter().append("text")
+            .attr("class", "node-label")
+            .attr("dy", 30)
+            .attr("text-anchor", "middle")
+            .text(d => d.id);
+
+        simulation.on("tick", () => {
+            link
+                .attr("x1", d => d.source.x)
+                .attr("y1", d => d.source.y)
+                .attr("x2", d => d.target.x)
+                .attr("y2", d => d.target.y);
+
+            linkLabel
+                .attr("x", d => (d.source.x + d.target.x) / 2)
+                .attr("y", d => (d.source.y + d.target.y) / 2 - 5);
+
+            node
+                .attr("cx", d => d.x)
+                .attr("cy", d => d.y);
+
+            nodeLabel
+                .attr("x", d => d.x)
+                .attr("y", d => d.y);
+        });
+
+        // Eventos de interactividad (Focus+Context)
+        node.on("mouseover", function(event, d) {
+            if (d.type === 'relation') {
+                link.style("stroke", l => l.source.id === d.id ? "#ff9800" : "#222");
+                node.style("opacity", n => graphData.links.some(l => (l.source.id === d.id && l.target.id === n.id)) || n.id === d.id ? 1 : 0.2);
+            }
+        }).on("mouseout", function() {
+            link.style("stroke", "#555");
+            node.style("opacity", 1);
+        });
+
+        function drag(simulation) {
+            function dragstarted(event) {
+                if (!event.active) simulation.alphaTarget(0.3).restart();
+                event.subject.fx = event.subject.x;
+                event.subject.fy = event.subject.y;
+            }
+            function dragged(event) {
+                event.subject.fx = event.x;
+                event.subject.fy = event.y;
+            }
+            function dragended(event) {
+                if (!event.active) simulation.alphaTarget(0);
+                event.subject.fx = null;
+                event.subject.fy = null;
+            }
+            return d3.drag()
+                .on("start", dragstarted)
+                .on("drag", dragged)
+                .on("end", dragended);
+        }
+    </script>
+</body>
+</html>

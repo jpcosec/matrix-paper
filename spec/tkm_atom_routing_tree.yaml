@@ -1,0 +1,28 @@
+data:
+  edges:
+  - from: philosophy_atoms
+    label: phil_to_comp
+    relation: bridge
+    to: computation_atoms
+  - from: math_atoms
+    label: math_to_comp
+    relation: bridge
+    to: computation_atoms
+  - from: computation_atoms
+    label: comp_to_math
+    relation: bridge
+    to: math_atoms
+  nodes:
+    computation_atoms:
+      kind: storage
+      label: 'Context: computation_atoms (E=0.68)'
+    math_atoms:
+      kind: storage
+      label: 'Context: math_atoms (E=0.75)'
+    philosophy_atoms:
+      kind: storage
+      label: 'Context: philosophy_atoms (E=0.75)'
+id: knowledge_tree
+title: TKM Knowledge Tree (Hierarchy of Contexts)
+type: component
+version: 1.0.0

@@ -1,0 +1,55 @@
+graph TD
+
+  %% Clases
+  Actor[Actor] -->|subClassOf| Entity[Entity]
+  Zone[Zone] -->|subClassOf| Entity[Entity]
+  Artifact[Artifact] -->|subClassOf| Entity[Entity]
+  Process[Process] -->|subClassOf| Entity[Entity]
+  LLMAgent[LLMAgent] -->|subClassOf| Actor[Actor]
+  HumanAgent[HumanAgent] -->|subClassOf| Actor[Actor]
+  CLI[CLI] -->|subClassOf| Actor[Actor]
+  FileSystem[FileSystem] -->|subClassOf| Zone[Zone]
+  Database[Database] -->|subClassOf| Zone[Zone]
+  LogicSpace[LogicSpace] -->|subClassOf| Zone[Zone]
+  Document[Document] -->|subClassOf| Artifact[Artifact]
+  CodeModule[CodeModule] -->|subClassOf| Artifact[Artifact]
+  DataModel[DataModel] -->|subClassOf| Artifact[Artifact]
+  Algorithm[Algorithm] -->|subClassOf| Process[Process]
+  Ritual[Ritual] -->|subClassOf| Process[Process]
+
+  %% Propiedades
+  contains([contains]) -->|subPropertyOf| where([where])
+  isLocatedIn([isLocatedIn]) -->|subPropertyOf| where([where])
+  persistsAt([persistsAt]) -->|subPropertyOf| where([where])
+  belongsTo([belongsTo]) -->|subPropertyOf| where([where])
+  informs([informs]) -->|subPropertyOf| what([what])
+  organizes([organizes]) -->|subPropertyOf| what([what])
+  validates([validates]) -->|subPropertyOf| what([what])
+  dependsOn([dependsOn]) -->|subPropertyOf| what([what])
+  inherits([inherits]) -->|subPropertyOf| what([what])
+  implements([implements]) -->|subPropertyOf| what([what])
+  composes([composes]) -->|subPropertyOf| what([what])
+  referencesById([referencesById]) -->|subPropertyOf| what([what])
+  refsById([refsById]) -->|subPropertyOf| what([what])
+  transitionsTo([transitionsTo]) -->|subPropertyOf| what([what])
+  stateUpdate([stateUpdate]) -->|subPropertyOf| what([what])
+
+  %% Domain y Range
+  source([source]) -.->|domain| OntologyEdge[OntologyEdge]
+  target([target]) -.->|domain| OntologyEdge[OntologyEdge]
+  where([where]) -.->|domain| OntologyEdge[OntologyEdge]
+  what([what]) -.->|domain| OntologyEdge[OntologyEdge]
+  when([when]) -.->|domain| OntologyEdge[OntologyEdge]
+  how([how]) -.->|domain| OntologyEdge[OntologyEdge]
+  why([why]) -.->|domain| OntologyEdge[OntologyEdge]
+  who([who]) -.->|domain| OntologyEdge[OntologyEdge]
+  source([source]) -.->|range| Entity[Entity]
+  target([target]) -.->|range| Entity[Entity]
+  when([when]) -.->|range| string[string]
+  how([how]) -.->|range| string[string]
+  why([why]) -.->|range| string[string]
+  who([who]) -.->|range| Actor[Actor]
+
+  %% Axiomas OWL
+  axiom_dependsOn{"⚡ irreflexive + asymmetric"} --- dependsOn([dependsOn])
+  axiom_contains{"⚡ transitive + irreflexive"} --- contains([contains])

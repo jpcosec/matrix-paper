@@ -1,0 +1,66 @@
+---
+id: task-paper-v2-derive-editorial-trace-status-in-graph-payload
+status: draft
+summary: 'Derive editorial support status in the graph payload for downstream trace UI.'
+tags:
+- workspace:desk
+- artifact:task
+routine: routine-task-paper-v2-derive-editorial-trace-status-in-graph-payload
+current_node: checklist-task-paper-v2-derive-editorial-trace-status-in-graph-payload-execution-ready
+history: []
+references:
+- ../../plans/stitch-system-analysis.md
+- ../../plans/paper-v2-current-state.md
+- ../../plans/paper-v2-constraints.md
+- ../../plans/paper-v2-execution-plan.md
+- ../../stitch_comment.md
+- ../../stitch_draft.md
+depends_on:
+- task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+pills: []
+files:
+- ../Neurips_peiper/paper_v2/astro_app/src/pages/api/graph.json.ts
+checklists:
+- checklist-task-paper-v2-derive-editorial-trace-status-in-graph-payload-execution-ready
+- checklist-task-paper-v2-derive-editorial-trace-status-in-graph-payload-testing-ready
+- checklist-task-paper-v2-derive-editorial-trace-status-in-graph-payload-closeout-ready
+---
+
+# paper_v2: derive editorial trace status in graph payload
+
+## Rationale
+
+_Explain why this task exists or the business driver behind it._
+
+The UI cannot feel like traceability without explicit editorial states derived from the current SLDB graph.
+
+## Goal
+
+_Describe the concrete result this task must produce._
+
+Add derived paragraph, note, section, and manuscript status fields to /api/graph.json so the frontend can render support state without inventing data in the browser.
+
+## Scope
+
+_State what is in scope and what is out of scope._
+
+Only /home/jp/proyectos/Matrix/Neurips_peiper/paper_v2/astro_app/src/pages/api/graph.json.ts and its returned payload contract.
+
+## Implementation Path
+
+_Outline the expected implementation route or affected surface._
+
+Derive support_status, status_reasons, counts, and section/manuscript aggregates from the existing refs. Keep the derivation heuristic and grounded in current graph data.
+
+## Validation
+
+_List the checks required before this task can close._
+
+- npm run build
+- manual browser check
+
+## Done When
+
+_Name the observable condition that makes the task complete._
+
+/api/graph.json exposes stable derived editorial status fields that are consumed by the UI.

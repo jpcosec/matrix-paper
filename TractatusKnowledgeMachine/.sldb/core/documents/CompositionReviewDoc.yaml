@@ -1,0 +1,142 @@
+documents:
+- name: comp_antecedentes
+  path: atoms/composiciones_review/comp_antecedentes.md
+  hash_c: 35efaf34bb2660468e7f0b33ff66d9f8e5020f33c94f34fd33025635b919a4d0
+  hash_d: ddb074ec9d816c3aab6ea3151742dd309579eb14de002e03b8a766321a1f27af
+  semantic_tags:
+  - layer:epistemology
+  - system:matrix
+  - topic:necesidad-discreta
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_computacion
+  path: atoms/composiciones_review/comp_computacion.md
+  hash_c: 984fecab35833f45d359637068ff23e304379dc77d848bd37b6c85ee4a0edcbc
+  hash_d: 9157c3f45db27b6785e4dd56b83a48567f8ee58599435c3bf77744583a619336
+  semantic_tags:
+  - layer:computation
+  - system:matrix
+  - topic:limites-continuo
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_filosofia
+  path: atoms/composiciones_review/comp_filosofia.md
+  hash_c: b2b2920b317f1b969ff8263f9c42c77546203426bbfc74a7766bd8deb2740183
+  hash_d: 92704de0e76fee1211c36bade96b5a7563c2a92e3fa362c39c345958383cea12
+  semantic_tags:
+  - layer:epistemology
+  - system:matrix
+  - topic:ontologia-discreta
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_matematica
+  path: atoms/composiciones_review/comp_matematica.md
+  hash_c: 32a8b52862f0bd64e8c2472a1e7100cc582e7fba1d083de1067e24b0ac0ddcee
+  hash_d: 16ece9cdb3f36a724bcdbffa7d58823aaf794739e2267854eede904390c45d69
+  semantic_tags:
+  - layer:mathematics
+  - system:matrix
+  - topic:imposibilidad-continua
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_aplicaciones
+  path: atoms/composiciones_review/comp_aplicaciones.md
+  hash_c: 6507872aa0ce7c2664153ee02d42b6aa36ef652449114d102e22446d86189a8b
+  hash_d: fded69d3fa6aa0a92dbff5b86b1c51854c10ba16058af8aab3c5241a99b18ca7
+  semantic_tags:
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_isomorfismo
+  path: atoms/composiciones_review/comp_isomorfismo.md
+  hash_c: 3281276fd3a9ce195f09855b61dd67e05786db0e20c1f0b60b69bd95e4b87b7c
+  hash_d: 9c75b25218ba17c5ffd1db55674f71200de5d602fb0b8a0eee9a06feb3d9d82b
+  semantic_tags:
+  - layer:philosophy
+  - system:matrix
+  - topic:isomorfismo-tractatus
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_fuentes
+  path: atoms/composiciones_review/comp_fuentes.md
+  hash_c: b5152858cfab41ace82937d15d0961973445aecdb9ac0fc6f217ee088479733c
+  hash_d: 4c9f6f42b004097b03ab712a6b88a5bec376fea778b6e211eb3651d0e47548af
+  semantic_tags:
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_basededatos
+  path: atoms/composiciones_review/comp_basededatos.md
+  hash_c: 5244ef160403f4565727eb1831d8168712179941bd78bf7352649c0fff4f7e38
+  hash_d: 103965feef4ae789c817e8e5f2ee805d85cfa6c41d340a371528945a79a6860b
+  semantic_tags:
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_eje_a
+  path: atoms/composiciones_review/comp_eje_a.md
+  hash_c: 7571114e1fadb89ae0c2622afcce7f52dc28c30c37c9b9b97513256d483f0f23
+  hash_d: 625ea361c4b8c738a7a7706d1e0945ead026b0493111addeaddcbed18179484f
+  semantic_tags:
+  - eje:a
+  - system:matrix
+  - topic:embeddings-continuos
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_eje_b
+  path: atoms/composiciones_review/comp_eje_b.md
+  hash_c: a5c283bcfdaf9c2ee231bd67e9990c986a209bd0ecb2ec8811310e0d98b6950b
+  hash_d: 5d8e0f3499f90598350019284bfa4692da37829077549b9c8824bb60c5cdd2a2
+  semantic_tags:
+  - eje:b
+  - system:matrix
+  - topic:escalabilidad
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_eje_c
+  path: atoms/composiciones_review/comp_eje_c.md
+  hash_c: abbc664aa92444eb8419ee760f5b64fcbbb2a54c72e7ccc2edaa4fd028456c82
+  hash_d: 9cd7b0fc183d5f4af53d76c875085046845117a8bac6dca80dfbfc1a31a05d47
+  semantic_tags:
+  - eje:c
+  - system:matrix
+  - topic:conexion-llm
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_eje_d
+  path: atoms/composiciones_review/comp_eje_d.md
+  hash_c: 522e6a0b17899036868a62ec700642f3b61013413ed7c69a3a3e6a818c4bd74d
+  hash_d: 9eded7d3ac5155ba595b5c0f0ae4af18ffb7fa69274e31145da0cd6835be04db
+  semantic_tags:
+  - eje:d
+  - system:matrix
+  - topic:diferenciacion
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_eje_e
+  path: atoms/composiciones_review/comp_eje_e.md
+  hash_c: 9bc1223ac038a220e4430239f13f2033f0dd92f32d40dc1d21634e53958bd1df
+  hash_d: 19176fdd5107efcf45878e93ec9589111d2e5049377c39799f5d534a74357157
+  semantic_tags:
+  - eje:e
+  - system:matrix
+  - topic:implementacion
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_eje_reviewer
+  path: atoms/composiciones_review/comp_eje_reviewer.md
+  hash_c: bef92597549544d6f51b0c4a01a75807e3433db3ca72871b965ddc5019a046c6
+  hash_d: 877c6035087957900d1523913662b064e9ec47cf167582f120a5f26c3a790f8f
+  semantic_tags:
+  - eje:reviewer
+  - system:matrix
+  - topic:revisor-objeciones
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review
+- name: comp_gaps
+  path: atoms/composiciones_review/comp_gaps.md
+  hash_c: e8b6ef3f3c37da00335a0fabf97c08b8a036de0a23f7de5a72bd6e8270412034
+  hash_d: 98169ca62e0c34602eb91bd120c0bd8e4b38625c6379cfd433d75ecc025f131c
+  semantic_tags:
+  - layer:review
+  - system:matrix
+  - topic:gaps
+  - type.knowledge.composition-review
+  - workspace.desk.atoms.composiciones_review

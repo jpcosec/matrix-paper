@@ -1,0 +1,1 @@
+After code changes in `Matrix/`, at minimum run relevant `pytest` tests. For broad changes, run full `pytest`. If CLI or schema-loading behavior changes, also smoke-test the CLI against an example YAML from `examples/`. No dedicated formatter/linter config was found during onboarding, so rely on existing style and keep edits minimal/consistent unless new tooling is introduced.

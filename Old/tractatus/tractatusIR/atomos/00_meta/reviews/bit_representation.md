@@ -1,0 +1,21 @@
+# Review: `specs/data_model/bit_representation.md`
+
+- `archivo actual`: `specs/data_model/bit_representation.md`
+- `rol actual`: cierre sobre representacion puramente binaria contextual
+- `tipo`: normativo + formal
+- `duplicaciones detectadas`:
+  - bits tipados con `specs/concepts/binary_dimensions.md`
+  - operaciones AND/XOR con `specs/operations/boolean_algebra.md`
+- `afirmaciones canonicas que deben sobrevivir`:
+  - representacion solo con bits si hay diccionario
+  - bit dictionary obligatorio
+  - one-hot y multi-hot
+  - mask de validez y alternativas para unknown / not applicable
+  - bits como hash, indice y camino de arbol
+- `destino propuesto en atomos/`:
+  - `10_core/value.md`
+  - `10_core/signature_types.md`
+  - `20_formal/well_formedness.md`
+  - `20_formal/masks.md`
+  - `15_heuristics/why_encoding_becomes_knowledge.md`
+- `destino final`: archivar como fuente principal del encoding binario

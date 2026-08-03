@@ -1,0 +1,71 @@
+id: system_reflection
+title: TKM Architectural Reflection & Enforcement
+version: "1.0.0"
+type: reflection
+metadata:
+  author: Gemini CLI
+  description: Reflection model for internal architectural enforcement and 6D metadata alignment.
+data:
+  nodes:
+    meel_core:
+      kind: core
+      label: MEEL Core
+      metadata:
+        who: System Engine
+        what: Boolean Logic
+        where: Memory/GPU (JAX)
+        when: Runtime
+        how: Boolean Semirings
+        why: Deterministic Reasoning
+    ontology_store:
+      kind: logic
+      label: OWL Ontology
+      metadata:
+        who: Knowledge Architect
+        what: Semantic Constraints
+        where: Persistent Storage
+        when: Initialization
+        how: Description Logic
+        why: Structural Integrity
+    matrix_v:
+      kind: storage
+      label: Truth Matrix (Vi)
+      metadata:
+        who: Fact Observer
+        what: Empirical Data
+        where: Dense Bitsets
+        when: Update Phase
+        how: Direct Injection
+        why: Factual Accuracy
+    matrix_s:
+      kind: storage
+      label: Sense Matrix (Si)
+      metadata:
+        who: Logical Validator
+        what: Applicability Mask
+        where: Parallel Bitsets
+        when: Validation Phase
+        how: Ontological Projection
+        why: Semantic Safety
+  edges:
+    - from: ontology_store
+      to: matrix_s
+      relation: defines
+      label: Applicability Rules
+    - from: matrix_s
+      to: meel_core
+      relation: filters
+      label: Masking
+    - from: matrix_v
+      to: meel_core
+      relation: feeds
+      label: Facts
+enforcement:
+  fingerprint: "tkm-v1-enforce"
+  facts:
+    - source: matrix_v
+      target: matrix_s
+      relation: must_align_with
+      context:
+        rule: "No Truth without Sense"
+        check: "V_i AND S_i"

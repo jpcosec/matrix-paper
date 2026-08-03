@@ -1,0 +1,67 @@
+graph TD
+
+subgraph zone_desk ["desk/"]
+end
+
+subgraph zone_desk_design ["desk/design/"]
+    active_spec[ActiveSpec]
+end
+
+subgraph zone_desk_pills ["desk/pills/"]
+    pill[ContextPill]
+end
+
+subgraph zone_desk_tasks ["desk/tasks/"]
+    board[Board]
+    phase[Phase]
+    task[Task]
+end
+
+subgraph zone_drawers ["drawers/"]
+    adr[ADR]
+    design_spec[DesignSpec]
+    mod_contract[ModuleContract]
+end
+
+subgraph zone_runs_git ["runs/ & git/"]
+    evidence[Evidence.json]
+    source_code[SourceCode]
+    git_commit[GitCommit]
+end
+
+%% Jerarquía de zonas
+zone_desk -->|"{where: contains}"| zone_desk_design
+zone_desk -->|"{where: contains}"| zone_desk_tasks
+zone_desk -->|"{where: contains}"| zone_desk_pills
+
+%% Nodos sin zona
+cli[Motor CLI]
+executor[Executor LLM]
+supervisor[Supervisor LLM]
+zone_desk[desk/]
+zone_drawers[drawers/]
+zone_runs_git[runs/ & git/]
+
+%% Relaciones
+active_spec -->|"{what: transitionsTo}, {when: PlanPhase}, {how: atomize_logic}"| task
+adr -->|"{what: informs}, {why: rationale_preservation}"| design_spec
+board -->|"{what: organizes}, {how: timeline_index}"| phase
+cli -->|"{what: validates}, {how: topological_and_trait_audit}, {why: prevent_cycles_and_semantic_collision}"| board
+cli -->|"{what: organizes}, {how: executes_git}, {why: strict_traceability}"| git_commit
+cli -->|"{what: organizes}, {how: serializes_pydantic}, {why: prevent_markdown_drift}"| task
+design_spec -->|"{what: transitionsTo}, {when: InitPhase}, {how: promote-spec}"| active_spec
+evidence -->|"{what: transitionsTo}, {when: AuditPassed}, {how: atomic_commit}"| git_commit
+evidence -->|"{what: stateUpdate}, {when: AuditFailed_max_retries}, {how: circuit_breaker}, {why: prevent_llm_deadlock}"| task
+executor -->|"{what: validates}, {how: runs_pytest}, {why: unit_validation}"| evidence
+executor -->|"{what: informs}, {how: implements_logic}, {why: feature_completion}"| source_code
+executor -->|"{what: informs}, {how: reads_constraints}, {why: execution_bounds}"| task
+git_commit -->|"{what: stateUpdate}, {when: InitPhase}, {how: cli_sync_state}, {why: git_drift_reconciliation}"| board
+git_commit -->|"{what: stateUpdate}, {when: TaskClosed}, {how: state_update}"| task
+phase -->|"{where: contains}, {how: dependency_graph}"| task
+source_code -->|"{what: transitionsTo}, {when: WrapPhase}, {how: unit_test_run}"| evidence
+supervisor -->|"{what: informs}, {how: conceptual_design}, {why: blueprinting}"| design_spec
+supervisor -->|"{what: validates}, {how: parses_trace}, {why: quality_gate}"| evidence
+supervisor -->|"{what: informs}, {how: writes_markdown}, {why: zero_context_sufficiency}"| pill
+supervisor -->|"{what: validates}, {how: writes_e2e_tests}, {why: phase_validation}"| source_code
+task -->|"{what: refsById}, {why: scope_isolation}"| pill
+task -->|"{what: transitionsTo}, {when: ExecPhase}, {how: write_code}"| source_code

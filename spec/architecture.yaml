@@ -1,0 +1,55 @@
+id: tkm_architecture
+title: Tractatus Knowledge Machine - Layered Architecture
+version: "1.0.0"
+type: component
+metadata:
+  author: Gemini CLI
+  description: High-level component architecture of the Tractatus Knowledge Machine based on the SMG model.
+data:
+  nodes:
+    nl_layer:
+      label: Natural Language Layer
+      kind: interface
+    parsing_layer:
+      label: Semantic Parsing Layer
+      kind: service
+    grounding_layer:
+      label: Symbol Grounding Layer
+      kind: service
+    ontological_layer:
+      label: Ontological Layer (OWL)
+      kind: logic
+    context_layer:
+      label: Logical Context Layer (W_i)
+      kind: storage
+    matrix_layer:
+      label: Matrix Layer (V_i, S_i)
+      kind: core
+    operational_layer:
+      label: Operational Layer (W*)
+      kind: api
+  edges:
+    - from: nl_layer
+      to: parsing_layer
+      relation: feeds
+      label: Text/Signs
+    - from: parsing_layer
+      to: grounding_layer
+      relation: transforms
+      label: Propositions
+    - from: grounding_layer
+      to: ontological_layer
+      relation: maps
+      label: Symbols
+    - from: ontological_layer
+      to: context_layer
+      relation: restricts
+      label: Axioms
+    - from: context_layer
+      to: matrix_layer
+      relation: partitions
+      label: Dimensions
+    - from: matrix_layer
+      to: operational_layer
+      relation: projects
+      label: Truth & Sense

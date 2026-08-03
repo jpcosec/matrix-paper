@@ -1,0 +1,11 @@
+graph TD
+    repopackage[repopackage]
+    kgdb[kgdb]
+    ontology[ontology]
+
+    repopackage -->|"{what: organizes, where: contains, how: compose_yaml}"| kgdb
+    repopackage -->|"{what: organizes, where: contains, how: compose_yaml}"| ontology
+    kgdb -->|"{what: informs, how: networkx_graph}"| ontology
+    ontology -->|"{what: validates, how: semantic_audit, why: semantic_integrity}"| kgdb
+    kgdb -->|"{what: depends_on, why: workspace_sync}"| repopackage
+    ontology -->|"{what: depends_on, why: data_access}"| kgdb

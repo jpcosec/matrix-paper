@@ -1,0 +1,21 @@
+# Review: `specs/formalization/mathematical_formalization.md`
+
+- `archivo actual`: `specs/formalization/mathematical_formalization.md`
+- `rol actual`: metamodelo matematico ampliado
+- `tipo`: formal + normativo
+- `duplicaciones detectadas`:
+  - operaciones concretas con `specs/operations/boolean_algebra.md`
+  - parte tractariana con `specs/formalization/tractarian_core.md`
+- `afirmaciones canonicas que deben sobrevivir`:
+  - algebra booleana contextualizada
+  - grupo abeliano bajo XOR en el espacio total
+  - semiring booleano para matrices
+  - reticulo de particiones
+  - `WF_K` como lenguaje tipado, no necesariamente cerrado
+  - 15 formalizaciones faltantes como mapa de gaps o piezas nuevas
+- `destino propuesto en atomos/`:
+  - `20_formal/*`
+  - `10_core/signature_types.md`
+  - `40_persistence/versioning.md`
+  - `40_persistence/contradiction_handling.md`
+- `destino final`: archivar como fuente principal de la capa formal

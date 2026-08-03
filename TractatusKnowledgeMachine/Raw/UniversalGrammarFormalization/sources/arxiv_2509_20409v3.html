@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<title>A Unified Formal Theory on the Logical Limits of Symbol Grounding</title>
+<!--Generated on Wed Nov  5 10:05:54 2025 by LaTeXML (version 0.8.8) http://dlmf.nist.gov/LaTeXML/.-->
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+<link href="/static/browse/0.3.4/css/arxiv-html-papers-20250916.css" rel="stylesheet" type="text/css"/>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
+<script src="/static/browse/0.3.4/js/addons_new.js"></script>
+<script src="/static/browse/0.3.4/js/feedbackOverlay.js"></script>
+<base href="/html/2509.20409v3/"/></head>
+<body>
+<nav class="ltx_page_navbar">
+<nav class="ltx_TOC">
+<ol class="ltx_toclist">
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#S1" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">1 </span>Introduction</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#S2" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">2 </span>The Formal Framework and the Impossibility of Self-Grounding</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#S3" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">3 </span>The Incompleteness of Statically Grounded Systems</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#S4" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">4 </span>The Logical Incompleteness of the Grounding Act</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#S5" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">5 </span>The Incompleteness of Algorithmic Judgment</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_section"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#S6" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">6 </span>Conclusion</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#A1" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">A </span>Formal Construction of the Groundability Predicate</span></a></li>
+<li class="ltx_tocentry ltx_tocentry_appendix"><a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#A2" title="In A Unified Formal Theory on the Logical Limits of Symbol Grounding"><span class="ltx_text ltx_ref_title"><span class="ltx_tag ltx_tag_ref">B </span>Glossary of Key Terms</span></a></li>
+</ol></nav>
+</nav>
+<div class="ltx_page_main">
+<div class="ltx_page_content">
+<article class="ltx_document ltx_authors_1line">
+<h1 class="ltx_title ltx_font_bold ltx_title_document">A Unified Formal Theory on the Logical Limits of Symbol Grounding</h1>
+<div class="ltx_authors">
+<span class="ltx_creator ltx_role_author">
+<span class="ltx_personname">Zhangchi Liu
+</span><span class="ltx_author_notes">
+<span class="ltx_contact ltx_role_affiliation">
+</span></span></span>
+</div>
+<div class="ltx_abstract">
+<h6 class="ltx_title ltx_title_abstract">Abstract</h6>
+<p class="ltx_p">This paper synthesizes a series of formal proofs to construct a unified theory on the logical limits of the Symbol Grounding Problem. We demonstrate through a four-stage argument that meaning within a formal system must arise from a process that is external, dynamic, and non-algorithmic. First, we prove that any purely symbolic system, devoid of external connections, cannot internally establish a consistent foundation for meaning due to self-referential paradoxes. Second, we extend this limitation to systems with any finite, static set of pre-established meanings, proving they are inherently incomplete. Third, we demonstrate that the grounding process is <span class="ltx_text ltx_font_bold">logically incomplete</span>; specifically, the ’act’ of connecting internal symbols to novel, emergent external meanings cannot be a product of logical inference within the system but must be an axiomatic, meta-level update. Finally, we prove that any attempt to automate this update process using a fixed, external "judgment" algorithm will inevitably construct a larger, yet equally incomplete, symbolic system. Together, these conclusions formally establish that the grounding of meaning is a necessarily open-ended, non-algorithmic process, revealing a fundamental, Gödel-style limitation for any self-contained intelligent system.</p>
+</div>
+<div class="ltx_para ltx_noindent" id="p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Keywords:</span> Symbol Grounding Problem, Formal Proof, Gödel’s Incompleteness Theorems, Self-Reference, Dynamic Semantics, Embodied Cognition, Metalogic, Limitations of Computationalism.</p>
+</div>
+<section class="ltx_section" id="S1">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">1 </span>Introduction</h2>
+<div class="ltx_para" id="S1.p1">
+<p class="ltx_p">The Symbol Grounding Problem, famously articulated by Harnad<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib2" title="">2</a>]</cite>, questions how symbols within a formal system (like a dictionary or a computer program) can acquire intrinsic meaning, rather than being endlessly defined by other ungrounded symbols. This paper aims to provide a single, unified, and formally rigorous answer by demonstrating that the problem’s solution cannot lie within any closed formal system. We will prove that grounding is not a property or state that a system can achieve and finalize, a continuous, open-ended, and non-algorithmic process.</p>
+</div>
+<div class="ltx_para" id="S1.p2">
+<p class="ltx_p">Our argument unfolds in a logical progression over four main sections, synthesizing a series of core theorems.</p>
+</div>
+<div class="ltx_para" id="S1.p3">
+<p class="ltx_p">First, in Section 2, we establish the foundational formal framework and prove that a <span class="ltx_text ltx_font_bold">purely symbolic system</span>—one with no external connections—is logically incapable of self-grounding. By constructing a self-referential sentence about "groundability," we show that any such system with sufficient expressive power falls into inconsistency or incompleteness, akin to Gödel’s and Tarski’s limitative theorems<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib1" title="">1</a>, <a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib6" title="">6</a>]</cite>.</p>
+</div>
+<div class="ltx_para" id="S1.p4">
+<p class="ltx_p">Second, in Section 3, we address the seemingly obvious solution: providing the system with an initial, finite set of grounded symbols derived from experience. We prove that any <span class="ltx_text ltx_font_bold">statically grounded system</span> is also incomplete. A system can always formulate new, provable truths about its own limitations that cannot be grounded in its original, static experiential base. This establishes the necessity for grounding to be a <span class="ltx_text ltx_font_bold">dynamic process</span>.</p>
+</div>
+<div class="ltx_para" id="S1.p5">
+<p class="ltx_p">Third, in Section 4, we investigate the nature of this dynamic process. We prove that the grounding process as a whole is <span class="ltx_text ltx_font_bold">logically incomplete</span>. While some routine connections might be automated, we prove that the crucial act of grounding novel, system-transcending truths is <span class="ltx_text ltx_font_bold">non-inferable</span>. No <em class="ltx_emph ltx_font_italic">general</em> internal rule can govern this process without risking contradiction, suggesting that these key grounding acts are axiomatic, meta-level updates, not logical deductions.</p>
+</div>
+<div class="ltx_para" id="S1.p6">
+<p class="ltx_p">Finally, in Section 5, we confront the ultimate computationalist question: can this meta-level update process be simulated by a fixed, external, algorithmic "judgment system"? We prove that any such attempt is futile. The combination of the original system and the judgment system forms a larger, but still closed, "super-system" which is itself subject to the same incompleteness. This proves that the grounding process is fundamentally <span class="ltx_text ltx_font_bold">non-algorithmic</span>.</p>
+</div>
+<div class="ltx_para" id="S1.p7">
+<p class="ltx_p">Together, these four proofs paint a complete picture: a system of meaning must, by logical necessity, be an infinitely open universe. Any attempt to draw a final boundary around it or to prescribe a fixed set of rules for its growth will fail, as it cannot account for the meaning of the boundary or the rules themselves.</p>
+</div>
+</section>
+<section class="ltx_section" id="S2">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">2 </span>The Formal Framework and the Impossibility of Self-Grounding</h2>
+<div class="ltx_para" id="S2.p1">
+<p class="ltx_p">We begin by defining a formal framework to precisely discuss symbols, definitions, and grounding.</p>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S2.Thmdefinition1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 2.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Symbolic Language)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmdefinition1.p1">
+<p class="ltx_p">A symbolic language <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S2.Thmdefinition1.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math> is a triple <math alttext="\langle S,D,G\rangle" class="ltx_Math" display="inline" id="S2.Thmdefinition1.p1.m2" intent=":literal"><semantics><mrow><mo stretchy="false">⟨</mo><mi>S</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>G</mi><mo stretchy="false">⟩</mo></mrow><annotation encoding="application/x-tex">\langle S,D,G\rangle</annotation></semantics></math>, where:</p>
+<ul class="ltx_itemize" id="S2.I1">
+<li class="ltx_item" id="S2.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S2.I1.i1.p1">
+<p class="ltx_p"><math alttext="S" class="ltx_Math" display="inline" id="S2.I1.i1.p1.m1" intent=":literal"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math> is a non-empty, countable set of symbols.</p>
+</div>
+</li>
+<li class="ltx_item" id="S2.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S2.I1.i2.p1">
+<p class="ltx_p"><math alttext="D" class="ltx_Math" display="inline" id="S2.I1.i2.p1.m1" intent=":literal"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> is a <span class="ltx_text ltx_font_bold">Definition Function</span>, <math alttext="D:S\to\mathcal{P}(S)" class="ltx_Math" display="inline" id="S2.I1.i2.p1.m2" intent=":literal"><semantics><mrow><mi>D</mi><mo lspace="0.278em" rspace="0.278em">:</mo><mrow><mi>S</mi><mo stretchy="false">→</mo><mrow><mi class="ltx_font_mathcaligraphic">𝒫</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>S</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">D:S\to\mathcal{P}(S)</annotation></semantics></math>, which maps each symbol <math alttext="s\in S" class="ltx_Math" display="inline" id="S2.I1.i2.p1.m3" intent=":literal"><semantics><mrow><mi>s</mi><mo>∈</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">s\in S</annotation></semantics></math> to its direct definitional set.</p>
+</div>
+</li>
+<li class="ltx_item" id="S2.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S2.I1.i3.p1">
+<p class="ltx_p"><math alttext="G" class="ltx_Math" display="inline" id="S2.I1.i3.p1.m1" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> is the <span class="ltx_text ltx_font_bold">Grounding Set</span>, <math alttext="G\subseteq S" class="ltx_Math" display="inline" id="S2.I1.i3.p1.m2" intent=":literal"><semantics><mrow><mi>G</mi><mo>⊆</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">G\subseteq S</annotation></semantics></math>. Symbols in <math alttext="G" class="ltx_Math" display="inline" id="S2.I1.i3.p1.m3" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> are postulated to be directly grounded, and for all <math alttext="g\in G" class="ltx_Math" display="inline" id="S2.I1.i3.p1.m4" intent=":literal"><semantics><mrow><mi>g</mi><mo>∈</mo><mi>G</mi></mrow><annotation encoding="application/x-tex">g\in G</annotation></semantics></math>, we require <math alttext="D(g)=\emptyset" class="ltx_Math" display="inline" id="S2.I1.i3.p1.m5" intent=":literal"><semantics><mrow><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">D(g)=\emptyset</annotation></semantics></math>.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S2.Thmdefinition2">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 2.2</span></span><span class="ltx_text ltx_font_bold"> </span>(Definitional Closure)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmdefinition2.p1">
+<p class="ltx_p">For a symbol <math alttext="s\in S" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m1" intent=":literal"><semantics><mrow><mi>s</mi><mo>∈</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">s\in S</annotation></semantics></math>, its <span class="ltx_text ltx_font_bold">Definitional Closure</span> <math alttext="C(s)" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m2" intent=":literal"><semantics><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">C(s)</annotation></semantics></math> is the smallest set satisfying: (1) <math alttext="s\in C(s)" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m3" intent=":literal"><semantics><mrow><mi>s</mi><mo>∈</mo><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">s\in C(s)</annotation></semantics></math>, and (2) if <math alttext="s^{\prime}\in C(s)" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m4" intent=":literal"><semantics><mrow><msup><mi>s</mi><mo>′</mo></msup><mo>∈</mo><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">s^{\prime}\in C(s)</annotation></semantics></math> and <math alttext="s^{\prime\prime}\in D(s^{\prime})" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m5" intent=":literal"><semantics><mrow><msup><mi>s</mi><mo>′′</mo></msup><mo>∈</mo><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msup><mi>s</mi><mo>′</mo></msup><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">s^{\prime\prime}\in D(s^{\prime})</annotation></semantics></math>, then <math alttext="s^{\prime\prime}\in C(s)" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m6" intent=":literal"><semantics><mrow><msup><mi>s</mi><mo>′′</mo></msup><mo>∈</mo><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">s^{\prime\prime}\in C(s)</annotation></semantics></math>. <math alttext="C(s)" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m7" intent=":literal"><semantics><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">C(s)</annotation></semantics></math> contains all symbols used directly or indirectly to define <math alttext="s" class="ltx_Math" display="inline" id="S2.Thmdefinition2.p1.m8" intent=":literal"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>.</p>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S2.Thmdefinition3">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 2.3</span></span><span class="ltx_text ltx_font_bold"> </span>(Groundability)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmdefinition3.p1">
+<p class="ltx_p">A symbol <math alttext="s\in S" class="ltx_Math" display="inline" id="S2.Thmdefinition3.p1.m1" intent=":literal"><semantics><mrow><mi>s</mi><mo>∈</mo><mi>S</mi></mrow><annotation encoding="application/x-tex">s\in S</annotation></semantics></math> is <span class="ltx_text ltx_font_bold">groundable</span> if and only if its definitional closure intersects with the grounding set: <math alttext="\text{isGroundable}(s)\iff C(s)\cap G\neq\emptyset" class="ltx_Math" display="inline" id="S2.Thmdefinition3.p1.m2" intent=":literal"><semantics><mrow><mrow><mtext>isGroundable</mtext><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo stretchy="false">⇔</mo><mrow><mrow><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∩</mo><mi>G</mi></mrow><mo>≠</mo><mi mathvariant="normal">∅</mi></mrow></mrow><annotation encoding="application/x-tex">\text{isGroundable}(s)\iff C(s)\cap G\neq\emptyset</annotation></semantics></math>.</p>
+</div>
+</div>
+<figure class="ltx_figure" id="S2.fig1"><span class="ltx_inline-block"><svg class="ltx_picture ltx_centering" height="138.9" id="S2.pic1" overflow="visible" version="1.1" viewbox="0 0 502 138.9" width="502"><g fill="#000000" stroke="#000000" stroke-width="0.4pt" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="translate(0,138.9) matrix(1 0 0 -1 0 0) translate(162.09,0) translate(0,118.94)"><path d="M 14.15 19.69 L -14.15 19.69 C -17.21 19.69 -19.69 17.21 -19.69 14.15 L -19.69 -14.15 C -19.69 -17.21 -17.21 -19.69 -14.15 -19.69 L 14.15 -19.69 C 17.21 -19.69 19.69 -17.21 19.69 -14.15 L 19.69 14.15 C 19.69 17.21 17.21 19.69 14.15 19.69 Z M -19.69 -19.69" style="fill:none"></path><g fill="#000000" stroke="#000000" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="matrix(1.0 0.0 0.0 1.0 -3.24 -2.98)"><foreignobject height="5.96" overflow="visible" style="--fo_width :0.47em;--fo_height:0.43em;--fo_depth :0em;" transform="matrix(1 0 0 -1 0 5.96)" width="6.49"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><math alttext="s" class="ltx_Math" display="inline" id="S2.pic1.m1" intent=":literal"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math></span></span></foreignobject></g><path d="M 113.13 19.69 L 84.83 19.69 C 81.77 19.69 79.29 17.21 79.29 14.15 L 79.29 -14.15 C 79.29 -17.21 81.77 -19.69 84.83 -19.69 L 113.13 -19.69 C 116.19 -19.69 118.66 -17.21 118.66 -14.15 L 118.66 14.15 C 118.66 17.21 116.19 19.69 113.13 19.69 Z M 79.29 -19.69" style="fill:none"></path><g fill="#000000" stroke="#000000" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="matrix(1.0 0.0 0.0 1.0 92.63 -1.94)"><foreignobject height="8.03" overflow="visible" style="--fo_width :0.92em;--fo_height:0.43em;--fo_depth :0.15em;" transform="matrix(1 0 0 -1 0 5.96)" width="12.69"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><math alttext="s_{1}" class="ltx_Math" display="inline" id="S2.pic1.m2" intent=":literal"><semantics><msub><mi>s</mi><mn>1</mn></msub><annotation encoding="application/x-tex">s_{1}</annotation></semantics></math></span></span></foreignobject></g><path d="M 212.11 19.69 L 183.81 19.69 C 180.75 19.69 178.27 17.21 178.27 14.15 L 178.27 -14.15 C 178.27 -17.21 180.75 -19.69 183.81 -19.69 L 212.11 -19.69 C 215.16 -19.69 217.64 -17.21 217.64 -14.15 L 217.64 14.15 C 217.64 17.21 215.16 19.69 212.11 19.69 Z M 178.27 -19.69" style="fill:none"></path><g fill="#000000" stroke="#000000" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="matrix(1.0 0.0 0.0 1.0 191.61 -1.94)"><foreignobject height="8.03" overflow="visible" style="--fo_width :0.92em;--fo_height:0.43em;--fo_depth :0.15em;" transform="matrix(1 0 0 -1 0 5.96)" width="12.69"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><math alttext="s_{2}" class="ltx_Math" display="inline" id="S2.pic1.m3" intent=":literal"><semantics><msub><mi>s</mi><mn>2</mn></msub><annotation encoding="application/x-tex">s_{2}</annotation></semantics></math></span></span></foreignobject></g><path d="M 212.11 -79.29 L 183.81 -79.29 C 180.75 -79.29 178.27 -81.77 178.27 -84.83 L 178.27 -113.13 C 178.27 -116.19 180.75 -118.66 183.81 -118.66 L 212.11 -118.66 C 215.16 -118.66 217.64 -116.19 217.64 -113.13 L 217.64 -84.83 C 217.64 -81.77 215.16 -79.29 212.11 -79.29 Z M 178.27 -118.66" style="fill:none"></path><g fill="#000000" stroke="#000000" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="matrix(1.0 0.0 0.0 1.0 191.61 -100.92)"><foreignobject height="8.03" overflow="visible" style="--fo_width :0.92em;--fo_height:0.43em;--fo_depth :0.15em;" transform="matrix(1 0 0 -1 0 5.96)" width="12.69"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><math alttext="s_{3}" class="ltx_Math" display="inline" id="S2.pic1.m4" intent=":literal"><semantics><msub><mi>s</mi><mn>3</mn></msub><annotation encoding="application/x-tex">s_{3}</annotation></semantics></math></span></span></foreignobject></g><g fill="#D9D9D9" style="--ltx-fill-color:#D9D9D9;"><path d="M 339.63 0 C 339.63 10.87 325.67 19.69 308.44 19.69 C 291.22 19.69 277.25 10.87 277.25 0 C 277.25 -10.87 291.22 -19.69 308.44 -19.69 C 325.67 -19.69 339.63 -10.87 339.63 0 Z M 308.44 0"></path></g><g fill="#000000" stroke="#000000" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="matrix(1.0 0.0 0.0 1.0 291 -3.38)"><foreignobject height="12.15" overflow="visible" style="--fo_width :2.52em;--fo_height:0.68em;--fo_depth :0.19em;" transform="matrix(1 0 0 -1 0 9.46)" width="34.89"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content"><math alttext="g\in G" class="ltx_Math" display="inline" id="S2.pic1.m5" intent=":literal"><semantics><mrow><mi>g</mi><mo>∈</mo><mi>G</mi></mrow><annotation encoding="application/x-tex">g\in G</annotation></semantics></math></span></span></foreignobject></g><g stroke-width="0.8pt"><path d="M 19.96 0 L 75.42 0" style="fill:none"></path><g transform="matrix(1.0 0.0 0.0 1.0 75.42 0)"><path d="M 3.6 0 L -2.16 2.88 L 0 0 L -2.16 -2.88" style="stroke:none"></path></g></g><g stroke-width="0.8pt"><path d="M 118.94 0 L 174.4 0" style="fill:none"></path><g transform="matrix(1.0 0.0 0.0 1.0 174.4 0)"><path d="M 3.6 0 L -2.16 2.88 L 0 0 L -2.16 -2.88" style="stroke:none"></path></g></g><g stroke-width="0.8pt"><path d="M 209.47 -19.96 C 220.99 -39.91 220.99 -59.07 211.27 -75.9" style="fill:none"></path><g transform="matrix(-0.5 -0.86603 0.86603 -0.5 211.27 -75.9)"><path d="M 3.6 0 L -2.16 2.88 L 0 0 L -2.16 -2.88" style="stroke:none"></path></g></g><g stroke-width="0.8pt"><path d="M 186.44 -79.02 C 174.93 -59.07 174.93 -39.91 184.64 -23.08" style="fill:none"></path><g transform="matrix(0.5 0.86603 -0.86603 0.5 184.64 -23.08)"><path d="M 3.6 0 L -2.16 2.88 L 0 0 L -2.16 -2.88" style="stroke:none"></path></g></g><g stroke-width="0.8pt"><path d="M 118.94 0 L 273.38 0" style="fill:none"></path><g transform="matrix(1.0 0.0 0.0 1.0 273.38 0)"><path d="M 3.6 0 L -2.16 2.88 L 0 0 L -2.16 -2.88" style="stroke:none"></path></g></g><g fill="#000000" stroke="#000000" style="--ltx-stroke-color:#000000;--ltx-fill-color:#000000;" transform="matrix(1.0 0.0 0.0 1.0 -157.48 -54.91)"><foreignobject height="46.28" overflow="visible" style="--fo_width :22.76em;--fo_height:0.75em;--fo_depth :2.59em;" transform="matrix(1 0 0 -1 0 10.38)" width="314.96"><span class="ltx_foreignobject_container"><span class="ltx_foreignobject_content">
+<span class="ltx_inline-block ltx_minipage ltx_align_top" style="width:22.76em;">
+<span class="ltx_p"></span>
+<span class="ltx_p"><span class="ltx_text ltx_font_bold">Fig 1:</span> Definitional closure <math alttext="C(s)=\{s,s_{1},s_{2},s_{3},g\}" class="ltx_Math" display="inline" id="S2.pic1.m6" intent=":literal"><semantics><mrow><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>=</mo><mrow><mo stretchy="false">{</mo><mi>s</mi><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><msub><mi>s</mi><mn>2</mn></msub><mo>,</mo><msub><mi>s</mi><mn>3</mn></msub><mo>,</mo><mi>g</mi><mo stretchy="false">}</mo></mrow></mrow><annotation encoding="application/x-tex">C(s)=\{s,s_{1},s_{2},s_{3},g\}</annotation></semantics></math>. Since <math alttext="C(s)\cap G\neq\emptyset" class="ltx_Math" display="inline" id="S2.pic1.m7" intent=":literal"><semantics><mrow><mrow><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∩</mo><mi>G</mi></mrow><mo>≠</mo><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">C(s)\cap G\neq\emptyset</annotation></semantics></math>, <math alttext="s" class="ltx_Math" display="inline" id="S2.pic1.m8" intent=":literal"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math> is groundable. A purely symbolic system would lack the node <math alttext="g" class="ltx_Math" display="inline" id="S2.pic1.m9" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>.</span>
+</span></span></span></foreignobject></g></g></svg></span>
+</figure>
+<div class="ltx_para" id="S2.p2">
+<p class="ltx_p">Our first investigation concerns a system that is entirely self-contained.</p>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S2.Thmdefinition4">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 2.4</span></span><span class="ltx_text ltx_font_bold"> </span>(Purely Symbolic System)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmdefinition4.p1">
+<p class="ltx_p">A symbolic language <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S2.Thmdefinition4.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math> is a <span class="ltx_text ltx_font_bold">Purely Symbolic System</span> if its grounding set is empty, i.e., <math alttext="G=\emptyset" class="ltx_Math" display="inline" id="S2.Thmdefinition4.p1.m2" intent=":literal"><semantics><mrow><mi>G</mi><mo>=</mo><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">G=\emptyset</annotation></semantics></math>.</p>
+</div>
+</div>
+<div class="ltx_para" id="S2.p3">
+<p class="ltx_p">To prove our main theorem, we assume the system <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S2.p3.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math> has sufficient expressive power to encompass Peano Arithmetic, allowing for Gödel numbering and self-reference<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib1" title="">1</a>, <a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib5" title="">5</a>]</cite>.</p>
+</div>
+<div class="ltx_theorem ltx_theorem_axiom" id="S2.Thmaxiom1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Axiom 2.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Arithmetization &amp; Expressibility)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmaxiom1.p1">
+<p class="ltx_p">There exists a Gödel numbering function <math alttext="\ulcorner\cdot\urcorner" class="ltx_Math" display="inline" id="S2.Thmaxiom1.p1.m1" intent=":literal"><semantics><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0.222em" rspace="0.222em">⋅</mo><mi mathvariant="normal">⌝</mi></mrow><annotation encoding="application/x-tex">\ulcorner\cdot\urcorner</annotation></semantics></math> for all symbols and formulas. Consequently, there exists a predicate <math alttext="Groundable(n)" class="ltx_Math" display="inline" id="S2.Thmaxiom1.p1.m2" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable(n)</annotation></semantics></math> in <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S2.Thmaxiom1.p1.m3" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math> which is true if and only if "the number <math alttext="n" class="ltx_Math" display="inline" id="S2.Thmaxiom1.p1.m4" intent=":literal"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math> is the Gödel number of a groundable formula."</p>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_axiom" id="S2.Thmaxiom2">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Axiom 2.2</span></span><span class="ltx_text ltx_font_bold"> </span>(Diagonal Lemma)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmaxiom2.p1">
+<p class="ltx_p">For any predicate <math alttext="P(x)" class="ltx_Math" display="inline" id="S2.Thmaxiom2.p1.m1" intent=":literal"><semantics><mrow><mi>P</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">P(x)</annotation></semantics></math> in <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S2.Thmaxiom2.p1.m2" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math>, there exists a sentence <math alttext="\psi" class="ltx_Math" display="inline" id="S2.Thmaxiom2.p1.m3" intent=":literal"><semantics><mi>ψ</mi><annotation encoding="application/x-tex">\psi</annotation></semantics></math> such that the system can prove <math alttext="\psi\leftrightarrow P(\ulcorner\psi\urcorner)" class="ltx_Math" display="inline" id="S2.Thmaxiom2.p1.m4" intent=":literal"><semantics><mrow><mi>ψ</mi><mo stretchy="false">↔</mo><mrow><mi>P</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>ψ</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\psi\leftrightarrow P(\ulcorner\psi\urcorner)</annotation></semantics></math>.</p>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_theorem" id="S2.Thmtheorem1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Theorem 2.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Impossibility of Self-Grounding)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S2.Thmtheorem1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Any purely symbolic system that satisfies Axioms 2.1 and 2.2 cannot internally provide a complete and consistent determination of groundability for all its propositions.</span></p>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Proof.</h6>
+<div class="ltx_para" id="S2.Thmtheorem1.p2">
+<ol class="ltx_enumerate" id="S2.I2">
+<li class="ltx_item" id="S2.I2.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S2.I2.i1.p1">
+<p class="ltx_p">In a purely symbolic system, <math alttext="G=\emptyset" class="ltx_Math" display="inline" id="S2.I2.i1.p1.m1" intent=":literal"><semantics><mrow><mi>G</mi><mo>=</mo><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">G=\emptyset</annotation></semantics></math>. Thus, for any symbol <math alttext="s" class="ltx_Math" display="inline" id="S2.I2.i1.p1.m2" intent=":literal"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>, <math alttext="C(s)\cap G=\emptyset" class="ltx_Math" display="inline" id="S2.I2.i1.p1.m3" intent=":literal"><semantics><mrow><mrow><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∩</mo><mi>G</mi></mrow><mo>=</mo><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">C(s)\cap G=\emptyset</annotation></semantics></math>. By Definition 2.3, no symbol is groundable.</p>
+</div>
+</li>
+<li class="ltx_item" id="S2.I2.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S2.I2.i2.p1">
+<p class="ltx_p">Now, assume for contradiction that the system can define a predicate <math alttext="Groundable(x)" class="ltx_Math" display="inline" id="S2.I2.i2.p1.m1" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable(x)</annotation></semantics></math> for its own propositions. Define a new predicate <math alttext="Ungr(x)\equiv\neg Groundable(x)" class="ltx_Math" display="inline" id="S2.I2.i2.p1.m2" intent=":literal"><semantics><mrow><mrow><mi>U</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≡</mo><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">Ungr(x)\equiv\neg Groundable(x)</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S2.I2.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="S2.I2.i3.p1">
+<p class="ltx_p">By the Diagonal Lemma (Axiom 2.2), there exists a sentence <math alttext="P_{\text{ungroundable}}" class="ltx_Math" display="inline" id="S2.I2.i3.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mtext>ungroundable</mtext></msub><annotation encoding="application/x-tex">P_{\text{ungroundable}}</annotation></semantics></math> such that the system proves:</p>
+<table class="ltx_equation ltx_eqn_table" id="S2.Ex1">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="P_{\text{ungroundable}}\leftrightarrow Ungr(\ulcorner P_{\text{ungroundable}}\urcorner)\quad\text{which is}\quad P_{\text{ungroundable}}\leftrightarrow\neg Groundable(\ulcorner P_{\text{ungroundable}}\urcorner)" class="ltx_Math" display="block" id="S2.Ex1.m1" intent=":literal"><semantics><mrow><msub><mi>P</mi><mtext>ungroundable</mtext></msub><mo stretchy="false">↔</mo><mrow><mrow><mi>U</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mtext>ungroundable</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><mspace style="width:1em;" width="1em"></mspace><mtext>which is</mtext><mspace style="width:1em;" width="1em"></mspace><msub><mi>P</mi><mtext>ungroundable</mtext></msub></mrow><mo stretchy="false">↔</mo><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mtext>ungroundable</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">P_{\text{ungroundable}}\leftrightarrow Ungr(\ulcorner P_{\text{ungroundable}}\urcorner)\quad\text{which is}\quad P_{\text{ungroundable}}\leftrightarrow\neg Groundable(\ulcorner P_{\text{ungroundable}}\urcorner)</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">This sentence asserts its own ungroundability.</p>
+</div>
+</li>
+<li class="ltx_item" id="S2.I2.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">4.</span>
+<div class="ltx_para" id="S2.I2.i4.p1">
+<p class="ltx_p">We analyze the groundability of <math alttext="P_{\text{ungroundable}}" class="ltx_Math" display="inline" id="S2.I2.i4.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mtext>ungroundable</mtext></msub><annotation encoding="application/x-tex">P_{\text{ungroundable}}</annotation></semantics></math>.</p>
+<ul class="ltx_itemize" id="S2.I2.i4.I1">
+<li class="ltx_item" id="S2.I2.i4.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S2.I2.i4.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Case A: Assume <math alttext="P_{\text{ungroundable}}" class="ltx_Math" display="inline" id="S2.I2.i4.I1.i1.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mtext class="ltx_mathvariant_bold">ungroundable</mtext></msub><annotation encoding="application/x-tex">P_{\text{ungroundable}}</annotation></semantics></math> is groundable.</span> Then <math alttext="Groundable(\ulcorner P_{\text{ungroundable}}\urcorner)" class="ltx_Math" display="inline" id="S2.I2.i4.I1.i1.p1.m2" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mtext>ungroundable</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable(\ulcorner P_{\text{ungroundable}}\urcorner)</annotation></semantics></math> is true. The equivalence implies the system proves <math alttext="\neg P_{\text{ungroundable}}" class="ltx_Math" display="inline" id="S2.I2.i4.I1.i1.p1.m3" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><msub><mi>P</mi><mtext>ungroundable</mtext></msub></mrow><annotation encoding="application/x-tex">\neg P_{\text{ungroundable}}</annotation></semantics></math>. A consistent system cannot have a true, groundable proposition whose negation it proves. This is a contradiction.</p>
+</div>
+</li>
+<li class="ltx_item" id="S2.I2.i4.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S2.I2.i4.I1.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Case B: Assume <math alttext="P_{\text{ungroundable}}" class="ltx_Math" display="inline" id="S2.I2.i4.I1.i2.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mtext class="ltx_mathvariant_bold">ungroundable</mtext></msub><annotation encoding="application/x-tex">P_{\text{ungroundable}}</annotation></semantics></math> is ungroundable.</span> Then <math alttext="\neg Groundable(\ulcorner P_{\text{ungroundable}}\urcorner)" class="ltx_Math" display="inline" id="S2.I2.i4.I1.i2.p1.m2" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mtext>ungroundable</mtext></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg Groundable(\ulcorner P_{\text{ungroundable}}\urcorner)</annotation></semantics></math> is true. The equivalence implies the system proves <math alttext="P_{\text{ungroundable}}" class="ltx_Math" display="inline" id="S2.I2.i4.I1.i2.p1.m3" intent=":literal"><semantics><msub><mi>P</mi><mtext>ungroundable</mtext></msub><annotation encoding="application/x-tex">P_{\text{ungroundable}}</annotation></semantics></math>. Here, the system proves a sentence whose content asserts its own lack of a semantic foundation. This creates a rupture between syntactic provability and semantic groundability, as a consistent system should not prove sentences that are, by its own definitions, meaningless.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="ltx_item" id="S2.I2.i5" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">5.</span>
+<div class="ltx_para" id="S2.I2.i5.p1">
+<p class="ltx_p">Both cases lead to a contradiction or paradox. Therefore, a purely symbolic system cannot consistently and completely define its own groundability predicate.</p>
+</div>
+</li>
+</ol>
+<p class="ltx_p">∎</p>
+</div>
+</div>
+</div>
+<div class="ltx_para" id="S2.p4">
+<p class="ltx_p">This theorem establishes that meaning cannot arise from a closed loop of definitions, a conclusion that echoes the foundational crises addressed by Tarski and Kripke<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib6" title="">6</a>, <a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib3" title="">3</a>]</cite>. It necessitates an external element: a non-empty grounding set <math alttext="G" class="ltx_Math" display="inline" id="S2.p4.m1" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</p>
+</div>
+</section>
+<section class="ltx_section" id="S3">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">3 </span>The Incompleteness of Statically Grounded Systems</h2>
+<div class="ltx_para" id="S3.p1">
+<p class="ltx_p">The natural solution is to provide the system with a non-empty, but finite, grounding set <math alttext="G" class="ltx_Math" display="inline" id="S3.p1.m1" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> based on a set of initial experiences. We call such a system "statically grounded."</p>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S3.Thmdefinition1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 3.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Statically Grounded System)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S3.Thmdefinition1.p1">
+<p class="ltx_p">A symbolic language <math alttext="\mathcal{L}=\langle S,D,G\rangle" class="ltx_Math" display="inline" id="S3.Thmdefinition1.p1.m1" intent=":literal"><semantics><mrow><mi class="ltx_font_mathcaligraphic">ℒ</mi><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mi>S</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>G</mi><mo stretchy="false">⟩</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{L}=\langle S,D,G\rangle</annotation></semantics></math> is a <span class="ltx_text ltx_font_bold">Statically Grounded System</span> if its grounding set <math alttext="G" class="ltx_Math" display="inline" id="S3.Thmdefinition1.p1.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> is non-empty and finite, i.e., <math alttext="0&lt;|G|&lt;\infty" class="ltx_Math" display="inline" id="S3.Thmdefinition1.p1.m3" intent=":literal"><semantics><mrow><mn>0</mn><mo>&lt;</mo><mrow><mo stretchy="false">|</mo><mi>G</mi><mo stretchy="false">|</mo></mrow><mo>&lt;</mo><mi mathvariant="normal">∞</mi></mrow><annotation encoding="application/x-tex">0&lt;|G|&lt;\infty</annotation></semantics></math>.</p>
+</div>
+</div>
+<div class="ltx_para" id="S3.p2">
+<p class="ltx_p">However, we will now prove that even this is insufficient. Any static foundation will eventually prove to be incomplete.</p>
+</div>
+<div class="ltx_theorem ltx_theorem_theorem" id="S3.Thmtheorem1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Theorem 3.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Limitation of Static Grounding)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S3.Thmtheorem1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">For any consistent, statically grounded system <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S3.Thmtheorem1.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math>, there always exists a sentence <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.Thmtheorem1.p1.m2" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> that is provable in <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S3.Thmtheorem1.p1.m3" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math>, but <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.Thmtheorem1.p1.m4" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> itself cannot be grounded by the set <math alttext="G" class="ltx_Math" display="inline" id="S3.Thmtheorem1.p1.m5" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Proof.</h6>
+<div class="ltx_para" id="S3.p3">
+<ol class="ltx_enumerate" id="S3.I1">
+<li class="ltx_item" id="S3.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S3.I1.i1.p1">
+<p class="ltx_p">Let <math alttext="\mathcal{L}" class="ltx_Math" display="inline" id="S3.I1.i1.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">ℒ</mi><annotation encoding="application/x-tex">\mathcal{L}</annotation></semantics></math> be a statically grounded system with its finite grounding set <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i1.p1.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S3.I1.i2.p1">
+<p class="ltx_p">Since <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i2.p1.m1" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> is finite, the property of "being groundable by <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i2.p1.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>" is recursive. Therefore, the system can express a specific predicate <math alttext="Groundable_{G}(x)" class="ltx_Math" display="inline" id="S3.I1.i2.p1.m3" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable_{G}(x)</annotation></semantics></math>, which is true if and only if the formula with Gödel number <math alttext="x" class="ltx_Math" display="inline" id="S3.I1.i2.p1.m4" intent=":literal"><semantics><mi>x</mi><annotation encoding="application/x-tex">x</annotation></semantics></math> is groundable by the set <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i2.p1.m5" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>. (See Appendix A).</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="S3.I1.i3.p1">
+<p class="ltx_p">We apply the Diagonal Lemma to the predicate <math alttext="\neg Groundable_{G}(x)" class="ltx_Math" display="inline" id="S3.I1.i3.p1.m1" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>x</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg Groundable_{G}(x)</annotation></semantics></math>. This yields a sentence <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i3.p1.m2" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> such that the system proves:</p>
+<table class="ltx_equation ltx_eqn_table" id="S3.Ex2">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="P_{new}\leftrightarrow\neg Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="block" id="S3.Ex2.m1" intent=":literal"><semantics><mrow><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo stretchy="false">↔</mo><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">P_{new}\leftrightarrow\neg Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">The informal reading of <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i3.p1.m3" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> is: "<span class="ltx_text ltx_font_bold">This sentence is not groundable by the set G</span>".</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">4.</span>
+<div class="ltx_para" id="S3.I1.i4.p1">
+<p class="ltx_p">We analyze this sentence in the metalanguage:</p>
+<ul class="ltx_itemize" id="S3.I1.i4.I1">
+<li class="ltx_item" id="S3.I1.i4.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S3.I1.i4.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Case A: Assume <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i1.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> is groundable by <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i1.p1.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</span> Then <math alttext="Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i1.p1.m3" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math> is true. The equivalence implies the system proves <math alttext="\neg P_{new}" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i1.p1.m4" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\neg P_{new}</annotation></semantics></math>. This contradicts the system’s consistency. Thus, <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i1.p1.m5" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> cannot be groundable by <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i1.p1.m6" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i4.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S3.I1.i4.I1.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Case B: Assume <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i2.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> is not groundable by <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i2.p1.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</span> Then <math alttext="\neg Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i2.p1.m3" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math> is true. The equivalence implies the system proves <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i4.I1.i2.p1.m4" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i5" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">5.</span>
+<div class="ltx_para" id="S3.I1.i5.p1">
+<p class="ltx_p">From the assumption of consistency, we conclude two things: (1) The system proves <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i5.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math>, and (2) <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.I1.i5.p1.m2" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> is not groundable by <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i5.p1.m3" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S3.I1.i6" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">6.</span>
+<div class="ltx_para" id="S3.I1.i6.p1">
+<p class="ltx_p">This completes the proof. We have constructed a sentence that is true within the system’s logic, yet its meaning transcends the system’s entire original experiential basis <math alttext="G" class="ltx_Math" display="inline" id="S3.I1.i6.p1.m1" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+<p class="ltx_p">∎</p>
+</div>
+</div>
+<div class="ltx_para" id="S3.p4">
+<p class="ltx_p">This theorem reveals that grounding cannot be a one-time event. To understand the new truth <math alttext="P_{new}" class="ltx_Math" display="inline" id="S3.p4.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math>, the system must expand its grounding set, for example, by acquiring a new experience related to its own cognitive limitations. This implies that the grounding set <math alttext="G" class="ltx_Math" display="inline" id="S3.p4.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> must be <span class="ltx_text ltx_font_bold">dynamically expanding</span>. The argument’s structure is a direct application of Gödel’s first incompleteness theorem to the problem of semantics<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib1" title="">1</a>, <a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib5" title="">5</a>]</cite>.</p>
+</div>
+</section>
+<section class="ltx_section" id="S4">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">4 </span>The Logical Incompleteness of the Grounding Act</h2>
+<div class="ltx_para" id="S4.p1">
+<p class="ltx_p">If the grounding set must expand, what is the nature of this expansion? While some "routine" grounding acts might be automated by internal logic, is the grounding process <em class="ltx_emph ltx_font_italic">as a whole</em> reducible to logical deduction? We will now prove that it is not, by showing that <span class="ltx_text ltx_font_bold">there exists no <em class="ltx_emph ltx_font_italic">general</em> logical rule</span> that can handle all grounding acts, and therefore, <span class="ltx_text ltx_font_bold">non-inferable grounding acts must exist</span>.</p>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S4.Thmdefinition1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 4.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Deductive Symbolic System)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S4.Thmdefinition1.p1">
+<p class="ltx_p">A deductive symbolic system <math alttext="\mathcal{S}" class="ltx_Math" display="inline" id="S4.Thmdefinition1.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">𝒮</mi><annotation encoding="application/x-tex">\mathcal{S}</annotation></semantics></math> is a quadruple <math alttext="\langle S,D,G,\vdash\rangle" class="ltx_Math" display="inline" id="S4.Thmdefinition1.p1.m2" intent=":literal"><semantics><mrow><mo stretchy="false">⟨</mo><mi>S</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>G</mi><mo>,</mo><mo lspace="0em" rspace="0em">⊢</mo><mo stretchy="false">⟩</mo></mrow><annotation encoding="application/x-tex">\langle S,D,G,\vdash\rangle</annotation></semantics></math>, where <math alttext="\vdash" class="ltx_Math" display="inline" id="S4.Thmdefinition1.p1.m3" intent=":literal"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math> is a provability relation defined by axioms and rules of inference.</p>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S4.Thmdefinition2">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 4.2</span></span><span class="ltx_text ltx_font_bold"> </span>(The Grounding Act)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S4.Thmdefinition2.p1">
+<p class="ltx_p">A <span class="ltx_text ltx_font_bold">Grounding Act</span> <math alttext="A(s,g)" class="ltx_Math" display="inline" id="S4.Thmdefinition2.p1.m1" intent=":literal"><semantics><mrow><mi>A</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">A(s,g)</annotation></semantics></math> is a meta-level operation that updates the system’s definition function, connecting an internal symbol <math alttext="s" class="ltx_Math" display="inline" id="S4.Thmdefinition2.p1.m2" intent=":literal"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math> to a grounded symbol <math alttext="g" class="ltx_Math" display="inline" id="S4.Thmdefinition2.p1.m3" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>. This act can take two forms:</p>
+<ol class="ltx_enumerate" id="S4.I1">
+<li class="ltx_item" id="S4.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S4.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">G-Expansion:</span> <math alttext="g" class="ltx_Math" display="inline" id="S4.I1.i1.p1.m1" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math> is a new symbol not previously in <math alttext="S" class="ltx_Math" display="inline" id="S4.I1.i1.p1.m2" intent=":literal"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math> or <math alttext="G" class="ltx_Math" display="inline" id="S4.I1.i1.p1.m3" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>, representing a new external experience. <math alttext="G" class="ltx_Math" display="inline" id="S4.I1.i1.p1.m4" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> is updated to <math alttext="G^{\prime}=G\cup\{g\}" class="ltx_Math" display="inline" id="S4.I1.i1.p1.m5" intent=":literal"><semantics><mrow><msup><mi>G</mi><mo>′</mo></msup><mo>=</mo><mrow><mi>G</mi><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi>g</mi><mo stretchy="false">}</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">G^{\prime}=G\cup\{g\}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S4.I1.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">G-Internal Connection:</span> <math alttext="g" class="ltx_Math" display="inline" id="S4.I1.i2.p1.m1" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math> is an existing symbol already in <math alttext="G" class="ltx_Math" display="inline" id="S4.I1.i2.p1.m2" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>. The definition function <math alttext="D" class="ltx_Math" display="inline" id="S4.I1.i2.p1.m3" intent=":literal"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> is updated, e.g., <math alttext="D(s)^{\prime}=D(s)\cup\{g\}" class="ltx_Math" display="inline" id="S4.I1.i2.p1.m4" intent=":literal"><semantics><mrow><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><msup><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow><mo>′</mo></msup></mrow><mo>=</mo><mrow><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∪</mo><mrow><mo stretchy="false">{</mo><mi>g</mi><mo stretchy="false">}</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">D(s)^{\prime}=D(s)\cup\{g\}</annotation></semantics></math>.</p>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_theorem" id="S4.Thmtheorem1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Theorem 4.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Incompleteness of Internal Logical Grounding)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S4.Thmtheorem1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">In a consistent deductive symbolic system <math alttext="\mathcal{S}" class="ltx_Math" display="inline" id="S4.Thmtheorem1.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">𝒮</mi><annotation encoding="application/x-tex">\mathcal{S}</annotation></semantics></math>, there exists no <span class="ltx_text ltx_font_bold">general, internal, and condition-triggered</span> logical rule (<math alttext="\vdash" class="ltx_Math" display="inline" id="S4.Thmtheorem1.p1.m2" intent=":literal"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math>) that can deduce a command to execute a grounding act for <span class="ltx_text ltx_font_bold">all</span> provable but ungrounded sentences.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Proof.</h6>
+<div class="ltx_para" id="S4.p2">
+<p class="ltx_p">We must demonstrate that no such <em class="ltx_emph ltx_font_italic">general</em> internal rule can exist, by analyzing both forms of the grounding act.</p>
+</div>
+<div class="ltx_para" id="S4.p3">
+<ol class="ltx_enumerate" id="S4.I2">
+<li class="ltx_item" id="S4.I2.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S4.I2.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Case 1: Grounding via G-Expansion (<math alttext="g\notin G" class="ltx_Math" display="inline" id="S4.I2.i1.p1.m1" intent=":literal"><semantics><mrow><mi>g</mi><mo>∉</mo><mi>G</mi></mrow><annotation encoding="application/x-tex">g\notin G</annotation></semantics></math>).</span></p>
+</div>
+<div class="ltx_para" id="S4.I2.i1.p2">
+<p class="ltx_p">Assume for contradiction that a <em class="ltx_emph ltx_font_italic">general</em> internal rule <math alttext="\vdash" class="ltx_Math" display="inline" id="S4.I2.i1.p2.m1" intent=":literal"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math> can deduce the command <math alttext="A(s,g)" class="ltx_Math" display="inline" id="S4.I2.i1.p2.m2" intent=":literal"><semantics><mrow><mi>A</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo>,</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">A(s,g)</annotation></semantics></math>, where <math alttext="g" class="ltx_Math" display="inline" id="S4.I2.i1.p2.m3" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math> is a <em class="ltx_emph ltx_font_italic">new</em> symbol representing an external experience not yet in <math alttext="S" class="ltx_Math" display="inline" id="S4.I2.i1.p2.m4" intent=":literal"><semantics><mi>S</mi><annotation encoding="application/x-tex">S</annotation></semantics></math> or <math alttext="G" class="ltx_Math" display="inline" id="S4.I2.i1.p2.m5" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>.</p>
+</div>
+<div class="ltx_para" id="S4.I2.i1.p3">
+<p class="ltx_p">This is an <em class="ltx_emph ltx_font_italic">information-theoretic</em> contradiction. Logical inference (<math alttext="\vdash" class="ltx_Math" display="inline" id="S4.I2.i1.p3.m1" intent=":literal"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math>) is a closed computational process that operates <em class="ltx_emph ltx_font_italic">only</em> on the axioms and symbols already defined within the system <math alttext="\mathcal{S}=\langle S,D,G,\vdash\rangle" class="ltx_Math" display="inline" id="S4.I2.i1.p3.m2" intent=":literal"><semantics><mrow><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mi>S</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>G</mi><mo>,</mo><mo lspace="0em" rspace="0em">⊢</mo><mo stretchy="false">⟩</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{S}=\langle S,D,G,\vdash\rangle</annotation></semantics></math>.</p>
+</div>
+<div class="ltx_para" id="S4.I2.i1.p4">
+<p class="ltx_p">The symbol <math alttext="g" class="ltx_Math" display="inline" id="S4.I2.i1.p4.m1" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>, representing new external information, is by definition outside of this formal universe. The system’s internal rules cannot deduce a conclusion that contains a symbol (<math alttext="g" class="ltx_Math" display="inline" id="S4.I2.i1.p4.m2" intent=":literal"><semantics><mi>g</mi><annotation encoding="application/x-tex">g</annotation></semantics></math>) which it cannot access, name, or know. Therefore, any act that expands <math alttext="G" class="ltx_Math" display="inline" id="S4.I2.i1.p4.m3" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math> must be an external, axiomatic <span class="ltx_text ltx_font_bold">update</span>, not an internal <span class="ltx_text ltx_font_bold">inference</span>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S4.I2.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Case 2: Grounding via G-Internal Connection (<math alttext="g\in G" class="ltx_Math" display="inline" id="S4.I2.i2.p1.m1" intent=":literal"><semantics><mrow><mi>g</mi><mo>∈</mo><mi>G</mi></mrow><annotation encoding="application/x-tex">g\in G</annotation></semantics></math>).</span></p>
+</div>
+<div class="ltx_para" id="S4.I2.i2.p2">
+<p class="ltx_p">This is the more subtle case. Assume for contradiction that there exists a <em class="ltx_emph ltx_font_italic">general</em>, internal "Grounding Principle" rule in <math alttext="\mathcal{S}" class="ltx_Math" display="inline" id="S4.I2.i2.p2.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">𝒮</mi><annotation encoding="application/x-tex">\mathcal{S}</annotation></semantics></math>. This rule would state:</p>
+</div>
+<div class="ltx_para" id="S4.I2.i2.p3">
+<p class="ltx_p"><em class="ltx_emph ltx_font_italic">"For <span class="ltx_text ltx_font_bold">any</span> provable sentence <math alttext="\phi" class="ltx_Math" display="inline" id="S4.I2.i2.p3.m1" intent=":literal"><semantics><mi>ϕ</mi><annotation encoding="application/x-tex">\phi</annotation></semantics></math>, if <math alttext="\neg Groundable_{G}(\ulcorner\phi\urcorner)" class="ltx_Math" display="inline" id="S4.I2.i2.p3.m2" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>ϕ</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg Groundable_{G}(\ulcorner\phi\urcorner)</annotation></semantics></math> is true (i.e., <math alttext="\phi" class="ltx_Math" display="inline" id="S4.I2.i2.p3.m3" intent=":literal"><semantics><mi>ϕ</mi><annotation encoding="application/x-tex">\phi</annotation></semantics></math> is ungrounded), then the system must deduce (<math alttext="\vdash" class="ltx_Math" display="inline" id="S4.I2.i2.p3.m4" intent=":literal"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math>) a command to execute <math alttext="A(\phi,g)" class="ltx_Math" display="inline" id="S4.I2.i2.p3.m5" intent=":literal"><semantics><mrow><mi>A</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>ϕ</mi><mo>,</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">A(\phi,g)</annotation></semantics></math> for some relevant, existing <math alttext="g\in G" class="ltx_Math" display="inline" id="S4.I2.i2.p3.m6" intent=":literal"><semantics><mrow><mi>g</mi><mo>∈</mo><mi>G</mi></mrow><annotation encoding="application/x-tex">g\in G</annotation></semantics></math>."</em></p>
+</div>
+<div class="ltx_para" id="S4.I2.i2.p4">
+<p class="ltx_p">Now, let us apply this assumed <em class="ltx_emph ltx_font_italic">general</em> rule to the sentence <math alttext="P_{new}" class="ltx_Math" display="inline" id="S4.I2.i2.p4.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> from Theorem 3.1.</p>
+</div>
+<div class="ltx_para" id="S4.I2.i2.p5">
+<ul class="ltx_itemize" id="S4.I2.i2.I1">
+<li class="ltx_item" id="S4.I2.i2.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S4.I2.i2.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Initial State (<math alttext="\mathcal{S}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i1.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">𝒮</mi><annotation encoding="application/x-tex">\mathcal{S}</annotation></semantics></math>):</span> The system has proven <math alttext="\mathcal{S}\vdash P_{new}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i1.p1.m2" intent=":literal"><semantics><mrow><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>⊢</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub></mrow><annotation encoding="application/x-tex">\mathcal{S}\vdash P_{new}</annotation></semantics></math>. The premise of the rule <math alttext="\neg Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i1.p1.m3" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math> is <span class="ltx_text ltx_font_bold">true</span>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S4.I2.i2.I1.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Action:</span> The (assumed general) Grounding Principle rule fires. The system deduces a command and executes the grounding act <math alttext="A(P_{new},g_{existing})" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i2.p1.m1" intent=":literal"><semantics><mrow><mi>A</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo>,</mo><msub><mi>g</mi><mrow><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>x</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi></mrow></msub><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">A(P_{new},g_{existing})</annotation></semantics></math>, where <math alttext="g_{existing}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i2.p1.m2" intent=":literal"><semantics><msub><mi>g</mi><mrow><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>x</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi></mrow></msub><annotation encoding="application/x-tex">g_{existing}</annotation></semantics></math> is some symbol already in <math alttext="G" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i2.p1.m3" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>. This updates the definition function <math alttext="D" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i2.p1.m4" intent=":literal"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> such that <math alttext="g_{existing}\in C(P_{new})" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i2.p1.m5" intent=":literal"><semantics><mrow><msub><mi>g</mi><mrow><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>x</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi></mrow></msub><mo>∈</mo><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">g_{existing}\in C(P_{new})</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S4.I2.i2.I1.i3.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">New State (<math alttext="\mathcal{S}^{\prime}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i3.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>′</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{\prime}</annotation></semantics></math>):</span> The system is now in state <math alttext="\mathcal{S}^{\prime}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i3.p1.m2" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>′</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{\prime}</annotation></semantics></math>. Crucially, the grounding set itself <span class="ltx_text ltx_font_bold">is still G</span>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2.I1.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S4.I2.i2.I1.i4.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">The Contradiction:</span> We re-evaluate the predicate <math alttext="Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.p1.m1" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math> in state <math alttext="\mathcal{S}^{\prime}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.p1.m2" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>′</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{\prime}</annotation></semantics></math>.</p>
+<ul class="ltx_itemize" id="S4.I2.i2.I1.i4.I1">
+<li class="ltx_item" id="S4.I2.i2.I1.i4.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">–</span></span>
+<div class="ltx_para" id="S4.I2.i2.I1.i4.I1.i1.p1">
+<p class="ltx_p">The definitional closure <math alttext="C(P_{new})" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.I1.i1.p1.m1" intent=":literal"><semantics><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">C(P_{new})</annotation></semantics></math> now contains <math alttext="g_{existing}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.I1.i1.p1.m2" intent=":literal"><semantics><msub><mi>g</mi><mrow><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>x</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi></mrow></msub><annotation encoding="application/x-tex">g_{existing}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2.I1.i4.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">–</span></span>
+<div class="ltx_para" id="S4.I2.i2.I1.i4.I1.i2.p1">
+<p class="ltx_p">The intersection <math alttext="C(P_{new})\cap G" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.I1.i2.p1.m1" intent=":literal"><semantics><mrow><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo stretchy="false">)</mo></mrow></mrow><mo>∩</mo><mi>G</mi></mrow><annotation encoding="application/x-tex">C(P_{new})\cap G</annotation></semantics></math> is no longer empty, because <math alttext="g_{existing}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.I1.i2.p1.m2" intent=":literal"><semantics><msub><mi>g</mi><mrow><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>x</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>t</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi></mrow></msub><annotation encoding="application/x-tex">g_{existing}</annotation></semantics></math> is in both sets.</p>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2.I1.i4.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item"><span class="ltx_text ltx_font_bold">–</span></span>
+<div class="ltx_para" id="S4.I2.i2.I1.i4.I1.i3.p1">
+<p class="ltx_p">Therefore, the predicate <math alttext="Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i4.I1.i3.p1.m1" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math> is now <span class="ltx_text ltx_font_bold">true</span>.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i2.I1.i5" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S4.I2.i2.I1.i5.p1">
+<p class="ltx_p">The content of the sentence <math alttext="P_{new}" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i5.p1.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math> (which is <math alttext="\neg Groundable_{G}(\ulcorner P_{new}\urcorner)" class="ltx_Math" display="inline" id="S4.I2.i2.I1.i5.p1.m2" intent=":literal"><semantics><mrow><mo rspace="0.167em">¬</mo><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>e</mi><mi>G</mi></msub><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\neg Groundable_{G}(\ulcorner P_{new}\urcorner)</annotation></semantics></math>) has thus become <span class="ltx_text ltx_font_bold">false</span>.</p>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li class="ltx_item" id="S4.I2.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="S4.I2.i3.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Conclusion of Proof:</span> We have a formal contradiction. The system <math alttext="\mathcal{S}" class="ltx_Math" display="inline" id="S4.I2.i3.p1.m1" intent=":literal"><semantics><mi class="ltx_font_mathcaligraphic">𝒮</mi><annotation encoding="application/x-tex">\mathcal{S}</annotation></semantics></math> used an assumed <em class="ltx_emph ltx_font_italic">general</em> internal rule of inference (<math alttext="\vdash" class="ltx_Math" display="inline" id="S4.I2.i3.p1.m2" intent=":literal"><semantics><mo>⊢</mo><annotation encoding="application/x-tex">\vdash</annotation></semantics></math>) to deduce an action that directly <span class="ltx_text ltx_font_bold">falsified</span> one of its own proven theorems (<math alttext="P_{new}" class="ltx_Math" display="inline" id="S4.I2.i3.p1.m3" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math>).</p>
+</div>
+<div class="ltx_para" id="S4.I2.i3.p2">
+<p class="ltx_p">A consistent logical system cannot contain an internal rule that invalidates its own conclusions. This form of self-referential paradox is structurally analogous to the proof of Gödel’s Second Incompleteness Theorem.</p>
+</div>
+<div class="ltx_para" id="S4.I2.i3.p3">
+<p class="ltx_p">Both potential forms of a <em class="ltx_emph ltx_font_italic">general</em> grounding rule are thus shown to be impossible. Case 1 fails on information-theoretic grounds, and Case 2 (the general internal rule) fails on grounds of logical inconsistency.</p>
+</div>
+<div class="ltx_para" id="S4.I2.i3.p4">
+<p class="ltx_p">This does not mean that <em class="ltx_emph ltx_font_italic">no</em> grounding act can be deduced (a restricted, specific rule for a limited subset of symbols may well be possible). However, it proves that the grounding process <span class="ltx_text ltx_font_bold">as a whole is not reducible to internal logic</span>. Because no <em class="ltx_emph ltx_font_italic">general</em> rule exists that can handle all cases, it follows logically that <span class="ltx_text ltx_font_bold">there must exist grounding acts (like for <math alttext="P_{new}" class="ltx_Math" display="inline" id="S4.I2.i3.p4.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math>) that are non-inferable</span> from within the system.</p>
+</div>
+</li>
+</ol>
+<p class="ltx_p">∎</p>
+</div>
+</div>
+<div class="ltx_para" id="S4.p4">
+<p class="ltx_p">This proves that while <em class="ltx_emph ltx_font_italic">some</em> grounding acts may be deductive, the grounding process <span class="ltx_text ltx_font_bold">in its entirety</span> is not. The grounding of novel, system-transcending truths (like <math alttext="P_{new}" class="ltx_Math" display="inline" id="S4.p4.m1" intent=":literal"><semantics><msub><mi>P</mi><mrow><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>w</mi></mrow></msub><annotation encoding="application/x-tex">P_{new}</annotation></semantics></math>) is not a conclusion reached within the system’s existing rules but is analogous to adding a new axiom from outside. This provides a formal basis for the "Aha!" moments or paradigm shifts in cognition, which are not deductions but restructurings of the axiomatic foundation itself.</p>
+</div>
+</section>
+<section class="ltx_section" id="S5">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">5 </span>The Incompleteness of Algorithmic Judgment</h2>
+<div class="ltx_para" id="S5.p1">
+<p class="ltx_p">The final question remains: if the grounding act is a meta-level update, can this update process be governed by a separate, more powerful, but still algorithmic, "judgment system"?</p>
+</div>
+<div class="ltx_theorem ltx_theorem_definition" id="S5.Thmdefinition1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Definition 5.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Cognitive Super-System)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S5.Thmdefinition1.p1">
+<p class="ltx_p">A cognitive super-system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.Thmdefinition1.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math> consists of:</p>
+<ul class="ltx_itemize" id="S5.I1">
+<li class="ltx_item" id="S5.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S5.I1.i1.p1">
+<p class="ltx_p">An <span class="ltx_text ltx_font_bold">Object System</span> <math alttext="\mathcal{S}_{1}=\langle S,D,G,\vdash_{1}\rangle" class="ltx_math_unparsed" display="inline" id="S5.I1.i1.p1.m1" intent=":literal"><semantics><mrow><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>1</mn></msub><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mi>S</mi><mo>,</mo><mi>D</mi><mo>,</mo><mi>G</mi><mo>,</mo><msub><mo lspace="0em" rspace="0em">⊢</mo><mn>1</mn></msub><mo stretchy="false">⟩</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{S}_{1}=\langle S,D,G,\vdash_{1}\rangle</annotation></semantics></math>, representing the agent’s knowledge.</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">•</span>
+<div class="ltx_para" id="S5.I1.i2.p1">
+<p class="ltx_p">A <span class="ltx_text ltx_font_bold">Judgment System</span> <math alttext="\mathcal{S}_{2}=\langle M,R,\vdash_{2}\rangle" class="ltx_math_unparsed" display="inline" id="S5.I1.i2.p1.m1" intent=":literal"><semantics><mrow><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>2</mn></msub><mo>=</mo><mrow><mo stretchy="false">⟨</mo><mi>M</mi><mo>,</mo><mi>R</mi><mo>,</mo><msub><mo lspace="0em" rspace="0em">⊢</mo><mn>2</mn></msub><mo stretchy="false">⟩</mo></mrow></mrow><annotation encoding="application/x-tex">\mathcal{S}_{2}=\langle M,R,\vdash_{2}\rangle</annotation></semantics></math>, an external system with a set of <span class="ltx_text ltx_font_bold">fixed, algorithmic judgment rules</span> <math alttext="R" class="ltx_Math" display="inline" id="S5.I1.i2.p1.m2" intent=":literal"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math>. The rules in <math alttext="R" class="ltx_Math" display="inline" id="S5.I1.i2.p1.m3" intent=":literal"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math> take the state of <math alttext="\mathcal{S}_{1}" class="ltx_Math" display="inline" id="S5.I1.i2.p1.m4" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>1</mn></msub><annotation encoding="application/x-tex">\mathcal{S}_{1}</annotation></semantics></math> as input and output grounding commands.</p>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="ltx_theorem ltx_theorem_theorem" id="S5.Thmtheorem1">
+<h6 class="ltx_title ltx_runin ltx_title_theorem">
+<span class="ltx_tag ltx_tag_theorem"><span class="ltx_text ltx_font_bold">Theorem 5.1</span></span><span class="ltx_text ltx_font_bold"> </span>(Limitation of Logical Judgment Systems)<span class="ltx_text ltx_font_bold">.</span>
+</h6>
+<div class="ltx_para" id="S5.Thmtheorem1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_italic">Any cognitive super-system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.Thmtheorem1.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math> with a fixed, algorithmic judgment system is itself an incomplete deductive system.</span></p>
+</div>
+</div>
+<div class="ltx_proof">
+<h6 class="ltx_title ltx_runin ltx_font_italic ltx_title_proof">Proof.</h6>
+<div class="ltx_para" id="S5.p2">
+<ol class="ltx_enumerate" id="S5.I2">
+<li class="ltx_item" id="S5.I2.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S5.I2.i1.p1">
+<p class="ltx_p">The core insight is that because the judgment rules <math alttext="R" class="ltx_Math" display="inline" id="S5.I2.i1.p1.m1" intent=":literal"><semantics><mi>R</mi><annotation encoding="application/x-tex">R</annotation></semantics></math> of <math alttext="\mathcal{S}_{2}" class="ltx_Math" display="inline" id="S5.I2.i1.p1.m2" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\mathcal{S}_{2}</annotation></semantics></math> are fixed and algorithmic, the behavior of the entire super-system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i1.p1.m3" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math> (including all its future state updates) is completely determined by a fixed set of initial axioms and rules.</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I2.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S5.I2.i2.p1">
+<p class="ltx_p">Therefore, the super-system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i2.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math> is itself a larger, more complex, but ultimately <span class="ltx_text ltx_font_bold">static deductive symbolic system</span>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I2.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="S5.I2.i3.p1">
+<p class="ltx_p">We can now apply Theorem 3.1 (the limitation of static grounding) directly to this super-system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i3.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math>.</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I2.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">4.</span>
+<div class="ltx_para" id="S5.I2.i4.p1">
+<p class="ltx_p">For the system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i4.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math>, we can construct a Gödel-style sentence <math alttext="P^{*}" class="ltx_Math" display="inline" id="S5.I2.i4.p1.m2" intent=":literal"><semantics><msup><mi>P</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">P^{*}</annotation></semantics></math> with the content: "<span class="ltx_text ltx_font_bold">This sentence cannot be grounded by the rules of the super-system <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i4.p1.m3" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math></span>."</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I2.i5" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">5.</span>
+<div class="ltx_para" id="S5.I2.i5.p1">
+<p class="ltx_p">As per the proof of Theorem 3.1, we know that if <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i5.p1.m1" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math> is consistent, then (a) <math alttext="\mathcal{S}^{*}\vdash P^{*}" class="ltx_Math" display="inline" id="S5.I2.i5.p1.m2" intent=":literal"><semantics><mrow><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><mo>⊢</mo><msup><mi>P</mi><mo>∗</mo></msup></mrow><annotation encoding="application/x-tex">\mathcal{S}^{*}\vdash P^{*}</annotation></semantics></math> (it is provable within the super-system’s logic) and (b) <math alttext="P^{*}" class="ltx_Math" display="inline" id="S5.I2.i5.p1.m3" intent=":literal"><semantics><msup><mi>P</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">P^{*}</annotation></semantics></math> is not groundable by the rules of <math alttext="\mathcal{S}^{*}" class="ltx_Math" display="inline" id="S5.I2.i5.p1.m4" intent=":literal"><semantics><msup><mi class="ltx_font_mathcaligraphic">𝒮</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">\mathcal{S}^{*}</annotation></semantics></math> (which includes the judgment rules of <math alttext="\mathcal{S}_{2}" class="ltx_Math" display="inline" id="S5.I2.i5.p1.m5" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\mathcal{S}_{2}</annotation></semantics></math>).</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I2.i6" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">6.</span>
+<div class="ltx_para" id="S5.I2.i6.p1">
+<p class="ltx_p">This means the judgment system <math alttext="\mathcal{S}_{2}" class="ltx_Math" display="inline" id="S5.I2.i6.p1.m1" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>2</mn></msub><annotation encoding="application/x-tex">\mathcal{S}_{2}</annotation></semantics></math>, which was designed to handle all necessary grounding acts, has failed. It is faced with a truth <math alttext="P^{*}" class="ltx_Math" display="inline" id="S5.I2.i6.p1.m2" intent=":literal"><semantics><msup><mi>P</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">P^{*}</annotation></semantics></math> that its own rules cannot ground. To ground <math alttext="P^{*}" class="ltx_Math" display="inline" id="S5.I2.i6.p1.m3" intent=":literal"><semantics><msup><mi>P</mi><mo>∗</mo></msup><annotation encoding="application/x-tex">P^{*}</annotation></semantics></math>, one would need a yet higher-order judgment system <math alttext="\mathcal{S}_{3}" class="ltx_Math" display="inline" id="S5.I2.i6.p1.m4" intent=":literal"><semantics><msub><mi class="ltx_font_mathcaligraphic">𝒮</mi><mn>3</mn></msub><annotation encoding="application/x-tex">\mathcal{S}_{3}</annotation></semantics></math>, leading to an infinite regress.</p>
+</div>
+</li>
+<li class="ltx_item" id="S5.I2.i7" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">7.</span>
+<div class="ltx_para" id="S5.I2.i7.p1">
+<p class="ltx_p">This hierarchical paradox is analogous to arguments against strong AI, such as Searle’s Chinese Room, where adding more layers of symbolic processing fails to bridge the gap to semantics<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib4" title="">4</a>]</cite>. Therefore, any attempt to fully simulate the open, dynamic grounding process with a fixed, algorithmic system is logically bound to fail.</p>
+</div>
+</li>
+</ol>
+<p class="ltx_p">∎</p>
+</div>
+</div>
+</section>
+<section class="ltx_section" id="S6">
+<h2 class="ltx_title ltx_title_section">
+<span class="ltx_tag ltx_tag_section">6 </span>Conclusion</h2>
+<div class="ltx_para" id="S6.p1">
+<p class="ltx_p">This paper has constructed a unified, four-part formal proof demonstrating the fundamental logical limits of symbol grounding. Our chain of reasoning leads to a single, powerful conclusion: <span class="ltx_text ltx_font_bold">a system of meaning must, by logical necessity, be an infinitely open universe.</span></p>
+</div>
+<div class="ltx_para" id="S6.p2">
+<p class="ltx_p">We have shown that:</p>
+<ol class="ltx_enumerate" id="S6.I1">
+<li class="ltx_item" id="S6.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="S6.I1.i1.p1">
+<p class="ltx_p">Meaning cannot be generated internally within a closed symbolic loop (<span class="ltx_text ltx_font_bold">impossibility of self-grounding</span>). It requires an external connection.</p>
+</div>
+</li>
+<li class="ltx_item" id="S6.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="S6.I1.i2.p1">
+<p class="ltx_p">This external connection cannot be a one-time, fixed set of experiences. Any static foundation is inherently incomplete, necessitating a <span class="ltx_text ltx_font_bold">dynamic process</span> of continuous grounding.</p>
+</div>
+</li>
+<li class="ltx_item" id="S6.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="S6.I1.i3.p1">
+<p class="ltx_p">The act of expanding this connection for novel, emergent truths is not a logical deduction. This proves that the grounding process is <span class="ltx_text ltx_font_bold">logically incomplete</span>, and that <span class="ltx_text ltx_font_bold">non-inferable, axiomatic updates</span> are a necessary part of it.</p>
+</div>
+</li>
+<li class="ltx_item" id="S6.I1.i4" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">4.</span>
+<div class="ltx_para" id="S6.I1.i4.p1">
+<p class="ltx_p">This update process cannot be fully captured by any fixed, external algorithm. The meta-system responsible for grounding must itself be open and <span class="ltx_text ltx_font_bold">non-algorithmic</span>.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="ltx_para" id="S6.p3">
+<p class="ltx_p">This result places a Gödelian limit on strong computationalism<cite class="ltx_cite ltx_citemacro_cite">[<a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib1" title="">1</a>, <a class="ltx_ref" href="https://arxiv.org/html/2509.20409v3#bib.bib4" title="">4</a>]</cite>, suggesting that core aspects of intelligence, such as understanding and the "Aha!" moment of insight, are not reducible to a fixed set of computations. The essence of meaning lies not in the symbols themselves or even in a static map to the world, but in the open-ended, non-algorithmic process of continuously and creatively updating that map.</p>
+</div>
+</section>
+<section class="ltx_bibliography" id="bib">
+<h2 class="ltx_title ltx_title_bibliography">References</h2>
+<ul class="ltx_biblist">
+<li class="ltx_bibitem" id="bib.bib1">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[1]</span>
+<span class="ltx_bibblock">
+Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. <span class="ltx_text ltx_font_italic">Monatshefte für Mathematik und Physik</span>, 38(1), 173-198.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib2">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[2]</span>
+<span class="ltx_bibblock">
+Harnad, S. (1990). The symbol grounding problem. <span class="ltx_text ltx_font_italic">Physica D: Nonlinear Phenomena</span>, 42(1-3), 335-346.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib3">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[3]</span>
+<span class="ltx_bibblock">
+Kripke, S. A. (1975). Outline of a Theory of Truth. <span class="ltx_text ltx_font_italic">The Journal of Philosophy</span>, 72(19), 690-716.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib4">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[4]</span>
+<span class="ltx_bibblock">
+Searle, J. R. (1980). Minds, brains, and programs. <span class="ltx_text ltx_font_italic">Behavioral and Brain Sciences</span>, 3(3), 417-424.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib5">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[5]</span>
+<span class="ltx_bibblock">
+Smullyan, R. M. (1992). <span class="ltx_text ltx_font_italic">Gödel’s Incompleteness Theorems</span>. Oxford University Press.
+
+</span>
+</li>
+<li class="ltx_bibitem" id="bib.bib6">
+<span class="ltx_tag ltx_role_refnum ltx_tag_bibitem">[6]</span>
+<span class="ltx_bibblock">
+Tarski, A. (1944). The Semantic Conception of Truth: and the Foundations of Semantics. <span class="ltx_text ltx_font_italic">Philosophy and Phenomenological Research</span>, 4(3), 341-376.
+
+</span>
+</li>
+</ul>
+</section>
+<section class="ltx_appendix" id="A1">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix A </span>Formal Construction of the Groundability Predicate</h2>
+<div class="ltx_para" id="A1.p1">
+<p class="ltx_p">This appendix provides a more detailed formal construction of the <math alttext="Groundable(n)" class="ltx_Math" display="inline" id="A1.p1.m1" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable(n)</annotation></semantics></math> predicate within a system containing Peano Arithmetic, demonstrating that Axiom 2.1 is well-founded.</p>
+</div>
+<div class="ltx_para" id="A1.p2">
+<ol class="ltx_enumerate" id="A1.I1">
+<li class="ltx_item" id="A1.I1.i1" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">1.</span>
+<div class="ltx_para" id="A1.I1.i1.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Arithmetization of Syntax:</span> We assume standard Gödel numbering. The definition function <math alttext="D" class="ltx_Math" display="inline" id="A1.I1.i1.p1.m1" intent=":literal"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math> is assumed to be recursive, so the relation "<math alttext="m\in D(n)" class="ltx_Math" display="inline" id="A1.I1.i1.p1.m2" intent=":literal"><semantics><mrow><mi>m</mi><mo>∈</mo><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">m\in D(n)</annotation></semantics></math>" can be represented by a recursive arithmetic predicate <math alttext="Def(\ulcorner m\urcorner,\ulcorner n\urcorner)" class="ltx_Math" display="inline" id="A1.I1.i1.p1.m3" intent=":literal"><semantics><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>f</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo>,</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Def(\ulcorner m\urcorner,\ulcorner n\urcorner)</annotation></semantics></math>. The predicate for membership in the grounding set, <math alttext="is\_in\_G(\ulcorner g\urcorner)" class="ltx_Math" display="inline" id="A1.I1.i1.p1.m4" intent=":literal"><semantics><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">_</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">_</mi><mo lspace="0em" rspace="0em">​</mo><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">is\_in\_G(\ulcorner g\urcorner)</annotation></semantics></math>, is syntactically well-formed, even if its extension is empty (as in a purely symbolic system).</p>
+</div>
+</li>
+<li class="ltx_item" id="A1.I1.i2" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">2.</span>
+<div class="ltx_para" id="A1.I1.i2.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Arithmetization of Definitional Closure:</span> The definitional closure <math alttext="C(s)" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m1" intent=":literal"><semantics><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">C(s)</annotation></semantics></math> is the transitive closure of the relation defined by <math alttext="D" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m2" intent=":literal"><semantics><mi>D</mi><annotation encoding="application/x-tex">D</annotation></semantics></math>. The transitive closure of a recursive relation is itself recursive. We can define a predicate <math alttext="InClosure(m,n)" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m3" intent=":literal"><semantics><mrow><mi>I</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>m</mi><mo>,</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">InClosure(m,n)</annotation></semantics></math> which is true iff <math alttext="\ulcorner m\urcorner\in C(\ulcorner n\urcorner)" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m4" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>m</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo>∈</mo><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow><annotation encoding="application/x-tex">\ulcorner m\urcorner\in C(\ulcorner n\urcorner)</annotation></semantics></math>. This is expressible by stating that there exists a finite sequence (coded as a single number) <math alttext="s_{0},s_{1},\dots,s_{k}" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m5" intent=":literal"><semantics><mrow><msub><mi>s</mi><mn>0</mn></msub><mo>,</mo><msub><mi>s</mi><mn>1</mn></msub><mo>,</mo><mi mathvariant="normal">…</mi><mo>,</mo><msub><mi>s</mi><mi>k</mi></msub></mrow><annotation encoding="application/x-tex">s_{0},s_{1},\dots,s_{k}</annotation></semantics></math> such that <math alttext="\ulcorner s_{0}\urcorner=n" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m6" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>s</mi><mn>0</mn></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo>=</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">\ulcorner s_{0}\urcorner=n</annotation></semantics></math>, <math alttext="\ulcorner s_{k}\urcorner=m" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m7" intent=":literal"><semantics><mrow><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>s</mi><mi>k</mi></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo>=</mo><mi>m</mi></mrow><annotation encoding="application/x-tex">\ulcorner s_{k}\urcorner=m</annotation></semantics></math>, and for all <math alttext="i&lt;k" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m8" intent=":literal"><semantics><mrow><mi>i</mi><mo>&lt;</mo><mi>k</mi></mrow><annotation encoding="application/x-tex">i&lt;k</annotation></semantics></math>, <math alttext="Def(\ulcorner s_{i+1}\urcorner,\ulcorner s_{i}\urcorner)" class="ltx_Math" display="inline" id="A1.I1.i2.p1.m9" intent=":literal"><semantics><mrow><mi>D</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mi>f</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>s</mi><mrow><mi>i</mi><mo>+</mo><mn>1</mn></mrow></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo>,</mo><mrow><mi mathvariant="normal">⌜</mi><mo lspace="0em" rspace="0em">​</mo><msub><mi>s</mi><mi>i</mi></msub><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">⌝</mi></mrow><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Def(\ulcorner s_{i+1}\urcorner,\ulcorner s_{i}\urcorner)</annotation></semantics></math> holds.</p>
+</div>
+</li>
+<li class="ltx_item" id="A1.I1.i3" style="list-style-type:none;">
+<span class="ltx_tag ltx_tag_item">3.</span>
+<div class="ltx_para" id="A1.I1.i3.p1">
+<p class="ltx_p"><span class="ltx_text ltx_font_bold">Definition of Groundable(n):</span> With the above components, we can formally define the <math alttext="Groundable(n)" class="ltx_Math" display="inline" id="A1.I1.i3.p1.m1" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable(n)</annotation></semantics></math> predicate as:</p>
+<table class="ltx_equation ltx_eqn_table" id="A1.Ex3">
+<tbody><tr class="ltx_equation ltx_eqn_row ltx_align_baseline">
+<td class="ltx_eqn_cell ltx_eqn_center_padleft"></td>
+<td class="ltx_eqn_cell ltx_align_center"><math alttext="Groundable(n)\equiv\exists g(is\_in\_G(g)\land InClosure(g,n))" class="ltx_Math" display="block" id="A1.Ex3.m1" intent=":literal"><semantics><mrow><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><mo>≡</mo><mrow><mo rspace="0.167em">∃</mo><mrow><mi>g</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mrow><mrow><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">_</mi><mo lspace="0em" rspace="0em">​</mo><mi>i</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi mathvariant="normal">_</mi><mo lspace="0em" rspace="0em">​</mo><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>g</mi><mo stretchy="false">)</mo></mrow></mrow><mo>∧</mo><mrow><mi>I</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>s</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>g</mi><mo>,</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow></mrow><mo stretchy="false">)</mo></mrow></mrow></mrow></mrow><annotation encoding="application/x-tex">Groundable(n)\equiv\exists g(is\_in\_G(g)\land InClosure(g,n))</annotation></semantics></math></td>
+<td class="ltx_eqn_cell ltx_eqn_center_padright"></td>
+</tr></tbody>
+</table>
+<p class="ltx_p">Since all components of this formula are recursive, the predicate <math alttext="Groundable(n)" class="ltx_Math" display="inline" id="A1.I1.i3.p1.m2" intent=":literal"><semantics><mrow><mi>G</mi><mo lspace="0em" rspace="0em">​</mo><mi>r</mi><mo lspace="0em" rspace="0em">​</mo><mi>o</mi><mo lspace="0em" rspace="0em">​</mo><mi>u</mi><mo lspace="0em" rspace="0em">​</mo><mi>n</mi><mo lspace="0em" rspace="0em">​</mo><mi>d</mi><mo lspace="0em" rspace="0em">​</mo><mi>a</mi><mo lspace="0em" rspace="0em">​</mo><mi>b</mi><mo lspace="0em" rspace="0em">​</mo><mi>l</mi><mo lspace="0em" rspace="0em">​</mo><mi>e</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>n</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">Groundable(n)</annotation></semantics></math> is itself recursive and thus expressible within the system.</p>
+</div>
+</li>
+</ol>
+</div>
+</section>
+<section class="ltx_appendix" id="A2">
+<h2 class="ltx_title ltx_title_appendix">
+<span class="ltx_tag ltx_tag_appendix">Appendix B </span>Glossary of Key Terms</h2>
+<div class="ltx_para" id="A2.p1">
+<table class="ltx_tabular ltx_guessed_headers ltx_align_middle">
+<thead class="ltx_thead">
+<tr class="ltx_tr">
+<th class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;"><span class="ltx_text ltx_font_bold">Term</span></span>
+</span>
+</th>
+<th class="ltx_td ltx_align_justify ltx_align_top ltx_th ltx_th_column ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;"><span class="ltx_text ltx_font_bold">Definition</span></span>
+</span>
+</th>
+</tr>
+</thead>
+<tbody class="ltx_tbody">
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Symbolic Language</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_t">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">A formal system consisting of symbols and definition rules.</span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Grounding Set (<math alttext="G" class="ltx_Math" display="inline" id="A2.p1.m1" intent=":literal"><semantics><mi>G</mi><annotation encoding="application/x-tex">G</annotation></semantics></math>)</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">The set of symbols whose meanings are given externally.</span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Purely Symbolic System</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">A system where the grounding set is empty (<math alttext="G=\emptyset" class="ltx_Math" display="inline" id="A2.p1.m2" intent=":literal"><semantics><mrow><mi>G</mi><mo>=</mo><mi mathvariant="normal">∅</mi></mrow><annotation encoding="application/x-tex">G=\emptyset</annotation></semantics></math>).</span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Definitional Closure (<math alttext="C(s)" class="ltx_Math" display="inline" id="A2.p1.m3" intent=":literal"><semantics><mrow><mi>C</mi><mo lspace="0em" rspace="0em">​</mo><mrow><mo stretchy="false">(</mo><mi>s</mi><mo stretchy="false">)</mo></mrow></mrow><annotation encoding="application/x-tex">C(s)</annotation></semantics></math>)</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">The set of all symbols used directly or indirectly to define a symbol <math alttext="s" class="ltx_Math" display="inline" id="A2.p1.m4" intent=":literal"><semantics><mi>s</mi><annotation encoding="application/x-tex">s</annotation></semantics></math>.</span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Groundability</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">The property of a symbol whose definitional closure intersects with the grounding set.</span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Semantic Deferral</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">The state of an ungroundable symbol whose meaning is endlessly deferred.</span>
+</span>
+</td>
+</tr>
+<tr class="ltx_tr">
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_b">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:128.0pt;">Diagonal Lemma</span>
+</span>
+</td>
+<td class="ltx_td ltx_align_justify ltx_align_top ltx_border_b">
+<span class="ltx_inline-block ltx_align_top">
+<span class="ltx_p" style="width:227.6pt;">A theorem that allows a formal system to construct self-referential sentences.</span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+</article>
+</div>
+<footer class="ltx_page_footer">
+<div class="ltx_page_logo">Generated  on Wed Nov  5 10:05:54 2025 by <a class="ltx_LaTeXML_logo" href="http://dlmf.nist.gov/LaTeXML/"><span style="letter-spacing:-0.2em; margin-right:0.1em;">L<span class="ltx_font_smallcaps" style="position:relative; bottom:2.2pt;">a</span>T<span class="ltx_font_smallcaps" style="font-size:120%;position:relative; bottom:-0.2ex;">e</span></span><span style="font-size:90%; position:relative; bottom:-0.2ex;">XML</span><img alt="Mascot Sammy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD5YeaVAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEwAACxMBAJqcGAAAAAd0SU1FB9wKExQZLWTEaOUAAAAddEVYdENvbW1lbnQAQ3JlYXRlZCB3aXRoIFRoZSBHSU1Q72QlbgAAAdpJREFUKM9tkL+L2nAARz9fPZNCKFapUn8kyI0e4iRHSR1Kb8ng0lJw6FYHFwv2LwhOpcWxTjeUunYqOmqd6hEoRDhtDWdA8ApRYsSUCDHNt5ul13vz4w0vWCgUnnEc975arX6ORqN3VqtVZbfbTQC4uEHANM3jSqXymFI6yWazP2KxWAXAL9zCUa1Wy2tXVxheKA9YNoR8Pt+aTqe4FVVVvz05O6MBhqUIBGk8Hn8HAOVy+T+XLJfLS4ZhTiRJgqIoVBRFIoric47jPnmeB1mW/9rr9ZpSSn3Lsmir1fJZlqWlUonKsvwWwD8ymc/nXwVBeLjf7xEKhdBut9Hr9WgmkyGEkJwsy5eHG5vN5g0AKIoCAEgkEkin0wQAfN9/cXPdheu6P33fBwB4ngcAcByHJpPJl+fn54mD3Gg0NrquXxeLRQAAwzAYj8cwTZPwPH9/sVg8PXweDAauqqr2cDjEer1GJBLBZDJBs9mE4zjwfZ85lAGg2+06hmGgXq+j3+/DsixYlgVN03a9Xu8jgCNCyIegIAgx13Vfd7vdu+FweG8YRkjXdWy329+dTgeSJD3ieZ7RNO0VAXAPwDEAO5VKndi2fWrb9jWl9Esul6PZbDY9Go1OZ7PZ9z/lyuD3OozU2wAAAABJRU5ErkJggg=="/></a>
+</div></footer>
+</div>
+</body>
+</html>

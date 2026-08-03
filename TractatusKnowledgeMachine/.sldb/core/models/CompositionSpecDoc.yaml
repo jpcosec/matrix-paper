@@ -1,0 +1,13 @@
+name: CompositionSpecDoc
+model_ref: sldb_models.spec:CompositionSpecDoc
+path: sldb_models/spec.py
+documents_index: .sldb/core/documents/CompositionSpecDoc.yaml
+sections_index: .sldb/runtime/sections/CompositionSpecDoc.yaml
+hash_b: 6dc817a33adf0f3a754139a8d9474bfd4a4f6cb432a757a179951dc91ab080ca
+version: 1
+canonical: false
+family: null
+semantics:
+- type.knowledge.composition-spec
+- workspace.desk.atoms.composiciones_spec
+base_models: []

@@ -1,0 +1,168 @@
+@prefix onto: <http://ontomap.io/ontology#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh:   <http://www.w3.org/ns/shacl#> .
+
+# ─────────────────────────────────────────────
+# ONTOLOGÍA BASE
+# ─────────────────────────────────────────────
+
+<http://ontomap.io/ontology> a owl:Ontology ;
+    rdfs:label "OntoMap Core Ontology" .
+
+
+# ══════════════════════════════════════════════
+# 1. JERARQUÍA DE NODOS
+#    Extensible sin modificar el núcleo:
+#    basta con rdfs:subClassOf al tipo base.
+# ══════════════════════════════════════════════
+
+onto:Entity a owl:Class ;
+    rdfs:label "Entity" .
+
+onto:Actor   a owl:Class ; rdfs:subClassOf onto:Entity ; rdfs:label "Actor" .
+onto:Zone    a owl:Class ; rdfs:subClassOf onto:Entity ; rdfs:label "Zone" .
+onto:Artifact a owl:Class ; rdfs:subClassOf onto:Entity ; rdfs:label "Artifact" .
+onto:Process a owl:Class ; rdfs:subClassOf onto:Entity ; rdfs:label "Process" .
+
+# Los 4 tipos son disjuntos entre sí
+[] a owl:AllDisjointClasses ;
+    owl:members ( onto:Actor onto:Zone onto:Artifact onto:Process ) .
+
+# ── Extensiones de ejemplo (subclases concretas) ──
+onto:LLMAgent    rdfs:subClassOf onto:Actor .
+onto:HumanAgent  rdfs:subClassOf onto:Actor .
+onto:CLI         rdfs:subClassOf onto:Actor .
+
+onto:FileSystem  rdfs:subClassOf onto:Zone .
+onto:Database    rdfs:subClassOf onto:Zone .
+onto:LogicSpace  rdfs:subClassOf onto:Zone .
+
+onto:Document    rdfs:subClassOf onto:Artifact .
+onto:CodeModule  rdfs:subClassOf onto:Artifact .
+onto:DataModel   rdfs:subClassOf onto:Artifact .
+
+onto:Algorithm   rdfs:subClassOf onto:Process .
+onto:Ritual      rdfs:subClassOf onto:Process .
+
+
+# ══════════════════════════════════════════════
+# 2. ARISTAS COMO INDIVIDUOS (reificación limpia)
+#    Maneja "sobrecarga de aristas": dos nodos
+#    pueden tener N aristas con semánticas distintas.
+# ══════════════════════════════════════════════
+
+onto:OntologyEdge a owl:Class ;
+    rdfs:label "Ontology Edge" .
+
+onto:source a owl:ObjectProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:range  onto:Entity .
+
+onto:target a owl:ObjectProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:range  onto:Entity .
+
+
+# ══════════════════════════════════════════════
+# 3. JERARQUÍA DE LAS 6 DIMENSIONES
+#    Cada dimensión es una propiedad abstracta.
+#    Los valores concretos son sub-propiedades,
+#    lo que habilita inferencia transitiva en el
+#    motor OWL.
+# ══════════════════════════════════════════════
+
+# ── WHERE (Topología / Composición) ──────────
+onto:where a owl:ObjectProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:label  "where" .
+
+onto:contains      rdfs:subPropertyOf onto:where ;
+    a owl:IrreflexiveProperty .         # nada se contiene a sí mismo
+onto:isLocatedIn   rdfs:subPropertyOf onto:where .
+onto:persistsAt    rdfs:subPropertyOf onto:where .
+onto:belongsTo     rdfs:subPropertyOf onto:where .
+
+# ── WHAT (Semántica Estructural) ─────────────
+onto:what a owl:ObjectProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:label  "what" .
+
+onto:informs       rdfs:subPropertyOf onto:what .
+onto:organizes     rdfs:subPropertyOf onto:what .
+onto:validates     rdfs:subPropertyOf onto:what .
+onto:dependsOn     rdfs:subPropertyOf onto:what ;
+    a owl:IrreflexiveProperty .         # no auto-dependencia
+onto:inherits      rdfs:subPropertyOf onto:what .
+onto:implements    rdfs:subPropertyOf onto:what .
+onto:composes      rdfs:subPropertyOf onto:what .
+onto:referencesById rdfs:subPropertyOf onto:what .
+onto:refsById      rdfs:subPropertyOf onto:what .
+onto:transitionsTo rdfs:subPropertyOf onto:what .
+onto:stateUpdate   rdfs:subPropertyOf onto:what .
+
+# ── WHEN (Temporalidad / Estado) ─────────────
+onto:when a owl:DatatypeProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:range  xsd:string ;
+    rdfs:label  "when" .
+# Nota: 'when' usa DatatypeProperty porque sus valores
+# son etiquetas de fase/estado (strings o IRIs controlados),
+# no individuos del grafo.
+
+# ── HOW (Mecánica) ───────────────────────────
+onto:how a owl:DatatypeProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:range  xsd:string ;
+    rdfs:label  "how" .
+
+# ── WHY (Racionalidad / Regla de Negocio) ─────
+onto:why a owl:DatatypeProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:range  xsd:string ;
+    rdfs:label  "why" .
+
+# ── WHO (Contexto de Actor) ───────────────────
+onto:who a owl:ObjectProperty ;
+    rdfs:domain onto:OntologyEdge ;
+    rdfs:range  onto:Actor ;
+    rdfs:label  "who" .
+
+
+# ══════════════════════════════════════════════
+# 4. AXIOMAS OWL (inferencias automáticas)
+# ══════════════════════════════════════════════
+
+# Si A contains B y B contains C → A contains C
+onto:contains a owl:TransitiveProperty .
+
+# Si A dependsOn B → B no dependsOn A (asimetría)
+onto:dependsOn a owl:AsymmetricProperty .
+
+# Solo los Actor pueden ser origen de who
+# (expresado como restricción de rango ya declarada arriba)
+
+
+# ══════════════════════════════════════════════
+# 5. RESTRICCIONES SHACL
+#    Lo que OWL no puede expresar (aciclicidad de DAGs)
+#    se delega a SHACL o SPARQL ASK.
+# ══════════════════════════════════════════════
+
+onto:EdgeShape a sh:NodeShape ;
+    sh:targetClass onto:OntologyEdge ;
+    sh:property [
+        sh:path onto:source ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class onto:Entity ;
+    ] ;
+    sh:property [
+        sh:path onto:target ;
+        sh:minCount 1 ; sh:maxCount 1 ;
+        sh:class onto:Entity ;
+    ] .
+
+# Constraint: el sub-grafo where=contains debe ser DAG
+# (se verifica con SPARQL ASK, ver queries/check_dag.sparql)

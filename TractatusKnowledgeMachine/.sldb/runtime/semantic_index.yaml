@@ -1,0 +1,252 @@
+tags:
+  eje:a:
+  - comp_eje_a
+  eje:b:
+  - comp_eje_b
+  eje:c:
+  - comp_eje_c
+  eje:d:
+  - comp_eje_d
+  eje:e:
+  - comp_eje_e
+  eje:reviewer:
+  - comp_eje_reviewer
+  layer:computation:
+  - comp_computacion
+  layer:epistemology:
+  - comp_antecedentes
+  - comp_filosofia
+  layer:mathematics:
+  - comp_matematica
+  layer:philosophy:
+  - comp_isomorfismo
+  layer:review:
+  - comp_gaps
+  system:matrix:
+  - atom-spec-canonical-hypertensor
+  - atom-spec-meel-engine
+  - atom-spec-rule-matrix-compiler
+  - comp_antecedentes
+  - comp_computacion
+  - comp_eje_a
+  - comp_eje_b
+  - comp_eje_c
+  - comp_eje_d
+  - comp_eje_e
+  - comp_eje_reviewer
+  - comp_filosofia
+  - comp_gaps
+  - comp_isomorfismo
+  - comp_matematica
+  topic:conexion-llm:
+  - comp_eje_c
+  topic:diferenciacion:
+  - comp_eje_d
+  topic:embeddings-continuos:
+  - comp_eje_a
+  topic:escalabilidad:
+  - comp_eje_b
+  topic:gaps:
+  - comp_gaps
+  topic:implementacion:
+  - comp_eje_e
+  topic:imposibilidad-continua:
+  - comp_matematica
+  topic:isomorfismo-tractatus:
+  - comp_isomorfismo
+  topic:limites-continuo:
+  - comp_computacion
+  topic:necesidad-discreta:
+  - comp_antecedentes
+  topic:ontologia-discreta:
+  - comp_filosofia
+  topic:revisor-objeciones:
+  - comp_eje_reviewer
+  type.knowledge.composition-review:
+  - comp_antecedentes
+  - comp_aplicaciones
+  - comp_basededatos
+  - comp_computacion
+  - comp_eje_a
+  - comp_eje_b
+  - comp_eje_c
+  - comp_eje_d
+  - comp_eje_e
+  - comp_eje_reviewer
+  - comp_filosofia
+  - comp_fuentes
+  - comp_gaps
+  - comp_isomorfismo
+  - comp_matematica
+  type.knowledge.composition-spec:
+  - atom-spec-canonical-hypertensor
+  - atom-spec-meel-engine
+  - atom-spec-rule-matrix-compiler
+  workspace.desk.atoms.composiciones_review:
+  - comp_antecedentes
+  - comp_aplicaciones
+  - comp_basededatos
+  - comp_computacion
+  - comp_eje_a
+  - comp_eje_b
+  - comp_eje_c
+  - comp_eje_d
+  - comp_eje_e
+  - comp_eje_reviewer
+  - comp_filosofia
+  - comp_fuentes
+  - comp_gaps
+  - comp_isomorfismo
+  - comp_matematica
+  workspace.desk.atoms.composiciones_spec:
+  - atom-spec-canonical-hypertensor
+  - atom-spec-meel-engine
+  - atom-spec-rule-matrix-compiler
+documents:
+  comp_antecedentes:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_antecedentes.md
+    tags:
+    - layer:epistemology
+    - system:matrix
+    - topic:necesidad-discreta
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_computacion:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_computacion.md
+    tags:
+    - layer:computation
+    - system:matrix
+    - topic:limites-continuo
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_filosofia:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_filosofia.md
+    tags:
+    - layer:epistemology
+    - system:matrix
+    - topic:ontologia-discreta
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_matematica:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_matematica.md
+    tags:
+    - layer:mathematics
+    - system:matrix
+    - topic:imposibilidad-continua
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_aplicaciones:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_aplicaciones.md
+    tags:
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_isomorfismo:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_isomorfismo.md
+    tags:
+    - layer:philosophy
+    - system:matrix
+    - topic:isomorfismo-tractatus
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_fuentes:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_fuentes.md
+    tags:
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_basededatos:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_basededatos.md
+    tags:
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_eje_a:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_eje_a.md
+    tags:
+    - eje:a
+    - system:matrix
+    - topic:embeddings-continuos
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_eje_b:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_eje_b.md
+    tags:
+    - eje:b
+    - system:matrix
+    - topic:escalabilidad
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_eje_c:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_eje_c.md
+    tags:
+    - eje:c
+    - system:matrix
+    - topic:conexion-llm
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_eje_d:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_eje_d.md
+    tags:
+    - eje:d
+    - system:matrix
+    - topic:diferenciacion
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_eje_e:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_eje_e.md
+    tags:
+    - eje:e
+    - system:matrix
+    - topic:implementacion
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_eje_reviewer:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_eje_reviewer.md
+    tags:
+    - eje:reviewer
+    - system:matrix
+    - topic:revisor-objeciones
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  comp_gaps:
+    model: CompositionReviewDoc
+    path: atoms/composiciones_review/comp_gaps.md
+    tags:
+    - layer:review
+    - system:matrix
+    - topic:gaps
+    - type.knowledge.composition-review
+    - workspace.desk.atoms.composiciones_review
+  atom-spec-canonical-hypertensor:
+    model: CompositionSpecDoc
+    path: atoms/composiciones_spec/atom-spec-canonical-hypertensor.md
+    tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+  atom-spec-meel-engine:
+    model: CompositionSpecDoc
+    path: atoms/composiciones_spec/atom-spec-meel-engine.md
+    tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec
+  atom-spec-rule-matrix-compiler:
+    model: CompositionSpecDoc
+    path: atoms/composiciones_spec/atom-spec-rule-matrix-compiler.md
+    tags:
+    - system:matrix
+    - type.knowledge.composition-spec
+    - workspace.desk.atoms.composiciones_spec

@@ -1,0 +1,66 @@
+# ─────────────────────────────────────────────────────────────
+# PROYECCIONES ESTÁNDAR — SPARQL sobre el grafo ontológico
+# ─────────────────────────────────────────────────────────────
+PREFIX onto: <http://ontomap.io/ontology#>
+
+# ── 1. Árbol de Composición (AST / Jerarquía espacial) ───────
+#    Filtra: where=contains → árbol de contenedores
+
+SELECT ?parent ?child ?childType WHERE {
+    ?edge a onto:OntologyEdge ;
+          onto:source ?parent ;
+          onto:target ?child ;
+          onto:contains ?_ .           # sub-propiedad de where
+    ?child a ?childType .
+}
+
+
+# ── 2. DAG de Dependencias (orquestación paralela) ────────────
+#    Filtra: what=dependsOn
+
+SELECT ?task ?dependency WHERE {
+    ?edge a onto:OntologyEdge ;
+          onto:source ?task ;
+          onto:target ?dependency ;
+          onto:dependsOn ?_ .
+    ?task       a onto:Artifact .
+    ?dependency a onto:Artifact .
+}
+
+
+# ── 3. Diagrama de Secuencia (flujo Actor → Artifact) ─────────
+#    Filtra: nodos actor/artifact + ordena por when
+
+SELECT ?actor ?artifact ?mechanism ?phase WHERE {
+    ?edge a onto:OntologyEdge ;
+          onto:source  ?actor ;
+          onto:target  ?artifact ;
+          onto:how     ?mechanism ;
+          onto:when    ?phase .
+    ?actor    a onto:Actor .
+    ?artifact a onto:Artifact .
+}
+ORDER BY ?phase
+
+
+# ── 4. Máquina de Estados (ciclo de vida de un Artifact) ──────
+#    Filtra: what=transitionsTo centrado en un artifact
+
+SELECT ?from ?to ?trigger WHERE {
+    ?edge a onto:OntologyEdge ;
+          onto:source       ?from ;
+          onto:target       ?to ;
+          onto:transitionsTo ?_ ;
+          onto:who          ?trigger .
+}
+
+
+# ── 5. Verificación de aciclicidad (check DAG) ────────────────
+#    Retorna true si existe ciclo en sub-grafo contains
+
+ASK {
+    ?edge1 a onto:OntologyEdge ; onto:source ?a ; onto:target ?b ; onto:contains ?_ .
+    ?edge2 a onto:OntologyEdge ; onto:source ?b ; onto:target ?a ; onto:contains ?_ .
+}
+# Nota: para ciclos de longitud > 2, usar SPARQL property paths
+# o una regla Datalog en el razonador.

@@ -1,0 +1,53 @@
+data:
+  components:
+  - kind: core
+    label: ID_TKM
+    name: ID_TKM
+    stages:
+      full_matrix:
+      - PROP_USES_MASKS
+      - PROP_IS_AUTOPLASTIC
+  - kind: core
+    label: ID_ER_FORMULA
+    name: ID_ER_FORMULA
+    stages:
+      full_matrix:
+      - PROP_MEASURES_DENSITY
+  - kind: core
+    label: ID_JAX_ENGINE
+    name: ID_JAX_ENGINE
+    stages:
+      full_matrix:
+      - PROP_DOES_COLLAPSE
+  - kind: core
+    label: ID_MODE_G
+    name: ID_MODE_G
+    stages:
+      full_matrix:
+      - PROP_PRIORITIZES_INTEGRITY
+  - kind: core
+    label: ID_MODE_M
+    name: ID_MODE_M
+    stages:
+      full_matrix:
+      - PROP_PRIORITIZES_FIDELITY
+  views:
+  - id: full_matrix
+    label: Matrix View
+    stages:
+    - id: PROP_USES_MASKS
+      label: PROP_USES_MASKS
+    - id: PROP_MEASURES_DENSITY
+      label: PROP_MEASURES_DENSITY
+    - id: PROP_DOES_COLLAPSE
+      label: PROP_DOES_COLLAPSE
+    - id: PROP_PRIORITIZES_INTEGRITY
+      label: PROP_PRIORITIZES_INTEGRITY
+    - id: PROP_PRIORITIZES_FIDELITY
+      label: PROP_PRIORITIZES_FIDELITY
+    - id: PROP_IS_AUTOPLASTIC
+      label: PROP_IS_AUTOPLASTIC
+id: matrix_TKM_Metatheory
+title: 'Operational Matrix: TKM_Metatheory (W*)'
+type: component_view_matrix
+version: 1.0.0

@@ -1,0 +1,119 @@
+\documentclass{article}
+
+% Pre-load packages
+\usepackage[numbers]{natbib}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+
+% Use the position paper track style
+\usepackage[position]{neurips_2026}
+
+\title{Logical and Semantic Guarantees in LLMs Require More Than Continuous Embeddings}
+
+\author{%
+  Anonymous Author(s) \\
+  Affiliation \\
+  Address \\
+  \texttt{email} \\
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  \textbf{This position paper argues that continuous embeddings are insufficient as the sole semantic substrate for reliable LLM-based systems.} Embeddings support similarity, generalization, and retrieval, but they do not by themselves define what counts as a valid proposition, a category error, a contextual truth, or a recoverable explanation. We argue that future AI systems need an additional representational layer: locally scoped logical spaces in which linguistic signs are separated from logical structure, and propositions are compiled into typed, auditable, context-bound coordinates. To support this position, we define a representational and operational framework for world-local semantic validation grounded in a contextualized boolean algebra over typed binary signatures. Our central claim is that hallucination mitigation should not be treated only as a retrieval problem, but as a representability problem: systems should reject propositions that cannot be expressed within the local grammar of sense.
+\end{abstract}
+
+\section{Introduction}
+
+The rapid advancement of Large Language Models (LLMs) has demonstrated an unprecedented ability to generate fluent text. However, these systems remain plagued by ``hallucinations''---the generation of factually incorrect or logically nonsensical statements. Current research efforts primarily treat hallucinations as failures of retrieval \citep{factscore2023} or calibration \citep{semantic_entropy2024}.
+
+In this paper, we propose that the root of the problem lies deeper: in the representational nature of continuous embeddings. Continuous vector spaces excel at capturing fuzzy similarities, but they lack the structural primitives necessary to define the boundaries of sense. They cannot distinguish between a proposition that is merely ``unlikely'' and one that is ``logically impossible'' within a given domain.
+
+\textbf{This position paper argues that reliable AI systems require a discrete, locally scoped representational layer that separates linguistic signs from logical structure, treating the validity of assertions as a problem of representability within a grammar of sense.} We contend that instead of a single, universal model of truth, we should build systems capable of managing a database of ``local worlds.'' Each world defines its own logical coordinates, and propositions are only admissible if they can be projected into that local space.
+
+\section{The Limits of Continuous Representability}
+
+Modern LLMs represent meaning through points in high-dimensional continuous spaces. While this enables powerful generalization, it introduces fundamental limitations:
+
+\subsection{The Confusion of Similarity and Sense}
+In a continuous space, ``apple'' and ``orange'' are near each other. However, ``the square root of an apple'' is also a reachable point. The geometry does not forbid nonsensical combinations of valid signs. As noted by \citet{ferrone2019}, the gap between distributed and symbolic representations remains a critical hurdle for formal reasoning.
+
+\subsection{Global Coverage vs. Local Validity}
+LLMs are trained on global statistical patterns, leading to a ``flat'' ontology where truth values are averaged over conflicting contexts. A proposition true in a ``Cooking World'' may be false in a ``Botany World.'' Continuous embeddings struggle to maintain these strict boundaries.
+
+\section{The Tractarian Alternative: World-Local Semantics}
+
+We draw inspiration from the early work of Ludwig Wittgenstein. In the \textit{Tractatus Logico-Philosophicus} \citep{wittgenstein1922}, the world is the totality of facts in logical space. Crucially, the ``Grammar of Sense'' (\textit{Sinn}) precedes ``Truth'' (\textit{Wahrheit}).
+
+We propose an architecture where knowledge is stored in \textbf{locally scoped logical worlds} ($W$). A world is a \textbf{coordinate system} defined by its dimensions of discrimination. In this view: (1) Sense is local, (2) Representability is the filter, and (3) Signs (processed by LLMs) are separated from Structure (governed by a symbolic layer).
+
+\section{Methodology: Formal Framework for Semantic Validation}
+
+Our framework formalizes world-local validation through Contextualized Boolean Algebra.
+
+\subsection{The Logical World ($W$)}
+A logical world is defined as a tuple $W = \langle C, \Delta, \Gamma, \Psi \rangle$, where $C$ is the set of names, $\Delta$ a set of discriminative dimensions, $\Gamma$ the Grammar of Sense (constraints), and $\Psi$ the projection function mapping concepts to coordinates.
+
+\subsection{Representation: Bits and Matrices}
+Concepts are compiled into typed binary signatures $\sigma \in \{0, 1\}^n$. We use a \textbf{Bit Dictionary} to bind positions to semantics. Data is organized into:
+\begin{itemize}
+    \item $M_1$ (Concept $\times$ Value): Sparse coordinate matrix.
+    \item $M_1^\intercal$ (Value $\times$ Concept): Inverted index for bucket retrieval.
+\end{itemize}
+
+\subsection{The Contextual Encoding Algorithm}
+The transformation of concepts into validated signatures is governed by the principle of \textbf{Discriminative Necessity}: we represent only the features required to distinguish concepts within the current local universe. 
+
+\paragraph{Example: The Vegetable Domain} Consider a local world $W_{kitchen}$ with universe $U = \{ \text{Lettuce, Carrot, Celery} \}$.
+\begin{enumerate}
+    \item \textbf{Context Definition:} Task = ``Differentiate for cooking.''
+    \item \textbf{Shared Feature Detection:} All share traits such as \texttt{Aliment=1} and \texttt{Vegetable=1}. These define the world's boundary but provide zero discriminative power.
+    \item \textbf{Discriminant Search:} The dimension \texttt{D\_Part} is selected with values $\{\text{Leaf, Root, Stem}\}$.
+    \item \textbf{Signature Generation:} Lettuce projects to $[1, 0, 0]$ (Leaf), Carrot to $[0, 1, 0]$ (Root), and Celery to $[0, 0, 1]$ (Stem). These signatures act as a \textbf{Contextual Semantic Hash}.
+    \item \textbf{Collision Verification:} If ``Spinach'' is added, it also projects to $[1, 0, 0]$ (Leaf). The system triggers a \textbf{Dimension Expansion}, adding \texttt{D\_Structure} (e.g., \texttt{Compact Head} vs \texttt{Loose Leaf}), refining Lettuce to $[1, 0, 0, 1, 0]$ and Spinach to $[1, 0, 0, 0, 1]$.
+\end{enumerate}
+
+\subsection{Operational Logic}
+Validation is performed over the Boolean semiring $(\mathbb{B}, \vee, \wedge, 0, 1)$. Core operations include:
+
+\begin{table}[h]
+  \centering
+  \begin{tabular}{llll}
+    \toprule
+    Operation & Logical Intent & Formal Calculation & Example (Cooking) \\
+    \midrule
+    Projection & Map to coordinates & $P(c, K) \to \sigma \in \{0, 1\}^n$ & Carrot $\to [0, 1, 0]$ \\
+    Similarity & Shared features & $\sigma_{c1} \wedge \sigma_{c2}$ & Lettuce $\wedge$ Spinach $\to [1, 0, 0]$ \\
+    Contrast & Differences & $\sigma_{c1} \oplus \sigma_{c2}$ & Lettuce $\oplus$ Spinach $\to [0, 0, 0, 1, 1]$ \\
+    Collision & Underspecification & $\|M_1^\intercal[v, \cdot]\|_1 > 1$ & Lettuce/Spinach share ``Leaf'' \\
+    Co-membership & Similarity Matrix & $M_1 \times M_1^\intercal$ & Identifies Lettuce $\sim$ Spinach \\
+    \bottomrule
+  \end{tabular}
+  \caption{Algebraic operations for semantic validation with concrete examples.}
+\end{table}
+
+\section{Evidence and Alternative Views}
+
+We have implemented a prototype, \textit{graphlang}, in Common Lisp to demonstrate that Tractarian representability can be enforced with low overhead. Related work in neuro-symbolic agents \citep{ibrahim2026, ata2025} supports the division of labor between interpretation (LLM) and validation (Symbolic).
+
+\paragraph{Objection: The Scaling Hypothesis} Critics argue scaling will implicitly learn logic. We respond that scaling improves statistics but not representational geometry; continuous spaces remain inherently ``open'' and lack formal boundaries.
+
+\section{Conclusion}
+
+The frontier for reliable AI is not more knowledge, but the \textbf{structure of representability}. By adopting a world-local approach, we can build systems that formally guarantee the sense of their assertions.
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
