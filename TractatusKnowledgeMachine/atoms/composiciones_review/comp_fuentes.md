@@ -3,7 +3,7 @@ title: 'Fuentes: evidencia científica que fundamenta las pruebas'
 folder: Fuentes
 question: ¿Qué evidencia científica publicada fundamenta las pruebas de necesidad
   discreta y límites del espacio continuo?
-atom_count: 67
+atom_count: 68
 tags: []
 ---
 
@@ -34,7 +34,7 @@ tags: []
 - **[[Source_PDF_winograd1972shrdlu_pdf]]** — Winograd (1972): SHRDLU, ancestro del razonamiento en mundo de bloques.
 - **[[Source_PDF_arxiv2501_12345_pdf]]** + **[[Source_PDF_arxiv2502_01234_pdf]]** — Fuentes adicionales de dominio contextual.
 
-### Source Bib (32 átomos — provenance bibliográfica)
+### Source Bib (33 átomos — provenance bibliográfica)
 
 - **[[Source_PDF_harnad1990symbolgrounding_pdf]]** — Harnad (1990): The Symbol Grounding Problem.
 - **[[Source_PDF_wittgenstein1922_pdf]]** — Wittgenstein (1922): Tractatus Logico-Philosophicus.
@@ -68,6 +68,7 @@ tags: []
 - **[[Source_PDF_gekhman2024_pdf]]** — Gekhman (2024): Does Fine-Tuning LLMs on New Knowledge Encourage Hallucinations?.
 - **[[Source_PDF_kang2025_pdf]]** — Kang (2025): Unfamiliar Finetuning Examples Control How Language Models Hallucinate.
 - **[[Source_PDF_chuang2024_pdf]]** — Chuang (2024): DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models.
+- **[[Source_PDF_kruse2022causal_pdf]]** — Kruse (2022): Causal Networks.
 
 ### Source Code (22 átomos — implementación verificable)
 
