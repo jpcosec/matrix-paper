@@ -1,7 +1,7 @@
 ---
 id: task-paper-v2-turn-the-sections-column-into-editorial-context
 status: draft
-summary: 'Refactor the sections column from index to editorial context.'
+summary: Make the sections pane a compact SLDB navigator with section health and counts.
 tags:
 - workspace:desk
 - artifact:task
@@ -17,7 +17,8 @@ references:
 - ../stitch_draft.md
 depends_on:
 - task-paper-v2-derive-editorial-trace-status-in-graph-payload
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 checklists:
@@ -30,27 +31,19 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-The section column currently behaves like an index; it should instead summarize context and open issues for the active section.
+The sections pane is now part of the right-side SLDB inspector, so it must behave like a compact structural navigator rather than a decorative extra column.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Refactor the sections column so it communicates section purpose, paragraph counts, and trace gaps instead of acting as a simple list.
+Make the sections pane readable and useful as the top-level SLDB navigator for the active document, with section status, counts, and fast reorientation.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Only the section column UI in /home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro.
+Only the sections pane inside `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`.
 
 ## Implementation Path
 
-_Outline the expected implementation route or affected surface._
-
-Use graph-derived counts to show section health and paragraph distribution. Keep the column lightweight and contextual.
+Use graph-derived section status and counts, keep labels short, and make the pane help the reader jump through the document without repeating manuscript prose.
 
 ## Validation
 
@@ -63,4 +56,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-The section column reads as editorial context, not as filesystem navigation.
+The sections pane reads as structural navigation for the rendered document, not as filesystem navigation or a duplicate reading surface.

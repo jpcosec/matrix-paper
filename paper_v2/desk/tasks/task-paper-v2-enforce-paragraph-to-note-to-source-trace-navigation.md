@@ -1,7 +1,8 @@
 ---
 id: task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
 status: draft
-summary: 'Make one active argumentative chain explicit across all columns.'
+summary: Synchronize document and inspector selection across paragraph, note, and
+  source nodes.
 tags:
 - workspace:desk
 - artifact:task
@@ -20,7 +21,8 @@ depends_on:
 - task-paper-v2-make-the-paragraph-column-an-assertion-surface
 - task-paper-v2-reframe-notes-as-warrant-and-reasoning
 - task-paper-v2-reframe-sources-as-evidence-cards
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 checklists:
@@ -33,27 +35,19 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-The product meaning depends on following argumentative dependency, not just browsing adjacent lists.
+The whole UI only works if document selection and inspector selection stay synchronized.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Tighten selection and drilldown behavior so the active trace is always explicit across manuscript, paragraph, note, and source surfaces.
+Tighten selection and drilldown behavior so one active trace stays explicit across the rendered document and the right-side SLDB inspector.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Selection logic and cross-column highlighting in /home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro.
+Selection logic and cross-pane highlighting in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`.
 
 ## Implementation Path
 
-_Outline the expected implementation route or affected surface._
-
-Ensure one visible active trace, stable manuscript anchor, and consistent rightward reveal of supporting layers.
+Keep paragraph selection anchored in the manuscript, propagate that state through note and source selection, and preserve orientation while moving through the inspector.
 
 ## Validation
 
@@ -66,4 +60,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-A user can follow one active argumentative chain across all columns without losing orientation.
+A user can follow one active structural trace from manuscript paragraph to note to source without losing orientation between left and right panes.

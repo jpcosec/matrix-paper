@@ -1,7 +1,8 @@
 ---
 id: task-paper-v2-make-the-paragraph-column-an-assertion-surface
 status: draft
-summary: 'Turn the paragraph pane into an assertion-first editorial surface.'
+summary: Make the paragraph inspector structural and status-first without duplicating
+  the left-side prose.
 tags:
 - workspace:desk
 - artifact:task
@@ -17,7 +18,8 @@ references:
 - ../stitch_draft.md
 depends_on:
 - task-paper-v2-derive-editorial-trace-status-in-graph-payload
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 checklists:
@@ -30,27 +32,19 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-The paragraph pane is the narrative core of the system and must foreground the claim rather than metadata fields.
+The paragraph inspector should explain the selected node structurally, but the paragraph prose itself already lives on the left in the rendered document.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Redesign the paragraph pane so the selected paragraph reads as an assertion dossier with support state, gaps, and trace summary.
+Make the paragraph inspector status-first and structural: show support state, counts, and section context without duplicating the paragraph text.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Only the paragraph/detail pane in /home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro.
+Only the paragraph inspector in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`.
 
 ## Implementation Path
 
-_Outline the expected implementation route or affected surface._
-
-Prioritize assertion text, status, reasons, note/source counts, and section context. Do not reintroduce save fields in this task.
+Use graph-derived status, reasons, note/source counts, and section context. Keep the pane read-oriented and do not repeat the rendered paragraph body.
 
 ## Validation
 
@@ -63,4 +57,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-The paragraph column clearly feels like the claim anchor of the editorial system.
+The paragraph inspector makes the selected node understandable without turning the right rail into a second manuscript view.

@@ -1,7 +1,8 @@
 ---
 id: task-paper-v2-add-editorial-validation-language-and-interruption-cues
 status: draft
-summary: 'Replace generic completeness UI with editorial warning language.'
+summary: Add readable support-state cues across the rendered document and the SLDB
+  inspector.
 tags:
 - workspace:desk
 - artifact:task
@@ -22,7 +23,8 @@ depends_on:
 - task-paper-v2-make-the-paragraph-column-an-assertion-surface
 - task-paper-v2-reframe-notes-as-warrant-and-reasoning
 - task-paper-v2-reframe-sources-as-evidence-cards
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 - astro_app/src/pages/api/graph.json.ts
@@ -36,27 +38,19 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-The system still feels generic unless warnings use editorial language that interrupts the calm paper surface.
+The split document/inspector UI needs clear support-state language so gaps are visible without turning the app into a form.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Introduce a clear validation language and visual warning system for support gaps across manuscript and right-side columns.
+Introduce readable validation language and visual interruption cues for support gaps across the rendered document and the right-side SLDB inspector.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Validation labels, badges, and warning treatments in /home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro, driven by /api/graph.json status fields.
+Validation labels, badges, and warning treatments in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`, driven by `/api/graph.json` status fields.
 
 ## Implementation Path
 
-_Outline the expected implementation route or affected surface._
-
-Replace generic completeness messaging with editorial states like missing note, missing source, evidence pending, and incomplete support.
+Use graph-derived states like missing note, missing source, evidence pending, and incomplete support. Keep the cues concise and avoid generic CRUD completeness language.
 
 ## Validation
 
@@ -69,4 +63,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-Validation cues visibly communicate logical weakness without collapsing the manuscript reading experience.
+Validation cues visibly communicate support weakness without collapsing the manuscript reading experience or duplicating content.

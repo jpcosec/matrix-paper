@@ -18,7 +18,8 @@ references:
 - ../stitch_draft.md
 depends_on:
 - task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/api/graph.json.ts
 checklists:

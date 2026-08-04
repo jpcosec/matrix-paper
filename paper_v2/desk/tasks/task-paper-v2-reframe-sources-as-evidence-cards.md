@@ -1,7 +1,7 @@
 ---
 id: task-paper-v2-reframe-sources-as-evidence-cards
 status: draft
-summary: 'Reframe sources as evidence cards for the active trace.'
+summary: Render sources as scannable evidence cards inside the SLDB inspector.
 tags:
 - workspace:desk
 - artifact:task
@@ -17,7 +17,8 @@ references:
 - ../stitch_draft.md
 depends_on:
 - task-paper-v2-reframe-notes-as-warrant-and-reasoning
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 checklists:
@@ -30,27 +31,19 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-Sources are the proof layer of the system and must read as evidence, not as attached records.
+Sources are the evidence layer of the SLDB inspector and should be scannable without pretending to be a second reading surface.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Refactor the sources column so linked sources foreground excerpt, relevance, origin, and anchor as support for the selected note and paragraph.
+Render sources as usable evidence cards that foreground excerpt, relevance, origin, and anchor for the currently selected note and paragraph.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Only the sources column UI in /home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro.
+Only the sources pane UI in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`.
 
 ## Implementation Path
 
-_Outline the expected implementation route or affected surface._
-
-Make evidence easy to scan and compare. Keep the surface read-only in this task.
+Keep the surface read-only, make evidence easy to scan, and preserve the left-side document as the only full prose surface.
 
 ## Validation
 
@@ -63,4 +56,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-The sources column reads as an evidence rail for the active argumentative trace.
+The sources pane reads as an evidence rail inside the inspector and supports fast trace review.

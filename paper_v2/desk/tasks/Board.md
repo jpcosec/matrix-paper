@@ -17,6 +17,7 @@ tasks:
 # List of pill-xxx paths
 pills:
 - desk/contexts/pills.md
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 # List of ritual-xxx paths
 rituals:
 - desk/rituals/execution.md
@@ -33,31 +34,23 @@ tags:
 
 _Explain what this board routes and why it exists._
 
-
+Route the paper_v2 editorial browser work as a rendered-document + SLDB-inspector UI, not as a multi-column record form.
 
 ## Notes
 
-_Add short operational notes about the current routed set._
-
-- paper_v2 editorial browser: shift from node editor to argument trace UI [draft] - Produce an execution plan that turns the current paper_v2 Astro UI into an argument-trace browser where manuscript, paragraph claim, note intent, and source evidence are visibly linked.
-- paper_v2: derive editorial trace status in graph payload [draft] - Add derived paragraph, note, section, and manuscript status fields to /api/graph.json so the frontend can render support state without inventing data in the browser.
-- paper_v2: rebuild manuscript pane as trace-first reading surface [draft] - Turn the manuscript pane into a readable trace surface where paragraph-level support state is visible inline and selection starts from prose.
-- paper_v2: turn the sections column into editorial context [draft] - Refactor the sections column so it communicates section purpose, paragraph counts, and trace gaps instead of acting as a simple list.
-- paper_v2: make the paragraph column an assertion surface [draft] - Redesign the paragraph pane so the selected paragraph reads as an assertion dossier with support state, gaps, and trace summary.
-- paper_v2: reframe notes as warrant and reasoning [draft] - Refactor the notes column so linked notes read as warrant/intention artifacts attached to the active paragraph claim.
-- paper_v2: reframe sources as evidence cards [draft] - Refactor the sources column so linked sources foreground excerpt, relevance, origin, and anchor as support for the selected note and paragraph.
-- paper_v2: enforce paragraph-to-note-to-source trace navigation [draft] - Tighten selection and drilldown behavior so the active trace is always explicit across manuscript, paragraph, note, and source surfaces.
+- The old five-column record-browser framing is obsolete.
+- `pill-pattern-document-left-sldb-right` is the governing pill for every remaining UI task.
+- The rendered document is the only full prose surface.
+- The right rail may show structure, counts, status, and linked support, but it must not duplicate manuscript text.
 
 ## Task Details
 
-_Generated from the task references above._
-
-- paper_v2 editorial browser: shift from node editor to argument trace UI [draft] - Produce an execution plan that turns the current paper_v2 Astro UI into an argument-trace browser where manuscript, paragraph claim, note intent, and source evidence are visibly linked.
-- paper_v2: derive editorial trace status in graph payload [draft] - Add derived paragraph, note, section, and manuscript status fields to /api/graph.json so the frontend can render support state without inventing data in the browser.
-- paper_v2: rebuild manuscript pane as trace-first reading surface [draft] - Turn the manuscript pane into a readable trace surface where paragraph-level support state is visible inline and selection starts from prose.
-- paper_v2: turn the sections column into editorial context [draft] - Refactor the sections column so it communicates section purpose, paragraph counts, and trace gaps instead of acting as a simple list.
-- paper_v2: make the paragraph column an assertion surface [draft] - Redesign the paragraph pane so the selected paragraph reads as an assertion dossier with support state, gaps, and trace summary.
-- paper_v2: reframe notes as warrant and reasoning [draft] - Refactor the notes column so linked notes read as warrant/intention artifacts attached to the active paragraph claim.
-- paper_v2: reframe sources as evidence cards [draft] - Refactor the sources column so linked sources foreground excerpt, relevance, origin, and anchor as support for the selected note and paragraph.
-- paper_v2: enforce paragraph-to-note-to-source trace navigation [draft] - Tighten selection and drilldown behavior so the active trace is always explicit across manuscript, paragraph, note, and source surfaces.
-- paper_v2: add editorial validation language and interruption cues [draft] - Introduce a clear validation language and visual warning system for support gaps across manuscript and right-side columns.
+- paper_v2 editorial browser: shift from node editor to argument trace UI [complete] - Captures the corrected product direction for the remaining work.
+- paper_v2: derive editorial trace status in graph payload [ready_for_testing] - Expose note, section, and manuscript support state so the inspector does not invent it client-side.
+- paper_v2: rebuild manuscript pane as trace-first reading surface [ready_for_testing] - Keep the rendered document as the primary selection surface.
+- paper_v2: turn the sections column into editorial context [draft] - Make the sections pane a compact SLDB navigator with status and counts.
+- paper_v2: make the paragraph column an assertion surface [draft] - Make the paragraph inspector structural and status-first without duplicating prose.
+- paper_v2: reframe notes as warrant and reasoning [draft] - Render notes as support cards inside the inspector.
+- paper_v2: reframe sources as evidence cards [draft] - Render sources as scannable evidence cards inside the inspector.
+- paper_v2: enforce paragraph-to-note-to-source trace navigation [draft] - Keep document and inspector selection synchronized.
+- paper_v2: add editorial validation language and interruption cues [draft] - Add readable support-state cues across both panes.

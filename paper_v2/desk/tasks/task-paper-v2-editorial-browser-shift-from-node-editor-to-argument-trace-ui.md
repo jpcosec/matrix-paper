@@ -1,8 +1,7 @@
 ---
 id: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
-status: ready_for_testing
-summary: Plan the shift from hierarchical node editing toward manuscript-anchored
-  argument traceability in paper_v2.
+status: complete
+summary: Document-left / SLDB-right decision captured; no duplicated prose.
 tags:
 - workspace:desk
 - artifact:task
@@ -18,7 +17,8 @@ references:
 - ../stitch_comment.md
 - ../stitch_draft.md
 depends_on: []
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 - astro_app/src/pages/api/graph.json.ts
@@ -35,21 +35,15 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-Current Astro app improved layout but still feels like a node/field editor instead of an editorial traceability surface. We need a bounded execution plan before more UI implementation.
+The original task split assumed a five-column trace browser and that assumption became wrong once the product direction was clarified.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Produce an execution plan that turns the current paper_v2 Astro UI into an argument-trace browser where manuscript, paragraph claim, note intent, and source evidence are visibly linked.
+Record the governing product decision for the remaining work: the rendered document is the primary reading surface on the left, the SLDB structure is the inspector on the right, and the UI must not duplicate prose across panes.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Plan only. Cover /home/jp/proyectos/Matrix/paper_v2/astro_app UI, graph payload derivations, interaction model, and validation approach. No implementation in this task.
+Decision and workflow alignment only. This task exists to anchor the later implementation tasks to the corrected UI model.
 
 ## Implementation Path
 
@@ -117,6 +111,4 @@ _List the checks required before this task can close._
 
 ## Done When
 
-_Name the observable condition that makes the task complete._
-
-A desk task exists with a concrete argument-trace implementation plan, phased slices, validation contract, explicit risks, and subagent-backed evidence references in `../review/plans/paper-v2-current-state.md`, `../review/plans/paper-v2-constraints.md`, and `../review/plans/paper-v2-execution-plan.md`.
+The board and downstream tasks use the corrected product model instead of the old multi-column record-browser assumption.

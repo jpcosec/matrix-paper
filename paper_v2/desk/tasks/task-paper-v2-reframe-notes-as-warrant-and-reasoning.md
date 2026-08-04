@@ -1,7 +1,8 @@
 ---
 id: task-paper-v2-reframe-notes-as-warrant-and-reasoning
 status: draft
-summary: 'Reframe notes as warrant and reasoning for the active paragraph.'
+summary: Render notes as structural support cards for the selected paragraph inside
+  the SLDB inspector.
 tags:
 - workspace:desk
 - artifact:task
@@ -17,7 +18,8 @@ references:
 - ../stitch_draft.md
 depends_on:
 - task-paper-v2-make-the-paragraph-column-an-assertion-surface
-pills: []
+pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
 checklists:
@@ -30,27 +32,19 @@ checklists:
 
 ## Rationale
 
-_Explain why this task exists or the business driver behind it._
-
-Notes currently risk reading like generic child records. Stitch treats them as logical intent and warrant surfaces.
+Notes belong to the SLDB inspector as support artifacts for the selected paragraph, not as generic child rows.
 
 ## Goal
 
-_Describe the concrete result this task must produce._
-
-Refactor the notes column so linked notes read as warrant/intention artifacts attached to the active paragraph claim.
+Render notes as readable support cards that explain intent, claim, and reasoning for the selected paragraph inside the right-side inspector.
 
 ## Scope
 
-_State what is in scope and what is out of scope._
-
-Only the notes column UI in /home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro.
+Only the notes pane UI in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`.
 
 ## Implementation Path
 
-_Outline the expected implementation route or affected surface._
-
-Expose intent, claim, and reasoning in reading-first cards. Make evidence gaps visible per note.
+Expose intent, claim, reasoning, and note-level support state. Keep the pane structural and do not repeat the left-side manuscript prose.
 
 ## Validation
 
@@ -63,4 +57,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-The notes column answers why the paragraph exists and how its claim is framed.
+The notes pane explains why the selected paragraph exists and what support logic is attached to it.
