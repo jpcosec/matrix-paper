@@ -1,14 +1,18 @@
 ---
 id: task-paper-v2-make-the-paragraph-column-an-assertion-surface
-status: draft
+status: complete
 summary: Make the paragraph inspector structural and status-first without duplicating
   the left-side prose.
 tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-make-the-paragraph-column-an-assertion-surface
-current_node: checklist-task-paper-v2-make-the-paragraph-column-an-assertion-surface-execution-ready
-history: []
+current_node: complete
+history:
+- 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
+- 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
+- 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB inspector UI.
+- 2026-08-04 - Playwright confirmed the paragraph inspector stays status-first and does not duplicate left-side paragraph prose.
 references:
 - ../review/plans/stitch-system-analysis.md
 - ../review/plans/paper-v2-current-state.md

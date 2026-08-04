@@ -1,13 +1,17 @@
 ---
 id: task-paper-v2-turn-the-sections-column-into-editorial-context
-status: draft
+status: complete
 summary: Make the sections pane a compact SLDB navigator with section health and counts.
 tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-turn-the-sections-column-into-editorial-context
-current_node: checklist-task-paper-v2-turn-the-sections-column-into-editorial-context-execution-ready
-history: []
+current_node: complete
+history:
+- 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
+- 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
+- 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB inspector UI.
+- 2026-08-04 - Playwright confirmed the sections pane renders compact section navigation with status pills, counts, and one active section.
 references:
 - ../review/plans/stitch-system-analysis.md
 - ../review/plans/paper-v2-current-state.md
@@ -34,29 +38,35 @@ checklists:
 
 ## Rationale
 
-The sections pane is now part of the right-side SLDB inspector, so it must behave like a compact structural navigator rather than a decorative extra column.
+_Explain why this task exists or the business driver behind it._
+
+
 
 ## Goal
 
-Make the sections pane readable and useful as the top-level SLDB navigator for the active document, with section status, counts, and fast reorientation.
+_Describe the concrete result this task must produce._
+
+
 
 ## Scope
 
-Only the sections pane inside `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`.
+_State what is in scope and what is out of scope._
+
+- npm run build
+- manual browser check
 
 ## Implementation Path
 
-Use graph-derived section status and counts, keep labels short, and make the pane help the reader jump through the document without repeating manuscript prose.
+_Outline the expected implementation route or affected surface._
+
+
 
 ## Validation
 
 _List the checks required before this task can close._
 
-- npm run build
-- manual browser check
+- 
 
 ## Done When
 
 _Name the observable condition that makes the task complete._
-
-The sections pane reads as structural navigation for the rendered document, not as filesystem navigation or a duplicate reading surface.

@@ -1,14 +1,18 @@
 ---
 id: task-paper-v2-add-editorial-validation-language-and-interruption-cues
-status: draft
+status: complete
 summary: Add readable support-state cues across the rendered document and the SLDB
   inspector.
 tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-add-editorial-validation-language-and-interruption-cues
-current_node: checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-execution-ready
-history: []
+current_node: complete
+history:
+- 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
+- 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
+- 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB inspector UI.
+- 2026-08-04 - live UI check confirmed aggregate manuscript status, paragraph rails, status pills, and guided empty-state copy are present.
 references:
 - ../review/plans/stitch-system-analysis.md
 - ../review/plans/paper-v2-current-state.md

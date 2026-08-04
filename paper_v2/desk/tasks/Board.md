@@ -48,11 +48,11 @@ Route the paper_v2 editorial browser work as a rendered-document + SLDB-inspecto
 ## Task Details
 
 - paper_v2 editorial browser: shift from node editor to argument trace UI [complete] - Captures the corrected product direction for the remaining work.
-- paper_v2: derive editorial trace status in graph payload [ready_for_testing] - Expose note, section, and manuscript support state so the inspector does not invent it client-side.
-- paper_v2: rebuild manuscript pane as trace-first reading surface [ready_for_testing] - Keep the rendered document as the primary selection surface.
-- paper_v2: turn the sections column into editorial context [draft] - Make the sections pane a compact SLDB navigator with status and counts.
-- paper_v2: make the paragraph column an assertion surface [draft] - Make the paragraph inspector structural and status-first without duplicating prose.
-- paper_v2: reframe notes as warrant and reasoning [draft] - Render notes as support cards inside the inspector.
-- paper_v2: reframe sources as evidence cards [draft] - Render sources as scannable evidence cards inside the inspector.
-- paper_v2: enforce paragraph-to-note-to-source trace navigation [draft] - Keep document and inspector selection synchronized.
-- paper_v2: add editorial validation language and interruption cues [draft] - Add readable support-state cues across both panes.
+- paper_v2: derive editorial trace status in graph payload [complete] - Expose note, section, and manuscript support state so the inspector does not invent it client-side.
+- paper_v2: rebuild manuscript pane as trace-first reading surface [complete] - Keep the rendered document as the primary selection surface.
+- paper_v2: turn the sections column into editorial context [complete] - Make the sections pane a compact SLDB navigator with status and counts.
+- paper_v2: make the paragraph column an assertion surface [complete] - Make the paragraph inspector structural and status-first without duplicating prose.
+- paper_v2: reframe notes as warrant and reasoning [complete] - Render notes as support cards inside the inspector.
+- paper_v2: reframe sources as evidence cards [complete] - Render sources as scannable evidence cards inside the inspector.
+- paper_v2: enforce paragraph-to-note-to-source trace navigation [complete] - Keep document and inspector selection synchronized.
+- paper_v2: add editorial validation language and interruption cues [complete] - Add readable support-state cues across both panes.

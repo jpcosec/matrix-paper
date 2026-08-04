@@ -1,14 +1,18 @@
 ---
 id: task-paper-v2-derive-editorial-trace-status-in-graph-payload
-status: ready_for_testing
+status: complete
 summary: Derive editorial support status in the graph payload for downstream trace
   UI.
 tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-derive-editorial-trace-status-in-graph-payload
-current_node: checklist-task-paper-v2-derive-editorial-trace-status-in-graph-payload-testing-ready
-history: []
+current_node: complete
+history:
+- 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
+- 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
+- 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB inspector UI.
+- 2026-08-04 - fetched /api/graph.json and confirmed manuscript, section, paragraph, and note derived support fields are present.
 references:
 - ../review/plans/stitch-system-analysis.md
 - ../review/plans/paper-v2-current-state.md

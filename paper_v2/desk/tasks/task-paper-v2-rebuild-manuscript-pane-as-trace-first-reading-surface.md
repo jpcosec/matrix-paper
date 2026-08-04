@@ -1,13 +1,17 @@
 ---
 id: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
-status: ready_for_testing
+status: complete
 summary: Make the left manuscript pane the primary trace entry surface.
 tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
-current_node: checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-testing-ready
-history: []
+current_node: complete
+history:
+- 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
+- 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
+- 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB inspector UI.
+- 2026-08-04 - Playwright confirmed the rendered manuscript loads as the primary left reading surface with selectable paragraph traces.
 references:
 - ../review/plans/stitch-system-analysis.md
 - ../review/plans/paper-v2-current-state.md

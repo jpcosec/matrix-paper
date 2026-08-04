@@ -1,14 +1,18 @@
 ---
 id: task-paper-v2-reframe-notes-as-warrant-and-reasoning
-status: draft
+status: complete
 summary: Render notes as structural support cards for the selected paragraph inside
   the SLDB inspector.
 tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-reframe-notes-as-warrant-and-reasoning
-current_node: checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-execution-ready
-history: []
+current_node: complete
+history:
+- 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
+- 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
+- 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB inspector UI.
+- 2026-08-04 - Playwright confirmed notes render as support cards exposing intent, claim, and reasoning for the active paragraph.
 references:
 - ../review/plans/stitch-system-analysis.md
 - ../review/plans/paper-v2-current-state.md
