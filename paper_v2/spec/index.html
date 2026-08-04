@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>paper_v2 — Specs visuales</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+<script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+<style>
+  :root { --ink:#1a1a2e; --muted:#666; --line:#ddd; }
+  body { font-family: system-ui, sans-serif; color:var(--ink); max-width:1280px; margin:0 auto; padding:2rem 1.5rem; background:#fafafa; }
+  h1 { margin-bottom:.2rem; }
+  .sub { color:var(--muted); margin-top:0; }
+  nav a { margin-right:1rem; }
+  section { background:#fff; border:1px solid var(--line); border-radius:10px; padding:1.2rem 1.4rem; margin:1.6rem 0; }
+  .meta { color:var(--muted); font-size:.85rem; }
+  .diagram { overflow-x:auto; }
+  .diagram svg { max-width:100%; height:auto; }
+  .vega { min-height:300px; }
+</style>
+</head>
+<body>
+<h1>paper_v2 — Specs visuales (spec2viz)</h1>
+<p class="sub">Documento renderizado a la izquierda · inspector SLDB a la derecha · estados derivados del payload.</p>
+<nav>
+  <a href="#component">Component</a>
+  <a href="#matriz-ui-componentes">Matriz UI-Componentes</a>
+  <a href="#sequence">Sequence</a>
+  <a href="#state">State</a>
+  <a href="#activity">Activity</a>
+  <a href="#deployment">Deployment</a>
+</nav>
+
+<section id="component">
+  <h2>Component — Arquitectura</h2>
+  <p class="meta">fuente: <code>component/paper-v2-editorial-browser.puml</code> — Panes izquierdo/derecho, API, content store sldb, build pipeline y capa deskops.</p>
+  <div class="diagram"><?plantuml 1.2026.2?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="1014px" preserveAspectRatio="none" style="width:1896px;height:1014px;background:#FFFFFF;" version="1.1" viewBox="0 0 1896 1014" width="1896px" zoomAndPan="magnify"><defs/><g><!--cluster AstroApp--><g class="cluster" data-qualified-name="AstroApp" data-source-line="62" id="ent0002"><path d="M647.86,212.602 L783.7775,212.602 A3.75,3.75 0 0 1 786.2775,215.102 L793.2775,237.6699 L1886.86,237.6699 A2.5,2.5 0 0 1 1889.36,240.1699 L1889.36,859.462 A2.5,2.5 0 0 1 1886.86,861.962 L647.86,861.962 A2.5,2.5 0 0 1 645.36,859.462 L645.36,215.102 A2.5,2.5 0 0 1 647.86,212.602" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="645.36" x2="793.2775" y1="237.6699" y2="237.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="134.9175" x="649.36" y="229.5679">paper_v2 Astro App</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="73.7237" x="1234.4981" y="254.6358">&#171;boundary&#187;</text></g><!--cluster DocumentPane--><g class="cluster" data-qualified-name="AstroApp.DocumentPane" data-source-line="63" id="ent0003"><path d="M1379.86,452.602 L1529.1054,452.602 A3.75,3.75 0 0 1 1531.6054,455.102 L1538.6054,477.6699 L1846.86,477.6699 A2.5,2.5 0 0 1 1849.36,480.1699 L1849.36,819.462 A2.5,2.5 0 0 1 1846.86,821.962 L1379.86,821.962 A2.5,2.5 0 0 1 1377.36,819.462 L1377.36,455.102 A2.5,2.5 0 0 1 1379.86,452.602" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1377.36" x2="1538.6054" y1="477.6699" y2="477.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="148.2454" x="1381.36" y="469.5679">Document Pane (left)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="1597.2911" y="494.6358">&#171;core&#187;</text></g><!--cluster RenderedManuscript--><g class="cluster" data-qualified-name="AstroApp.DocumentPane.RenderedManuscript" data-source-line="64" id="ent0004"><path d="M1419.86,624.962 L1571.6114,624.962 A3.75,3.75 0 0 1 1574.1114,627.462 L1581.1114,650.0299 L1806.86,650.0299 A2.5,2.5 0 0 1 1809.36,652.5299 L1809.36,779.462 A2.5,2.5 0 0 1 1806.86,781.962 L1419.86,781.962 A2.5,2.5 0 0 1 1417.36,779.462 L1417.36,627.462 A2.5,2.5 0 0 1 1419.86,624.962" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="1417.36" x2="1581.1114" y1="650.0299" y2="650.0299"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="150.7514" x="1421.36" y="641.9279">Rendered Manuscript</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75.7817" x="1579.4691" y="666.9958">&#171;document&#187;</text></g><!--cluster SldbInspector--><g class="cluster" data-qualified-name="AstroApp.SldbInspector" data-source-line="69" id="ent0007"><path d="M929.86,402.962 L1084.8174,402.962 A3.75,3.75 0 0 1 1087.3174,405.462 L1094.3174,428.0299 L1334.86,428.0299 A2.5,2.5 0 0 1 1337.36,430.5299 L1337.36,779.462 A2.5,2.5 0 0 1 1334.86,781.962 L929.86,781.962 A2.5,2.5 0 0 1 927.36,779.462 L927.36,405.462 A2.5,2.5 0 0 1 929.86,402.962" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="927.36" x2="1094.3174" y1="428.0299" y2="428.0299"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="153.9574" x="931.36" y="419.9279">SLDB Inspector (right)</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="1116.2911" y="444.9958">&#171;core&#187;</text></g><!--cluster GraphApi--><g class="cluster" data-qualified-name="AstroApp.GraphApi" data-source-line="75" id="ent0012"><path d="M687.86,452.602 L796.8276,452.602 A3.75,3.75 0 0 1 799.3276,455.102 L806.3276,477.6699 L884.86,477.6699 A2.5,2.5 0 0 1 887.36,480.1699 L887.36,779.462 A2.5,2.5 0 0 1 884.86,781.962 L687.86,781.962 A2.5,2.5 0 0 1 685.36,779.462 L685.36,455.102 A2.5,2.5 0 0 1 687.86,452.602" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="685.36" x2="806.3276" y1="477.6699" y2="477.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107.9676" x="689.36" y="469.5679">/api/graph.json</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="73.7237" x="753.4981" y="494.6358">&#171;boundary&#187;</text></g><!--cluster ContentStore--><g class="cluster" data-qualified-name="ContentStore" data-source-line="79" id="ent0014"><path d="M174.86,625.462 L336.6914,625.462 A3.75,3.75 0 0 1 339.1914,627.962 L346.1914,650.5299 L602.86,650.5299 A2.5,2.5 0 0 1 605.36,653.0299 L605.36,1005.462 A2.5,2.5 0 0 1 602.86,1007.962 L174.86,1007.962 A2.5,2.5 0 0 1 172.36,1005.462 L172.36,627.962 A2.5,2.5 0 0 1 174.86,625.462" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="172.36" x2="346.1914" y1="650.5299" y2="650.5299"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160.8314" x="176.36" y="642.4279">paper_v2 content store</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="71.1057" x="357.3071" y="667.4958">&#171;database&#187;</text></g><!--cluster Deskops--><g class="cluster" data-qualified-name="Deskops" data-source-line="87" id="ent0021"><path d="M203.86,6.602 L370.7454,6.602 A3.75,3.75 0 0 1 373.2454,9.102 L380.2454,31.6699 L602.86,31.6699 A2.5,2.5 0 0 1 605.36,34.1699 L605.36,317.462 A2.5,2.5 0 0 1 602.86,319.962 L203.86,319.962 A2.5,2.5 0 0 1 201.36,317.462 L201.36,9.102 A2.5,2.5 0 0 1 203.86,6.602" fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="201.36" x2="380.2454" y1="31.6699" y2="31.6699"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="165.8854" x="205.36" y="23.5679">deskops workflow layer</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69.9297" x="372.3951" y="48.6358">&#171;workflow&#187;</text></g><!--entity SectionBlocks--><g class="entity" data-qualified-name="AstroApp.DocumentPane.RenderedManuscript.SectionBlocks" data-source-line="65" id="ent0005"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="133.8136" x="1651.36" y="689.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1765.1736" y="694.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1763.1736" y="696.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1763.1736" y="700.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75.7817" x="1675.3759" y="724.9279">&#171;document&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93.8136" x="1666.36" y="743.9958">Section Blocks</text></g><!--entity ParagraphBlocks--><g class="entity" data-qualified-name="AstroApp.DocumentPane.RenderedManuscript.ParagraphBlocks" data-source-line="66" id="ent0006"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="155.1916" x="1460.86" y="689.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1596.0516" y="694.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1594.0516" y="696.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1594.0516" y="700.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="75.7817" x="1495.5649" y="724.9279">&#171;document&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="115.1916" x="1475.86" y="743.9958">Paragraph Blocks</text></g><!--entity SectionsPane--><g class="entity" data-qualified-name="AstroApp.SldbInspector.SectionsPane" data-source-line="70" id="ent0008"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="131.3076" x="951.86" y="467.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1063.1676" y="472.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1061.1676" y="474.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1061.1676" y="478.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="992.4449" y="502.9279">&#171;core&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.3076" x="966.86" y="521.9958">Sections Pane</text></g><!--entity ParagraphInspector--><g class="entity" data-qualified-name="AstroApp.SldbInspector.ParagraphInspector" data-source-line="71" id="ent0009"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="175.7435" x="1118.36" y="467.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1274.1035" y="472.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1272.1035" y="474.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1272.1035" y="478.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="1181.1628" y="502.9279">&#171;core&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="135.7435" x="1133.36" y="521.9958">Paragraph Inspector</text></g><!--entity NotesPane--><g class="entity" data-qualified-name="AstroApp.SldbInspector.NotesPane" data-source-line="72" id="ent0010"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115.2777" x="959.86" y="689.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1055.1377" y="694.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1053.1377" y="696.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1053.1377" y="700.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="992.4299" y="724.9279">&#171;core&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75.2777" x="974.86" y="743.9958">Notes Pane</text></g><!--entity SourcesPane--><g class="entity" data-qualified-name="AstroApp.SldbInspector.SourcesPane" data-source-line="73" id="ent0011"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="128.4237" x="1110.36" y="689.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="1218.7837" y="694.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1216.7837" y="696.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="1216.7837" y="700.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="1149.5029" y="724.9279">&#171;core&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88.4237" x="1125.36" y="743.9958">Sources Pane</text></g><!--entity StatusDerivation--><g class="entity" data-qualified-name="AstroApp.GraphApi.StatusDerivation" data-source-line="76" id="ent0013"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="152.9096" x="709.86" y="689.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="842.7696" y="694.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="840.7696" y="696.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="840.7696" y="700.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="761.2459" y="724.9279">&#171;core&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="112.9096" x="724.86" y="743.9958">Status Derivation</text></g><!--entity Manuscript--><g class="entity" data-qualified-name="ContentStore.Manuscript" data-source-line="80" id="ent0015"><path d="M215.36,700.462 C215.36,690.462 265.3298,690.462 265.3298,690.462 C265.3298,690.462 315.2997,690.462 315.2997,700.462 L315.2997,747.5978 C315.2997,757.5978 265.3298,757.5978 265.3298,757.5978 C265.3298,757.5978 215.36,757.5978 215.36,747.5978 L215.36,700.462" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M215.36,700.462 C215.36,710.462 265.3298,710.462 265.3298,710.462 C265.3298,710.462 315.2997,710.462 315.2997,700.462" fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="71.1057" x="229.777" y="729.4279">&#171;database&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79.9397" x="225.36" y="748.4958">manuscript/</text></g><!--entity Sections--><g class="entity" data-qualified-name="ContentStore.Sections" data-source-line="81" id="ent0016"><path d="M350.86,700.462 C350.86,690.462 397.4129,690.462 397.4129,690.462 C397.4129,690.462 443.9657,690.462 443.9657,700.462 L443.9657,747.5978 C443.9657,757.5978 397.4129,757.5978 397.4129,757.5978 C397.4129,757.5978 350.86,757.5978 350.86,747.5978 L350.86,700.462" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M350.86,700.462 C350.86,710.462 397.4129,710.462 397.4129,710.462 C397.4129,710.462 443.9657,710.462 443.9657,700.462" fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="71.1057" x="361.86" y="729.4279">&#171;database&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59.0238" x="367.901" y="748.4958">sections/</text></g><!--entity Paragraphs--><g class="entity" data-qualified-name="ContentStore.Paragraphs" data-source-line="82" id="ent0017"><path d="M479.36,700.462 C479.36,690.462 530.1209,690.462 530.1209,690.462 C530.1209,690.462 580.8817,690.462 580.8817,700.462 L580.8817,747.5978 C580.8817,757.5978 530.1209,757.5978 530.1209,757.5978 C530.1209,757.5978 479.36,757.5978 479.36,747.5978 L479.36,700.462" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M479.36,700.462 C479.36,710.462 530.1209,710.462 530.1209,710.462 C530.1209,710.462 580.8817,710.462 580.8817,700.462" fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="71.1057" x="494.568" y="729.4279">&#171;database&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81.5217" x="489.36" y="748.4958">paragraphs/</text></g><!--entity Notes--><g class="entity" data-qualified-name="ContentStore.Notes" data-source-line="83" id="ent0018"><path d="M350.86,926.962 C350.86,916.962 397.4129,916.962 397.4129,916.962 C397.4129,916.962 443.9657,916.962 443.9657,926.962 L443.9657,974.0978 C443.9657,984.0978 397.4129,984.0978 397.4129,984.0978 C397.4129,984.0978 350.86,984.0978 350.86,974.0978 L350.86,926.962" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M350.86,926.962 C350.86,936.962 397.4129,936.962 397.4129,936.962 C397.4129,936.962 443.9657,936.962 443.9657,926.962" fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="71.1057" x="361.86" y="955.9279">&#171;database&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41.9858" x="376.4199" y="974.9958">notes/</text></g><!--entity Sources--><g class="entity" data-qualified-name="ContentStore.Sources" data-source-line="84" id="ent0019"><path d="M478.86,926.962 C478.86,916.962 525.4129,916.962 525.4129,916.962 C525.4129,916.962 571.9657,916.962 571.9657,926.962 L571.9657,974.0978 C571.9657,984.0978 525.4129,984.0978 525.4129,984.0978 C525.4129,984.0978 478.86,984.0978 478.86,974.0978 L478.86,926.962" fill="#F1F1F1" style="stroke:#181818;stroke-width:0.5;"/><path d="M478.86,926.962 C478.86,936.962 525.4129,936.962 525.4129,936.962 C525.4129,936.962 571.9657,936.962 571.9657,926.962" fill="none" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="71.1057" x="489.86" y="955.9279">&#171;database&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56.1398" x="497.343" y="974.9958">sources/</text></g><!--entity DeskBoard--><g class="entity" data-qualified-name="Deskops.DeskBoard" data-source-line="88" id="ent0022"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="180.1675" x="382.36" y="71.602"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="542.5275" y="76.602"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="540.5275" y="78.602"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="540.5275" y="82.602"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69.9297" x="432.4789" y="106.5679">&#171;workflow&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140.1675" x="397.36" y="125.6358">desk/tasks/Board.md</text></g><!--entity DeskTasks--><g class="entity" data-qualified-name="Deskops.DeskTasks" data-source-line="89" id="ent0023"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="179.6635" x="382.36" y="227.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="542.0235" y="232.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="540.0235" y="234.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="540.0235" y="238.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69.9297" x="432.2269" y="262.9279">&#171;workflow&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139.6635" x="397.36" y="281.9958">desk/tasks/task-*.md</text></g><!--entity DeskRituals--><g class="entity" data-qualified-name="Deskops.DeskRituals" data-source-line="90" id="ent0024"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="122.3757" x="225.36" y="71.602"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="327.7357" y="76.602"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="325.7357" y="78.602"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="325.7357" y="82.602"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="69.9297" x="246.583" y="106.5679">&#171;workflow&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82.3757" x="240.36" y="125.6358">desk/rituals/</text></g><!--entity BuildPipeline--><g class="entity" data-qualified-name="BuildPipeline" data-source-line="86" id="ent0020"><rect fill="#F1F1F1" height="68.1358" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="151.3136" x="75.86" y="467.962"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="207.1736" y="472.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="205.1736" y="474.962"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="205.1736" y="478.962"/><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="40.1379" x="126.4478" y="502.9279">&#171;core&#187;</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111.3136" x="90.86" y="521.9958">build_pipeline.py</text></g><!--link AstroApp to GraphApi--><g class="link" data-entity-1="ent0002" data-entity-2="ent0012" data-link-type="dependency" data-source-line="93" id="lnk25"><path d="M670.36,263.002 C670.535,264.822 676.195,323.3995 681.855,381.9732 C683.27,396.6167 684.685,411.2599 686.0143,425.0159 C686.6789,431.894 687.3222,438.5502 687.9333,444.8738 C688.086,446.4548 688.2368,448.0149 688.3854,449.5525 C688.4597,450.3212 687.9563,445.1122 688.0295,445.8696" fill="none" id="AstroApp-to-GraphApi" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="688.6066,451.8417,691.7224,442.4987,688.1257,446.8649,683.7595,443.2682,688.6066,451.8417" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122.6421" x="680.36" y="358.859">fetch graph payload</text></g><!--link GraphApi to ContentStore--><g class="link" data-entity-1="ent0012" data-entity-2="ent0014" data-link-type="dependency" data-source-line="94" id="lnk26"><path d="M685.0801,507.8113 C684.1118,508.367 683.0648,508.9649 681.9422,509.6018 C679.697,510.8757 677.1498,512.3057 674.327,513.8676 C663.0359,520.1151 647.3356,528.472 628.9188,537.3795 C592.085,555.1945 544.385,575.212 499.36,584.962 C483.06,588.492 211.82,581.892 199.36,592.962 C193.9875,597.7332 189.6494,603.2985 186.1724,609.3903 C184.4339,612.4361 182.9108,615.6136 181.5812,618.8892 C180.9165,620.527 180.3001,622.1893 179.7294,623.872 C179.5868,624.2927 181.295,619.0063 181.158,619.4295" fill="none" id="GraphApi-to-ContentStore" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="179.31,625.1378,185.8876,617.8074,180.85,620.3809,178.2765,615.3433,179.31,625.1378" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93.4831" x="560.36" y="580.859">load SLDB docs</text></g><!--link GraphApi to StatusDerivation--><g class="link" data-entity-1="ent0012" data-entity-2="ent0013" data-link-type="dependency" data-source-line="95" id="lnk27"><path d="M693.42,503.122 C695.54,508.122 744.4136,623.7556 769.8936,684.0256" fill="none" id="GraphApi-to-StatusDerivation" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="772.23,689.552,772.4097,679.7048,770.283,684.9466,765.0412,682.8199,772.23,689.552" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="132.4831" x="726.36" y="580.859">derive support_status</text></g><!--link DocumentPane to RenderedManuscript--><g class="link" data-entity-1="ent0003" data-entity-2="ent0004" data-link-type="dependency" data-source-line="96" id="lnk28"><path d="M1479.29,503.102 C1477.87,505.982 1454.97,552.762 1444.36,592.962 C1442.5263,599.9095 1440.8561,607.1156 1439.337,614.4114 C1438.9573,616.2354 1438.5869,618.065 1438.2259,619.8975 C1438.0453,620.8138 1437.8671,621.7308 1437.6912,622.6482 C1437.6032,623.107 1437.5158,623.5658 1437.429,624.0247 C1437.3856,624.2541 1438.4506,618.5868 1438.4075,618.8163" fill="none" id="DocumentPane-to-RenderedManuscript" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="1437.2992,624.713,1442.8928,616.6068,1438.2228,619.7991,1435.0305,615.129,1437.2992,624.713" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="118.9501" x="1452.36" y="580.859">left reading surface</text></g><!--link SldbInspector to RenderedManuscript--><g class="link" data-entity-1="ent0007" data-entity-2="ent0004" data-link-type="dependency" data-source-line="97" id="lnk29"><path d="M1337.4538,536.06 C1337.5234,536.3167 1337.5935,536.5742 1337.6639,536.8325 C1337.8047,537.349 1337.9471,537.8688 1338.091,538.3916 C1338.6666,540.4829 1339.2667,542.6224 1339.8901,544.7972 C1341.1368,549.1469 1342.4765,553.6378 1343.8995,558.1665 C1346.7456,567.2239 1349.925,576.432 1353.36,584.962 C1366.075,616.547 1383.715,650.472 1398.3513,676.782 C1405.6694,689.937 1412.2366,701.1882 1417.0617,709.2914 C1417.1371,709.418 1414.1404,704.3897 1414.2149,704.5148" fill="none" id="SldbInspector-to-RenderedManuscript" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="1417.2866,709.6689,1416.1151,699.8899,1414.7269,705.3738,1409.243,703.9856,1417.2866,709.6689" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84.9421" x="1354.36" y="580.859">selection sync</text></g><!--link BuildPipeline to ContentStore--><g class="link" data-entity-1="ent0020" data-entity-2="ent0014" data-link-type="dependency" data-source-line="98" id="lnk30"><path d="M75.56,520.392 C39.06,533.082 6,553.612 20.36,584.962 C39.605,626.982 78.665,661.0695 113.3725,684.8532 C130.7263,696.7451 146.9919,706.061 159.1484,712.5046 C162.1876,714.1155 164.9699,715.5469 167.4482,716.7941 C168.6874,717.4177 169.8505,717.9953 170.9318,718.5263 C171.2021,718.659 171.4673,718.7888 171.7272,718.9157 C171.8572,718.9792 166.5909,716.4163 166.7183,716.4783" fill="none" id="BuildPipeline-to-ContentStore" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="172.1133,719.1039,165.7712,711.5688,167.6174,716.9159,162.2704,718.7622,172.1133,719.1039" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="214.6172" x="21.36" y="580.859">compose manuscript + frontmatter</text></g><!--link BuildPipeline to Manuscript--><g class="link" data-entity-1="ent0020" data-entity-2="ent0015" data-link-type="dependency" data-source-line="99" id="lnk31"><path d="M212.5,536.232 C223.25,544.622 233.26,554.552 240.36,565.962 C263.97,603.932 267.7884,650.7125 267.3484,684.3625" fill="none" id="BuildPipeline-to-Manuscript" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="267.27,690.362,271.3873,681.4151,267.3354,685.3624,263.388,681.3105,267.27,690.362" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="240.5392" x="250.36" y="580.859">source paper.yaml + section markdown</text></g><!--link Deskops to AstroApp--><g class="link" data-entity-1="ent0021" data-entity-2="ent0002" data-link-type="dependency" data-source-line="100" id="lnk32"><path d="M605.5675,123.9581 C605.6587,124.1511 605.7506,124.3453 605.8431,124.5409 C606.2129,125.3229 606.5924,126.1253 606.981,126.947 C607.7582,128.5904 608.5719,130.3109 609.418,132.1 C616.1866,146.4123 625.0294,165.1114 633.8713,183.8082 C638.2922,193.1567 642.7129,202.5046 646.874,211.3033 C647.004,211.5783 647.1338,211.8527 647.2633,212.1265 C647.3281,212.2635 644.8276,206.9762 644.8923,207.1129" fill="none" id="Deskops-to-AstroApp" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="647.4574,212.5369,647.2257,202.6908,645.3198,208.0169,639.9937,206.111,647.4574,212.5369" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85.3451" x="636.36" y="184.499">route UI tasks</text></g><!--link DeskBoard to DeskTasks--><g class="link" data-entity-1="ent0022" data-entity-2="ent0023" data-link-type="dependency" data-source-line="101" id="lnk33"><path d="M472.36,139.712 C472.36,165.762 472.36,195.872 472.36,221.902" fill="none" id="DeskBoard-to-DeskTasks" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="472.36,227.902,476.36,218.902,472.36,222.902,468.36,218.902,472.36,227.902" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46.787" x="473.36" y="184.499">task set</text></g><?plantuml-src bPPHRzis483VzIiEsKlN8V4Qswrh505asIeAR4DGRyy18z6EPfaaIBg1KUI_bwHaYOmeAdf849xuaH_lJbJ4eI0CSNI4Z1uP9PZ8BryUwOdaY9_lxc25iiEUwt52IyhXjpJP9CddI0nnbEUOrynw5d-Q9eDCIeciYVbcDlzpPH4SPnAHVOb7slLmGJi_4xBBaKIFI8oLysD1DoyIKcFA0kt7cdcfe9YF27bPBP1HZdrMwyKcITCmOplDaa-BU16SRnbz-3YzdQN-ih_PoCC4ZRhpGqPjiTyir4M2Fftf8Pscn6-swH11cTUpGovMQIzdy1ebctIz6EPihtdyUJMF1ndRBfsb7thQOfHT3nUqypCXkxRee-JyMD3DYuJKcXOOPUQbWc8-8kHbjm3DJaVrbyziyp6TRU9XpdQR9elr_7QGSUtYsxuM66FNmmNj_4p8pcg2CN9-BEZcHK9gRHkCCVDIGJ4V4VAoMk2PyiEkfC_Up_PqCq_dmvpjjjZCPl5waB7ibDkqxyOPPTV31UtyJCYkRO9HSduiwEP5GcfD6umoyr91CH_HzOhgQN354CFyuSSjn49o2Z5ZLu14DL83SFwf-na1DEIwxcUuHmJ3knBlvE-6lJmmyUQBhbcB_ew9EWNEuMz4JYBZ1PC6liJRC3YlJhKCjAqBLrlL9mKbi2ffTX1cbJfKHPm5klYzojkU8_PaBz04-vPuYQgVva3RlzOh-4O4KrkhJB_ZnVwfJiYsp1_R9wyoqZs8C1crpo6SL4Qz1sWsSS_GtVlr4lzGYQrjpJ2uvvQUU6OZTU0rvAHeWbWnCKOt_mjA3FTL3sDMT1lDtKyYULAjXNdn0-cKL9kQQ1jqTtxnT7ccNWMze53PgCIJAhBL0N3-AT0Ibo5S7Pk6d1ZERT26SXXHbs_Y5BD_FhjKh2QQ2WOOecirQSiMiAbADB7hvSv-YQoKFvwACdzW1SDbGV0DEnjkfQFtTR3DTvFf78i3PG8krm-Kw8ohVbpNZvoxIIVPsbJZ4ud4GKnM5F7yvfWth0auT2-hVr-_j-5_TNm8veKyeRBEaAQ-Lm6NUucYvdgylhvhMtW9Eoop9wXUHeRE9KLvr3pMSvrkMuAU0ERcKDUBSATscdi9kHvW42V6A9SFmio8dFjMavuxL6sbxcVrIKLvGVPg1Rv36OxScwcN5RYixrXn9bdaze3dM2QlgkNQTmR-W1rNauv8IimzAxZxcUO4yzRUdD6nL7ZzBgar-I6dpoIwj9EccteiGNrF9OR_le7fXAXj73slxOIbUQvMbRy0?></g></svg></div>
+</section>
+<section id="matriz-ui-componentes">
+  <h2>Matriz UI-Componentes</h2>
+  <p class="meta">fuente: <code>matrix/ui-components.yml</code> — Vistas (documento, inspector, api) × stages con árbol de componentes.</p>
+  <div id="vega-matrix" class="diagram vega"></div>
+</section>
+<section id="sequence">
+  <h2>Sequence — Selección sincronizada</h2>
+  <p class="meta">fuente: <code>sequence/select-trace.puml</code> — Flujo de selección documento ↔ inspector.</p>
+  <div class="diagram"><?plantuml 1.2026.2?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="SEQUENCE" height="517px" preserveAspectRatio="none" style="width:767px;height:517px;background:#FFFFFF;" version="1.1" viewBox="0 0 767 517" width="767px" zoomAndPan="magnify"><defs/><g><g class="participant-lifeline" data-entity-uid="part1" data-qualified-name="Reader" id="part1-lifeline"><g><title>Reader</title><rect fill="#000000" fill-opacity="0.00000" height="350.0602" width="8" x="27.3729" y="84.0679"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="31" x2="31" y1="84.0679" y2="434.1281"/></g></g><g class="participant-lifeline" data-entity-uid="part2" data-qualified-name="DocumentPane" id="part2-lifeline"><g><title>DocumentPane</title><rect fill="#000000" fill-opacity="0.00000" height="350.0602" width="8" x="181.295" y="84.0679"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="184.4822" x2="184.4822" y1="84.0679" y2="434.1281"/></g></g><g class="participant-lifeline" data-entity-uid="part3" data-qualified-name="SldbInspector" id="part3-lifeline"><g><title>SldbInspector</title><rect fill="#000000" fill-opacity="0.00000" height="350.0602" width="8" x="456.9362" y="84.0679"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="460.3594" x2="460.3594" y1="84.0679" y2="434.1281"/></g></g><g class="participant-lifeline" data-entity-uid="part4" data-qualified-name="GraphApi" id="part4-lifeline"><g><title>GraphApi</title><rect fill="#000000" fill-opacity="0.00000" height="350.0602" width="8" x="728.8174" y="84.0679"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5,5;" x1="732.6885" x2="732.6885" y1="84.0679" y2="434.1281"/></g></g><g class="participant participant-head" data-entity-uid="part1" data-qualified-name="Reader" id="part1-head"><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46.7458" x="5" y="79.9659">Reader</text><ellipse cx="31.3729" cy="13.5" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M31.3729,21.5 L31.3729,48.5 M18.3729,29.5 L44.3729,29.5 M31.3729,48.5 L18.3729,63.5 M31.3729,48.5 L44.3729,63.5" fill="none" style="stroke:#181818;stroke-width:0.5;"/></g><g class="participant participant-tail" data-entity-uid="part1" data-qualified-name="Reader" id="part1-tail"><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46.7458" x="5" y="448.094">Reader</text><ellipse cx="31.3729" cy="460.696" fill="#E2E2F0" rx="8" ry="8" style="stroke:#181818;stroke-width:0.5;"/><path d="M31.3729,468.696 L31.3729,495.696 M18.3729,476.696 L44.3729,476.696 M31.3729,495.696 L18.3729,510.696 M31.3729,495.696 L44.3729,510.696" fill="none" style="stroke:#181818;stroke-width:0.5;"/></g><g class="participant participant-head" data-entity-uid="part2" data-qualified-name="DocumentPane" id="part2-head"><rect fill="#E2E2F0" height="33.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115.6256" x="127.4822" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101.6256" x="134.4822" y="71.9659">DocumentPane</text></g><g class="participant participant-tail" data-entity-uid="part2" data-qualified-name="DocumentPane" id="part2-tail"><rect fill="#E2E2F0" height="33.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="115.6256" x="127.4822" y="433.1281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101.6256" x="134.4822" y="455.094">DocumentPane</text></g><g class="participant participant-head" data-entity-uid="part3" data-qualified-name="SldbInspector" id="part3-head"><rect fill="#E2E2F0" height="33.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105.1537" x="408.3594" y="50"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.1537" x="415.3594" y="71.9659">SldbInspector</text></g><g class="participant participant-tail" data-entity-uid="part3" data-qualified-name="SldbInspector" id="part3-tail"><rect fill="#E2E2F0" height="33.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="105.1537" x="408.3594" y="433.1281"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91.1537" x="415.3594" y="455.094">SldbInspector</text></g><g class="participant participant-head" data-entity-uid="part4" data-qualified-name="GraphApi" id="part4-head"><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62.2578" x="698.6885" y="79.9659">GraphApi</text><path d="M712.3174,37 L712.3174,61 M712.3174,49 L729.3174,49" fill="none" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="741.3174" cy="49" fill="#E2E2F0" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/></g><g class="participant participant-tail" data-entity-uid="part4" data-qualified-name="GraphApi" id="part4-tail"><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62.2578" x="698.6885" y="448.094">GraphApi</text><path d="M712.3174,456.196 L712.3174,480.196 M712.3174,468.196 L729.3174,468.196" fill="none" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="741.3174" cy="468.196" fill="#E2E2F0" rx="12" ry="12" style="stroke:#181818;stroke-width:0.5;"/></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg1"><polygon fill="#181818" points="173.295,113.7739,183.295,117.7739,173.295,121.7739,177.295,117.7739" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="31.3729" x2="179.295" y1="117.7739" y2="117.7739"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="104.0001" x="38.3729" y="111.9649">open manuscript</text></g><g class="message" data-entity-1="part2" data-entity-2="part4" id="msg2"><polygon fill="#181818" points="720.8174,145.4799,730.8174,149.4799,720.8174,153.4799,724.8174,149.4799" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="185.295" x2="726.8174" y1="149.4799" y2="149.4799"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128.1151" x="192.295" y="143.6709">fetch /api/graph.json</text></g><g class="message" data-entity-1="part2" data-entity-2="part4" id="msg3"><polygon fill="#181818" points="720.8174,177.186,730.8174,181.186,720.8174,185.186,724.8174,181.186" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;stroke-dasharray:2,2;" x1="185.295" x2="726.8174" y1="181.186" y2="181.186"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="212.6672" x="192.295" y="175.377">graph payload with support_status</text></g><g class="message" data-entity-1="part1" data-entity-2="part2" id="msg4"><polygon fill="#181818" points="173.295,208.892,183.295,212.892,173.295,216.892,177.295,212.892" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="31.3729" x2="179.295" y1="212.892" y2="212.892"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129.9221" x="38.3729" y="207.083">click paragraph block</text></g><g class="message" data-entity-1="part2" data-entity-2="part3" id="msg5"><polygon fill="#181818" points="448.9362,240.598,458.9362,244.598,448.9362,248.598,452.9362,244.598" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="185.295" x2="454.9362" y1="244.598" y2="244.598"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125.1641" x="192.295" y="238.789">set active paragraph</text></g><g class="message" data-entity-1="part3" data-entity-2="part3" id="msg6"><line style="stroke:#181818;stroke-width:1;" x1="460.9362" x2="502.9362" y1="276.304" y2="276.304"/><line style="stroke:#181818;stroke-width:1;" x1="502.9362" x2="502.9362" y1="276.304" y2="289.304"/><line style="stroke:#181818;stroke-width:1;" x1="461.9362" x2="502.9362" y1="289.304" y2="289.304"/><polygon fill="#181818" points="471.9362,285.304,461.9362,289.304,471.9362,293.304,467.9362,289.304" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257.8812" x="467.9362" y="270.495">reveal section context + note/source chain</text></g><g class="message" data-entity-1="part1" data-entity-2="part3" id="msg7"><polygon fill="#181818" points="448.9362,317.01,458.9362,321.01,448.9362,325.01,452.9362,321.01" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="31.3729" x2="454.9362" y1="321.01" y2="321.01"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87.7111" x="38.3729" y="315.201">click note card</text></g><g class="message" data-entity-1="part3" data-entity-2="part2" id="msg8"><polygon fill="#181818" points="196.295,348.716,186.295,352.716,196.295,356.716,192.295,352.716" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="190.295" x2="459.9362" y1="352.716" y2="352.716"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="209.4692" x="202.295" y="346.907">highlight linked paragraph anchor</text></g><g class="message" data-entity-1="part1" data-entity-2="part3" id="msg9"><polygon fill="#181818" points="448.9362,380.4221,458.9362,384.4221,448.9362,388.4221,452.9362,384.4221" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="31.3729" x2="454.9362" y1="384.4221" y2="384.4221"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="100.8541" x="38.3729" y="378.6131">click source card</text></g><g class="message" data-entity-1="part3" data-entity-2="part2" id="msg10"><polygon fill="#181818" points="196.295,412.1281,186.295,416.1281,196.295,420.1281,192.295,416.1281" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="190.295" x2="459.9362" y1="416.1281" y2="416.1281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="251.6412" x="202.295" y="410.3191">keep trace anchored on active paragraph</text></g><?plantuml-src ZL7DIiGm4BxdAUOkjVT5144GR-8-W4oduoOsEmd9P7NVtjHIRBkA7dB9zvyWQKZmpDXpCX6JEd8HHU4-K3cow1CAhu2zxxj7oP57fUb2aHxJ6HuIHdiNdJ6J6JItAuyTXCW2HvIIARcePecExDbX1w-iPA75wDh3U7dzbeEO6OURfjbOVx4Wuja7xE7TgOLSOWn9NxAYblnhAVAEXgfCE7bqFj1mKMsrUGUP5P3KdVXRQLQS7qI9Juo-Qgim250GvG-5Av2WtEPG4Z6GHIUBiXkFgUqe0CBKNsQknrbtiBuU1Uzau7wn4uLi_Ru_akPM_yWQc2DemagVl6jSdRbzfay0?></g></svg></div>
+</section>
+<section id="state">
+  <h2>State — Soporte de párrafo</h2>
+  <p class="meta">fuente: <code>state/paragraph-support.puml</code> — Estados derivados support_status en /api/graph.json.</p>
+  <div class="diagram"><?plantuml 1.2026.2?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="STATE" height="401px" preserveAspectRatio="none" style="width:1198px;height:401px;background:#FFFFFF;" version="1.1" viewBox="0 0 1198 401" width="1198px" zoomAndPan="magnify"><defs/><g><g class="start_entity" data-qualified-name=".start." data-source-line="1" id="ent0002"><ellipse cx="473.5" cy="16" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1;"/></g><g class="entity" data-qualified-name="incomplete" id="ent0003"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="93.6117" x="426.5" y="87"/><line style="stroke:#181818;stroke-width:0.5;" x1="426.5" x2="520.1117" y1="116.0679" y2="116.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73.6117" x="436.5" y="106.9659">incomplete</text></g><g class="entity" data-qualified-name="missing_note" id="ent0005"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="107.2757" x="7" y="216"/><line style="stroke:#181818;stroke-width:0.5;" x1="7" x2="114.2757" y1="245.0679" y2="245.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87.2757" x="17" y="235.9659">missing_note</text></g><g class="entity" data-qualified-name="missing_source" id="ent0007"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="121.4296" x="173" y="216"/><line style="stroke:#181818;stroke-width:0.5;" x1="173" x2="294.4296" y1="245.0679" y2="245.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101.4296" x="183" y="235.9659">missing_source</text></g><g class="entity" data-qualified-name="evidence_pending" id="ent0009"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="139.2515" x="404" y="216"/><line style="stroke:#181818;stroke-width:0.5;" x1="404" x2="543.2515" y1="245.0679" y2="245.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119.2515" x="414" y="235.9659">evidence_pending</text></g><g class="entity" data-qualified-name="supported" id="ent0011"><rect fill="#F1F1F1" height="50" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="88.3898" x="429.5" y="345"/><line style="stroke:#181818;stroke-width:0.5;" x1="429.5" x2="517.8898" y1="374.0679" y2="374.0679"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68.3898" x="439.5" y="364.9659">supported</text></g><!--link *start* to incomplete--><g class="link" data-entity-1="ent0002" data-entity-2="ent0003" data-link-type="dependency" data-source-line="1" id="lnk4"><path d="M473.5,26.01 C473.5,39.89 473.5,60.97 473.5,80.84" fill="none" id="*start*-to-incomplete" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="473.5,86.84,477.5,77.84,473.5,81.84,469.5,77.84,473.5,86.84" style="stroke:#181818;stroke-width:1;"/></g><!--link incomplete to missing_note--><g class="link" data-entity-1="ent0003" data-entity-2="ent0005" data-link-type="dependency" data-source-line="3" id="lnk6"><path d="M426.42,115.75 C323.45,122.25 85.48,140.05 61.5,167 C49.96,179.97 49.363,194.0749 52.353,209.8549" fill="none" id="incomplete-to-missing_note" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="53.47,215.75,55.7246,206.1627,52.5392,210.8374,47.8644,207.652,53.47,215.75" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="155.2072" x="62.5" y="181.897">compose [no linked note]</text></g><!--link incomplete to missing_source--><g class="link" data-entity-1="ent0003" data-entity-2="ent0007" data-link-type="dependency" data-source-line="4" id="lnk8"><path d="M426.32,116.77 C363.4,122.89 257.18,137.4 233.5,167 C222.73,180.46 222.2785,194.3277 225.2685,209.8977" fill="none" id="incomplete-to-missing_source" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="226.4,215.79,228.6309,206.1971,225.457,210.8797,220.7745,207.7059,226.4,215.79" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227.6172" x="234.5" y="181.897">compose [note exists, no source refs]</text></g><!--link incomplete to evidence_pending--><g class="link" data-entity-1="ent0003" data-entity-2="ent0009" data-link-type="dependency" data-source-line="5" id="lnk10"><path d="M471.87,137.18 C471.32,146.5 470.77,157.24 470.5,167 C470.05,183.23 470.437,195.491 471.297,209.681" fill="none" id="incomplete-to-evidence_pending" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="471.66,215.67,475.1082,206.4445,471.3575,210.6792,467.1229,206.9285,471.66,215.67" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="321.5553" x="471.5" y="181.897">compose [sources linked, excerpt or anchor missing]</text></g><!--link incomplete to supported--><g class="link" data-entity-1="ent0003" data-entity-2="ent0011" data-link-type="dependency" data-source-line="6" id="lnk12"><path d="M520.66,113.69 C601.82,115.99 762.58,125.77 797.5,167 C885.23,270.56 631.2404,336.4396 523.6704,359.1696" fill="none" id="incomplete-to-supported" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="517.8,360.41,527.4325,362.4629,522.692,359.3763,525.7786,354.6358,517.8,360.41" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="217.3732" x="814.5" y="246.397">compose [note + sources complete]</text></g><!--link supported to incomplete--><g class="link" data-entity-1="ent0011" data-entity-2="ent0003" data-link-type="dependency" data-source-line="10" id="lnk16"><path d="M517.91,367.95 C639.59,364.04 973.66,346.07 1040.5,266 C1054.74,248.94 1054.33,233.39 1040.5,216 C976.05,134.95 651.1074,117.8066 526.7774,114.1466" fill="none" id="supported-to-incomplete" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="520.78,113.97,529.6584,118.2331,525.7778,114.1171,529.8938,110.2366,520.78,113.97" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139.0221" x="1051.5" y="246.397">remove note or source</text></g><!--link missing_note to supported--><g class="link" data-entity-1="ent0005" data-entity-2="ent0011" data-link-type="dependency" data-source-line="7" id="lnk13"><path d="M114.18,260.99 C157.94,276.24 221.43,297.86 277.5,315 C329.31,330.84 383.6572,345.5743 423.5172,356.0543" fill="none" id="missing_note-to-supported" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="429.32,357.58,421.6329,351.423,424.4843,356.3086,419.5987,359.16,429.32,357.58" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="52.9881" x="278.5" y="310.897">link note</text></g><!--link missing_source to supported--><g class="link" data-entity-1="ent0007" data-entity-2="ent0011" data-link-type="dependency" data-source-line="8" id="lnk14"><path d="M278.92,266.04 C322.14,288.9 381.4261,320.2848 424.1761,342.8948" fill="none" id="missing_source-to-supported" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="429.48,345.7,423.3943,337.9563,425.0601,343.3624,419.6541,345.0282,429.48,345.7" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72.3581" x="369.5" y="310.897">link sources</text></g><!--link evidence_pending to supported--><g class="link" data-entity-1="ent0009" data-entity-2="ent0011" data-link-type="dependency" data-source-line="9" id="lnk15"><path d="M473.5,266.19 C473.5,288.78 473.5,316.33 473.5,338.9" fill="none" id="evidence_pending-to-supported" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="473.5,344.9,477.5,335.9,473.5,339.9,469.5,335.9,473.5,344.9" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136.6691" x="474.5" y="310.897">fill excerpt and anchor</text></g><?plantuml-src TL5B3eCW4DrpYbctUe4kUX5ZZ86n9SM1CDZq-0N5Mh5TGNYVUMzeJYtKzHKqIJiwWm65sEupD6fcJRUER7ouGC8i8pHamMXwe8A4jFzaR2Sl2s6au4jpu2fg8JCy3dnmmQTMI18xXwIYtRVFekESeegM4hqBO3tq9E_no1aEhZmvPts8qSjOPrXTLq4hTWievMdul01H5Fv9pERYKAja3zgOJw6UL6uaDix-rwB4usYVE6T9ArX6lG40?></g></svg></div>
+</section>
+<section id="activity">
+  <h2>Activity — Build y serve</h2>
+  <p class="meta">fuente: <code>activity/build-and-serve.puml</code> — Pipeline compose → derive → render → sync.</p>
+  <div class="diagram"><?plantuml 1.2026.2?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="ACTIVITY" height="492px" preserveAspectRatio="none" style="width:604px;height:492px;background:#FFFFFF;" version="1.1" viewBox="0 0 604 492" width="604px" zoomAndPan="magnify"><defs/><g><ellipse cx="353.1542" cy="20" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1;"/><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="140.8288" x="282.7398" y="50"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120.8288" x="292.7398" y="72.8281">Run build_pipeline.py</text><polygon fill="#F1F1F1" points="270.3523,106.3441,435.9561,106.3441,447.9561,118.3441,435.9561,130.3441,270.3523,130.3441,258.3523,118.3441,270.3523,106.3441" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="165.6039" x="270.3523" y="122.6121">Manuscript + notes composed??</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17.0829" x="241.2694" y="115.1211">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="13.4529" x="447.9561" y="115.1211">no</text><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="173.1571" x="110.5527" y="140.3441"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="153.1571" x="120.5527" y="163.1722">Astro loads /api/graph.json</text><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="231.7415" x="81.2605" y="196.6882"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="211.7415" x="91.2605" y="219.5163">Derive paragraph/note/section status</text><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="251.2176" x="71.5224" y="253.0323"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="231.2176" x="81.5224" y="275.8604">Render document pane + SLDB inspector</text><polygon fill="#F1F1F1" points="102.5924,309.3765,291.6701,309.3765,303.6701,321.3765,291.6701,333.3765,102.5924,333.3765,90.5924,321.3765,102.5924,309.3765" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="189.0777" x="102.5924" y="325.6444">Selection synchronized both panes??</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="17.0829" x="73.5095" y="318.1535">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="13.4529" x="303.6701" y="318.1535">no</text><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="139.1848" x="11" y="343.3765"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="119.1848" x="21" y="366.2045">Serve app (dev/build)</text><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="162.081" x="232.6296" y="343.3765"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="142.081" x="242.6296" y="366.2045">Fix selection propagation</text><polygon fill="#F1F1F1" points="197.1312,385.7206,209.1312,397.7206,197.1312,409.7206,185.1312,397.7206,197.1312,385.7206" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="36.3441" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="168.9331" x="424.7106" y="140.3441"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="148.9331" x="434.7106" y="163.1722">Report missing docs/fields</text><polygon fill="#F1F1F1" points="353.1542,415.7206,365.1542,427.7206,353.1542,439.7206,341.1542,427.7206,353.1542,415.7206" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="353.1542" cy="470.7206" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1;"/><ellipse cx="353.1542" cy="470.7206" fill="#222222" rx="6" ry="6" style="stroke:#222222;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="353.1542" x2="353.1542" y1="30" y2="50"/><polygon fill="#181818" points="349.1542,40,353.1542,50,357.1542,40,353.1542,44" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="197.1312" x2="197.1312" y1="176.6882" y2="196.6882"/><polygon fill="#181818" points="193.1312,186.6882,197.1312,196.6882,201.1312,186.6882,197.1312,190.6882" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="197.1312" x2="197.1312" y1="233.0323" y2="253.0323"/><polygon fill="#181818" points="193.1312,243.0323,197.1312,253.0323,201.1312,243.0323,197.1312,247.0323" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="90.5924" x2="80.5924" y1="321.3765" y2="321.3765"/><line style="stroke:#181818;stroke-width:1;" x1="80.5924" x2="80.5924" y1="321.3765" y2="343.3765"/><polygon fill="#181818" points="76.5924,333.3765,80.5924,343.3765,84.5924,333.3765,80.5924,337.3765" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="303.6701" x2="313.6701" y1="321.3765" y2="321.3765"/><line style="stroke:#181818;stroke-width:1;" x1="313.6701" x2="313.6701" y1="321.3765" y2="343.3765"/><polygon fill="#181818" points="309.6701,333.3765,313.6701,343.3765,317.6701,333.3765,313.6701,337.3765" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="80.5924" x2="80.5924" y1="379.7206" y2="397.7206"/><line style="stroke:#181818;stroke-width:1;" x1="80.5924" x2="185.1312" y1="397.7206" y2="397.7206"/><polygon fill="#181818" points="175.1312,393.7206,185.1312,397.7206,175.1312,401.7206,179.1312,397.7206" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="313.6701" x2="313.6701" y1="379.7206" y2="397.7206"/><line style="stroke:#181818;stroke-width:1;" x1="313.6701" x2="209.1312" y1="397.7206" y2="397.7206"/><polygon fill="#181818" points="219.1312,393.7206,209.1312,397.7206,219.1312,401.7206,215.1312,397.7206" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="197.1312" x2="197.1312" y1="289.3765" y2="309.3765"/><polygon fill="#181818" points="193.1312,299.3765,197.1312,309.3765,201.1312,299.3765,197.1312,303.3765" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="258.3523" x2="197.1312" y1="118.3441" y2="118.3441"/><line style="stroke:#181818;stroke-width:1;" x1="197.1312" x2="197.1312" y1="118.3441" y2="140.3441"/><polygon fill="#181818" points="193.1312,130.3441,197.1312,140.3441,201.1312,130.3441,197.1312,134.3441" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="447.9561" x2="509.1771" y1="118.3441" y2="118.3441"/><line style="stroke:#181818;stroke-width:1;" x1="509.1771" x2="509.1771" y1="118.3441" y2="140.3441"/><polygon fill="#181818" points="505.1771,130.3441,509.1771,140.3441,513.1771,130.3441,509.1771,134.3441" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="197.1312" x2="197.1312" y1="409.7206" y2="427.7206"/><line style="stroke:#181818;stroke-width:1;" x1="197.1312" x2="341.1542" y1="427.7206" y2="427.7206"/><polygon fill="#181818" points="331.1542,423.7206,341.1542,427.7206,331.1542,431.7206,335.1542,427.7206" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="509.1771" x2="509.1771" y1="176.6882" y2="427.7206"/><line style="stroke:#181818;stroke-width:1;" x1="509.1771" x2="365.1542" y1="427.7206" y2="427.7206"/><polygon fill="#181818" points="375.1542,423.7206,365.1542,427.7206,375.1542,431.7206,371.1542,427.7206" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="353.1542" x2="353.1542" y1="86.3441" y2="106.3441"/><polygon fill="#181818" points="349.1542,96.3441,353.1542,106.3441,357.1542,96.3441,353.1542,100.3441" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="353.1542" x2="353.1542" y1="439.7206" y2="459.7206"/><polygon fill="#181818" points="349.1542,449.7206,353.1542,459.7206,357.1542,449.7206,353.1542,453.7206" style="stroke:#181818;stroke-width:1;"/><?plantuml-src NO-nQiDG34LtVuL6cqAysqDe2PsQ9Vc0ykAdn2gE92GvrFtwFgUab6v2d7jrv94igkumCvncclAxak94Z1jT-ehEKEyJppuOQS0Ji0Gw379LSSpRRGCn8aEze3TLz-nX0fEaxD0cfVPYISVDXmltLRT3enk29altVRkMjOv3a31uf9YzO0VaZ0PPXlcA78LdB9UFRxiN87OjlDYFsX6dHthXOJHX-i8C9udn7lF_WaUqOf1KeSvuQ-yVDts5aoFKB8LufK_mtrerqNH9wrmepdJ-onvGnGAkv4vyMOszFHDEsH-mX-Wt?></g></svg></div>
+</section>
+<section id="deployment">
+  <h2>Deployment — Runtime dev</h2>
+  <p class="meta">fuente: <code>deployment/dev-runtime.puml</code> — Browser, Astro dev server, filesystem sldb.</p>
+  <div class="diagram"><?plantuml 1.2026.2?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="428px" preserveAspectRatio="none" style="width:456px;height:428px;background:#FFFFFF;" version="1.1" viewBox="0 0 456 428" width="456px" zoomAndPan="magnify"><defs/><g><!--cluster browser--><g class="cluster" data-qualified-name="browser" data-source-line="1" id="ent0002"><polygon fill="none" points="80,16,90,6,372,6,372,97,362,107,80,107,80,16" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="362" x2="372" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:1;" x1="80" x2="362" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:1;" x1="362" x2="362" y1="16" y2="107"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58.0018" x="192.9991" y="33.9659">Browser</text></g><!--cluster astro_dev--><g class="cluster" data-qualified-name="astro_dev" data-source-line="4" id="ent0004"><polygon fill="none" points="126,168,136,158,439,158,439,249,429,259,126,259,126,168" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="429" x2="439" y1="168" y2="158"/><line style="stroke:#181818;stroke-width:1;" x1="126" x2="429" y1="168" y2="168"/><line style="stroke:#181818;stroke-width:1;" x1="429" x2="429" y1="168" y2="259"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114.2816" x="221.3592" y="185.9659">Astro dev server</text></g><!--cluster filesystem--><g class="cluster" data-qualified-name="filesystem" data-source-line="8" id="ent0007"><polygon fill="none" points="16,320,26,310,410,310,410,401,400,411,16,411,16,320" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="400" x2="410" y1="320" y2="310"/><line style="stroke:#181818;stroke-width:1;" x1="16" x2="400" y1="320" y2="320"/><line style="stroke:#181818;stroke-width:1;" x1="400" x2="400" y1="320" y2="411"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160.8314" x="128.5843" y="337.9659">paper_v2 content store</text></g><!--entity editorial_browser_ui--><g class="entity" data-qualified-name="browser.editorial_browser_ui" data-source-line="2" id="ent0003"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="259.7671" x="96" y="49"/><polygon fill="#F1F1F1" points="338.7671,54,338.7671,68,350.7671,68,350.7671,60,344.7671,54,338.7671,54" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="344.7671" x2="344.7671" y1="54" y2="60"/><line style="stroke:#181818;stroke-width:0.5;" x1="350.7671" x2="344.7671" y1="60" y2="60"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229.7671" x="106" y="76.9659">index.astro (document + inspector)</text></g><!--entity graph_api--><g class="entity" data-qualified-name="astro_dev.graph_api" data-source-line="5" id="ent0005"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141.4956" x="142.5" y="201"/><polygon fill="#F1F1F1" points="266.9956,206,266.9956,220,278.9956,220,278.9956,212,272.9956,206,266.9956,206" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="272.9956" x2="272.9956" y1="206" y2="212"/><line style="stroke:#181818;stroke-width:0.5;" x1="278.9956" x2="272.9956" y1="212" y2="212"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111.4956" x="152.5" y="228.9659">api/graph.json.ts</text></g><!--entity static_app--><g class="entity" data-qualified-name="astro_dev.static_app" data-source-line="6" id="ent0006"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104.1017" x="319" y="201"/><polygon fill="#F1F1F1" points="406.1017,206,406.1017,220,418.1017,220,418.1017,212,412.1017,206,406.1017,206" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="412.1017" x2="412.1017" y1="206" y2="212"/><line style="stroke:#181818;stroke-width:0.5;" x1="418.1017" x2="412.1017" y1="212" y2="212"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74.1017" x="329" y="228.9659">built assets</text></g><!--entity sldb_docs--><g class="entity" data-qualified-name="filesystem.sldb_docs" data-source-line="9" id="ent0008"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="363.1707" x="31.5" y="353"/><polygon fill="#F1F1F1" points="377.6707,358,377.6707,372,389.6707,372,389.6707,364,383.6707,358,377.6707,358" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="383.6707" x2="383.6707" y1="358" y2="364"/><line style="stroke:#181818;stroke-width:0.5;" x1="389.6707" x2="383.6707" y1="364" y2="364"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="333.1707" x="41.5" y="380.9659">manuscript/ sections/ paragraphs/ notes/ sources/</text></g><!--link editorial_browser_ui to graph_api--><g class="link" data-entity-1="ent0003" data-entity-2="ent0005" data-link-type="dependency" data-source-line="12" id="lnk9"><path d="M203.8,91.11 C195.61,99.98 187.28,111.1 183,123 C173.42,149.62 184.2333,175.8289 196.1433,195.7689" fill="none" id="editorial_browser_ui-to-graph_api" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="199.22,200.92,198.039,191.1422,196.6561,196.6274,191.1709,195.2445,199.22,200.92" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171.2492" x="184" y="137.897">HTTP (fetch /api/graph.json)</text></g><!--link graph_api to sldb_docs--><g class="link" data-entity-1="ent0005" data-entity-2="ent0008" data-link-type="dependency" data-source-line="13" id="lnk10"><path d="M213,243.23 C213,271.86 213,317.9 213,346.61" fill="none" id="graph_api-to-sldb_docs" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="213,352.61,217,343.61,213,347.61,209,343.61,213,352.61" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93.1451" x="214" y="289.897">filesystem read</text></g><!--link static_app to editorial_browser_ui--><g class="link" data-entity-1="ent0006" data-entity-2="ent0003" data-link-type="dependency" data-source-line="14" id="lnk11"><path d="M374.4,200.75 C376.83,179.21 377.13,145.25 360,123 C349.11,108.86 339.313,101.0729 322.973,93.5729" fill="none" id="static_app-to-editorial_browser_ui" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="317.52,91.07,324.0309,98.4597,322.0642,93.1558,327.3681,91.189,317.52,91.07" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32.864" x="370" y="137.897">serve</text></g><?plantuml-src RL2nJiD03Dtp5LQcLgY9nDW12IR63jqZvywXXzAxqza98CI_uroYXg1EVhBVytks3vQWV4dXWocLW0pjZE6x0C0ahaCZK3flwRD2bXHWPuCPhkG57i1vZcGaf7qMatMA7VRDigOPNF5J-EpodDMMHj31kDZbbStKt1fYTFLRmdYftZduIZYpSwVHsORR3guN7JCjD1OKPvGNR-OHewOP7y44BrDsrg2KsPthYRzOwFelmnNzm2QvABL6DkA2vneY9imv5FiWf8N3a8o2sRotRQClOlKkxZq43eUdzH8umklvV89THs8kK6yFtnShSPBTbgliJ-v4Q8lrwaozQtsSV_yB?></g></svg></div>
+</section>
+<script>
+  const spec = {
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "paper_v2 - UI / Component Matrix",
+  "width": 1780,
+  "height": 566,
+  "padding": 5,
+  "signals": [
+    {
+      "name": "left",
+      "value": 220
+    },
+    {
+      "name": "top",
+      "value": 70
+    },
+    {
+      "name": "cellWidth",
+      "value": 140
+    },
+    {
+      "name": "rowHeight",
+      "value": 34
+    },
+    {
+      "name": "barPadding",
+      "value": 6
+    }
+  ],
+  "data": [
+    {
+      "name": "stages",
+      "values": [
+        {
+          "id": "browse-sections",
+          "index": 0,
+          "label": "navegar secciones",
+          "view": "Documento renderizado (izquierda)"
+        },
+        {
+          "id": "read-paragraphs",
+          "index": 1,
+          "label": "leer parrafos",
+          "view": "Documento renderizado (izquierda)"
+        },
+        {
+          "id": "select-paragraph",
+          "index": 2,
+          "label": "seleccionar parrafo",
+          "view": "Documento renderizado (izquierda)"
+        },
+        {
+          "id": "view-status",
+          "index": 3,
+          "label": "ver estado soporte",
+          "view": "Documento renderizado (izquierda)"
+        },
+        {
+          "id": "section-context",
+          "index": 4,
+          "label": "contexto seccion",
+          "view": "Inspector SLDB (derecha)"
+        },
+        {
+          "id": "paragraph-detail",
+          "index": 5,
+          "label": "detalle parrafo",
+          "view": "Inspector SLDB (derecha)"
+        },
+        {
+          "id": "note-support",
+          "index": 6,
+          "label": "soporte notas",
+          "view": "Inspector SLDB (derecha)"
+        },
+        {
+          "id": "source-evidence",
+          "index": 7,
+          "label": "evidencia fuentes",
+          "view": "Inspector SLDB (derecha)"
+        },
+        {
+          "id": "compose",
+          "index": 8,
+          "label": "componer payload",
+          "view": "API /api/graph.json"
+        },
+        {
+          "id": "derive-status",
+          "index": 9,
+          "label": "derivar estados",
+          "view": "API /api/graph.json"
+        },
+        {
+          "id": "serve",
+          "index": 10,
+          "label": "servir UI",
+          "view": "API /api/graph.json"
+        }
+      ]
+    },
+    {
+      "name": "views",
+      "source": "stages",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": [
+            "view"
+          ],
+          "fields": [
+            "index",
+            "index"
+          ],
+          "ops": [
+            "min",
+            "max"
+          ],
+          "as": [
+            "minIdx",
+            "maxIdx"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "viewBoundaries",
+      "source": "views",
+      "transform": [
+        {
+          "type": "formula",
+          "expr": "[datum.minIdx, datum.maxIdx + 1]",
+          "as": "indices"
+        },
+        {
+          "type": "flatten",
+          "fields": [
+            "indices"
+          ]
+        },
+        {
+          "type": "aggregate",
+          "groupby": [
+            "indices"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "stageBoundaries",
+      "values": [
+        {
+          "index": 0
+        },
+        {
+          "index": 1
+        },
+        {
+          "index": 2
+        },
+        {
+          "index": 3
+        },
+        {
+          "index": 4
+        },
+        {
+          "index": 5
+        },
+        {
+          "index": 6
+        },
+        {
+          "index": 7
+        },
+        {
+          "index": 8
+        },
+        {
+          "index": 9
+        },
+        {
+          "index": 10
+        },
+        {
+          "index": 11
+        }
+      ]
+    },
+    {
+      "name": "rows",
+      "values": [
+        {
+          "id": "AstroApp",
+          "label": "AstroApp",
+          "row": 0,
+          "depth": 0
+        },
+        {
+          "id": "DocumentPane",
+          "label": "DocumentPane",
+          "row": 1,
+          "depth": 1
+        },
+        {
+          "id": "RenderedManuscript",
+          "label": "RenderedManuscript",
+          "row": 2,
+          "depth": 2
+        },
+        {
+          "id": "StatusBadges",
+          "label": "StatusBadges",
+          "row": 3,
+          "depth": 2
+        },
+        {
+          "id": "SldbInspector",
+          "label": "SldbInspector",
+          "row": 4,
+          "depth": 1
+        },
+        {
+          "id": "SectionsPane",
+          "label": "SectionsPane",
+          "row": 5,
+          "depth": 2
+        },
+        {
+          "id": "ParagraphInspector",
+          "label": "ParagraphInspector",
+          "row": 6,
+          "depth": 2
+        },
+        {
+          "id": "NotesPane",
+          "label": "NotesPane",
+          "row": 7,
+          "depth": 2
+        },
+        {
+          "id": "SourcesPane",
+          "label": "SourcesPane",
+          "row": 8,
+          "depth": 2
+        },
+        {
+          "id": "GraphApi",
+          "label": "GraphApi",
+          "row": 9,
+          "depth": 1
+        },
+        {
+          "id": "StatusDerivation",
+          "label": "StatusDerivation",
+          "row": 10,
+          "depth": 2
+        },
+        {
+          "id": "SldbLoaders",
+          "label": "SldbLoaders",
+          "row": 11,
+          "depth": 2
+        },
+        {
+          "id": "BuildPipeline",
+          "label": "BuildPipeline",
+          "row": 12,
+          "depth": 0
+        },
+        {
+          "id": "DeskopsWorkflow",
+          "label": "DeskopsWorkflow",
+          "row": 13,
+          "depth": 0
+        }
+      ]
+    },
+    {
+      "name": "spans",
+      "values": [
+        {
+          "component": "AstroApp",
+          "row": 0,
+          "start": 0,
+          "end": 4,
+          "kind": "core",
+          "depth": 0
+        },
+        {
+          "component": "AstroApp",
+          "row": 0,
+          "start": 4,
+          "end": 8,
+          "kind": "core",
+          "depth": 0
+        },
+        {
+          "component": "AstroApp",
+          "row": 0,
+          "start": 10,
+          "end": 11,
+          "kind": "core",
+          "depth": 0
+        },
+        {
+          "component": "DocumentPane",
+          "row": 1,
+          "start": 0,
+          "end": 4,
+          "kind": "boundary",
+          "depth": 1
+        },
+        {
+          "component": "RenderedManuscript",
+          "row": 2,
+          "start": 0,
+          "end": 3,
+          "kind": "ui",
+          "depth": 2
+        },
+        {
+          "component": "StatusBadges",
+          "row": 3,
+          "start": 3,
+          "end": 4,
+          "kind": "ui",
+          "depth": 2
+        },
+        {
+          "component": "SldbInspector",
+          "row": 4,
+          "start": 4,
+          "end": 8,
+          "kind": "boundary",
+          "depth": 1
+        },
+        {
+          "component": "SectionsPane",
+          "row": 5,
+          "start": 4,
+          "end": 5,
+          "kind": "ui",
+          "depth": 2
+        },
+        {
+          "component": "ParagraphInspector",
+          "row": 6,
+          "start": 5,
+          "end": 6,
+          "kind": "ui",
+          "depth": 2
+        },
+        {
+          "component": "NotesPane",
+          "row": 7,
+          "start": 6,
+          "end": 7,
+          "kind": "ui",
+          "depth": 2
+        },
+        {
+          "component": "SourcesPane",
+          "row": 8,
+          "start": 7,
+          "end": 8,
+          "kind": "ui",
+          "depth": 2
+        },
+        {
+          "component": "GraphApi",
+          "row": 9,
+          "start": 8,
+          "end": 11,
+          "kind": "service",
+          "depth": 1
+        },
+        {
+          "component": "StatusDerivation",
+          "row": 10,
+          "start": 9,
+          "end": 10,
+          "kind": "core",
+          "depth": 2
+        },
+        {
+          "component": "SldbLoaders",
+          "row": 11,
+          "start": 8,
+          "end": 9,
+          "kind": "core",
+          "depth": 2
+        },
+        {
+          "component": "BuildPipeline",
+          "row": 12,
+          "start": 8,
+          "end": 9,
+          "kind": "core",
+          "depth": 0
+        },
+        {
+          "component": "DeskopsWorkflow",
+          "row": 13,
+          "start": 10,
+          "end": 11,
+          "kind": "boundary",
+          "depth": 0
+        }
+      ]
+    }
+  ],
+  "scales": [
+    {
+      "name": "kindColor",
+      "type": "ordinal",
+      "domain": [
+        "service",
+        "ui",
+        "core",
+        "boundary"
+      ],
+      "range": [
+        "#94A3B8",
+        "#94A3B8",
+        "#F59E0B",
+        "#60A5FA"
+      ]
+    }
+  ],
+  "marks": [
+    {
+      "type": "text",
+      "from": {
+        "data": "views"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "left + (datum.minIdx + datum.maxIdx + 1) * cellWidth / 2"
+          },
+          "y": {
+            "value": 15
+          },
+          "text": {
+            "field": "view"
+          },
+          "align": {
+            "value": "center"
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fontSize": {
+            "value": 15
+          },
+          "fill": {
+            "value": "#475569"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "stages"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "left + datum.index * cellWidth + cellWidth / 2"
+          },
+          "y": {
+            "value": 40
+          },
+          "text": {
+            "field": "label"
+          },
+          "align": {
+            "value": "center"
+          },
+          "fontWeight": {
+            "value": "bold"
+          },
+          "fontSize": {
+            "value": 13
+          },
+          "fill": {
+            "value": "#475569"
+          }
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "from": {
+        "data": "stageBoundaries"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "left + datum.index * cellWidth"
+          },
+          "y": {
+            "signal": "top - 20"
+          },
+          "y2": {
+            "signal": "top + 14 * rowHeight + 10"
+          },
+          "stroke": {
+            "value": "#CBD5E1"
+          },
+          "strokeDash": {
+            "value": [
+              4,
+              4
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "from": {
+        "data": "viewBoundaries"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "left + datum.indices * cellWidth"
+          },
+          "y": {
+            "signal": "top - 40"
+          },
+          "y2": {
+            "signal": "top + 14 * rowHeight + 20"
+          },
+          "stroke": {
+            "value": "#475569"
+          },
+          "strokeWidth": {
+            "value": 2.5
+          },
+          "strokeOpacity": {
+            "value": 0.6
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "rows"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "value": 0
+          },
+          "x2": {
+            "signal": "width"
+          },
+          "y": {
+            "signal": "top + datum.row * rowHeight"
+          },
+          "height": {
+            "signal": "rowHeight"
+          },
+          "fill": {
+            "signal": "datum.depth === 0 ? (datum.row % 2 === 0 ? '#475569' : '#94A3B8') : (datum.row % 2 === 0 ? '#CBD5E1' : '#E2E8F0')"
+          },
+          "fillOpacity": {
+            "value": 0.15
+          }
+        }
+      }
+    },
+    {
+      "type": "rule",
+      "from": {
+        "data": "rows"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "12 + datum.depth * 18"
+          },
+          "x2": {
+            "signal": "12 + datum.depth * 18"
+          },
+          "y": {
+            "signal": "top + datum.row * rowHeight + 2"
+          },
+          "y2": {
+            "signal": "top + datum.row * rowHeight + rowHeight - 2"
+          },
+          "stroke": {
+            "signal": "datum.depth === 0 ? '#475569' : '#94A3B8'"
+          },
+          "strokeWidth": {
+            "signal": "datum.depth === 0 ? 3 : 1.5"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "rows"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "20 + datum.depth * 18"
+          },
+          "y": {
+            "signal": "top + datum.row * rowHeight + rowHeight / 2"
+          },
+          "text": {
+            "field": "label"
+          },
+          "align": {
+            "value": "left"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fontSize": {
+            "value": 13
+          },
+          "fill": {
+            "value": "#111827"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "spans"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "signal": "left + datum.start * cellWidth + 4"
+          },
+          "x2": {
+            "signal": "left + datum.end * cellWidth - 4"
+          },
+          "y": {
+            "signal": "top + datum.row * rowHeight + barPadding"
+          },
+          "height": {
+            "signal": "rowHeight - barPadding * 2"
+          },
+          "cornerRadius": {
+            "value": 7
+          },
+          "fill": {
+            "scale": "kindColor",
+            "field": "kind"
+          },
+          "fillOpacity": {
+            "signal": "max(0.3, 1 - (datum.depth * 0.25))"
+          },
+          "stroke": {
+            "scale": "kindColor",
+            "field": "kind"
+          },
+          "strokeOpacity": {
+            "value": 0.7
+          },
+          "strokeWidth": {
+            "value": 1.5
+          }
+        }
+      }
+    }
+  ]
+};
+  vegaEmbed('#vega-matrix', spec, {actions: false, renderer: 'svg'});
+</script>
+</body>
+</html>

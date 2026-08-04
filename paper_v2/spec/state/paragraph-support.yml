@@ -6,11 +6,11 @@ data:
   entity: Paragraph
   initial: incomplete
   states:
-    - id: missing-note
+    - id: missing_note
       label: Missing Note
-    - id: missing-source
+    - id: missing_source
       label: Missing Source
-    - id: evidence-pending
+    - id: evidence_pending
       label: Evidence Pending
     - id: supported
       label: Supported
@@ -18,28 +18,28 @@ data:
       label: Incomplete
   transitions:
     - from: incomplete
-      to: missing-note
+      to: missing_note
       "on": compose
       guard: no linked note
     - from: incomplete
-      to: missing-source
+      to: missing_source
       "on": compose
       guard: note exists, no source refs
     - from: incomplete
-      to: evidence-pending
+      to: evidence_pending
       "on": compose
       guard: sources linked, excerpt or anchor missing
     - from: incomplete
       to: supported
       "on": compose
       guard: note + sources complete
-    - from: missing-note
+    - from: missing_note
       to: supported
       "on": link note
-    - from: missing-source
+    - from: missing_source
       to: supported
       "on": link sources
-    - from: evidence-pending
+    - from: evidence_pending
       to: supported
       "on": fill excerpt and anchor
     - from: supported
