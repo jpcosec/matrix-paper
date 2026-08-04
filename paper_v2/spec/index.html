@@ -30,6 +30,7 @@
   <a href="#state">State</a>
   <a href="#activity">Activity</a>
   <a href="#deployment">Deployment</a>
+  <a href="#ui-mocks">UI Mocks</a>
 </nav>
 
 <section id="component">
@@ -62,6 +63,159 @@
   <p class="meta">fuente: <code>deployment/dev-runtime.puml</code> — Browser, Astro dev server, filesystem sldb.</p>
   <div class="diagram"><?plantuml 1.2026.2?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="DESCRIPTION" height="428px" preserveAspectRatio="none" style="width:456px;height:428px;background:#FFFFFF;" version="1.1" viewBox="0 0 456 428" width="456px" zoomAndPan="magnify"><defs/><g><!--cluster browser--><g class="cluster" data-qualified-name="browser" data-source-line="1" id="ent0002"><polygon fill="none" points="80,16,90,6,372,6,372,97,362,107,80,107,80,16" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="362" x2="372" y1="16" y2="6"/><line style="stroke:#181818;stroke-width:1;" x1="80" x2="362" y1="16" y2="16"/><line style="stroke:#181818;stroke-width:1;" x1="362" x2="362" y1="16" y2="107"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58.0018" x="192.9991" y="33.9659">Browser</text></g><!--cluster astro_dev--><g class="cluster" data-qualified-name="astro_dev" data-source-line="4" id="ent0004"><polygon fill="none" points="126,168,136,158,439,158,439,249,429,259,126,259,126,168" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="429" x2="439" y1="168" y2="158"/><line style="stroke:#181818;stroke-width:1;" x1="126" x2="429" y1="168" y2="168"/><line style="stroke:#181818;stroke-width:1;" x1="429" x2="429" y1="168" y2="259"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114.2816" x="221.3592" y="185.9659">Astro dev server</text></g><!--cluster filesystem--><g class="cluster" data-qualified-name="filesystem" data-source-line="8" id="ent0007"><polygon fill="none" points="16,320,26,310,410,310,410,401,400,411,16,411,16,320" style="stroke:#181818;stroke-width:1;"/><line style="stroke:#181818;stroke-width:1;" x1="400" x2="410" y1="320" y2="310"/><line style="stroke:#181818;stroke-width:1;" x1="16" x2="400" y1="320" y2="320"/><line style="stroke:#181818;stroke-width:1;" x1="400" x2="400" y1="320" y2="411"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160.8314" x="128.5843" y="337.9659">paper_v2 content store</text></g><!--entity editorial_browser_ui--><g class="entity" data-qualified-name="browser.editorial_browser_ui" data-source-line="2" id="ent0003"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="259.7671" x="96" y="49"/><polygon fill="#F1F1F1" points="338.7671,54,338.7671,68,350.7671,68,350.7671,60,344.7671,54,338.7671,54" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="344.7671" x2="344.7671" y1="54" y2="60"/><line style="stroke:#181818;stroke-width:0.5;" x1="350.7671" x2="344.7671" y1="60" y2="60"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="229.7671" x="106" y="76.9659">index.astro (document + inspector)</text></g><!--entity graph_api--><g class="entity" data-qualified-name="astro_dev.graph_api" data-source-line="5" id="ent0005"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141.4956" x="142.5" y="201"/><polygon fill="#F1F1F1" points="266.9956,206,266.9956,220,278.9956,220,278.9956,212,272.9956,206,266.9956,206" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="272.9956" x2="272.9956" y1="206" y2="212"/><line style="stroke:#181818;stroke-width:0.5;" x1="278.9956" x2="272.9956" y1="212" y2="212"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="111.4956" x="152.5" y="228.9659">api/graph.json.ts</text></g><!--entity static_app--><g class="entity" data-qualified-name="astro_dev.static_app" data-source-line="6" id="ent0006"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="104.1017" x="319" y="201"/><polygon fill="#F1F1F1" points="406.1017,206,406.1017,220,418.1017,220,418.1017,212,412.1017,206,406.1017,206" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="412.1017" x2="412.1017" y1="206" y2="212"/><line style="stroke:#181818;stroke-width:0.5;" x1="418.1017" x2="412.1017" y1="212" y2="212"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74.1017" x="329" y="228.9659">built assets</text></g><!--entity sldb_docs--><g class="entity" data-qualified-name="filesystem.sldb_docs" data-source-line="9" id="ent0008"><rect fill="#F1F1F1" height="42.0679" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="363.1707" x="31.5" y="353"/><polygon fill="#F1F1F1" points="377.6707,358,377.6707,372,389.6707,372,389.6707,364,383.6707,358,377.6707,358" style="stroke:#181818;stroke-width:0.5;"/><line style="stroke:#181818;stroke-width:0.5;" x1="383.6707" x2="383.6707" y1="358" y2="364"/><line style="stroke:#181818;stroke-width:0.5;" x1="389.6707" x2="383.6707" y1="364" y2="364"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="333.1707" x="41.5" y="380.9659">manuscript/ sections/ paragraphs/ notes/ sources/</text></g><!--link editorial_browser_ui to graph_api--><g class="link" data-entity-1="ent0003" data-entity-2="ent0005" data-link-type="dependency" data-source-line="12" id="lnk9"><path d="M203.8,91.11 C195.61,99.98 187.28,111.1 183,123 C173.42,149.62 184.2333,175.8289 196.1433,195.7689" fill="none" id="editorial_browser_ui-to-graph_api" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="199.22,200.92,198.039,191.1422,196.6561,196.6274,191.1709,195.2445,199.22,200.92" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="171.2492" x="184" y="137.897">HTTP (fetch /api/graph.json)</text></g><!--link graph_api to sldb_docs--><g class="link" data-entity-1="ent0005" data-entity-2="ent0008" data-link-type="dependency" data-source-line="13" id="lnk10"><path d="M213,243.23 C213,271.86 213,317.9 213,346.61" fill="none" id="graph_api-to-sldb_docs" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="213,352.61,217,343.61,213,347.61,209,343.61,213,352.61" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="93.1451" x="214" y="289.897">filesystem read</text></g><!--link static_app to editorial_browser_ui--><g class="link" data-entity-1="ent0006" data-entity-2="ent0003" data-link-type="dependency" data-source-line="14" id="lnk11"><path d="M374.4,200.75 C376.83,179.21 377.13,145.25 360,123 C349.11,108.86 339.313,101.0729 322.973,93.5729" fill="none" id="static_app-to-editorial_browser_ui" style="stroke:#181818;stroke-width:1;"/><polygon fill="#181818" points="317.52,91.07,324.0309,98.4597,322.0642,93.1558,327.3681,91.189,317.52,91.07" style="stroke:#181818;stroke-width:1;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="32.864" x="370" y="137.897">serve</text></g><?plantuml-src RL2nJiD03Dtp5LQcLgY9nDW12IR63jqZvywXXzAxqza98CI_uroYXg1EVhBVytks3vQWV4dXWocLW0pjZE6x0C0ahaCZK3flwRD2bXHWPuCPhkG57i1vZcGaf7qMatMA7VRDigOPNF5J-EpodDMMHj31kDZbbStKt1fYTFLRmdYftZduIZYpSwVHsORR3guN7JCjD1OKPvGNR-OHewOP7y44BrDsrg2KsPthYRzOwFelmnNzm2QvABL6DkA2vneY9imv5FiWf8N3a8o2sRotRQClOlKkxZq43eUdzH8umklvV89THs8kK6yFtnShSPBTbgliJ-v4Q8lrwaozQtsSV_yB?></g></svg></div>
 </section>
+
+<section id="ui-mocks">
+  <h2>UI Mocks — componentes y app completa</h2>
+  <p class="meta">Estilos robados de <code>astro_app/src/pages/index.astro</code>. Datos ficticios, estructura real.</p>
+  
+<style>
+  :root {
+    --mk-bg-main:#faf8ff; --mk-bg-subtle:#f2f3ff; --mk-panel:#fff; --mk-line:#e2e7ff;
+    --mk-text:#131b2e; --mk-muted:#5c6270; --mk-nav:#091426; --mk-accent:#6063ee;
+    --mk-ok-bg:#e4f7ea; --mk-ok-text:#0d6a36; --mk-warn-bg:#fff0cf; --mk-warn-text:#8a5a00;
+    --mk-danger-bg:#ffdad6; --mk-danger-text:#93000a;
+  }
+  .mock-frame { border:1px solid var(--line); border-radius:12px; overflow:hidden; background:var(--mk-bg-main); }
+  .mock-frame .mock-bar { height:34px; background:var(--mk-nav); color:#fff; display:flex; align-items:center; justify-content:space-between; padding:0 12px; font-size:11px; }
+  .mock-frame .mock-bar .eyebrow { color:#bcc7de; font-size:9px; text-transform:uppercase; letter-spacing:.08em; }
+  .mock-panes { display:grid; grid-template-columns:1.15fr .85fr; min-height:420px; background:var(--mk-bg-subtle); }
+  .mock-doc { background:#fff; padding:20px 22px; border-right:1px solid var(--mk-line); font-family:Georgia, serif; overflow:hidden; }
+  .mock-doc h3 { font-family:Georgia, serif; font-size:17px; margin:0 0 4px; }
+  .mock-doc .sec { margin-top:14px; }
+  .mock-doc .sec h4 { font-size:13px; margin:0 0 6px; display:flex; justify-content:space-between; }
+  .mock-p { border:1px solid var(--mk-line); border-radius:10px; padding:9px 11px; margin-bottom:8px; font-size:11px; line-height:1.5; color:#333; display:grid; grid-template-columns:4px 1fr; gap:9px; }
+  .mock-p .rail { border-radius:3px; background:#c5c6cd; }
+  .mock-p.ok .rail { background:var(--mk-ok-text); }
+  .mock-p.warn .rail { background:var(--mk-warn-text); }
+  .mock-p.danger .rail { background:var(--mk-danger-text); }
+  .mock-p.active { border-color:var(--mk-accent); box-shadow:0 0 0 2px #eaedff; }
+  .mock-inspector { display:grid; grid-template-columns:.46fr .54fr; grid-template-rows:repeat(3,1fr); gap:1px; background:var(--mk-line); min-height:420px; }
+  .mock-cell { background:var(--mk-panel); padding:8px 10px; overflow:hidden; }
+  .mock-cell .head { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--mk-muted); font-weight:600; margin-bottom:5px; }
+  .mock-cell.sec { grid-row:1/span 3; }
+  .mock-list-item { border:1px solid var(--mk-line); border-radius:8px; padding:6px 8px; margin-bottom:5px; font-size:10px; }
+  .mock-list-item.active { border-color:var(--mk-accent); background:#eaedff; }
+  .mock-list-item .n { font-weight:600; font-size:10px; }
+  .mock-list-item .s { color:var(--mk-muted); font-size:9px; }
+  .pill { display:inline-flex; align-items:center; border-radius:999px; font-size:9px; padding:2px 7px; white-space:nowrap; background:var(--mk-bg-subtle); color:var(--mk-muted); }
+  .pill.ok { background:var(--mk-ok-bg); color:var(--mk-ok-text); }
+  .pill.warn { background:var(--mk-warn-bg); color:var(--mk-warn-text); }
+  .pill.danger { background:var(--mk-danger-bg); color:var(--mk-danger-text); }
+  .mock-card { border:1px solid var(--mk-line); border-radius:8px; padding:7px 9px; margin-bottom:6px; font-size:10px; }
+  .mock-card.active { border-color:var(--mk-accent); }
+  .mock-card .t { font-weight:600; margin-bottom:2px; }
+  .mock-card .d { color:#444; line-height:1.4; }
+  .mock-card .meta { color:var(--mk-muted); font-size:9px; margin-top:3px; }
+  .component-mocks { display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin-bottom:1.2rem; }
+  .cm { border:1px solid var(--line); border-radius:10px; background:#fff; }
+  .cm .cm-head { padding:7px 10px; border-bottom:1px solid var(--mk-line); font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--mk-muted); font-weight:600; background:#fafafa; }
+  .cm .cm-body { padding:10px; font-size:10px; min-height:110px; }
+</style>
+
+  
+<h3 style="margin-top:0">Mock por componente</h3>
+<div class="component-mocks">
+
+  <div class="cm">
+    <div class="cm-head">DocumentPane · RenderedManuscript</div>
+    <div class="cm-body" style="font-family:Georgia,serif">
+      <div style="font-size:12px;font-weight:bold;margin-bottom:5px">1. Introduction</div>
+      <div class="mock-p ok"><div class="rail"></div><div>Hybrid search has become a core requirement for retrieval systems that must balance lexical precision with semantic recall...</div></div>
+      <div class="mock-p warn active"><div class="rail"></div><div>Current pipelines often treat sparse and dense retrieval as separate stages, which makes support for joint claims hard to trace...</div></div>
+      <div class="mock-p danger"><div class="rail"></div><div>We argue that a unified representation is necessary before editorial claims can be considered supported...</div></div>
+    </div>
+  </div>
+
+  <div class="cm">
+    <div class="cm-head">SldbInspector · SectionsPane</div>
+    <div class="cm-body">
+      <div class="mock-list-item"><div class="n">01 Introduction</div><div class="s">3 paragraphs</div><span class="pill ok">supported</span></div>
+      <div class="mock-list-item active"><div class="n">02 Related Work</div><div class="s">4 paragraphs</div><span class="pill warn">evidence pending</span></div>
+      <div class="mock-list-item"><div class="n">03 Method</div><div class="s">5 paragraphs</div><span class="pill danger">missing note</span></div>
+      <div class="mock-list-item"><div class="n">04 Evaluation</div><div class="s">2 paragraphs</div><span class="pill warn">missing source</span></div>
+    </div>
+  </div>
+
+  <div class="cm">
+    <div class="cm-head">SldbInspector · ParagraphInspector</div>
+    <div class="cm-body">
+      <div style="margin-bottom:6px"><span class="pill warn">evidence pending</span></div>
+      <div class="mock-card"><div class="t">Status reasons</div><div class="d">2 sources linked, 1 missing excerpt</div></div>
+      <div class="mock-card"><div class="t">Counts</div><div class="meta">2 notes · 3 sources · section 02</div></div>
+      <div style="color:var(--mk-muted);font-size:9px">Sin texto del párrafo: el prose vive en el documento de la izquierda.</div>
+    </div>
+  </div>
+
+  <div class="cm">
+    <div class="cm-head">SldbInspector · NotesPane</div>
+    <div class="cm-body">
+      <div class="mock-card active"><div class="t">Warrant: separation breaks traceability</div><div class="d">The claim only holds if sparse/dense fusion is treated as one editorial unit.</div><span class="pill ok">supported</span></div>
+      <div class="mock-card"><div class="t">Intent: frame gap in literature</div><div class="d">Positions the paper against pipeline-style retrieval systems.</div><span class="pill warn">evidence pending</span></div>
+    </div>
+  </div>
+
+  <div class="cm">
+    <div class="cm-head">SldbInspector · SourcesPane</div>
+    <div class="cm-body">
+      <div class="mock-card active"><div class="t">Robertson &amp; Zaragoza 2009</div><div class="d">"BM25 remains a strong lexical baseline..."</div><div class="meta">excerpt ✓ · anchor ¶2 ✓</div></div>
+      <div class="mock-card"><div class="t">Karpukhin et al. 2020</div><div class="d">"Dense passage retrieval outperforms..."</div><div class="meta">excerpt ✗ · anchor ✗</div></div>
+    </div>
+  </div>
+
+</div>
+
+<h3>App completa (mock)</h3>
+<div class="mock-frame">
+  <div class="mock-bar">
+    <div><span class="eyebrow">paper_v2</span> <strong>Rendered document + SLDB structure</strong></div>
+    <div><span class="pill">Refresh</span> <span class="pill">Rebuild</span></div>
+  </div>
+  <div class="mock-panes">
+    <div class="mock-doc">
+      <div class="eyebrow" style="font-size:9px;text-transform:uppercase;letter-spacing:.08em;color:var(--mk-muted)">Document</div>
+      <h3>Hybrid Retrieval as an Editorial Trace Problem</h3>
+      <div style="margin:4px 0 8px"><span class="pill ok">2 supported</span> <span class="pill warn">2 evidence pending</span> <span class="pill danger">1 missing note</span></div>
+      <div class="sec">
+        <h4>1. Introduction <span><span class="pill ok">supported</span></span></h4>
+        <div class="mock-p ok"><div class="rail"></div><div>Hybrid search has become a core requirement for retrieval systems that must balance lexical precision with semantic recall across heterogeneous corpora...</div></div>
+        <div class="mock-p warn active"><div class="rail"></div><div>Current pipelines often treat sparse and dense retrieval as separate stages, which makes the support structure for joint claims hard to trace and validate...</div></div>
+        <div class="mock-p danger"><div class="rail"></div><div>We argue that a unified representation is a precondition for any editorially supported claim about hybrid behavior...</div></div>
+      </div>
+      <div class="sec">
+        <h4>2. Related Work <span><span class="pill warn">evidence pending</span></span></h4>
+        <div class="mock-p warn"><div class="rail"></div><div>Lexical retrieval is usually anchored on BM25-style ranking functions, while dense methods rely on embedding proximity...</div></div>
+      </div>
+    </div>
+    <div class="mock-inspector">
+      <div class="mock-cell sec">
+        <div class="head">Sections</div>
+        <div class="mock-list-item active"><div class="n">01 Introduction</div><div class="s">3 paragraphs</div><span class="pill ok">supported</span></div>
+        <div class="mock-list-item"><div class="n">02 Related Work</div><div class="s">4 paragraphs</div><span class="pill warn">evidence pending</span></div>
+        <div class="mock-list-item"><div class="n">03 Method</div><div class="s">5 paragraphs</div><span class="pill danger">missing note</span></div>
+        <div class="mock-list-item"><div class="n">04 Evaluation</div><div class="s">2 paragraphs</div><span class="pill warn">missing source</span></div>
+      </div>
+      <div class="mock-cell">
+        <div class="head">Paragraph</div>
+        <span class="pill warn">evidence pending</span>
+        <div class="mock-card" style="margin-top:5px"><div class="t">Status reasons</div><div class="d">2 sources linked, 1 missing excerpt</div></div>
+        <div class="mock-card"><div class="t">Counts</div><div class="meta">2 notes · 3 sources</div></div>
+      </div>
+      <div class="mock-cell">
+        <div class="head">Notes</div>
+        <div class="mock-card active"><div class="t">Warrant: separation breaks traceability</div><span class="pill ok">supported</span></div>
+        <div class="mock-card"><div class="t">Intent: frame gap in literature</div><span class="pill warn">evidence pending</span></div>
+      </div>
+      <div class="mock-cell">
+        <div class="head">Sources</div>
+        <div class="mock-card active"><div class="t">Robertson &amp; Zaragoza 2009</div><div class="meta">excerpt ✓ · anchor ✓</div></div>
+        <div class="mock-card"><div class="t">Karpukhin et al. 2020</div><div class="meta">excerpt ✗ · anchor ✗</div></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</section>
+
 <script>
   const spec = {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
