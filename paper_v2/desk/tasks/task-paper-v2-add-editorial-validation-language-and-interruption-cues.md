@@ -16,6 +16,9 @@ references:
 - ../review/plans/paper-v2-execution-plan.md
 - ../stitch_comment.md
 - ../stitch_draft.md
+- ../spec/component/paper-v2-editorial-browser.yml
+- ../spec/matrix/ui-components.yml
+- ../spec/index.html
 depends_on:
 - task-paper-v2-derive-editorial-trace-status-in-graph-payload
 - task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
@@ -46,7 +49,7 @@ Introduce readable validation language and visual interruption cues for support 
 
 ## Scope
 
-Validation labels, badges, and warning treatments in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`, driven by `/api/graph.json` status fields.
+Validation labels, badges, and warning treatments in `/home/jp/proyectos/Matrix/paper_v2/astro_app/src/pages/index.astro`, driven by `/api/graph.json` status fields. Includes the aggregate status strip over the manuscript title (support counts for the whole document) and per-paragraph status rails inside the rendered document.
 
 ## Implementation Path
 
@@ -63,4 +66,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-Validation cues visibly communicate support weakness without collapsing the manuscript reading experience or duplicating content.
+Validation cues visibly communicate support weakness without collapsing the manuscript reading experience or duplicating content. Done means: aggregate status strip over the title, per-paragraph status rail in the document, status pills in every inspector pane, and empty states that read as guidance (e.g. "Select a paragraph first") rather than as blank chrome.

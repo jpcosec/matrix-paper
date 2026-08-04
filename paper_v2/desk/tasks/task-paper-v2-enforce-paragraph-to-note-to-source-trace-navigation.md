@@ -16,6 +16,9 @@ references:
 - ../review/plans/paper-v2-execution-plan.md
 - ../stitch_comment.md
 - ../stitch_draft.md
+- ../spec/component/paper-v2-editorial-browser.yml
+- ../spec/matrix/ui-components.yml
+- ../spec/index.html
 depends_on:
 - task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
 - task-paper-v2-make-the-paragraph-column-an-assertion-surface
@@ -39,7 +42,7 @@ The whole UI only works if document selection and inspector selection stay synch
 
 ## Goal
 
-Tighten selection and drilldown behavior so one active trace stays explicit across the rendered document and the right-side SLDB inspector.
+Tighten selection and drilldown behavior so one active trace stays explicit across the rendered document and the right-side SLDB inspector. The primary acceptance criterion is the synchronized active state: the selected paragraph, its section, its note, and its source must all be visibly highlighted at once, in both panes.
 
 ## Scope
 
@@ -60,4 +63,4 @@ _List the checks required before this task can close._
 
 _Name the observable condition that makes the task complete._
 
-A user can follow one active structural trace from manuscript paragraph to note to source without losing orientation between left and right panes.
+A user can follow one active structural trace from manuscript paragraph to note to source without losing orientation between left and right panes, with the active node highlighted simultaneously in the document and in every inspector pane, and with empty states shown when nothing is selected.

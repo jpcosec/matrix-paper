@@ -15,6 +15,9 @@ references:
 - ../review/plans/paper-v2-execution-plan.md
 - ../stitch_comment.md
 - ../stitch_draft.md
+- ../spec/component/paper-v2-editorial-browser.yml
+- ../spec/matrix/ui-components.yml
+- ../spec/index.html
 depends_on:
 - task-paper-v2-reframe-notes-as-warrant-and-reasoning
 pills:

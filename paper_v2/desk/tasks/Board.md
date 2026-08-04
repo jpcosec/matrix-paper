@@ -42,6 +42,8 @@ Route the paper_v2 editorial browser work as a rendered-document + SLDB-inspecto
 - `pill-pattern-document-left-sldb-right` is the governing pill for every remaining UI task.
 - The rendered document is the only full prose surface.
 - The right rail may show structure, counts, status, and linked support, but it must not duplicate manuscript text.
+- `paper_v2/spec/` (spec2viz diagrams + UI mocks) is the visual source of truth: any task that changes layout or selection behavior must update the component spec, the UI-component matrix, or the HTML mocks.
+- Synchronized active state (paragraph ↔ section ↔ note ↔ source) is the core acceptance criterion, not a detail.
 
 ## Task Details
 
