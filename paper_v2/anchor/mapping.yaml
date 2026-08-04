@@ -1,0 +1,878 @@
+version: 1
+generated_by: anchor merge (fases 1+2)
+paragraphs:
+  01_1_sota-p01:
+  - atom_id: atom-taxonomia-sota-alucinaciones
+    atom_path: Filosofia/Epistemologia_y_Contextos/Taxonomia_SOTA_Alucinaciones.md
+    bridge: fase2_review
+    score: 0.9
+    detail: Taxonomía formal SOTA de alucinaciones que el párrafo resume.
+  01_1_sota-p02:
+  - atom_id: atom-source-pdf-factscore2023-pdf
+    atom_path: Fuentes/Source_PDF_factscore2023_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @factscore2023 -> apellido+anyo (Min 2023)
+  - atom_id: atom-evaluacion-epistemica-factscore-halueval
+    atom_path: Antecedentes/Alucinaciones/Evaluacion_Epistemica_FActScore_HaluEval.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_factscore2023_pdf]] (via @factscore2023)
+  - atom_id: atom-sicofancia-y-problemas-del-rlhf
+    atom_path: Antecedentes/Alucinaciones/Sicofancia_y_Problemas_del_RLHF.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_factscore2023_pdf]] (via @factscore2023)
+  - atom_id: atom-source-pdf-halueval2023
+    atom_path: Fuentes/Source_PDF_halueval2023_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@halueval2023] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-semantic-entropy2024
+    atom_path: Fuentes/Source_PDF_semantic_entropy2024_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@semantic_entropy2024] → Source_PDF atomizado (Fase 5)'
+  01_1_sota-p03:
+  - atom_id: atom-source-pdf-iclr2025-a712d4-pdf
+    atom_path: Fuentes/Source_PDF_iclr2025_a712d4_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @orgad2025iclr -> apellido+anyo (Orgad 2025)
+  - atom_id: atom-dicotomia-hk-minus-vs-hk-plus
+    atom_path: Antecedentes/Alucinaciones/Dicotomia_HK_Minus_vs_HK_Plus.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_iclr2025_a712d4_pdf]] (via @orgad2025iclr)
+  - atom_id: atom-source-pdf-simhi2024distinguishing
+    atom_path: Fuentes/Source_PDF_simhi2024distinguishing_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: "[@simhi2024distinguishing]"
+  - atom_id: atom-incongruencia-decodificacion-estocastica-vs-conocimiento-latente
+    atom_path: Antecedentes/Limites_Espacio_Continuo/Incongruencia_Decodificacion_Estocastica_vs_Conocimiento_Latente.md
+    bridge: delta2_review
+    score: 0.9
+    detail: "marco incongruencia decodificación/latente"
+  - atom_id: atom-probing-latente-y-decodificacion
+    atom_path: Antecedentes/Limites_Espacio_Continuo/Probing_Latente_y_Decodificacion.md
+    bridge: delta2_review
+    score: 0.85
+    detail: "probing: tokens internos codifican veracidad"
+  01_1_sota-p04:
+  - atom_id: atom-source-pdf-nature-shumailov2024-pdf
+    atom_path: Fuentes/Source_PDF_nature_shumailov2024_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @shumailov2024 -> apellido+anyo (Shumailov 2024)
+  - atom_id: atom-causas-estructurales-y-de-entrenamiento
+    atom_path: Antecedentes/Alucinaciones/Causas_Estructurales_y_de_Entrenamiento.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_nature_shumailov2024_pdf]] (via @shumailov2024)
+  - atom_id: Source_PDF_nature_shumailov2024_pdf
+    atom_path: Fuentes/Source_PDF_nature_shumailov2024_pdf.md
+    bridge: lexical
+    score: 0.6
+    detail: 'reemplazado en revisión Fase 5: Párrafo cita @shumailov2024; stub de
+      código no fundamenta colapso'
+  - atom_id: atom-source-pdf-kommers2025slop
+    atom_path: Fuentes/Source_PDF_kommers2025slop_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@kommers2025slop] → Source_PDF atomizado (Fase 5)'
+  01_1_sota-p05:
+  - atom_id: atom-modelos-mundo-continuo-lyre
+    atom_path: Filosofia/Epistemologia_y_Contextos/Modelos_Mundo_Continuo_Lyre.md
+    bridge: fase2_review
+    score: 0.95
+    detail: 'Postura Lyre 2024: world models continuos y crítica Matrix.'
+  - atom_id: atom-source-pdf-bender2020
+    atom_path: Fuentes/Source_PDF_bender2020_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@bender2020] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-lyre2024understanding
+    atom_path: Fuentes/Source_PDF_lyre2024understanding_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@lyre2024understanding] → Source_PDF atomizado (Fase 5)'
+  01_1_sota-p06:
+  - atom_id: atom-source-pdf-symcode2025-pdf
+    atom_path: Fuentes/Source_PDF_symcode2025_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @symcode2025 -> apellido+anyo (Nezhad 2025)
+  - atom_id: atom-source-pdf-vossel2025advancing-pdf
+    atom_path: Fuentes/Source_PDF_vossel2025advancing_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @vossel2025advancing -> apellido+anyo (Vossel 2025)
+  - atom_id: Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva
+    atom_path: Computacion/Parsers_y_Runtimes/Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_vossel2025advancing_pdf]] (via @vossel2025advancing)
+  - atom_id: Matrix_vs_Neuro_Simbolicos_Previos
+    atom_path: Computacion/Optimizacion_y_Seguridad/Matrix_vs_Neuro_Simbolicos_Previos.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_vossel2025advancing_pdf]] (via @vossel2025advancing)
+  - atom_id: atom-falla-de-representabilidad
+    atom_path: Antecedentes/Alucinaciones/Falla_de_Representabilidad.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_symcode2025_pdf]] (via @symcode2025)
+  - atom_id: atom-ilusion-de-la-autocorreccion
+    atom_path: Antecedentes/Alucinaciones/Ilusion_de_la_Autocorreccion.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_symcode2025_pdf]] (via @symcode2025)
+  - atom_id: atom-source-pdf-ibrahim2026
+    atom_path: Fuentes/Source_PDF_ibrahim2026_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@ibrahim2026] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-ferrone2019
+    atom_path: Fuentes/Source_PDF_ferrone2019_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@ferrone2019] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-liu2025code4logic
+    atom_path: Fuentes/Source_PDF_liu2025code4logic_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@liu2025code4logic] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-choi2025knowledge
+    atom_path: Fuentes/Source_PDF_choi2025knowledge_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@choi2025knowledge] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-bian2025llm
+    atom_path: Fuentes/Source_PDF_bian2025llm_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@bian2025llm] → Source_PDF atomizado (Fase 5)'
+  01_1_sota-p07:
+  - atom_id: atom-fenomeno-de-gibbs-en-funciones-indicadoras
+    atom_path: Matematica/Optimizacion_y_Desambiguacion/Fenomeno_de_Gibbs_en_Funciones_Indicadoras.md
+    bridge: delta1_review
+    score: 0.95
+    detail: Prueba de oscilación en la frontera
+  - atom_id: atom-geometria-de-politopos-y-ancho-acotado-hanin
+    atom_path: Matematica/Optimizacion_y_Desambiguacion/Geometria_de_Politopos_y_Ancho_Acotado_Hanin.md
+    bridge: delta1_review
+    score: 0.95
+    detail: Límite de politopos en redes de ancho acotado
+  - atom_id: atom-barrera-deteccion-auroc-error-tipo-iii
+    atom_path: Antecedentes/Limites_Espacio_Continuo/Barrera_Deteccion_AUROC_Error_Tipo_III.md
+    bridge: delta1_review
+    score: 0.9
+    detail: AUROC de errores fácticos
+  - atom_id: atom-representacion-continua-vs-implementacion-discreta
+    atom_path: Filosofia/Epistemologia_y_Contextos/Representacion_Continua_vs_Implementacion_Discreta.md
+    bridge: delta1_review
+    score: 0.8
+    detail: "Respuesta al punto argmax"
+  01_1_sota-p08:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  - atom_id: atom-source-pdf-wittgenstein1922
+    atom_path: Fuentes/Source_PDF_wittgenstein1922_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@wittgenstein1922] → Source_PDF atomizado (Fase 5)'
+  01_introduction-p01:
+  - atom_id: atom-symbol
+    atom_path: Computacion/Modelos_Datos_MEEL/Symbol.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: symbol'
+  - atom_id: atom-source-pdf-harnad1990symbolgrounding
+    atom_path: Fuentes/Source_PDF_harnad1990symbolgrounding_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@harnad1990symbolgrounding] → Source_PDF atomizado (Fase 5)'
+  01_introduction-p02:
+  - atom_id: atom-tractatus
+    atom_path: Filosofia/Tractatus_y_Ontologia/Tractatus.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: tractatus'
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: lexical
+    score: 0.6
+    detail: 'terminos: sinnlos, sinnvoll, unsinnig'
+  01_introduction-p03:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  01_introduction-p04:
+  - atom_id: atom-matrices-y-tensores
+    atom_path: Matematica/Tensores_y_Matriz_Bloques/Matrices_y_Tensores.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: matrices'
+  02_philosophical_foundation-p01:
+  - atom_id: atom-thing
+    atom_path: Computacion/Modelos_Datos_MEEL/Thing.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: thing'
+  - atom_id: atom-tractatus
+    atom_path: Filosofia/Tractatus_y_Ontologia/Tractatus.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: tractatus'
+  02_philosophical_foundation-p02:
+  - atom_id: atom-fact
+    atom_path: Computacion/Modelos_Datos_MEEL/Fact.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: fact'
+  - atom_id: atom-proposition
+    atom_path: Computacion/Modelos_Datos_MEEL/Proposition.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: proposition'
+  02_philosophical_foundation-p03:
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: fase2_review
+    score: 0.9
+    detail: Define Sinnvoll con coordenadas válidas en Li.
+  - atom_id: atom-categorias-sentido
+    atom_path: Filosofia/Tractatus_y_Ontologia/Categorias_Sentido.md
+    bridge: fase2_review
+    score: 0.8
+    detail: Clasificación tripartita operacional.
+  02_philosophical_foundation-p04:
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: fase2_review
+    score: 0.9
+    detail: Sinnlos = tautología/contradicción formal.
+  - atom_id: atom-categorias-sentido
+    atom_path: Filosofia/Tractatus_y_Ontologia/Categorias_Sentido.md
+    bridge: fase2_review
+    score: 0.8
+    detail: Sinnlos = sin sentido informativo.
+  02_philosophical_foundation-p05:
+  - atom_id: 06_Absurdo_Unsinnig_como_Violacion_Sintactica
+    atom_path: Isomorfismo_Tractatus_Algebra/06_Absurdo_Unsinnig_como_Violacion_Sintactica.md
+    bridge: fase2_review
+    score: 0.9
+    detail: 'TLP 5.473: Unsinn = partes sin significado asignado.'
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: fase2_review
+    score: 0.85
+    detail: Unsinnig = símbolos sin función lógica en Li.
+  02_philosophical_foundation-p06:
+  - atom_id: atom-fact
+    atom_path: Computacion/Modelos_Datos_MEEL/Fact.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: fact'
+  02_philosophical_foundation-p07:
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  - atom_id: atom-symbol
+    atom_path: Computacion/Modelos_Datos_MEEL/Symbol.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: symbol'
+  03_proposed_representation-p01:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p02:
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  - atom_id: atom-relation-ri
+    atom_path: Computacion/Estructuras_Matriciales/Relation_Ri.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: relation'
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: li'
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p03:
+  - atom_id: atom-signo-vs-simbolo
+    atom_path: Filosofia/Tractatus_y_Ontologia/Signo_vs_Simbolo.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: signos plegados a un simbolo (panel a)'
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: L_i asigna coordenada entera'
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: W_i=(C_i,R_i)'
+  - atom_id: atom-relation-ri
+    atom_path: Computacion/Estructuras_Matriciales/Relation_Ri.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: R_i=makes_sound'
+  - atom_id: atom-capa-sentido-si
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Sentido_Si.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: mascara S_i (panel b)'
+  - atom_id: atom-capa-verdad-vi
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: capa V_i (panel b)'
+  - atom_id: atom-w-operativo
+    atom_path: Computacion/Estructuras_Matriciales/W_Operativo.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: W_i*=V_i AND S_i unica capa consultable'
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 1.0
+    detail: 'figura anatomia: instancia ejecutable del juego de lenguaje'
+  03_proposed_representation-p04:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p05:
+  - atom_id: atom-capa-verdad-vi
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md
+    bridge: fase2_review
+    score: 0.85
+    detail: Matriz binaria objetos×propiedades = Vi.
+  - atom_id: atom-tabla-de-verdad
+    atom_path: Matematica/Algebra_Booleana_y_Canonica/Tabla_de_Verdad.md
+    bridge: fase2_review
+    score: 0.8
+    detail: Tabla del ejemplo = tabla de verdad del contexto.
+  03_proposed_representation-p06:
+  - atom_id: atom-tractatus
+    atom_path: Filosofia/Tractatus_y_Ontologia/Tractatus.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: tractatus'
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p07:
+  - atom_id: atom-proyeccion-tensorial
+    atom_path: Matematica/Tensores_y_Matriz_Bloques/Proyeccion_Tensorial.md
+    bridge: fase2_review
+    score: 0.7
+    detail: Vista transpuesta = reindexación del espacio matricial.
+  - atom_id: atom-capa-verdad-vi
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md
+    bridge: fase2_review
+    score: 0.6
+    detail: Misma Vi con ejes permutados.
+  03_proposed_representation-p08:
+  - atom_id: atom-semianillo-booleano
+    atom_path: Matematica/Algebra_Booleana_y_Canonica/Semianillo_Booleano.md
+    bridge: fase2_review
+    score: 0.95
+    detail: Semianillo booleano ⊕=OR ⊗=AND exacto.
+  03_proposed_representation-p09:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p10:
+  - atom_id: Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: lexical
+    score: 1.0
+    detail: 'reemplazado en revisión Fase 5: Tripartición cubre las categorías descritas'
+  03_proposed_representation-p11:
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: fase2_review
+    score: 0.9
+    detail: Tautología = Sinnlos.
+  03_proposed_representation-p12:
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: fase2_review
+    score: 0.9
+    detail: Contradicción = Sinnlos.
+  03_proposed_representation-p13:
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: li'
+  03_proposed_representation-p14:
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: fase2_review
+    score: 0.85
+    detail: 'Indexabilidad: Li dota de identidad semántica.'
+  - atom_id: atom-inferencia-deductiva-matricial
+    atom_path: Computacion/Kernel_MEEL/Inferencia_Deductiva_Matricial.md
+    bridge: fase2_review
+    score: 0.7
+    detail: '''Máquina de verdad lógica'' = deducción matricial.'
+  03_proposed_representation-p15:
+  - atom_id: atom-fact
+    atom_path: Computacion/Modelos_Datos_MEEL/Fact.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: fact'
+  - atom_id: atom-proposition
+    atom_path: Computacion/Modelos_Datos_MEEL/Proposition.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: proposition'
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: li'
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p16:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p17:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p18:
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  03_proposed_representation-p19:
+  - atom_id: Colapso_Dimensional
+    atom_path: Matematica/Optimizacion_y_Desambiguacion/Colapso_Dimensional.md
+    bridge: lexical
+    score: 0.5
+    detail: 'reemplazado en revisión Fase 5: Colapso dimensional por vector de unos
+      exacto'
+  03_proposed_representation-p20:
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: li'
+  03_proposed_representation-p21:
+  - atom_id: Distincion_Ausencia_vs_Unsinnig
+    atom_path: Computacion/Estructuras_Matriciales/Distincion_Ausencia_vs_Unsinnig.md
+    bridge: fase2_review
+    score: 0.9
+    detail: Celdas Ø distinguen inaplicabilidad categorial.
+  - atom_id: atom-diccionario-bits-y-codificacion
+    atom_path: Computacion/Bitwise_Hardware/Diccionario_Bits_y_Codificacion.md
+    bridge: fase2_review
+    score: 0.8
+    detail: Pares objeto-propiedad a bits, multi-hot.
+  - atom_id: atom-capa-verdad-vi
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md
+    bridge: fase2_review
+    score: 0.75
+    detail: Matriz booleana de hechos observados.
+  03_proposed_representation-p22:
+  - atom_id: atom-operacion-particionar
+    atom_path: Computacion/Operaciones_DB_Logica/Operacion_Particionar.md
+    bridge: fase2_review
+    score: 0.85
+    detail: Partición genera la tautología descrita.
+  - atom_id: atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig
+    atom_path: Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md
+    bridge: fase2_review
+    score: 0.8
+    detail: Tautological/nonsense = sinnlos/unsinnig.
+  - atom_id: Distincion_Ausencia_vs_Unsinnig
+    atom_path: Computacion/Estructuras_Matriciales/Distincion_Ausencia_vs_Unsinnig.md
+    bridge: fase2_review
+    score: 0.75
+    detail: Inaplicabilidad categorial.
+  03_proposed_representation-p23:
+  - atom_id: atom-capa-sentido-si
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Sentido_Si.md
+    bridge: fase2_review
+    score: 0.95
+    detail: Sense mask S_i fuerza a 0 consultas absurdas.
+  - atom_id: atom-mascaras-estructurales
+    atom_path: Computacion/Estructuras_Matriciales/Mascaras_Estructurales.md
+    bridge: fase2_review
+    score: 0.7
+    detail: Marco de máscaras booleanas que filtran hechos.
+  03_proposed_representation-p24:
+  - atom_id: Matrices_Puras
+    atom_path: Computacion/Estructuras_Matriciales/Matrices_Puras.md
+    bridge: lexical
+    score: 0.5
+    detail: 'reemplazado en revisión Fase 5: Núcleo: vectores puente entre contextos'
+  03_proposed_representation-p25: []
+  03_proposed_representation-p26:
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  - atom_id: atom-relation-ri
+    atom_path: Computacion/Estructuras_Matriciales/Relation_Ri.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: relation'
+  - atom_id: atom-logicalspace-li
+    atom_path: Computacion/Estructuras_Matriciales/LogicalSpace_Li.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: li'
+  03_proposed_representation-p27:
+  - atom_id: atom-diccionario-bits-y-codificacion
+    atom_path: Computacion/Bitwise_Hardware/Diccionario_Bits_y_Codificacion.md
+    bridge: fase2_review
+    score: 0.75
+    detail: Imagen lógica 'represented in bits'.
+  - atom_id: atom-algebra-booleana
+    atom_path: Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md
+    bridge: fase2_review
+    score: 0.7
+    detail: '''Operable through Boolean logic''.'
+  - atom_id: atom-proyeccion-tensorial
+    atom_path: Matematica/Tensores_y_Matriz_Bloques/Proyeccion_Tensorial.md
+    bridge: fase2_review
+    score: 0.7
+    detail: Proyección como operación algebraica central.
+  04_discussion-p01:
+  - atom_id: atom-tractatus
+    atom_path: Filosofia/Tractatus_y_Ontologia/Tractatus.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: tractatus'
+  - atom_id: atom-matrices-y-tensores
+    atom_path: Matematica/Tensores_y_Matriz_Bloques/Matrices_y_Tensores.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: matrices'
+  04_discussion-p02: []
+  04_discussion-p03:
+  - atom_id: atom-source-pdf-vossel2025advancing-pdf
+    atom_path: Fuentes/Source_PDF_vossel2025advancing_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @vossel2025advancing -> apellido+anyo (Vossel 2025)
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  - atom_id: Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva
+    atom_path: Computacion/Parsers_y_Runtimes/Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_vossel2025advancing_pdf]] (via @vossel2025advancing)
+  - atom_id: Matrix_vs_Neuro_Simbolicos_Previos
+    atom_path: Computacion/Optimizacion_y_Seguridad/Matrix_vs_Neuro_Simbolicos_Previos.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_vossel2025advancing_pdf]] (via @vossel2025advancing)
+  - atom_id: atom-infidelidad-del-razonamiento-en-prosa-y-la-ilusion-de-pensar
+    atom_path: Antecedentes/Limites_Espacio_Continuo/Infidelidad_del_Razonamiento_en_Prosa_y_la_Ilusion_de_Pensar.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_vossel2025advancing_pdf]] (via @vossel2025advancing)
+  - atom_id: atom-source-pdf-liu2025code4logic
+    atom_path: Fuentes/Source_PDF_liu2025code4logic_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@liu2025code4logic] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-lee2025entailment
+    atom_path: Fuentes/Source_PDF_lee2025entailment_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@lee2025entailment] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-choi2025knowledge
+    atom_path: Fuentes/Source_PDF_choi2025knowledge_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@choi2025knowledge] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-cheng2025empowering
+    atom_path: Fuentes/Source_PDF_cheng2025empowering_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@cheng2025empowering] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-bian2025llm
+    atom_path: Fuentes/Source_PDF_bian2025llm_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@bian2025llm] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-liang2025survey
+    atom_path: Fuentes/Source_PDF_liang2025survey_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@liang2025survey] → Source_PDF atomizado (Fase 5)'
+  04_discussion-p04:
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  - atom_id: atom-gramatica-universal-unl
+    atom_path: Computacion/Optimizacion_y_Seguridad/Gramatica_Universal_UNL.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: universal'
+  04_discussion-p05:
+  - atom_id: atom-signo-vs-simbolo
+    atom_path: Filosofia/Tractatus_y_Ontologia/Signo_vs_Simbolo.md
+    bridge: fase5_review
+    score: 0.9
+    detail: distinción concepto/signo textual = núcleo del párrafo
+  - atom_id: atom-anclaje-simbolos-grounding
+    atom_path: Computacion/Parsers_y_Runtimes/Anclaje_Simbolos_Grounding.md
+    bridge: fase5_review
+    score: 0.85
+    detail: mapeo palabras→símbolos estocástico, LLMs lo hacen manejable
+  - atom_id: atom-representacion-flotante
+    atom_path: Filosofia/Tractatus_y_Ontologia/Representacion_Flotante.md
+    bridge: fase5_review
+    score: 0.75
+    detail: signo sin significado absoluto → mapeo inequívocamente estocástico
+  04_discussion-p06:
+  - atom_id: atom-algebra-booleana
+    atom_path: Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: algebra'
+  - atom_id: atom-algebra-de-boole
+    atom_path: Matematica/Algebra_Booleana_y_Canonica/Algebra_de_Boole.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: algebra'
+  04_discussion-p07: []
+  04_discussion-p08:
+  - atom_id: atom-mascara-sentido-en-mecanismos-atencion
+    atom_path: Computacion/Optimizacion_y_Seguridad/Mascara_Sentido_en_Mecanismos_Atencion.md
+    bridge: fase2_review
+    score: 0.95
+    detail: 'Propuesta exacta: Si en atención, pérdida lógica, RL.'
+  - atom_id: atom-capa-sentido-si
+    atom_path: Computacion/Estructuras_Matriciales/Capa_Sentido_Si.md
+    bridge: fase2_review
+    score: 0.8
+    detail: Define la máscara booleana S.
+  04_discussion-p09:
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  04_discussion-p10:
+  - atom_id: atom-source-pdf-lecun-jepa2023-pdf
+    atom_path: Fuentes/Source_PDF_lecun_jepa2023_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: bibkey @lecun2022path -> solo-apellido (LeCun; bib 2022 vs atom 2023)
+  - atom_id: atom-comparacion-arquitecturas-jepa
+    atom_path: Antecedentes/Limites_Espacio_Continuo/Comparacion_Arquitecturas_JEPA.md
+    bridge: bib_transitive
+    score: 0.8
+    detail: grounded_by -> [[Source_PDF_lecun_jepa2023_pdf]] (via @lecun2022path)
+  - atom_id: atom-source-pdf-dawid2024latent
+    atom_path: Fuentes/Source_PDF_dawid2024latent_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@dawid2024latent] → Source_PDF atomizado (Fase 5)'
+  - atom_id: atom-source-pdf-assran2023ijepa
+    atom_path: Fuentes/Source_PDF_assran2023ijepa_pdf.md
+    bridge: bib
+    score: 1.0
+    detail: '[@assran2023ijepa] → Source_PDF atomizado (Fase 5)'
+  04_discussion-p11:
+  - atom_id: atom-context-ci
+    atom_path: Computacion/Estructuras_Matriciales/Context_Ci.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: context'
+  - atom_id: atom-fact
+    atom_path: Computacion/Modelos_Datos_MEEL/Fact.md
+    bridge: lexical
+    score: 1.0
+    detail: 'terminos: fact'
+  09_conclusion-p01:
+  - atom_id: atom-algebra-booleana
+    atom_path: Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: algebra'
+  - atom_id: atom-algebra-de-boole
+    atom_path: Matematica/Algebra_Booleana_y_Canonica/Algebra_de_Boole.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: algebra'
+  09_conclusion-p02:
+  - atom_id: atom-algebra-booleana
+    atom_path: Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: algebra'
+  - atom_id: atom-wigame-wi
+    atom_path: Computacion/Estructuras_Matriciales/WiGame_Wi.md
+    bridge: lexical
+    score: 0.5
+    detail: 'terminos: wi'
+  09_conclusion-p03:
+  - atom_id: atom-mascara-sentido-en-mecanismos-atencion
+    atom_path: Computacion/Optimizacion_y_Seguridad/Mascara_Sentido_en_Mecanismos_Atencion.md
+    bridge: fase5_review
+    score: 0.9
+    detail: sense masks en mecanismos de atención; propuesta exacta del párrafo
+  - atom_id: atom-categorias-sentido
+    atom_path: Filosofia/Tractatus_y_Ontologia/Categorias_Sentido.md
+    bridge: fase5_review
+    score: 0.8
+    detail: '''grammar of sense'': alucinaciones lógicas inexpresables por diseño'
+sections:
+  01_introduction:
+  - composition: comp_antecedentes
+    path: composiciones_review/comp_antecedentes.md
+    atom_count: 5
+    question: ¿Por qué los primitivos discretos son fundamentalmente necesarios?
+    justificacion: 'El intro plantea la necesidad de primitivos discretos: la pregunta
+      central de esta composicion.'
+  - composition: comp_isomorfismo
+    path: composiciones_review/comp_isomorfismo.md
+    atom_count: 6
+    question: ¿Cómo demuestra el isomorfismo Tractatus–Álgebra que la discreción es
+      una exigencia filosófica, no solo computacional?
+    justificacion: La tesis del intro (la discrecion es exigencia, no opcion) es exactamente
+      la pregunta del isomorfismo Tractatus-Algebra.
+  01_1_sota:
+  - composition: comp_eje_d
+    path: composiciones_review/comp_eje_d.md
+    atom_count: 6
+    question: ¿En qué se diferencia Matrix de RAG, KGs/OWL, y neuro-simbólicos previos?
+    justificacion: 'El SotA diferencia el marco de RAG, KGs/OWL y neuro-simbolicos
+      previos: contenido literal del Eje D.'
+  - composition: comp_fuentes
+    path: composiciones_review/comp_fuentes.md
+    atom_count: 34
+    question: ¿Qué evidencia científica publicada fundamenta las pruebas de necesidad
+      discreta y límites del espacio continuo?
+    justificacion: Las citas del SotA (hallucination detection, model collapse, HK+/-)
+      son los Source_PDF de esta composicion.
+  - composition: comp_antecedentes
+    path: composiciones_review/comp_antecedentes.md
+    atom_count: 5
+    question: ¿Por qué los primitivos discretos son fundamentalmente necesarios?
+    justificacion: El estado del arte sobre alucinaciones y limites del continuo corresponde
+      a la carpeta Antecedentes.
+  02_philosophical_foundation:
+  - composition: comp_filosofia
+    path: composiciones_review/comp_filosofia.md
+    atom_count: 5
+    question: ¿Por qué la lógica contiene discontinuidades ontológicas que ningún
+      espacio continuo puede aproximar?
+    justificacion: 'Fundamentacion filosofica: discontinuidades ontologicas que ningun
+      espacio continuo aproxima.'
+  - composition: comp_isomorfismo
+    path: composiciones_review/comp_isomorfismo.md
+    atom_count: 6
+    question: ¿Cómo demuestra el isomorfismo Tractatus–Álgebra que la discreción es
+      una exigencia filosófica, no solo computacional?
+    justificacion: El isomorfismo Tractatus-Algebra es la base formal de la seccion
+      filosofica.
+  03_proposed_representation:
+  - composition: comp_computacion
+    path: composiciones_review/comp_computacion.md
+    atom_count: 5
+    question: ¿Qué impide que una distancia vectorial continua aproxime lógica formal?
+    justificacion: La representacion propuesta (kernel Booleano, Si binaria) es la
+      cadena de la carpeta Computacion.
+  - composition: comp_matematica
+    path: composiciones_review/comp_matematica.md
+    atom_count: 5
+    question: ¿Qué pruebas matemáticas formales demuestran que la aproximación continua
+      de funciones indicadoras lógicas es estructuralmente imposible?
+    justificacion: Las pruebas de imposibilidad continua justifican matematicamente
+      la representacion discreta propuesta.
+  - composition: comp_eje_b
+    path: composiciones_review/comp_eje_b.md
+    atom_count: 11
+    question: ¿Cómo se crean S_i y V_i a escala real, y cómo se distingue ausencia
+      de inaplicabilidad?
+    justificacion: 'Eje B responde como se crean S_i y V_i a escala: nucleo operativo
+      de la representacion propuesta.'
+  04_discussion:
+  - composition: comp_eje_a
+    path: composiciones_review/comp_eje_a.md
+    atom_count: 11
+    question: ¿Por qué los primitivos discretos son necesarios, qué impide la distancia
+      vectorial, y dónde está la demostración rigurosa?
+    justificacion: 'La discusion recorre necesidad, limite del continuo y demostracion:
+      las tres sub-preguntas del Eje A.'
+  - composition: comp_gaps
+    path: composiciones_review/comp_gaps.md
+    atom_count: 0
+    question: ¿Qué preguntas de revisores no pueden responderse con átomos ni fuentes
+      existentes?
+    justificacion: Limitaciones y trabajo futuro de la discusion se apoyan en el registro
+      de gaps argumentativos.
+  - composition: comp_aplicaciones
+    path: composiciones_review/comp_aplicaciones.md
+    atom_count: 4
+    question: ¿Qué demostraciones empíricas validan que el acoplamiento neuro-simbólico
+      discreto resuelve las patologías del espacio continuo?
+    justificacion: Las validaciones empiricas discutidas corresponden a la composicion
+      de Aplicaciones.
+  09_conclusion:
+  - composition: comp_eje_e
+    path: composiciones_review/comp_eje_e.md
+    atom_count: 35
+    question: ¿Dónde están los detalles, métricas o arquitectura ejecutable de la
+      implementación activa?
+    justificacion: 'La conclusion apunta a la implementacion ejecutable (metricas,
+      arquitectura activa): pregunta del Eje E.'
+  - composition: comp_aplicaciones
+    path: composiciones_review/comp_aplicaciones.md
+    atom_count: 4
+    question: ¿Qué demostraciones empíricas validan que el acoplamiento neuro-simbólico
+      discreto resuelve las patologías del espacio continuo?
+    justificacion: Las demostraciones empiricas que cierran el argumento pertenecen
+      a Aplicaciones.

@@ -1,0 +1,9 @@
+Task: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+Title: paper_v2: rebuild manuscript pane as trace-first reading surface
+Status: active
+Current node: checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-execution-ready
+Routine: routine-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+Checklist status:
+- checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-execution-ready: complete
+- checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-testing-ready: complete
+- checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-closeout-ready: pending

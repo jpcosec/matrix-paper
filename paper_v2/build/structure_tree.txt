@@ -1,0 +1,86 @@
+📄 Logical and Semantic Guarantees in LLMs Require More Than Continuous Embeddings
+├── 📑 Introduction  [4 blocks]
+│   ├── p01: The rapid advancement of Large Language Models (LLMs) has demonstrated…  ⚓2
+│   ├── p02: To address this representational gap, this paper argues for the necess…  ⚓2
+│   ├── p03: By treating the validity of assertions as a problem of representabilit…  ⚓1
+│   └── p04: Ultimately, instead of attempting to teach models not to lie through c…  ⚓1
+├── 📑 State of the Art: Hallucination Mitigation and Representational Geometries  [8 blocks]
+│   ├── p01: The generation of factually incorrect or logically inconsistent statem…  ⚓1
+│   ├── p02: **Epistemic Evaluation and Probabilistic Detection** A significant por…  ⚓5
+│   ├── p03: **Internal Representations and Latent Probing** Latent probing reveals…  ⚓5
+│   ├── p04: **Behavioral Interventions and Model Collapse** The recursive ingestio…  ⚓4
+│   ├── p05: **Semantic Grounding and Continuous World Models** From a philosophica…  ⚓3
+│   ├── p06: **Neuro-Symbolic Approaches and Knowledge Graphs** Recognizing the lim…  ⚓11
+│   ├── p07: **Why Continuous Spaces Offer No Guarantee of Logical Validity** The c…  ⚓4
+│   └── p08: While these current methodologies offer significant advancements, they…  ⚓2
+├── 📑 02 Philosophical Foundation  [7 blocks]
+│   ├── p01: Wittgenstein's Tractatus opens with an interesting phrase: **the world…  ⚓2
+│   ├── p02: A proposition is a description of a fact in relation to reality; a fac…  ⚓2
+│   ├── p03: * *Sinnvoll*: propositions that are meaningful and capable of represen…  ⚓2
+│   ├── p04: * *Sinnlos*: propositions that say nothing about the world but legitim…  ⚓2
+│   ├── p05: * *Unsinnig*: formulations without logical meaning, where the symbols …  ⚓2
+│   ├── p06: A sign is the perceptible medium that allows the mapping and transmiss…  ⚓1
+│   └── p07: A symbol is a sign and a structure within a logical space, used within…  ⚓2
+├── 📑 Proposed representation  [27 blocks]
+│   ├── p01: Consider the logical structure of a partition of the world $W_i$ by th…  ⚓1
+│   ├── p02: 1. A context, that is, a partition over the world $W$ that limits what…  ⚓4
+│   ├── p03: 🖼 [FIGURE: fig_anatomy]  ⚓8
+│   ├── p04: Then, we can define $W_i$ as the boolean AND operation between $V_i$ a…  ⚓1
+│   ├── p05: |         | vegetable | food | leaf | root | stem | | ------- | ------…  ⚓2
+│   ├── p06: It is important to note that within this logical space, the properties…  ⚓2
+│   ├── p07: |      | lettuce | spinach | carrot | celery | | ---- | ------: | ----…  ⚓2
+│   ├── p08: If we designate a Boolean semiring AND/OR over this space, we can veri…  ⚓1
+│   ├── p09: * If we perform matrix multiplication of $W^T_i \otimes W_i$, we can o…  ⚓1
+│   ├── p10: We return to Wittgenstein for a moment; what are the logical restricti…  ⚓1
+│   ├── p11: * Tautology, when the property returns a positive result in all cases,…  ⚓1
+│   ├── p12: * Contradiction, when the search vector yields a combination of proper…  ⚓1
+│   ├── p13: On the other hand, the category of *unsinnig*, in our case, would corr…  ⚓1
+│   ├── p14: Up to this point, the proposed system aligns with standard Boolean log…  ⚓2
+│   ├── p15: We first address its extensibility. Extending $W_i$ to contain new fac…  ⚓4
+│   ├── p16: Regarding ambiguity in $W_i$, the proposed system allows the detection…  ⚓1
+│   ├── p17: * $W_i \otimes W^T_i$ yields a matrix of objects against objects, cont…  ⚓1
+│   ├── p18: * $(W_i \otimes W^T_i) - \mathbb{I}$ clears the diagonal, which contai…  ⚓1
+│   ├── p19: * Finally, by dimensionally collapsing this matrix by multiplying it b…  ⚓1
+│   ├── p20: Then, to disambiguate these objects, we introduce a new property to $L…  ⚓1
+│   ├── p21: |         | leaf | root | stem | (leaf) rough | (leaf) smooth | | ----…  ⚓3
+│   ├── p22: Another detail becomes apparent: if we make a partition defined by the…  ⚓3
+│   ├── p23: * Use a sense mask $S_i$ around the facts that are indexable by these …  ⚓2
+│   ├── p24: * Create another matrix $W_i'$ that indexes only leafy vegetables. The…  ⚓1
+│   ├── p25: This yields some interesting results:
+│   ├── p26: - $W_i$ is basically a hierarchical routing space that partitions $W_i…  ⚓3
+│   └── p27: In Wittgenstein's words, we have defined a direct projection between t…  ⚓3
+├── 📑 Discussion  [11 blocks]
+│   ├── p01: The task of processing text and extracting semantic logic from it has …  ⚓2
+│   ├── p02: # Relationship with Language
+│   ├── p03: Existing works often translate language into logical forms, graphs, or…  ⚓11
+│   ├── p04: An interesting first approach to semantics in language is that the for…  ⚓2
+│   ├── p05: An important limitation to note at this point is that, as the treatise…  ⚓3
+│   ├── p06: Furthermore, a little-explored feature of language is that, by definin…  ⚓2
+│   ├── p07: # Relationship with LLM
+│   ├── p08: An interesting approach to how this proposal relates to the burgeoning…  ⚓2
+│   ├── p09: On the other hand, by introducing context as a limit to the family of …  ⚓1
+│   ├── p10: This last point aligns directly with what LeCun and colleagues have be…  ⚓4
+│   └── p11: Finally, one might ask whether a logic machine with sufficient "knowle…  ⚓2
+├── 📑 Conclusion  [3 blocks]
+│   ├── p01: In conclusion, this paper has presented a formal framework to bridge t…  ⚓2
+│   ├── p02: While the body of this work has focused on establishing the theoretica…  ⚓2
+│   └── p03: Future work will focus on closing this computational loop. Having demo…  ⚓2
+└── 📑 Appendix  [18 blocks]
+    ├── p01: ## On the Geometric Origin of Hallucinations \label{app:hallucinations…
+    ├── p02: To understand why continuous semantic spaces struggle with factual acc…
+    ├── p03: **Type I: Infidelity (Contextual Deviation)** This occurs when the gen…
+    ├── p04: **Type II: Confabulation (Domain Mismatch)** This happens when the mod…
+    ├── p05: **Type III: Factual Error (In-Channel Falsehood)** This is the most pe…
+    ├── p06: The geometric detectability of Types I and II often creates the "Self-…
+    ├── p07: ## On the Limits of Continuous Approximation \label{app:continuous}
+    ├── p08: This appendix details the three observations from Section 2. The first…
+    ├── p09: ### Indicator boundaries and inescapable oscillation
+    ├── p10: Let $f: \mathbb{R}^d \to \{0,1\}$ indicate logical validity, discontin…
+    ├── p11: ### Polytope tiling at bounded width
+    ├── p12: A ReLU network is piecewise affine: each neuron's activation boundary …
+    ├── p13: $$\mathcal{N}(w, L) \le \sum_{j=0}^{d} \binom{wL}{j},$$
+    ├── p14: which grows polynomially in $L$ [@hanin2017universal]. Sense boundarie…
+    ├── p15: ### The soft boundary of current embedding techniques
+    ├── p16: If factual errors were outliers in embedding space, post-hoc detection…
+    ├── p17: ### On deterministic decoding
+    └── p18: `argmax` is a deterministic function of the score surface: wherever th…

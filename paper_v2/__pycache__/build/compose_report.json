@@ -1,0 +1,13 @@
+{
+  "path": "build/paper.composed.md",
+  "mode": "field-composed-render",
+  "section_count": 6,
+  "sources": [
+    "../sections/01_introduction.md",
+    "../sections/01_1_sota.md",
+    "../sections/02_philosophical_foundation.md",
+    "../sections/03_proposed_representation.md",
+    "../sections/04_discussion.md",
+    "../sections/09_conclusion.md"
+  ]
+}

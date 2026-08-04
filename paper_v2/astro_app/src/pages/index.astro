@@ -1,0 +1,980 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="paper_v2 editorial browser">
+  <main class="app-shell">
+    <section class="workspace">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow">paper_v2</div>
+          <h1>Rendered document + SLDB structure</h1>
+        </div>
+        <div class="toolbar">
+          <button id="refresh-graph">Refresh</button>
+          <button id="rebuild">Rebuild</button>
+        </div>
+      </header>
+
+      <div class="split-view">
+        <section class="manuscript-pane">
+          <div class="pane-header">
+            <div>
+              <div class="eyebrow">Document</div>
+              <div class="pane-title">Read the paper, click a paragraph, inspect the structure on the right</div>
+            </div>
+            <div id="status" class="status">Loading...</div>
+          </div>
+          <article id="paper-view" class="paper-view"></article>
+        </section>
+
+        <section class="inspector-pane">
+          <div class="pane-header sticky inspector-topbar">
+            <div>
+              <div class="eyebrow">SLDB structure</div>
+              <div class="pane-title">Section → paragraph → note → source</div>
+            </div>
+          </div>
+
+          <div class="inspector-grid">
+            <section class="sections-pane">
+              <div class="pane-header sticky">
+                <div>
+                  <div class="eyebrow">Sections</div>
+                  <div id="selected-section-label" class="pane-title">Nothing selected</div>
+                </div>
+              </div>
+              <div id="sections-list" class="sections-list"></div>
+            </section>
+
+            <section class="detail-pane paragraph-pane-shell">
+              <div class="pane-header sticky">
+                <div>
+                  <div class="eyebrow">Paragraph</div>
+                  <div id="selected-paragraph-label" class="pane-title">Select one</div>
+                </div>
+              </div>
+              <div id="paragraph-pane" class="detail-scroll empty-state">Select a paragraph from the manuscript or section list.</div>
+            </section>
+
+            <section class="detail-pane notes-pane">
+              <div class="pane-header sticky">
+                <div>
+                  <div class="eyebrow">Notes</div>
+                  <div id="selected-note-label" class="pane-title">Waiting</div>
+                </div>
+              </div>
+              <div id="notes-pane" class="detail-scroll empty-state">Select a paragraph first.</div>
+            </section>
+
+            <section class="detail-pane sources-pane">
+              <div class="pane-header sticky">
+                <div>
+                  <div class="eyebrow">Sources</div>
+                  <div id="selected-source-label" class="pane-title">Waiting</div>
+                </div>
+              </div>
+              <div id="sources-pane" class="detail-scroll empty-state">Select a note first.</div>
+            </section>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const state = {
+      graph: null,
+      selectedSectionPath: '',
+      selectedParagraphPath: '',
+      selectedNotePath: '',
+      selectedSourcePath: '',
+    };
+
+    const statusEl = document.querySelector('#status');
+    const paperViewEl = document.querySelector('#paper-view');
+    const sectionsListEl = document.querySelector('#sections-list');
+    const paragraphPaneEl = document.querySelector('#paragraph-pane');
+    const notesPaneEl = document.querySelector('#notes-pane');
+    const sourcesPaneEl = document.querySelector('#sources-pane');
+    const selectedSectionLabelEl = document.querySelector('#selected-section-label');
+    const selectedParagraphLabelEl = document.querySelector('#selected-paragraph-label');
+    const selectedNoteLabelEl = document.querySelector('#selected-note-label');
+    const selectedSourceLabelEl = document.querySelector('#selected-source-label');
+
+    const statusTone = {
+      supported: 'ok',
+      'evidence-pending': 'warn',
+      'missing-source': 'warn',
+      'missing-note': 'danger',
+      incomplete: 'danger',
+    };
+
+    const statusLabel = {
+      supported: 'Supported',
+      'evidence-pending': 'Evidence pending',
+      'missing-source': 'Missing source',
+      'missing-note': 'Missing note',
+      incomplete: 'Incomplete',
+    };
+
+    const setStatus = (value) => {
+      statusEl.textContent = typeof value === 'string' ? value : JSON.stringify(value, null, 2);
+    };
+
+    const getSection = () => state.graph?.sections.find((item) => item.path === state.selectedSectionPath) || null;
+    const getParagraph = () => getSection()?.paragraphs.find((item) => item.path === state.selectedParagraphPath) || null;
+    const getNote = () => getParagraph()?.notes.find((item) => item.path === state.selectedNotePath) || null;
+    const getSource = () => getNote()?.sources.find((item) => item.path === state.selectedSourcePath) || null;
+
+    const selectSection = (path) => {
+      state.selectedSectionPath = path;
+      const section = getSection();
+      state.selectedParagraphPath = section?.paragraphs?.[0]?.path || '';
+      state.selectedNotePath = section?.paragraphs?.[0]?.notes?.[0]?.path || '';
+      state.selectedSourcePath = section?.paragraphs?.[0]?.notes?.[0]?.sources?.[0]?.path || '';
+      renderAll();
+    };
+
+    const selectParagraph = (path) => {
+      state.selectedParagraphPath = path;
+      const paragraph = getParagraph();
+      state.selectedNotePath = paragraph?.notes?.[0]?.path || '';
+      state.selectedSourcePath = paragraph?.notes?.[0]?.sources?.[0]?.path || '';
+      renderAll();
+    };
+
+    const selectNote = (path) => {
+      state.selectedNotePath = path;
+      const note = getNote();
+      state.selectedSourcePath = note?.sources?.[0]?.path || '';
+      renderAll();
+    };
+
+    const selectSource = (path) => {
+      state.selectedSourcePath = path;
+      renderAll();
+    };
+
+    const safeText = (value) => String(value ?? '')
+      .replaceAll('&', '&amp;')
+      .replaceAll('<', '&lt;')
+      .replaceAll('>', '&gt;');
+
+    const renderStatusPill = (status) => `
+      <span class="status-pill ${statusTone[status] || 'muted'}">${safeText(statusLabel[status] || status)}</span>
+    `;
+
+    const renderReasonList = (reasons) => {
+      if (!reasons?.length) return '<div class="reason-line ok">Trace complete</div>';
+      return reasons.map((reason) => `<div class="reason-line">${safeText(reason)}</div>`).join('');
+    };
+
+    const renderPaper = () => {
+      const graph = state.graph;
+      if (!graph) return;
+      const { manuscript, sections } = graph;
+      paperViewEl.innerHTML = `
+        <h1 class="paper-title">${safeText(manuscript.data.title)}</h1>
+        <div class="paper-summary-strip">
+          ${renderStatusPill(manuscript.derived.support_status)}
+          <span class="summary-pill">${manuscript.derived.section_count} sections</span>
+          <span class="summary-pill">${manuscript.derived.paragraph_count} paragraphs</span>
+          <span class="summary-pill ok">${manuscript.derived.supported_count} supported</span>
+          <span class="summary-pill danger">${manuscript.derived.unsupported_count} need attention</span>
+        </div>
+        <div class="trace-reasons manuscript-reasons">${renderReasonList(manuscript.derived.status_reasons)}</div>
+        <div class="paper-abstract">
+          <h2>Abstract</h2>
+          <div class="prose">${manuscript.rendered?.abstract_html || ''}</div>
+        </div>
+      `;
+
+      sections.forEach((section) => {
+        const sec = document.createElement('section');
+        sec.className = 'section-block';
+        if (section.path === state.selectedSectionPath) sec.dataset.active = 'true';
+        sec.innerHTML = `
+          <div class="section-head">
+            <div>
+              <h2>${safeText(section.data.title)}</h2>
+              <div class="section-summary">
+                ${renderStatusPill(section.derived.support_status)}
+                <span class="summary-pill">${section.derived.paragraph_count} paragraphs</span>
+                <span class="summary-pill ok">${section.derived.supported_count} supported</span>
+                <span class="summary-pill danger">${section.derived.unsupported_count} gaps</span>
+              </div>
+            </div>
+          </div>
+        `;
+        sec.addEventListener('click', (event) => {
+          if (event.target.closest('.paragraph-trace')) return;
+          selectSection(section.path);
+        });
+
+        const body = document.createElement('div');
+        body.className = 'section-body';
+        section.paragraphs.forEach((paragraph) => {
+          const p = document.createElement('article');
+          p.className = 'paragraph-trace';
+          if (paragraph.path === state.selectedParagraphPath) p.dataset.active = 'true';
+          p.innerHTML = `
+            <div class="trace-bar ${statusTone[paragraph.derived.support_status] || 'muted'}"></div>
+            <div class="trace-main">
+              <div class="trace-head">
+                ${renderStatusPill(paragraph.derived.support_status)}
+                <div class="trace-metrics">
+                  <span>${paragraph.derived.note_count} note${paragraph.derived.note_count === 1 ? '' : 's'}</span>
+                  <span>${paragraph.derived.source_count} source${paragraph.derived.source_count === 1 ? '' : 's'}</span>
+                </div>
+              </div>
+              <div class="prose trace-prose">${paragraph.rendered?.paragraph_html || ''}</div>
+              <div class="trace-reasons">${renderReasonList(paragraph.derived.status_reasons)}</div>
+            </div>
+          `;
+          p.addEventListener('click', (event) => {
+            event.stopPropagation();
+            if (state.selectedSectionPath !== section.path) state.selectedSectionPath = section.path;
+            selectParagraph(paragraph.path);
+          });
+          body.appendChild(p);
+        });
+        sec.appendChild(body);
+        paperViewEl.appendChild(sec);
+      });
+    };
+
+    const renderSectionsList = () => {
+      const sections = state.graph?.sections || [];
+      sectionsListEl.innerHTML = '';
+      sections.forEach((section) => {
+        const item = document.createElement('button');
+        item.className = 'section-row';
+        if (section.path === state.selectedSectionPath) item.dataset.active = 'true';
+        item.innerHTML = `
+          <div class="row-title">${safeText(section.data.title)}</div>
+          <div class="row-meta compact">
+            ${renderStatusPill(section.derived.support_status)}
+            <span>${section.derived.paragraph_count} paragraphs</span>
+            <span>${section.derived.unsupported_count} gaps</span>
+          </div>
+          <div class="mini-bars">
+            <span class="mini-bar ok" style="flex:${Math.max(section.derived.supported_count, 1)}"></span>
+            <span class="mini-bar danger" style="flex:${Math.max(section.derived.unsupported_count, 1)}"></span>
+          </div>
+        `;
+        item.addEventListener('click', () => selectSection(section.path));
+        sectionsListEl.appendChild(item);
+      });
+
+      const section = getSection();
+      selectedSectionLabelEl.textContent = section ? section.data.title : 'Nothing selected';
+    };
+
+    const renderParagraphPane = () => {
+      const section = getSection();
+      const paragraph = getParagraph();
+      if (!section || !paragraph) {
+        paragraphPaneEl.className = 'detail-scroll empty-state';
+        paragraphPaneEl.textContent = 'Select a paragraph from the manuscript or section list.';
+        selectedParagraphLabelEl.textContent = 'Select one';
+        return;
+      }
+      paragraphPaneEl.className = 'detail-scroll';
+      selectedParagraphLabelEl.textContent = paragraph.data.title || `Paragraph ${paragraph.data.paragraph_index}`;
+      paragraphPaneEl.innerHTML = `
+        <div class="focus-card claim-card">
+          <div class="focus-head stack">
+            <div>
+              <div class="focus-title">${safeText(paragraph.data.title || `Paragraph ${paragraph.data.paragraph_index}`)}</div>
+              <div class="focus-subtitle">Section: ${safeText(section.data.title)}</div>
+            </div>
+            ${renderStatusPill(paragraph.derived.support_status)}
+          </div>
+
+          <div class="support-strip">
+            <div class="support-metric">
+              <span class="metric-label">Notes</span>
+              <strong>${paragraph.derived.note_count}</strong>
+            </div>
+            <div class="support-metric">
+              <span class="metric-label">Sources</span>
+              <strong>${paragraph.derived.source_count}</strong>
+            </div>
+            <div class="support-metric wide">
+              <span class="metric-label">Open gaps</span>
+              <strong>${paragraph.derived.status_reasons.length || 0}</strong>
+            </div>
+          </div>
+
+          <section>
+            <div class="section-label">Reading model</div>
+            <div class="read-box">The paragraph text stays on the left. Use this panel to inspect structure, coverage, and linked support without duplicating the prose.</div>
+          </section>
+
+          <section>
+            <div class="section-label">Trace diagnosis</div>
+            <div class="trace-reasons card-reasons">${renderReasonList(paragraph.derived.status_reasons)}</div>
+          </section>
+        </div>
+      `;
+    };
+
+    const renderNotesPane = () => {
+      const paragraph = getParagraph();
+      const notes = paragraph?.notes || [];
+      if (!paragraph) {
+        notesPaneEl.className = 'detail-scroll empty-state';
+        notesPaneEl.textContent = 'Select a paragraph first.';
+        selectedNoteLabelEl.textContent = 'Waiting';
+        return;
+      }
+      notesPaneEl.className = 'detail-scroll';
+      if (!notes.length) {
+        notesPaneEl.innerHTML = '<div class="empty-state inner">No warrant note linked to this paragraph.</div>';
+        selectedNoteLabelEl.textContent = 'No note';
+        return;
+      }
+      const note = getNote() || notes[0];
+      state.selectedNotePath = note.path;
+      selectedNoteLabelEl.textContent = note.data.title;
+      notesPaneEl.innerHTML = notes.map((item) => `
+        <section class="note-card ${item.path === state.selectedNotePath ? 'active' : ''}" data-note-path="${item.path}">
+          <div class="note-card-head">
+            <div>
+              <div class="row-title">${safeText(item.data.title)}</div>
+              <div class="row-meta compact">
+                ${renderStatusPill(item.derived.support_status)}
+                <span>${item.derived.source_count} source${item.derived.source_count === 1 ? '' : 's'}</span>
+              </div>
+            </div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Intent</div>
+            <div class="read-box">${safeText(item.data.intent || '—')}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Claim</div>
+            <div class="read-box">${safeText(item.data.claim || '—')}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Reasoning note</div>
+            <div class="read-box note-body">${safeText(item.data.notes || '—')}</div>
+          </div>
+        </section>
+      `).join('');
+
+      notesPaneEl.querySelectorAll('[data-note-path]').forEach((node) => {
+        node.addEventListener('click', () => selectNote(node.dataset.notePath));
+      });
+    };
+
+    const renderSourcesPane = () => {
+      const note = getNote();
+      const sources = note?.sources || [];
+      if (!note) {
+        sourcesPaneEl.className = 'detail-scroll empty-state';
+        sourcesPaneEl.textContent = 'Select a note first.';
+        selectedSourceLabelEl.textContent = 'Waiting';
+        return;
+      }
+      sourcesPaneEl.className = 'detail-scroll';
+      if (!sources.length) {
+        sourcesPaneEl.innerHTML = '<div class="empty-state inner">No evidence linked to this warrant.</div>';
+        selectedSourceLabelEl.textContent = 'No source';
+        return;
+      }
+      const source = getSource() || sources[0];
+      state.selectedSourcePath = source.path;
+      selectedSourceLabelEl.textContent = source.data.title;
+      sourcesPaneEl.innerHTML = sources.map((item) => `
+        <section class="source-card ${item.path === state.selectedSourcePath ? 'active' : ''}" data-source-path="${item.path}">
+          <div class="row-title">${safeText(item.data.title)}</div>
+          <div class="row-meta compact">
+            <span>${safeText(item.data.kind || 'source')}</span>
+            <span>${safeText(item.data.anchor || '')}</span>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Relevance</div>
+            <div class="read-box">${safeText(item.data.relevance || '—')}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Excerpt</div>
+            <div class="read-box note-body">${safeText(item.data.excerpt || '—')}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Origin</div>
+            <div class="read-box">${safeText(item.data.origin || '—')}</div>
+          </div>
+        </section>
+      `).join('');
+
+      sourcesPaneEl.querySelectorAll('[data-source-path]').forEach((node) => {
+        node.addEventListener('click', () => selectSource(node.dataset.sourcePath));
+      });
+    };
+
+    const renderAll = () => {
+      renderPaper();
+      renderSectionsList();
+      renderParagraphPane();
+      renderNotesPane();
+      renderSourcesPane();
+    };
+
+    const loadGraph = async () => {
+      setStatus('Loading graph...');
+      const res = await fetch('/api/graph.json');
+      const data = await res.json();
+      if (!res.ok) {
+        setStatus(data);
+        return;
+      }
+      state.graph = data;
+      if (!state.selectedSectionPath) {
+        state.selectedSectionPath = data.sections?.[0]?.path || '';
+      }
+      if (!state.selectedParagraphPath) {
+        state.selectedParagraphPath = data.sections?.[0]?.paragraphs?.[0]?.path || '';
+      }
+      const paragraph = getParagraph();
+      if (!state.selectedNotePath) {
+        state.selectedNotePath = paragraph?.notes?.[0]?.path || '';
+      }
+      const note = getNote();
+      if (!state.selectedSourcePath) {
+        state.selectedSourcePath = note?.sources?.[0]?.path || '';
+      }
+      setStatus('Graph loaded');
+      renderAll();
+    };
+
+    const rebuild = async () => {
+      setStatus('Rebuilding pipeline...');
+      const res = await fetch('/api/rebuild.json', { method: 'POST' });
+      const data = await res.json();
+      setStatus(data);
+      state.selectedSectionPath = '';
+      state.selectedParagraphPath = '';
+      state.selectedNotePath = '';
+      state.selectedSourcePath = '';
+      await loadGraph();
+    };
+
+    document.querySelector('#refresh-graph').addEventListener('click', loadGraph);
+    document.querySelector('#rebuild').addEventListener('click', rebuild);
+    loadGraph();
+  </script>
+
+  <style>
+    :root {
+      --bg-main: #faf8ff;
+      --bg-subtle: #f2f3ff;
+      --bg-panel: #ffffff;
+      --line: #e2e7ff;
+      --line-2: #c5c6cd;
+      --text: #131b2e;
+      --muted: #5c6270;
+      --nav: #091426;
+      --nav-muted: #bcc7de;
+      --accent: #6063ee;
+      --accent-soft: #eaedff;
+      --ok-bg: #e4f7ea;
+      --ok-text: #0d6a36;
+      --warn-bg: #fff0cf;
+      --warn-text: #8a5a00;
+      --danger-bg: #ffdad6;
+      --danger-text: #93000a;
+      --serif: "Source Serif 4", serif;
+      --display: "Playfair Display", serif;
+      --ui: "Geist", system-ui, sans-serif;
+    }
+    body {
+      background: var(--bg-main);
+      color: var(--text);
+      font-family: var(--ui);
+    }
+    .app-shell {
+      min-height: 100vh;
+      background: var(--bg-main);
+    }
+    .workspace {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .topbar {
+      height: 64px;
+      border-bottom: 1px solid var(--line);
+      background: var(--nav);
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 18px;
+      flex-shrink: 0;
+    }
+    .topbar h1,
+    .pane-title,
+    .paper-title,
+    .section-head h2 {
+      margin: 0;
+    }
+    .eyebrow {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+    }
+    .topbar .eyebrow {
+      color: #bcc7de;
+    }
+    .toolbar {
+      display: flex;
+      gap: 8px;
+    }
+    button {
+      border: 1px solid var(--line-2);
+      background: var(--bg-panel);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font: inherit;
+    }
+    .topbar button {
+      background: rgba(255,255,255,0.08);
+      color: white;
+      border-color: rgba(255,255,255,0.12);
+    }
+    button:hover {
+      border-color: var(--accent);
+    }
+    .split-view {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(360px, 0.85fr);
+      overflow: hidden;
+      background: var(--bg-subtle);
+    }
+    .manuscript-pane,
+    .inspector-pane,
+    .sections-pane,
+    .detail-pane {
+      min-width: 0;
+      min-height: 0;
+      overflow-y: auto;
+      background: var(--bg-panel);
+    }
+    .manuscript-pane {
+      background: #fff;
+      border-right: 1px solid var(--line);
+    }
+    .inspector-pane {
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-subtle);
+    }
+    .inspector-topbar {
+      border-left: 0;
+    }
+    .inspector-grid {
+      flex: 1;
+      min-height: 0;
+      display: grid;
+      grid-template-columns: minmax(220px, 0.46fr) minmax(0, 0.54fr);
+      grid-template-rows: minmax(0, 0.9fr) minmax(0, 1.1fr) minmax(0, 1.1fr);
+      gap: 1px;
+      background: var(--line);
+    }
+    .sections-pane {
+      grid-row: 1 / span 3;
+      grid-column: 1;
+    }
+    .paragraph-pane-shell {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    .notes-pane {
+      grid-column: 2;
+      grid-row: 2;
+    }
+    .sources-pane {
+      grid-column: 2;
+      grid-row: 3;
+    }
+    .pane-header {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .sticky {
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+    .status {
+      max-width: 220px;
+      text-align: right;
+      font-size: 12px;
+      color: var(--muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .paper-view {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 56px 64px 80px;
+      font-family: var(--serif);
+    }
+    .paper-title {
+      font-family: var(--display);
+      font-size: 42px;
+      line-height: 1.15;
+      margin-bottom: 18px;
+    }
+    .paper-summary-strip,
+    .section-summary,
+    .trace-metrics,
+    .support-strip,
+    .inline-stack {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .summary-pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      background: var(--bg-subtle);
+      color: var(--muted);
+      font-size: 12px;
+      padding: 4px 8px;
+      white-space: nowrap;
+    }
+    .summary-pill.ok {
+      background: var(--ok-bg);
+      color: var(--ok-text);
+    }
+    .summary-pill.danger {
+      background: var(--danger-bg);
+      color: var(--danger-text);
+    }
+    .manuscript-reasons {
+      margin-top: 12px;
+      margin-bottom: 24px;
+    }
+    .paper-abstract {
+      margin-top: 24px;
+    }
+    .paper-abstract h2,
+    .section-head h2 {
+      font-family: var(--display);
+      font-size: 30px;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    .section-block {
+      margin-top: 34px;
+      padding: 0;
+      border-radius: 14px;
+      border: 1px solid transparent;
+      cursor: pointer;
+    }
+    .section-block:hover {
+      border-color: var(--line);
+    }
+    .section-block[data-active='true'] {
+      border-color: var(--accent);
+    }
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 16px;
+      margin-bottom: 12px;
+      padding: 10px 6px;
+    }
+    .section-body {
+      display: grid;
+      gap: 14px;
+    }
+    .paragraph-trace {
+      display: grid;
+      grid-template-columns: 6px 1fr;
+      gap: 14px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: white;
+      cursor: pointer;
+    }
+    .paragraph-trace:hover {
+      border-color: rgba(96, 99, 238, 0.35);
+      box-shadow: 0 0 0 3px rgba(96, 99, 238, 0.06);
+    }
+    .paragraph-trace[data-active='true'] {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(96, 99, 238, 0.08);
+    }
+    .trace-bar {
+      border-radius: 999px;
+      background: var(--line-2);
+    }
+    .trace-bar.ok { background: var(--ok-text); }
+    .trace-bar.warn { background: var(--warn-text); }
+    .trace-bar.danger { background: var(--danger-text); }
+    .trace-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 8px;
+    }
+    .trace-metrics {
+      color: var(--muted);
+      font-family: var(--ui);
+      font-size: 12px;
+    }
+    .trace-prose {
+      font-size: 18px;
+    }
+    .trace-reasons {
+      display: grid;
+      gap: 6px;
+      margin-top: 12px;
+      font-family: var(--ui);
+    }
+    .reason-line {
+      font-size: 13px;
+      color: var(--warn-text);
+      background: var(--warn-bg);
+      border-radius: 10px;
+      padding: 8px 10px;
+    }
+    .reason-line.ok {
+      color: var(--ok-text);
+      background: var(--ok-bg);
+    }
+    .prose {
+      font-family: var(--serif);
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .prose p,
+    .prose ul,
+    .prose ol,
+    .prose table,
+    .prose blockquote {
+      margin: 0 0 1rem;
+    }
+    .prose ul,
+    .prose ol {
+      padding-left: 1.5rem;
+    }
+    .prose table {
+      width: 100%;
+      border-collapse: collapse;
+      display: block;
+      overflow-x: auto;
+      font-size: 15px;
+    }
+    .prose th,
+    .prose td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      vertical-align: top;
+    }
+    .prose th {
+      background: var(--bg-subtle);
+    }
+    .sections-list,
+    .detail-scroll {
+      padding: 10px;
+      display: grid;
+      gap: 10px;
+    }
+    .section-row,
+    .note-card,
+    .source-card,
+    .focus-card {
+      width: 100%;
+      text-align: left;
+      background: var(--bg-panel);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .section-row[data-active='true'],
+    .note-card.active,
+    .source-card.active {
+      border-color: var(--accent);
+      background: var(--accent-soft);
+    }
+    .row-title,
+    .focus-title {
+      font-weight: 600;
+      line-height: 1.35;
+      margin-bottom: 6px;
+    }
+    .row-meta,
+    .focus-subtitle {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .row-meta.compact {
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    .mini-bars {
+      display: flex;
+      gap: 4px;
+      margin-top: 10px;
+      height: 8px;
+    }
+    .mini-bar {
+      border-radius: 999px;
+      background: var(--line-2);
+    }
+    .mini-bar.ok { background: var(--ok-text); }
+    .mini-bar.danger { background: var(--danger-text); }
+    .focus-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    .focus-head.stack {
+      align-items: flex-start;
+    }
+    .status-pill {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      font-size: 12px;
+      padding: 4px 8px;
+      white-space: nowrap;
+      background: var(--bg-subtle);
+      color: var(--muted);
+      font-family: var(--ui);
+    }
+    .status-pill.ok {
+      background: var(--ok-bg);
+      color: var(--ok-text);
+    }
+    .status-pill.warn {
+      background: var(--warn-bg);
+      color: var(--warn-text);
+    }
+    .status-pill.danger {
+      background: var(--danger-bg);
+      color: var(--danger-text);
+    }
+    .support-strip {
+      margin: 14px 0 18px;
+    }
+    .support-metric {
+      min-width: 88px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 10px 12px;
+      background: var(--bg-subtle);
+    }
+    .support-metric.wide {
+      min-width: 120px;
+    }
+    .metric-label,
+    .section-label {
+      display: block;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-family: var(--ui);
+    }
+    .claim-prose {
+      font-size: 19px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 14px 16px;
+    }
+    .card-reasons {
+      margin-top: 0;
+    }
+    .trace-block + .trace-block,
+    .focus-card section + section {
+      margin-top: 14px;
+    }
+    .read-box {
+      background: var(--bg-subtle);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 10px 12px;
+      white-space: pre-wrap;
+      line-height: 1.5;
+      color: var(--text);
+      font-size: 14px;
+    }
+    .note-body {
+      max-height: 240px;
+      overflow: auto;
+    }
+    .empty-state {
+      display: grid;
+      place-items: center;
+      color: var(--muted);
+      font-size: 14px;
+      padding: 24px;
+    }
+    .empty-state.inner {
+      min-height: 160px;
+      border: 1px dashed var(--line-2);
+      border-radius: 12px;
+      background: var(--bg-subtle);
+    }
+    @media (max-width: 1400px) {
+      .split-view {
+        grid-template-columns: minmax(0, 1fr) minmax(340px, 0.92fr);
+      }
+      .paper-view {
+        padding: 40px 32px 60px;
+      }
+    }
+    @media (max-width: 1100px) {
+      .split-view {
+        grid-template-columns: 1fr;
+        overflow-y: auto;
+      }
+      .manuscript-pane {
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .inspector-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+      }
+      .sections-pane,
+      .paragraph-pane-shell,
+      .notes-pane,
+      .sources-pane {
+        grid-column: 1;
+        grid-row: auto;
+      }
+    }
+  </style>
+</BaseLayout>

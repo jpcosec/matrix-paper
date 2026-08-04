@@ -1,0 +1,19 @@
+{
+  "name": "paper-v2-astro-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/node": "^8.3.4",
+    "astro": "^4.16.18",
+    "markdown-it": "^15.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1"
+  }
+}

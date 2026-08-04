@@ -1,0 +1,5573 @@
+{
+  "count": 273,
+  "atoms": [
+    {
+      "id": "atom-alucinaciones-inducidas-por-rag-y-conflicto-de-conocimiento",
+      "path": "Antecedentes/Alucinaciones/Alucinaciones_Inducidas_por_RAG_y_Conflicto_de_Conocimiento.md",
+      "title": "Alucinaciones Inducidas por RAG y Conflicto de Conocimiento",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_arxiv2305_13300_pdf",
+        "BlockMatrix",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Matriz_por_Bloques"
+        ],
+        "grounded_by": [
+          "Source_PDF_arxiv2305_13300_pdf"
+        ],
+        "is_solved_by": [
+          "BlockMatrix",
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise"
+        ]
+      }
+    },
+    {
+      "id": "atom-alucinaciones-multi-agente-y-context-drift",
+      "path": "Antecedentes/Alucinaciones/Alucinaciones_Multi_Agente_y_Context_Drift.md",
+      "title": "Alucinaciones Multi Agente y Context Drift",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_arxiv2502_01234_pdf",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "BlockMatrix",
+        "WiGame",
+        "Matriz_por_Bloques",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "WiGame",
+          "Matriz_por_Bloques",
+          "Matrices_y_Tensores"
+        ],
+        "grounded_by": [
+          "Source_PDF_arxiv2502_01234_pdf"
+        ],
+        "is_solved_by": [
+          "BlockMatrix"
+        ]
+      }
+    },
+    {
+      "id": "atom-causas-estructurales-y-de-entrenamiento",
+      "path": "Antecedentes/Alucinaciones/Causas_Estructurales_y_de_Entrenamiento.md",
+      "title": "Causas Estructurales y de Entrenamiento",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_nature_shumailov2024_pdf",
+        "Arquitectura_Neuro_Estocastica",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Discretizacion_Logica_vs_Continuo",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Arquitectura_Neuro_Estocastica",
+          "Taxonomia_SOTA_Alucinaciones",
+          "Discretizacion_Logica_vs_Continuo",
+          "Hecho_Atomico_CDV"
+        ],
+        "grounded_by": [
+          "Source_PDF_nature_shumailov2024_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-dicotomia-hk-minus-vs-hk-plus",
+      "path": "Antecedentes/Alucinaciones/Dicotomia_HK_Minus_vs_HK_Plus.md",
+      "title": "Dicotomia HK Minus vs HK Plus",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_iclr2025_a712d4_pdf",
+        "Diferenciacion_Factualidad_Conocimiento_Alucinacion",
+        "Arquitectura_Neuro_Estocastica",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Diferenciacion_Factualidad_Conocimiento_Alucinacion",
+          "Arquitectura_Neuro_Estocastica",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Matriz_por_Bloques"
+        ],
+        "grounded_by": [
+          "Source_PDF_iclr2025_a712d4_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-diferenciacion-factualidad-conocimiento-alucinacion",
+      "path": "Antecedentes/Alucinaciones/Diferenciacion_Factualidad_Conocimiento_Alucinacion.md",
+      "title": "Diferenciacion Factualidad Conocimiento Alucinacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Arquitectura_Neuro_Estocastica",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Taxonomia_SOTA_Alucinaciones",
+          "Arquitectura_Neuro_Estocastica",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "atom-entropia-semantica",
+      "path": "Antecedentes/Alucinaciones/Entropia_Semantica.md",
+      "title": "Entropia Semantica",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_selfcheckgpt2023_pdf",
+        "Origen_Geometrico_y_Espacio_Vectorial",
+        "Arquitectura_Neuro_Estocastica",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Origen_Geometrico_y_Espacio_Vectorial",
+          "Arquitectura_Neuro_Estocastica",
+          "Algebra_Booleana"
+        ],
+        "grounded_by": [
+          "Source_PDF_selfcheckgpt2023_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-evaluacion-epistemica-factscore-halueval",
+      "path": "Antecedentes/Alucinaciones/Evaluacion_Epistemica_FActScore_HaluEval.md",
+      "title": "Evaluacion Epistemica FActScore HaluEval",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_factscore2023_pdf",
+        "Diferenciacion_Factualidad_Conocimiento_Alucinacion",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Diferenciacion_Factualidad_Conocimiento_Alucinacion",
+          "Taxonomia_SOTA_Alucinaciones",
+          "Hecho_Atomico_CDV"
+        ],
+        "grounded_by": [
+          "Source_PDF_factscore2023_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-falla-de-representabilidad",
+      "path": "Antecedentes/Alucinaciones/Falla_de_Representabilidad.md",
+      "title": "Falla de Representabilidad",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_symcode2025_pdf",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Capa_Sentido_Si",
+        "Discretizacion_Logica_vs_Continuo",
+        "Matriz_por_Bloques",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Discretizacion_Logica_vs_Continuo",
+          "Matriz_por_Bloques",
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ],
+        "grounded_by": [
+          "Source_PDF_symcode2025_pdf"
+        ],
+        "is_solved_by": [
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "atom-ilusion-de-la-autocorreccion",
+      "path": "Antecedentes/Alucinaciones/Ilusion_de_la_Autocorreccion.md",
+      "title": "Ilusion de la Autocorreccion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_symcode2025_pdf",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Eje_E_Implementacion_MEEL_y_Compilador_Matricial",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Maquina_Estados_DFA"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Maquina_Estados_DFA"
+        ],
+        "grounded_by": [
+          "Source_PDF_symcode2025_pdf"
+        ],
+        "is_solved_by": [
+          "Eje_E_Implementacion_MEEL_y_Compilador_Matricial"
+        ]
+      }
+    },
+    {
+      "id": "atom-ley-del-ocultamiento-del-conocimiento-knowledge-overshadowing",
+      "path": "Antecedentes/Alucinaciones/Ley_del_Ocultamiento_del_Conocimiento_Knowledge_Overshadowing.md",
+      "title": "Ley del Ocultamiento del Conocimiento Knowledge Overshadowing",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_arxiv2501_12345_pdf",
+        "Causas_Estructurales_y_de_Entrenamiento",
+        "Arquitectura_Neuro_Estocastica",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Causas_Estructurales_y_de_Entrenamiento",
+          "Arquitectura_Neuro_Estocastica",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Hecho_Atomico_CDV"
+        ],
+        "grounded_by": [
+          "Source_PDF_arxiv2501_12345_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-origen-geometrico-y-espacio-vectorial",
+      "path": "Antecedentes/Alucinaciones/Origen_Geometrico_y_Espacio_Vectorial.md",
+      "title": "Origen Geometrico y Espacio Vectorial",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_arxiv2402_10412_pdf",
+        "Arquitectura_Neuro_Estocastica",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Representacion_Plana_vs_Tensorial",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Arquitectura_Neuro_Estocastica",
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Representacion_Plana_vs_Tensorial",
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ],
+        "grounded_by": [
+          "Source_PDF_arxiv2402_10412_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-sicofancia-y-problemas-del-rlhf",
+      "path": "Antecedentes/Alucinaciones/Sicofancia_y_Problemas_del_RLHF.md",
+      "title": "Sicofancia y Problemas del RLHF",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Alucinaciones",
+      "wikilinks_out": [
+        "Alucinaciones",
+        "Source_PDF_factscore2023_pdf",
+        "Arquitectura_Neuro_Estocastica",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Arquitectura_Neuro_Estocastica",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Taxonomia_SOTA_Alucinaciones",
+          "Algebra_Booleana"
+        ],
+        "grounded_by": [
+          "Source_PDF_factscore2023_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-ausencia-de-senal-de-fallo-determinista",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Ausencia_de_Senal_de_Fallo_Determinista.md",
+      "title": "Ausencia de Senal de Fallo Determinista",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Source_PDF_quigley2025_pdf",
+        "Capa_Sentido_Si",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Algebra_Booleana",
+        "Maquina_Estados_DFA"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Algebra_Booleana",
+          "Maquina_Estados_DFA"
+        ],
+        "grounded_by": [
+          "Source_PDF_quigley2025_pdf"
+        ],
+        "is_solved_by": [
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "Barrera_Deteccion_AUROC_Error_Tipo_III",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Barrera_Deteccion_AUROC_Error_Tipo_III.md",
+      "title": "Barrera de Detección AUROC ≈ 0.478 para el Error Fáctico Tipo III",
+      "tags": [],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Source_PDF_arxiv2402_10412_pdf",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Origen_Geometrico_y_Espacio_Vectorial",
+        "Arquitectura_Neuro_Estocastica"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Origen_Geometrico_y_Espacio_Vectorial",
+          "Arquitectura_Neuro_Estocastica"
+        ],
+        "grounded_by": [
+          "Source_PDF_arxiv2402_10412_pdf"
+        ],
+        "mathematically_proves": [
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+        ]
+      }
+    },
+    {
+      "id": "atom-comparacion-arquitecturas-jepa",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Comparacion_Arquitecturas_JEPA.md",
+      "title": "Comparacion Arquitecturas JEPA",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Source_PDF_lecun_jepa2023_pdf",
+        "Arquitectura_Neuro_Estocastica",
+        "BlockMatrix",
+        "Discretizacion_Logica_vs_Continuo",
+        "Matriz_por_Bloques",
+        "Representacion_Plana_vs_Tensorial"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Arquitectura_Neuro_Estocastica",
+          "Discretizacion_Logica_vs_Continuo",
+          "Matriz_por_Bloques",
+          "Representacion_Plana_vs_Tensorial"
+        ],
+        "grounded_by": [
+          "Source_PDF_lecun_jepa2023_pdf"
+        ],
+        "is_solved_by": [
+          "BlockMatrix"
+        ]
+      }
+    },
+    {
+      "id": "atom-incongruencia-decodificacion-estocastica-vs-conocimiento-latente",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Incongruencia_Decodificacion_Estocastica_vs_Conocimiento_Latente.md",
+      "title": "Incongruencia Decodificacion Estocastica vs Conocimiento Latente",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Dicotomia_HK_Minus_vs_HK_Plus",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Capa_Verdad_Vi",
+        "Arquitectura_Neuro_Estocastica",
+        "Teorema_Suboptimizabilidad_Diagonal",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Arquitectura_Neuro_Estocastica",
+          "Teorema_Suboptimizabilidad_Diagonal",
+          "Matriz_por_Bloques"
+        ],
+        "grounded_by": [
+          "Dicotomia_HK_Minus_vs_HK_Plus"
+        ],
+        "is_solved_by": [
+          "Capa_Verdad_Vi"
+        ]
+      }
+    },
+    {
+      "id": "atom-infidelidad-del-razonamiento-en-prosa-y-la-ilusion-de-pensar",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Infidelidad_del_Razonamiento_en_Prosa_y_la_Ilusion_de_Pensar.md",
+      "title": "Infidelidad del Razonamiento en Prosa y la Ilusion de Pensar",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Source_PDF_vossel2025advancing_pdf",
+        "Ilusion_de_la_Autocorreccion",
+        "Arquitectura_Neuro_Estocastica",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Ilusion_de_la_Autocorreccion",
+          "Arquitectura_Neuro_Estocastica",
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ],
+        "grounded_by": [
+          "Source_PDF_vossel2025advancing_pdf"
+        ]
+      }
+    },
+    {
+      "id": "atom-probing-latente-y-decodificacion",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Probing_Latente_y_Decodificacion.md",
+      "title": "Probing Latente y Decodificacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Incongruencia_Decodificacion_Estocastica_vs_Conocimiento_Latente",
+        "Dicotomia_HK_Minus_vs_HK_Plus",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Incongruencia_Decodificacion_Estocastica_vs_Conocimiento_Latente",
+          "Matriz_por_Bloques"
+        ],
+        "grounded_by": [
+          "Dicotomia_HK_Minus_vs_HK_Plus"
+        ]
+      }
+    },
+    {
+      "id": "atom-semantica-formal-neuro-simbolica-vs-opacidad-neuronal",
+      "path": "Antecedentes/Limites_Espacio_Continuo/Semantica_Formal_Neuro_Simbolica_vs_Opacidad_Neuronal.md",
+      "title": "Semantica Formal Neuro Simbolica vs Opacidad Neuronal",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Antecedentes/Limites_Espacio_Continuo",
+      "wikilinks_out": [
+        "Limites_Espacio_Continuo",
+        "Source_PDF_quigley2025_pdf",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Algebra_Booleana"
+        ],
+        "grounded_by": [
+          "Source_PDF_quigley2025_pdf"
+        ],
+        "is_solved_by": [
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise"
+        ]
+      }
+    },
+    {
+      "id": "atom-demostracion-compilacion-reglas-y-modus-ponens",
+      "path": "Aplicaciones/Demostracion_Compilacion_Reglas_y_Modus_Ponens.md",
+      "title": "Demostracion Compilacion Reglas y Modus Ponens",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Aplicaciones",
+      "wikilinks_out": [
+        "Source_Code_src_operational_model_compiler_rule_matrix_compiler_py",
+        "Source_Code_src_operational_model_inference_propositional_inference_py",
+        "Compilador_Matricial_Reglas",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_compiler_rule_matrix_compiler_py",
+          "Source_Code_src_operational_model_inference_propositional_inference_py"
+        ],
+        "is_solved_by": [
+          "Compilador_Matricial_Reglas"
+        ],
+        "mathematically_proves": [
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-demostracion-juego-desambiguacion-wigame",
+      "path": "Aplicaciones/Demostracion_Juego_Desambiguacion_WiGame.md",
+      "title": "Demostracion Juego Desambiguacion WiGame",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Aplicaciones",
+      "wikilinks_out": [
+        "Source_Code_src_operational_model_game_wi_game_py",
+        "Source_Code_src_operational_model_optimization_dimensional_collapse_py",
+        "Juego_de_Desambiguacion",
+        "Colapso_Dimensional"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_game_wi_game_py",
+          "Source_Code_src_operational_model_optimization_dimensional_collapse_py"
+        ],
+        "is_solved_by": [
+          "Juego_de_Desambiguacion"
+        ],
+        "mathematically_proves": [
+          "Colapso_Dimensional"
+        ]
+      }
+    },
+    {
+      "id": "atom-demostracion-mundo-bloques-shrdlu",
+      "path": "Aplicaciones/Demostracion_Mundo_Bloques_SHRDLU.md",
+      "title": "Demostracion Mundo Bloques SHRDLU",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Aplicaciones",
+      "wikilinks_out": [
+        "Source_Code_src_operational_model_language_shrdlu_lowering_py",
+        "Source_Code_src_operational_model_language_shrdlu_english_parser_py",
+        "Prototipo_SHRDLU",
+        "Source_PDF_winograd1972shrdlu_pdf"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Source_PDF_winograd1972shrdlu_pdf"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_language_shrdlu_lowering_py",
+          "Source_Code_src_operational_model_language_shrdlu_english_parser_py"
+        ],
+        "is_solved_by": [
+          "Prototipo_SHRDLU"
+        ]
+      }
+    },
+    {
+      "id": "atom-demostracion-ontologias-owl-semantic-web",
+      "path": "Aplicaciones/Demostracion_Ontologias_OWL_Semantic_Web.md",
+      "title": "Demostracion Ontologias OWL Semantic Web",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Aplicaciones",
+      "wikilinks_out": [
+        "Source_Code_src_operational_model_language_owl2matrix_py",
+        "test_owl2matrix.py",
+        "Parser_OWL2Matrix",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_language_owl2matrix_py",
+          "test_owl2matrix.py"
+        ],
+        "is_solved_by": [
+          "Parser_OWL2Matrix"
+        ],
+        "mathematically_proves": [
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-demostracion-dominio-culinario-ragout",
+      "path": "Aplicaciones/Dominio_Culinario/Demostracion_Dominio_Culinario_Ragout.md",
+      "title": "Demostracion Dominio Culinario Ragout",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Aplicaciones/Dominio_Culinario",
+      "wikilinks_out": [
+        "Aplicaciones",
+        "Source_Code_examples_ragout_demonstration_py",
+        "MEEL",
+        "BlockMatrix",
+        "WiGame",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Matriz_por_Bloques",
+        "Juego_de_Desambiguacion",
+        "Colapso_Dimensional"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_examples_ragout_demonstration_py"
+        ],
+        "is_solved_by": [
+          "MEEL",
+          "BlockMatrix"
+        ],
+        "restricts": [
+          "WiGame",
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Matriz_por_Bloques",
+          "Juego_de_Desambiguacion",
+          "Colapso_Dimensional"
+        ]
+      }
+    },
+    {
+      "id": "Arquitectura_End_to_End_Ejecutable",
+      "path": "Computacion/API_Base_Datos_Logica/Arquitectura_End_to_End_Ejecutable.md",
+      "title": "Arquitectura End-to-End Ejecutable",
+      "tags": [],
+      "folder": "Computacion/API_Base_Datos_Logica",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_system_logical_system_py",
+        "Source_Code_src_operational_model_engine_meel_engine_py",
+        "Source_Code_src_operational_model_language_s_expressions_py",
+        "Source_Code_src_operational_model_matrices_si_matrix_py",
+        "Source_Code_src_operational_model_matrices_vi_matrix_py",
+        "Source_Code_src_operational_model_matrices_block_matrix_py",
+        "Source_Code_src_operational_model_kernel_rule_matrix_py"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_system_logical_system_py",
+          "Source_Code_src_operational_model_engine_meel_engine_py",
+          "Source_Code_src_operational_model_language_s_expressions_py",
+          "Source_Code_src_operational_model_matrices_si_matrix_py",
+          "Source_Code_src_operational_model_matrices_vi_matrix_py",
+          "Source_Code_src_operational_model_matrices_block_matrix_py",
+          "Source_Code_src_operational_model_kernel_rule_matrix_py"
+        ]
+      }
+    },
+    {
+      "id": "CanonicalHypertensor",
+      "path": "Computacion/API_Base_Datos_Logica/CanonicalHypertensor.md",
+      "title": "CanonicalHypertensor",
+      "tags": [],
+      "folder": "Computacion/API_Base_Datos_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "LogicalSpace",
+      "path": "Computacion/API_Base_Datos_Logica/LogicalSpace.md",
+      "title": "LogicalSpace",
+      "tags": [],
+      "folder": "Computacion/API_Base_Datos_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "MEELEngine",
+      "path": "Computacion/API_Base_Datos_Logica/MEELEngine.md",
+      "title": "MEELEngine",
+      "tags": [],
+      "folder": "Computacion/API_Base_Datos_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-diccionario-bits-y-codificacion",
+      "path": "Computacion/Bitwise_Hardware/Diccionario_Bits_y_Codificacion.md",
+      "title": "Diccionario Bits y Codificacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Bitwise_Hardware",
+      "wikilinks_out": [
+        "Computacion",
+        "Vectorizacion_Bitwise_Densa",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "BooleanMatrix",
+        "Algebra_Booleana",
+        "Contrastes_XOR_Booleanos"
+      ],
+      "predicados": {
+        "implements": [
+          "Vectorizacion_Bitwise_Densa",
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+          "BooleanMatrix"
+        ],
+        "is_solved_by": [
+          "Algebra_Booleana",
+          "Contrastes_XOR_Booleanos"
+        ]
+      }
+    },
+    {
+      "id": "atom-eje-d-diferenciacion-owl-kgs-y-vectorizacion-bitwise",
+      "path": "Computacion/Bitwise_Hardware/Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise.md",
+      "title": "Eje D Diferenciacion OWL KGs y Vectorizacion Bitwise",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Bitwise_Hardware",
+      "wikilinks_out": [
+        "Computacion",
+        "Vectorizacion_Bitwise_Densa",
+        "Clausura_Transitiva_Matricial",
+        "Inferencia_Deductiva_Matricial",
+        "Compilador_Matricial_Reglas",
+        "Algebra_Booleana",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "implements": [
+          "Vectorizacion_Bitwise_Densa"
+        ],
+        "is_solved_by": [
+          "Clausura_Transitiva_Matricial",
+          "Inferencia_Deductiva_Matricial",
+          "Compilador_Matricial_Reglas",
+          "Algebra_Booleana",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-tipado-typestate",
+      "path": "Computacion/Bitwise_Hardware/Tipado_Typestate.md",
+      "title": "Tipado Typestate",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Bitwise_Hardware",
+      "wikilinks_out": [
+        "Computacion",
+        "MEEL",
+        "Regla_Dont_Care"
+      ],
+      "predicados": {
+        "implements": [
+          "MEEL"
+        ],
+        "is_solved_by": [
+          "Regla_Dont_Care"
+        ]
+      }
+    },
+    {
+      "id": "atom-vectorizacion-bitwise-densa",
+      "path": "Computacion/Bitwise_Hardware/Vectorizacion_Bitwise_Densa.md",
+      "title": "Vectorizacion Bitwise Densa",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Bitwise_Hardware",
+      "wikilinks_out": [
+        "Computacion",
+        "Matrices_Puras",
+        "MEEL",
+        "Algebra_Booleana",
+        "Contrastes_XOR_Booleanos"
+      ],
+      "predicados": {
+        "implements": [
+          "MEEL"
+        ],
+        "is_solved_by": [
+          "Matrices_Puras",
+          "Algebra_Booleana",
+          "Contrastes_XOR_Booleanos"
+        ]
+      }
+    },
+    {
+      "id": "atom-capa-sentido-si",
+      "path": "Computacion/Estructuras_Matriciales/Capa_Sentido_Si.md",
+      "title": "Capa Sentido Si",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_matrices_si_matrix_py",
+        "Categorias_Sentido",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_matrices_si_matrix_py"
+        ],
+        "is_solved_by": [
+          "Categorias_Sentido",
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-capa-verdad-vi",
+      "path": "Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md",
+      "title": "Capa Verdad Vi",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_matrices_vi_matrix_py",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_matrices_vi_matrix_py"
+        ],
+        "is_solved_by": [
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-construccion-tensor-jerarquico",
+      "path": "Computacion/Estructuras_Matriciales/Construccion_Tensor_Jerarquico.md",
+      "title": "Construccion Tensor Jerarquico",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Tensor_Jerarquico_NxNxC",
+        "Representacion_Plana_vs_Tensorial",
+        "Enrutamiento_Jerarquico",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Tensor_Jerarquico_NxNxC",
+          "Representacion_Plana_vs_Tensorial",
+          "Enrutamiento_Jerarquico",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "atom-context-ci",
+      "path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+      "title": "Context Ci",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "LogicalSpace_Li",
+        "WiGame_Wi"
+      ],
+      "predicados": {
+        "bounds": [
+          "LogicalSpace_Li"
+        ],
+        "composes": [
+          "WiGame_Wi"
+        ]
+      }
+    },
+    {
+      "id": "Distincion_Ausencia_vs_Unsinnig",
+      "path": "Computacion/Estructuras_Matriciales/Distincion_Ausencia_vs_Unsinnig.md",
+      "title": "Distinción Operacional: Ausencia de Dato vs. Inaplicabilidad Categorial (Unsinnig)",
+      "tags": [],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "Categorias_Sentido",
+        "Estados_Verdad_Epistemicos_Semanticos",
+        "Operacion_Identificar_Faltantes",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi"
+      ],
+      "predicados": {
+        "implements": [
+          "Categorias_Sentido",
+          "Estados_Verdad_Epistemicos_Semanticos",
+          "Operacion_Identificar_Faltantes"
+        ],
+        "is_solved_by": [
+          "Capa_Sentido_Si",
+          "Capa_Verdad_Vi"
+        ]
+      }
+    },
+    {
+      "id": "Emergencia_Estructural_de_Si_en_Cruces_de_Contexto",
+      "path": "Computacion/Estructuras_Matriciales/Emergencia_Estructural_de_Si_en_Cruces_de_Contexto.md",
+      "title": "Emergencia Estructural de $S_i$ en Cruces de Contexto",
+      "tags": [],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "Capa_Sentido_Si",
+        "Distincion_Ausencia_vs_Unsinnig",
+        "Construccion_Tensor_Jerarquico",
+        "Contexto_Logico",
+        "Categorias_Sentido"
+      ],
+      "predicados": {
+        "implements": [
+          "Capa_Sentido_Si",
+          "Distincion_Ausencia_vs_Unsinnig",
+          "Construccion_Tensor_Jerarquico",
+          "Contexto_Logico",
+          "Categorias_Sentido"
+        ]
+      }
+    },
+    {
+      "id": "atom-enrutamiento-jerarquico",
+      "path": "Computacion/Estructuras_Matriciales/Enrutamiento_Jerarquico.md",
+      "title": "Enrutamiento Jerarquico",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Colapso_Dimensional",
+        "S_Expressions",
+        "MEEL"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Colapso_Dimensional"
+        ]
+      }
+    },
+    {
+      "id": "atom-evolucion-y-versionado-contextos",
+      "path": "Computacion/Estructuras_Matriciales/Evolucion_y_Versionado_Contextos.md",
+      "title": "Evolucion y Versionado Contextos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "WiGame",
+        "BlockMatrix",
+        "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico"
+        ],
+        "implements": [
+          "BlockMatrix"
+        ],
+        "is_solved_by": [
+          "WiGame",
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-grafo-indice-g",
+      "path": "Computacion/Estructuras_Matriciales/Grafo_Indice_G.md",
+      "title": "Grafo Indice G",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Modelo_SMG",
+        "Representacion_Flotante",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Modelo_SMG",
+          "Representacion_Flotante",
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-logicalspace-li",
+      "path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md",
+      "title": "LogicalSpace Li",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "WiGame_Wi",
+        "Context_Ci",
+        "Relation_Ri",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi"
+      ],
+      "predicados": {
+        "defined_by": [
+          "Context_Ci",
+          "Relation_Ri"
+        ],
+        "indexes": [
+          "WiGame_Wi"
+        ],
+        "shapes": [
+          "Capa_Sentido_Si",
+          "Capa_Verdad_Vi"
+        ]
+      }
+    },
+    {
+      "id": "atom-mascaras-estructurales",
+      "path": "Computacion/Estructuras_Matriciales/Mascaras_Estructurales.md",
+      "title": "Mascaras Estructurales",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si",
+        "Matriz_por_Bloques",
+        "W_Operativo"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Capa_Verdad_Vi",
+          "Capa_Sentido_Si",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "atom-matrices-puras",
+      "path": "Computacion/Estructuras_Matriciales/Matrices_Puras.md",
+      "title": "Matrices Puras",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Omnirepresentacion",
+        "Contexto_Logico",
+        "Matrices_y_Tensores",
+        "MEEL"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Omnirepresentacion",
+          "Contexto_Logico",
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-optimizador-de-contextos",
+      "path": "Computacion/Estructuras_Matriciales/Optimizador_de_Contextos.md",
+      "title": "Optimizador de Contextos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "Ruteo_Como_Relacion",
+        "MatrixFeeder",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "applies": [
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ],
+        "implemented_by": [
+          "MatrixFeeder"
+        ],
+        "optimizes": [
+          "Ruteo_Como_Relacion"
+        ]
+      }
+    },
+    {
+      "id": "atom-procedencia-y-evidencia",
+      "path": "Computacion/Estructuras_Matriciales/Procedencia_y_Evidencia.md",
+      "title": "Procedencia y Evidencia",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Modelo_SMG",
+        "BlockMatrix",
+        "Capa_Verdad_Vi",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "implements": [
+          "BlockMatrix",
+          "Capa_Verdad_Vi"
+        ],
+        "is_solved_by": [
+          "Modelo_SMG",
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Hecho_Atomico_CDV"
+        ]
+      }
+    },
+    {
+      "id": "atom-relation-ri",
+      "path": "Computacion/Estructuras_Matriciales/Relation_Ri.md",
+      "title": "Relation Ri",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "WiGame_Wi",
+        "LogicalSpace_Li"
+      ],
+      "predicados": {
+        "composes": [
+          "WiGame_Wi"
+        ],
+        "maps_over": [
+          "LogicalSpace_Li"
+        ]
+      }
+    },
+    {
+      "id": "atom-ruteo-como-relacion",
+      "path": "Computacion/Estructuras_Matriciales/Ruteo_Como_Relacion.md",
+      "title": "Ruteo Como Relacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "Hipertensor_Canonico",
+        "Proyeccion_Tensorial"
+      ],
+      "predicados": {
+        "represented_in": [
+          "Hipertensor_Canonico"
+        ],
+        "unifies_with": [
+          "Proyeccion_Tensorial"
+        ]
+      }
+    },
+    {
+      "id": "atom-tensor-jerarquico-nxnxc",
+      "path": "Computacion/Estructuras_Matriciales/Tensor_Jerarquico_NxNxC.md",
+      "title": "Tensor Jerarquico NxNxC",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Enrutamiento_Jerarquico",
+        "Matrices_Puras",
+        "Matrices_y_Tensores",
+        "Representacion_Plana_vs_Tensorial"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Enrutamiento_Jerarquico",
+          "Matrices_Puras",
+          "Matrices_y_Tensores",
+          "Representacion_Plana_vs_Tensorial"
+        ]
+      }
+    },
+    {
+      "id": "atom-w-operativo",
+      "path": "Computacion/Estructuras_Matriciales/W_Operativo.md",
+      "title": "W Operativo",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Computacion",
+        "Contexto_Logico",
+        "Operaciones_MEEL",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "implements": [
+          "Operaciones_MEEL"
+        ],
+        "is_solved_by": [
+          "Contexto_Logico",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "atom-wigame-wi",
+      "path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+      "title": "WiGame Wi",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Estructuras_Matriciales",
+      "wikilinks_out": [
+        "Estructuras_Matriciales",
+        "Context_Ci",
+        "Relation_Ri",
+        "LogicalSpace_Li",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi"
+      ],
+      "predicados": {
+        "composed_of": [
+          "Context_Ci",
+          "Relation_Ri"
+        ],
+        "contains": [
+          "LogicalSpace_Li",
+          "Capa_Sentido_Si",
+          "Capa_Verdad_Vi"
+        ]
+      }
+    },
+    {
+      "id": "atom-clausura-transitiva-matricial",
+      "path": "Computacion/Kernel_MEEL/Clausura_Transitiva_Matricial.md",
+      "title": "Clausura Transitiva Matricial",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_inference_transitive_closure_py",
+        "Matrices_y_Tensores",
+        "W_Operativo"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_inference_transitive_closure_py"
+        ],
+        "is_solved_by": [
+          "Matrices_y_Tensores",
+          "W_Operativo"
+        ]
+      }
+    },
+    {
+      "id": "atom-compilador-matricial-reglas",
+      "path": "Computacion/Kernel_MEEL/Compilador_Matricial_Reglas.md",
+      "title": "Compilador Matricial Reglas",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "Inferencia_Deductiva_Matricial",
+        "S_Expressions",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Inferencia_Deductiva_Matricial",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-eje-e-implementacion-meel-y-compilador-matricial",
+      "path": "Computacion/Kernel_MEEL/Eje_E_Implementacion_MEEL_y_Compilador_Matricial.md",
+      "title": "Eje E Implementacion MEEL y Compilador Matricial",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "MEEL",
+        "Compilador_Matricial_Reglas",
+        "Inferencia_Deductiva_Matricial",
+        "BlockMatrix",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+        "Maquina_Estados_DFA"
+      ],
+      "predicados": {
+        "implements": [
+          "MEEL",
+          "BlockMatrix"
+        ],
+        "is_solved_by": [
+          "Compilador_Matricial_Reglas",
+          "Inferencia_Deductiva_Matricial",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+          "Maquina_Estados_DFA"
+        ]
+      }
+    },
+    {
+      "id": "atom-inferencia-deductiva-matricial",
+      "path": "Computacion/Kernel_MEEL/Inferencia_Deductiva_Matricial.md",
+      "title": "Inferencia Deductiva Matricial",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "Compilador_Matricial_Reglas",
+        "Algebra_Booleana",
+        "MEEL"
+      ],
+      "predicados": {
+        "implements": [
+          "MEEL"
+        ],
+        "is_solved_by": [
+          "Compilador_Matricial_Reglas",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-meel",
+      "path": "Computacion/Kernel_MEEL/MEEL.md",
+      "title": "MEEL",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_engine_meel_engine_py",
+        "Tractatus",
+        "Compilador_Matricial_Reglas",
+        "Inferencia_Deductiva_Matricial",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "defines": [
+          "Tractatus"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_engine_meel_engine_py"
+        ],
+        "is_solved_by": [
+          "Compilador_Matricial_Reglas",
+          "Inferencia_Deductiva_Matricial",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "atom-operaciones-meel",
+      "path": "Computacion/Kernel_MEEL/Operaciones_MEEL.md",
+      "title": "Operaciones MEEL",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "Algebra_Booleana",
+        "W_Operativo",
+        "MEEL"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Algebra_Booleana",
+          "W_Operativo"
+        ]
+      }
+    },
+    {
+      "id": "atom-politica-simbolos-kernel",
+      "path": "Computacion/Kernel_MEEL/Politica_Simbolos_Kernel.md",
+      "title": "Politica Simbolos Kernel",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Kernel_MEEL",
+      "wikilinks_out": [
+        "Computacion",
+        "Signo_vs_Simbolo",
+        "Sistema_Tipos_Ti",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Signo_vs_Simbolo",
+          "Sistema_Tipos_Ti",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-fact",
+      "path": "Computacion/Modelos_Datos_MEEL/Fact.md",
+      "title": "Fact",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Proposition",
+        "Hipertensor_Canonico"
+      ],
+      "predicados": {
+        "extends": [
+          "Proposition"
+        ],
+        "stored_in": [
+          "Hipertensor_Canonico"
+        ]
+      }
+    },
+    {
+      "id": "atom-hipertensor-canonico",
+      "path": "Computacion/Modelos_Datos_MEEL/Hipertensor_Canonico.md",
+      "title": "Hipertensor Canonico",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "SSOT_Hechos",
+        "WiGame",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si",
+        "MatrixFeeder"
+      ],
+      "predicados": {
+        "acts_as": [
+          "SSOT_Hechos"
+        ],
+        "populated_by": [
+          "MatrixFeeder"
+        ],
+        "projected_into": [
+          "WiGame",
+          "Capa_Verdad_Vi",
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "atom-logicalsystem",
+      "path": "Computacion/Modelos_Datos_MEEL/LogicalSystem.md",
+      "title": "LogicalSystem",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Hipertensor_Canonico",
+        "Symbol",
+        "Relation",
+        "Source_Code_src_operational_model_system_logical_system_py"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_system_logical_system_py"
+        ],
+        "orchestrates": [
+          "Hipertensor_Canonico",
+          "Symbol",
+          "Relation"
+        ]
+      }
+    },
+    {
+      "id": "atom-proposition",
+      "path": "Computacion/Modelos_Datos_MEEL/Proposition.md",
+      "title": "Proposition",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Symbol",
+        "Relation",
+        "Fact"
+      ],
+      "predicados": {
+        "is_base_for": [
+          "Fact"
+        ],
+        "is_composed_of": [
+          "Symbol",
+          "Relation"
+        ]
+      }
+    },
+    {
+      "id": "atom-relation",
+      "path": "Computacion/Modelos_Datos_MEEL/Relation.md",
+      "title": "Relation",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Dimension_Hipertensor",
+        "RelationAlgebra",
+        "Source_Code_src_operational_model_core_relation_py"
+      ],
+      "predicados": {
+        "acts_as": [
+          "Dimension_Hipertensor"
+        ],
+        "has_property": [
+          "RelationAlgebra"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_core_relation_py"
+        ]
+      }
+    },
+    {
+      "id": "atom-symbol",
+      "path": "Computacion/Modelos_Datos_MEEL/Symbol.md",
+      "title": "Symbol",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Dimension_Hipertensor",
+        "Source_Code_src_operational_model_core_symbol_py"
+      ],
+      "predicados": {
+        "acts_as": [
+          "Dimension_Hipertensor"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_core_symbol_py"
+        ]
+      }
+    },
+    {
+      "id": "atom-thing",
+      "path": "Computacion/Modelos_Datos_MEEL/Thing.md",
+      "title": "Thing",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Symbol",
+        "Source_Code_src_operational_model_core_thing_py"
+      ],
+      "predicados": {
+        "contains": [
+          "Symbol"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_core_thing_py"
+        ]
+      }
+    },
+    {
+      "id": "atom-wigame",
+      "path": "Computacion/Modelos_Datos_MEEL/WiGame.md",
+      "title": "WiGame",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Modelos_Datos_MEEL",
+      "wikilinks_out": [
+        "Modelos_Datos_MEEL",
+        "Hipertensor_Canonico",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si",
+        "Source_Code_src_operational_model_system_wigame_py"
+      ],
+      "predicados": {
+        "contains": [
+          "Capa_Verdad_Vi",
+          "Capa_Sentido_Si"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_system_wigame_py"
+        ],
+        "is_projection_of": [
+          "Hipertensor_Canonico"
+        ]
+      }
+    },
+    {
+      "id": "atom-operacion-assert",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Assert.md",
+      "title": "Operacion Assert",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [
+        "Semianillo_Booleano",
+        "Axiomas_Huntington"
+      ],
+      "predicados": {
+        "fundamentado_en": [
+          "Semianillo_Booleano",
+          "Axiomas_Huntington"
+        ]
+      }
+    },
+    {
+      "id": "atom-operacion-auditar-consistencia",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Auditar_Consistencia.md",
+      "title": "Operacion Auditar Consistencia",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [
+        "Maxtermo",
+        "Axiomas_Huntington"
+      ],
+      "predicados": {
+        "fundamentado_en": [
+          "Maxtermo",
+          "Axiomas_Huntington"
+        ]
+      }
+    },
+    {
+      "id": "atom-operacion-consultar-entidad",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Consultar_Entidad.md",
+      "title": "Operacion Consultar Entidad",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-consultar-proposicion",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Consultar_Proposicion.md",
+      "title": "Operacion Consultar Proposicion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-contrafactual",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Contrafactual.md",
+      "title": "Operacion Contrafactual",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-deducir",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Deducir.md",
+      "title": "Operacion Deducir",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [
+        "Suma_de_Productos_SOP",
+        "Semianillo_Booleano"
+      ],
+      "predicados": {
+        "fundamentado_en": [
+          "Suma_de_Productos_SOP",
+          "Semianillo_Booleano"
+        ]
+      }
+    },
+    {
+      "id": "atom-operacion-evaluar-sentido",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Evaluar_Sentido.md",
+      "title": "Operacion Evaluar Sentido",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [
+        "Reglas_de_Produccion_Sintactica",
+        "Alfabeto_Sigma"
+      ],
+      "predicados": {
+        "fundamentado_en": [
+          "Reglas_de_Produccion_Sintactica",
+          "Alfabeto_Sigma"
+        ]
+      }
+    },
+    {
+      "id": "atom-operacion-evaluar-verdad",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Evaluar_Verdad.md",
+      "title": "Operacion Evaluar Verdad",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-identificar-faltantes",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Identificar_Faltantes.md",
+      "title": "Operacion Identificar Faltantes",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-justificar",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Justificar.md",
+      "title": "Operacion Justificar",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-particionar",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Particionar.md",
+      "title": "Operacion Particionar",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-proyectar",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Proyectar.md",
+      "title": "Operacion Proyectar",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-retractar",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Retractar.md",
+      "title": "Operacion Retractar",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-unificar",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Unificar.md",
+      "title": "Operacion Unificar",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-operacion-validar-formulacion",
+      "path": "Computacion/Operaciones_DB_Logica/Operacion_Validar_Formulacion.md",
+      "title": "Operacion Validar Formulacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Operaciones_DB_Logica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-acoplamiento-neuro-estocastico-simbolico",
+      "path": "Computacion/Optimizacion_y_Seguridad/Acoplamiento_Neuro_Estocastico_Simbolico.md",
+      "title": "Acoplamiento Neuro Estocastico Simbolico",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Arquitectura_Neuro_Estocastica",
+        "MEEL",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "S_Expressions",
+        "BlockMatrix",
+        "Matriz_por_Bloques",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "implements": [
+          "MEEL",
+          "S_Expressions",
+          "BlockMatrix"
+        ],
+        "is_solved_by": [
+          "Arquitectura_Neuro_Estocastica",
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Matriz_por_Bloques",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-algoritmo-minimizacion-er",
+      "path": "Computacion/Optimizacion_y_Seguridad/Algoritmo_Minimizacion_ER.md",
+      "title": "Algoritmo Minimizacion ER",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_optimization_information_energy_py",
+        "Energia_Informacion",
+        "Principio_de_Minimalidad",
+        "Representacion_Plana_vs_Tensorial",
+        "Reduccion_Descriptiva"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Principio_de_Minimalidad"
+        ],
+        "implements": [
+          "Source_Code_src_operational_model_optimization_information_energy_py"
+        ],
+        "is_solved_by": [
+          "Energia_Informacion",
+          "Representacion_Plana_vs_Tensorial",
+          "Reduccion_Descriptiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-eje-b-escalabilidad-minimizacion-er-y-tensor-jerarquico",
+      "path": "Computacion/Optimizacion_y_Seguridad/Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico.md",
+      "title": "Eje B Escalabilidad Minimizacion ER y Tensor Jerarquico",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Algoritmo_Minimizacion_ER",
+        "Construccion_Tensor_Jerarquico",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Principio_de_Minimalidad",
+        "Funcion_Objetivo_Seleccion_Dimensiones",
+        "Colapso_Dimensional"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Algoritmo_Minimizacion_ER",
+          "Principio_de_Minimalidad"
+        ],
+        "is_solved_by": [
+          "Construccion_Tensor_Jerarquico",
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Funcion_Objetivo_Seleccion_Dimensiones",
+          "Colapso_Dimensional"
+        ]
+      }
+    },
+    {
+      "id": "atom-energia-informacion",
+      "path": "Computacion/Optimizacion_y_Seguridad/Energia_Informacion.md",
+      "title": "Energia Informacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Modelo_SMG",
+        "Representacion_Plana_vs_Tensorial",
+        "Principio_de_Minimalidad"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Principio_de_Minimalidad"
+        ],
+        "is_solved_by": [
+          "Modelo_SMG",
+          "Representacion_Plana_vs_Tensorial"
+        ]
+      }
+    },
+    {
+      "id": "atom-gramatica-universal-unl",
+      "path": "Computacion/Optimizacion_y_Seguridad/Gramatica_Universal_UNL.md",
+      "title": "Gramatica Universal UNL",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Signo_vs_Simbolo",
+        "Anclaje_Simbolos_Grounding",
+        "S_Expressions",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Signo_vs_Simbolo",
+          "Anclaje_Simbolos_Grounding",
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-manejo-de-contradicciones",
+      "path": "Computacion/Optimizacion_y_Seguridad/Manejo_de_Contradicciones.md",
+      "title": "Manejo de Contradicciones",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "WiGame",
+        "Capa_Verdad_Vi",
+        "Algoritmo_Minimizacion_ER",
+        "Algebra_Booleana",
+        "Juego_de_Desambiguacion"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Algoritmo_Minimizacion_ER"
+        ],
+        "implements": [
+          "Capa_Verdad_Vi"
+        ],
+        "is_solved_by": [
+          "WiGame",
+          "Algebra_Booleana",
+          "Juego_de_Desambiguacion"
+        ]
+      }
+    },
+    {
+      "id": "atom-mascara-sentido-en-mecanismos-atencion",
+      "path": "Computacion/Optimizacion_y_Seguridad/Mascara_Sentido_en_Mecanismos_Atencion.md",
+      "title": "Mascara Sentido en Mecanismos Atencion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Capa_Sentido_Si",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "MEEL",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "implements": [
+          "Capa_Sentido_Si",
+          "MEEL"
+        ],
+        "is_solved_by": [
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "Matrix_vs_Neuro_Simbolicos_Previos",
+      "path": "Computacion/Optimizacion_y_Seguridad/Matrix_vs_Neuro_Simbolicos_Previos.md",
+      "title": "Matrix vs. Métodos Neuro-Simbólicos Previos",
+      "tags": [],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Optimizacion_y_Seguridad",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Source_PDF_symcode2025_pdf",
+        "Source_PDF_quigley2025_pdf",
+        "Source_PDF_vossel2025advancing_pdf"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Source_PDF_symcode2025_pdf",
+          "Source_PDF_quigley2025_pdf",
+          "Source_PDF_vossel2025advancing_pdf"
+        ],
+        "is_solved_by": [
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+          "Acoplamiento_Neuro_Estocastico_Simbolico"
+        ]
+      }
+    },
+    {
+      "id": "Matrix_vs_RAG",
+      "path": "Computacion/Optimizacion_y_Seguridad/Matrix_vs_RAG.md",
+      "title": "Matrix vs. RAG: Diferenciación Estructural",
+      "tags": [],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Optimizacion_y_Seguridad",
+        "Alucinaciones_Inducidas_por_RAG_y_Conflicto_de_Conocimiento",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Source_PDF_arxiv2402_10412_pdf",
+        "Source_PDF_arxiv2306_06085_pdf"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Alucinaciones_Inducidas_por_RAG_y_Conflicto_de_Conocimiento"
+        ],
+        "grounded_by": [
+          "Source_PDF_arxiv2402_10412_pdf",
+          "Source_PDF_arxiv2306_06085_pdf"
+        ],
+        "is_solved_by": [
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+          "Acoplamiento_Neuro_Estocastico_Simbolico"
+        ]
+      }
+    },
+    {
+      "id": "Matrix_vs_Verificacion_Formal",
+      "path": "Computacion/Optimizacion_y_Seguridad/Matrix_vs_Verificacion_Formal.md",
+      "title": "Matrix vs. Verificación Formal (Coq, Lean, Dafny)",
+      "tags": [],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Optimizacion_y_Seguridad",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "RuleMatrixCompiler",
+        "LogicalSpace_Li",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si"
+      ],
+      "predicados": {
+        "implements": [
+          "RuleMatrixCompiler",
+          "LogicalSpace_Li",
+          "Capa_Verdad_Vi",
+          "Capa_Sentido_Si"
+        ],
+        "is_solved_by": [
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+          "Acoplamiento_Neuro_Estocastico_Simbolico"
+        ]
+      }
+    },
+    {
+      "id": "atom-omnirepresentacion",
+      "path": "Computacion/Optimizacion_y_Seguridad/Omnirepresentacion.md",
+      "title": "Omnirepresentacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Maquina_Estados_DFA",
+        "Enrutamiento_Jerarquico"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Maquina_Estados_DFA",
+          "Enrutamiento_Jerarquico"
+        ]
+      }
+    },
+    {
+      "id": "atom-reduccion-descriptiva",
+      "path": "Computacion/Optimizacion_y_Seguridad/Reduccion_Descriptiva.md",
+      "title": "Reduccion Descriptiva",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Categorias_Sentido",
+        "Enrutamiento_Jerarquico",
+        "Algebra_Booleana",
+        "Colapso_Dimensional"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Categorias_Sentido",
+          "Enrutamiento_Jerarquico",
+          "Algebra_Booleana",
+          "Colapso_Dimensional"
+        ]
+      }
+    },
+    {
+      "id": "atom-representacion-ast-y-algebra-booleana",
+      "path": "Computacion/Optimizacion_y_Seguridad/Representacion_AST_y_Algebra_Booleana.md",
+      "title": "Representacion AST y Algebra Booleana",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Modelo_SMG",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "S_Expressions",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Modelo_SMG",
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-roadmap-evolutivo-fases",
+      "path": "Computacion/Optimizacion_y_Seguridad/Roadmap_Evolutivo_Fases.md",
+      "title": "Roadmap Evolutivo Fases",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "MEEL",
+        "W_Operativo",
+        "Prototipo_SHRDLU",
+        "Matrices_y_Tensores"
+      ],
+      "predicados": {
+        "implements": [
+          "MEEL"
+        ],
+        "is_solved_by": [
+          "W_Operativo",
+          "Prototipo_SHRDLU",
+          "Matrices_y_Tensores"
+        ]
+      }
+    },
+    {
+      "id": "atom-seguridad-pseudo-proposicional",
+      "path": "Computacion/Optimizacion_y_Seguridad/Seguridad_Pseudo_Proposicional.md",
+      "title": "Seguridad Pseudo Proposicional",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Capa_Sentido_Si",
+        "Ausencia_de_Senal_de_Fallo_Determinista",
+        "S_Expressions",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "implements": [
+          "Capa_Sentido_Si",
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Ausencia_de_Senal_de_Fallo_Determinista",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-sistema-tipos-ti",
+      "path": "Computacion/Optimizacion_y_Seguridad/Sistema_Tipos_Ti.md",
+      "title": "Sistema Tipos Ti",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Optimizacion_y_Seguridad",
+      "wikilinks_out": [
+        "Computacion",
+        "Enrutamiento_Jerarquico",
+        "Tipado_Typestate",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Enrutamiento_Jerarquico",
+          "Tipado_Typestate",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-anclaje-simbolos-grounding",
+      "path": "Computacion/Parsers_y_Runtimes/Anclaje_Simbolos_Grounding.md",
+      "title": "Anclaje Simbolos Grounding",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Signo_vs_Simbolo",
+        "Politica_Simbolos_Kernel",
+        "Grafo_Indice_G",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "is_solved_by": [
+          "Signo_vs_Simbolo",
+          "Politica_Simbolos_Kernel",
+          "Grafo_Indice_G",
+          "Hecho_Atomico_CDV"
+        ]
+      }
+    },
+    {
+      "id": "atom-atomfeeder",
+      "path": "Computacion/Parsers_y_Runtimes/AtomFeeder.md",
+      "title": "AtomFeeder",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "MatrixFeeder",
+        "Hipertensor_Canonico"
+      ],
+      "predicados": {
+        "implements": [
+          "MatrixFeeder"
+        ],
+        "populates": [
+          "Hipertensor_Canonico"
+        ]
+      }
+    },
+    {
+      "id": "Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva",
+      "path": "Computacion/Parsers_y_Runtimes/Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva.md",
+      "title": "Bootstrapping de Contextos Cerrados y Población Masiva de $S_i$ y $V_i$",
+      "tags": [],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Construccion_Tensor_Jerarquico",
+        "Algoritmo_Minimizacion_ER",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Source_PDF_vossel2025advancing_pdf",
+        "Source_PDF_symcode2025_pdf"
+      ],
+      "predicados": {
+        "grounded_by": [
+          "Source_PDF_vossel2025advancing_pdf",
+          "Source_PDF_symcode2025_pdf"
+        ],
+        "implements": [
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Construccion_Tensor_Jerarquico",
+          "Algoritmo_Minimizacion_ER"
+        ],
+        "is_solved_by": [
+          "Acoplamiento_Neuro_Estocastico_Simbolico"
+        ]
+      }
+    },
+    {
+      "id": "atom-eje-c-mecanismo-conexion-llm-y-shrdlu",
+      "path": "Computacion/Parsers_y_Runtimes/Eje_C_Mecanismo_Conexion_LLM_y_SHRDLU.md",
+      "title": "Eje C Mecanismo Conexion LLM y SHRDLU",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Prototipo_SHRDLU",
+        "S_Expressions",
+        "Modelo_SMG",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Prototipo_SHRDLU",
+          "Modelo_SMG",
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "Integracion_LLM_en_Training_e_Inferencia_Aun_No_Demostrada",
+      "path": "Computacion/Parsers_y_Runtimes/Integracion_LLM_en_Training_e_Inferencia_Aun_No_Demostrada.md",
+      "title": "Integración LLM en Training e Inferencia Aún No Demostrada",
+      "tags": [],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Mascara_Sentido_en_Mecanismos_Atencion",
+        "Modelo_SMG"
+      ],
+      "predicados": {
+        "clarifies": [
+          "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro",
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Mascara_Sentido_en_Mecanismos_Atencion",
+          "Modelo_SMG"
+        ]
+      }
+    },
+    {
+      "id": "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro",
+      "path": "Computacion/Parsers_y_Runtimes/Integracion_Teorica_con_LLMs_y_Trabajo_Futuro.md",
+      "title": "Integración Teórica con LLMs y Trabajo Futuro",
+      "tags": [],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Walkthrough_Pipeline_con_Ejemplo",
+        "Interrupcion_Decodificacion_Si_Cero",
+        "Mascara_Sentido_en_Mecanismos_Atencion",
+        "Acoplamiento_Neuro_Estocastico_Simbolico"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Mascara_Sentido_en_Mecanismos_Atencion",
+          "Acoplamiento_Neuro_Estocastico_Simbolico"
+        ],
+        "implements": [
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Walkthrough_Pipeline_con_Ejemplo",
+          "Interrupcion_Decodificacion_Si_Cero"
+        ]
+      }
+    },
+    {
+      "id": "Interrupcion_Decodificacion_Si_Cero",
+      "path": "Computacion/Parsers_y_Runtimes/Interrupcion_Decodificacion_Si_Cero.md",
+      "title": "Mecanismo de Interrupción de Decodificación cuando $S_i = 0$",
+      "tags": [],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Capa_Sentido_Si",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "S_Expressions",
+        "Mascara_Sentido_en_Mecanismos_Atencion"
+      ],
+      "predicados": {
+        "implements": [
+          "Capa_Sentido_Si",
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Pipeline_Ingesta_Lenguaje_Matrix"
+        ],
+        "is_solved_by": [
+          "S_Expressions"
+        ]
+      }
+    },
+    {
+      "id": "atom-matrixfeeder",
+      "path": "Computacion/Parsers_y_Runtimes/MatrixFeeder.md",
+      "title": "MatrixFeeder",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Hipertensor_Canonico",
+        "SExprFeeder",
+        "OWLFeeder",
+        "AtomFeeder"
+      ],
+      "predicados": {
+        "is_implemented_by": [
+          "SExprFeeder",
+          "OWLFeeder",
+          "AtomFeeder"
+        ],
+        "populates": [
+          "Hipertensor_Canonico"
+        ]
+      }
+    },
+    {
+      "id": "atom-owlfeeder",
+      "path": "Computacion/Parsers_y_Runtimes/OWLFeeder.md",
+      "title": "OWLFeeder",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "MatrixFeeder",
+        "Parser_OWL2Matrix",
+        "Hipertensor_Canonico"
+      ],
+      "predicados": {
+        "implements": [
+          "MatrixFeeder"
+        ],
+        "populates": [
+          "Hipertensor_Canonico"
+        ],
+        "uses": [
+          "Parser_OWL2Matrix"
+        ]
+      }
+    },
+    {
+      "id": "atom-parser-owl2matrix",
+      "path": "Computacion/Parsers_y_Runtimes/Parser_OWL2Matrix.md",
+      "title": "Parser OWL2Matrix",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "S_Expressions",
+        "Compilador_Matricial_Reglas",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "implements": [
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Compilador_Matricial_Reglas",
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-pipeline-ingesta-lenguaje-matrix",
+      "path": "Computacion/Parsers_y_Runtimes/Pipeline_Ingesta_Lenguaje_Matrix.md",
+      "title": "Pipeline Ingesta Lenguaje Matrix",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Modelo_SMG",
+        "Signo_vs_Simbolo",
+        "Anclaje_Simbolos_Grounding",
+        "S_Expressions",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi",
+        "Hecho_Atomico_CDV",
+        "Matriz_por_Bloques",
+        "MEEL"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Modelo_SMG",
+          "Signo_vs_Simbolo",
+          "Anclaje_Simbolos_Grounding",
+          "Capa_Sentido_Si",
+          "Capa_Verdad_Vi",
+          "Hecho_Atomico_CDV",
+          "Matriz_por_Bloques"
+        ]
+      }
+    },
+    {
+      "id": "atom-prototipo-graphlang",
+      "path": "Computacion/Parsers_y_Runtimes/Prototipo_Graphlang.md",
+      "title": "Prototipo Graphlang",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Prototipo_SHRDLU",
+        "S_Expressions",
+        "MEEL",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions",
+          "MEEL"
+        ],
+        "is_solved_by": [
+          "Prototipo_SHRDLU",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-prototipo-shrdlu",
+      "path": "Computacion/Parsers_y_Runtimes/Prototipo_SHRDLU.md",
+      "title": "Prototipo SHRDLU",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Signo_vs_Simbolo",
+        "S_Expressions",
+        "Modelo_SMG",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+      ],
+      "predicados": {
+        "implements": [
+          "S_Expressions"
+        ],
+        "is_solved_by": [
+          "Signo_vs_Simbolo",
+          "Modelo_SMG",
+          "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva"
+        ]
+      }
+    },
+    {
+      "id": "atom-rulematrixcompiler",
+      "path": "Computacion/Parsers_y_Runtimes/RuleMatrixCompiler.md",
+      "title": "RuleMatrixCompiler",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Compilador_Matricial_Reglas",
+        "MatrixFeeder",
+        "Hipertensor_Canonico",
+        "Formas_Canonicas_y_Mintermos"
+      ],
+      "predicados": {
+        "is_part_of": [
+          "Compilador_Matricial_Reglas"
+        ],
+        "populates": [
+          "Hipertensor_Canonico"
+        ],
+        "receives_from": [
+          "MatrixFeeder"
+        ],
+        "solves": [
+          "Formas_Canonicas_y_Mintermos"
+        ]
+      }
+    },
+    {
+      "id": "atom-sexprfeeder",
+      "path": "Computacion/Parsers_y_Runtimes/SExprFeeder.md",
+      "title": "SExprFeeder",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "MatrixFeeder",
+        "S_Expressions",
+        "Hipertensor_Canonico"
+      ],
+      "predicados": {
+        "implements": [
+          "MatrixFeeder"
+        ],
+        "populates": [
+          "Hipertensor_Canonico"
+        ],
+        "uses": [
+          "S_Expressions"
+        ]
+      }
+    },
+    {
+      "id": "atom-s-expressions",
+      "path": "Computacion/Parsers_y_Runtimes/S_Expressions.md",
+      "title": "S Expressions",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Computacion",
+        "Source_Code_src_operational_model_language_s_expressions_py",
+        "Signo_vs_Simbolo",
+        "Enrutamiento_Jerarquico",
+        "Compilador_Matricial_Reglas",
+        "Politica_Simbolos_Kernel",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_language_s_expressions_py"
+        ],
+        "is_solved_by": [
+          "Signo_vs_Simbolo",
+          "Enrutamiento_Jerarquico",
+          "Compilador_Matricial_Reglas",
+          "Politica_Simbolos_Kernel",
+          "Hecho_Atomico_CDV"
+        ]
+      }
+    },
+    {
+      "id": "Walkthrough_Pipeline_con_Ejemplo",
+      "path": "Computacion/Parsers_y_Runtimes/Walkthrough_Pipeline_con_Ejemplo.md",
+      "title": "Walkthrough del Pipeline Operacional con Ejemplo Concreto",
+      "tags": [],
+      "folder": "Computacion/Parsers_y_Runtimes",
+      "wikilinks_out": [
+        "Parsers_y_Runtimes",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Interrupcion_Decodificacion_Si_Cero",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Distincion_Ausencia_vs_Unsinnig"
+      ],
+      "predicados": {
+        "implements": [
+          "Pipeline_Ingesta_Lenguaje_Matrix",
+          "Interrupcion_Decodificacion_Si_Cero",
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Distincion_Ausencia_vs_Unsinnig"
+        ]
+      }
+    },
+    {
+      "id": "atom-arquitectura-neuro-estocastica",
+      "path": "Filosofia/Epistemologia_y_Contextos/Arquitectura_Neuro_Estocastica.md",
+      "title": "Arquitectura Neuro Estocastica",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Discretizacion_Logica_vs_Continuo",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Teorema_Suboptimizabilidad_Diagonal",
+        "Representacion_Plana_vs_Tensorial",
+        "Acoplamiento_Neuro_Estocastico_Simbolico"
+      ],
+      "predicados": {
+        "defines": [
+          "Discretizacion_Logica_vs_Continuo",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Taxonomia_SOTA_Alucinaciones",
+          "Acoplamiento_Neuro_Estocastico_Simbolico",
+          "Teorema_Suboptimizabilidad_Diagonal",
+          "Representacion_Plana_vs_Tensorial"
+        ]
+      }
+    },
+    {
+      "id": "atom-contexto-logico",
+      "path": "Filosofia/Epistemologia_y_Contextos/Contexto_Logico.md",
+      "title": "Contexto Logico",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Matrices_y_Tensores",
+        "W_Operativo"
+      ],
+      "predicados": {
+        "defines": [
+          "Matrices_y_Tensores",
+          "W_Operativo"
+        ]
+      }
+    },
+    {
+      "id": "atom-discretizacion-logica-vs-continuo",
+      "path": "Filosofia/Epistemologia_y_Contextos/Discretizacion_Logica_vs_Continuo.md",
+      "title": "Discretizacion Logica vs Continuo",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Signo_vs_Simbolo",
+        "Modelo_SMG",
+        "Tractatus",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "defines": [
+          "Signo_vs_Simbolo",
+          "Modelo_SMG",
+          "Tractatus",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-eje-a-justificacion-matematica-limites-continuos",
+      "path": "Filosofia/Epistemologia_y_Contextos/Eje_A_Justificacion_Matematica_Limites_Continuos.md",
+      "title": "Eje A Justificacion Matematica Limites Continuos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Discretizacion_Logica_vs_Continuo",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "defines": [
+          "Discretizacion_Logica_vs_Continuo",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ]
+      }
+    },
+    {
+      "id": "atom-estados-verdad-epistemicos-semanticos",
+      "path": "Filosofia/Epistemologia_y_Contextos/Estados_Verdad_Epistemicos_Semanticos.md",
+      "title": "Estados Verdad Epistemicos Semanticos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Tractatus",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si",
+        "Status_Evaluation",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "defines": [
+          "Tractatus",
+          "Status_Evaluation",
+          "Matriz_por_Bloques"
+        ],
+        "is_solved_by": [
+          "Capa_Verdad_Vi",
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "atom-modelos-mundo-continuo-lyre",
+      "path": "Filosofia/Epistemologia_y_Contextos/Modelos_Mundo_Continuo_Lyre.md",
+      "title": "Modelos Mundo Continuo Lyre",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Arquitectura_Neuro_Estocastica",
+        "Discretizacion_Logica_vs_Continuo",
+        "Modelo_SMG",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "defines": [
+          "Arquitectura_Neuro_Estocastica",
+          "Discretizacion_Logica_vs_Continuo",
+          "Modelo_SMG",
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ]
+      }
+    },
+    {
+      "id": "atom-prueba-necesidad-representacion-simbolica-discreta",
+      "path": "Filosofia/Epistemologia_y_Contextos/Prueba_Necesidad_Representacion_Simbolica_Discreta.md",
+      "title": "Prueba Necesidad Representacion Simbolica Discreta",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Discretizacion_Logica_vs_Continuo",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Signo_vs_Simbolo",
+        "Modelo_SMG",
+        "BlockMatrix",
+        "Teorema_Suboptimizabilidad_Diagonal",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "defines": [
+          "Discretizacion_Logica_vs_Continuo",
+          "Taxonomia_SOTA_Alucinaciones",
+          "Signo_vs_Simbolo",
+          "Modelo_SMG",
+          "Teorema_Suboptimizabilidad_Diagonal",
+          "Algebra_Booleana"
+        ],
+        "is_solved_by": [
+          "BlockMatrix"
+        ]
+      }
+    },
+    {
+      "id": "atom-refactorizacion-sota-paper-neurips",
+      "path": "Filosofia/Epistemologia_y_Contextos/Refactorizacion_SOTA_Paper_NeurIPS.md",
+      "title": "Refactorizacion SOTA Paper NeurIPS",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Discretizacion_Logica_vs_Continuo",
+        "Modelo_SMG",
+        "BlockMatrix",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "defines": [
+          "Taxonomia_SOTA_Alucinaciones",
+          "Discretizacion_Logica_vs_Continuo",
+          "Modelo_SMG",
+          "Matriz_por_Bloques"
+        ],
+        "is_solved_by": [
+          "BlockMatrix"
+        ]
+      }
+    },
+    {
+      "id": "Representacion_Continua_vs_Implementacion_Discreta",
+      "path": "Filosofia/Epistemologia_y_Contextos/Representacion_Continua_vs_Implementacion_Discreta.md",
+      "title": "Representación Continua vs. Implementación Discreta",
+      "tags": [],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Arquitectura_Neuro_Estocastica",
+        "Discretizacion_Logica_vs_Continuo",
+        "Teorema_Aproximacion_Universal_Hornik",
+        "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+        "Geometria_de_Politopos_y_Ancho_Acotado_Hanin",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+      ],
+      "predicados": {
+        "defines": [
+          "Arquitectura_Neuro_Estocastica",
+          "Discretizacion_Logica_vs_Continuo",
+          "Teorema_Aproximacion_Universal_Hornik",
+          "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+          "Geometria_de_Politopos_y_Ancho_Acotado_Hanin"
+        ],
+        "explains_failure_of": [
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+        ]
+      }
+    },
+    {
+      "id": "atom-taxonomia-sota-alucinaciones",
+      "path": "Filosofia/Epistemologia_y_Contextos/Taxonomia_SOTA_Alucinaciones.md",
+      "title": "Taxonomia SOTA Alucinaciones",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "Discretizacion_Logica_vs_Continuo",
+        "Signo_vs_Simbolo",
+        "Modelo_SMG",
+        "Tractatus",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "defines": [
+          "Discretizacion_Logica_vs_Continuo",
+          "Signo_vs_Simbolo",
+          "Modelo_SMG",
+          "Tractatus",
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ]
+      }
+    },
+    {
+      "id": "atom-triparticion-contextual",
+      "path": "Filosofia/Epistemologia_y_Contextos/Triparticion_Contextual.md",
+      "title": "Triparticion Contextual",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Epistemologia_y_Contextos",
+      "wikilinks_out": [
+        "Filosofia",
+        "BlockMatrix",
+        "WiGame",
+        "Prototipo_SHRDLU",
+        "Modelo_SMG",
+        "Matriz_por_Bloques"
+      ],
+      "predicados": {
+        "defines": [
+          "WiGame",
+          "Prototipo_SHRDLU",
+          "Modelo_SMG",
+          "Matriz_por_Bloques"
+        ],
+        "is_solved_by": [
+          "BlockMatrix"
+        ]
+      }
+    },
+    {
+      "id": "atom-categorias-sentido",
+      "path": "Filosofia/Tractatus_y_Ontologia/Categorias_Sentido.md",
+      "title": "Categorias Sentido",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Regla_Dont_Care",
+        "Mapas_Karnaugh",
+        "Capa_Sentido_Si"
+      ],
+      "predicados": {
+        "defines": [
+          "Regla_Dont_Care",
+          "Mapas_Karnaugh",
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "atom-eje-f-auditoria-terminologica-unsinnig",
+      "path": "Filosofia/Tractatus_y_Ontologia/Eje_F_Auditoria_Terminologica_Unsinnig.md",
+      "title": "Eje F Auditoria Terminologica Unsinnig",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Tractatus",
+        "Signo_vs_Simbolo",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "defines": [
+          "Tractatus",
+          "Signo_vs_Simbolo",
+          "Taxonomia_SOTA_Alucinaciones",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-fundamento-logico-arb",
+      "path": "Filosofia/Tractatus_y_Ontologia/Fundamento_Logico_aRb.md",
+      "title": "Fundamento Logico aRb",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Tractatus_y_Ontologia",
+        "LogicalSpace_Li",
+        "WiGame_Wi"
+      ],
+      "predicados": {
+        "is_basis_for": [
+          "LogicalSpace_Li",
+          "WiGame_Wi"
+        ]
+      }
+    },
+    {
+      "id": "Insuficiencia_de_Embeddings_de_Signos_para_Logica_Auditable",
+      "path": "Filosofia/Tractatus_y_Ontologia/Insuficiencia_de_Embeddings_de_Signos_para_Logica_Auditable.md",
+      "title": "Insuficiencia de Embeddings de Signos para Lógica Auditable",
+      "tags": [],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Tractatus_y_Ontologia",
+        "Signo_vs_Simbolo",
+        "Fundamento_Logico_aRb",
+        "Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig",
+        "Representacion_Continua_vs_Implementacion_Discreta",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi",
+        "Operacion_Evaluar_Sentido",
+        "Operacion_Validar_Formulacion"
+      ],
+      "predicados": {
+        "clarifies": [
+          "Representacion_Continua_vs_Implementacion_Discreta",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+        ],
+        "defines": [
+          "Signo_vs_Simbolo",
+          "Fundamento_Logico_aRb",
+          "Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig"
+        ]
+      }
+    },
+    {
+      "id": "atom-modelo-smg",
+      "path": "Filosofia/Tractatus_y_Ontologia/Modelo_SMG.md",
+      "title": "Modelo SMG",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Signo_vs_Simbolo",
+        "Representacion_Flotante",
+        "MEEL",
+        "Matrices_y_Tensores",
+        "Hecho_Atomico_CDV"
+      ],
+      "predicados": {
+        "defines": [
+          "Signo_vs_Simbolo",
+          "Representacion_Flotante",
+          "Matrices_y_Tensores",
+          "Hecho_Atomico_CDV"
+        ],
+        "is_solved_by": [
+          "MEEL"
+        ]
+      }
+    },
+    {
+      "id": "atom-origen-nombre-matrix",
+      "path": "Filosofia/Tractatus_y_Ontologia/Origen_Nombre_Matrix.md",
+      "title": "Origen Nombre Matrix",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Tractatus",
+        "Matrices_y_Tensores",
+        "MEEL"
+      ],
+      "predicados": {
+        "defines": [
+          "Tractatus",
+          "Matrices_y_Tensores"
+        ],
+        "is_solved_by": [
+          "MEEL"
+        ]
+      }
+    },
+    {
+      "id": "atom-principio-de-minimalidad",
+      "path": "Filosofia/Tractatus_y_Ontologia/Principio_de_Minimalidad.md",
+      "title": "Principio de Minimalidad",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Tractatus",
+        "Representacion_Plana_vs_Tensorial",
+        "Reduccion_Descriptiva",
+        "Energia_Informacion"
+      ],
+      "predicados": {
+        "defines": [
+          "Tractatus",
+          "Representacion_Plana_vs_Tensorial",
+          "Reduccion_Descriptiva",
+          "Energia_Informacion"
+        ]
+      }
+    },
+    {
+      "id": "atom-representacion-flotante",
+      "path": "Filosofia/Tractatus_y_Ontologia/Representacion_Flotante.md",
+      "title": "Representacion Flotante",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Modelo_SMG",
+        "Grafo_Indice_G",
+        "Representacion_Plana_vs_Tensorial"
+      ],
+      "predicados": {
+        "defines": [
+          "Modelo_SMG",
+          "Grafo_Indice_G",
+          "Representacion_Plana_vs_Tensorial"
+        ]
+      }
+    },
+    {
+      "id": "atom-signo-vs-simbolo",
+      "path": "Filosofia/Tractatus_y_Ontologia/Signo_vs_Simbolo.md",
+      "title": "Signo vs Simbolo",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "S_Expressions",
+        "Hecho_Atomico_CDV",
+        "MEEL"
+      ],
+      "predicados": {
+        "defines": [
+          "Hecho_Atomico_CDV"
+        ],
+        "is_solved_by": [
+          "S_Expressions"
+        ]
+      }
+    },
+    {
+      "id": "atom-tractatus",
+      "path": "Filosofia/Tractatus_y_Ontologia/Tractatus.md",
+      "title": "Tractatus",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Algebra_Booleana",
+        "MEEL",
+        "MEEL"
+      ],
+      "predicados": {
+        "defines": [
+          "Algebra_Booleana"
+        ],
+        "is_solved_by": [
+          "MEEL"
+        ]
+      }
+    },
+    {
+      "id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig",
+      "path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md",
+      "title": "Triparticion Wittgensteiniana Sinnvoll Sinnlos Unsinnig",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Filosofia/Tractatus_y_Ontologia",
+      "wikilinks_out": [
+        "Filosofia",
+        "Tractatus",
+        "Eje_F_Auditoria_Terminologica_Unsinnig",
+        "Capa_Sentido_Si",
+        "Estados_Verdad_Epistemicos_Semanticos",
+        "Matriz_por_Bloques",
+        "Algebra_Booleana"
+      ],
+      "predicados": {
+        "defines": [
+          "Tractatus",
+          "Eje_F_Auditoria_Terminologica_Unsinnig",
+          "Estados_Verdad_Epistemicos_Semanticos",
+          "Matriz_por_Bloques",
+          "Algebra_Booleana"
+        ],
+        "is_solved_by": [
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "Benchmarks_y_Metricas_Cuantitativas",
+      "path": "Fuentes/Benchmarks_y_Metricas_Cuantitativas.md",
+      "title": "Benchmarks y Métricas Cuantitativas Existentes",
+      "tags": [],
+      "folder": "Fuentes",
+      "wikilinks_out": [
+        "Optimizacion_y_Seguridad",
+        "Source_Code_src_operational_model_system_logical_system_py",
+        "Source_Code_src_operational_model_optimization_information_energy_py"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_system_logical_system_py",
+          "Source_Code_src_operational_model_optimization_information_energy_py"
+        ]
+      }
+    },
+    {
+      "id": "atom-source-code-examples-ragout-demonstration-py",
+      "path": "Fuentes/Source_Code_examples_ragout_demonstration_py.md",
+      "title": "Source Code examples ragout demonstration py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-algebra-boolean-algebra-py",
+      "path": "Fuentes/Source_Code_src_operational_model_algebra_boolean_algebra_py.md",
+      "title": "Source Code src operational model algebra boolean algebra py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-compiler-rule-matrix-compiler-py",
+      "path": "Fuentes/Source_Code_src_operational_model_compiler_rule_matrix_compiler_py.md",
+      "title": "Source Code src operational model compiler rule matrix compiler py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-core-relation-py",
+      "path": "Fuentes/Source_Code_src_operational_model_core_relation_py.md",
+      "title": "Source Code src operational model core relation py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-core-symbol-py",
+      "path": "Fuentes/Source_Code_src_operational_model_core_symbol_py.md",
+      "title": "Source Code src operational model core symbol py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-core-thing-py",
+      "path": "Fuentes/Source_Code_src_operational_model_core_thing_py.md",
+      "title": "Source Code src operational model core thing py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-engine-meel-engine-py",
+      "path": "Fuentes/Source_Code_src_operational_model_engine_meel_engine_py.md",
+      "title": "Source Code src operational model engine meel engine py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-game-wi-game-py",
+      "path": "Fuentes/Source_Code_src_operational_model_game_wi_game_py.md",
+      "title": "Source Code src operational model game wi game py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-hardware-bool-mult-py",
+      "path": "Fuentes/Source_Code_src_operational_model_hardware_bool_mult_py.md",
+      "title": "Source Code src operational model hardware bool mult py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-inference-propositional-inference-py",
+      "path": "Fuentes/Source_Code_src_operational_model_inference_propositional_inference_py.md",
+      "title": "Source Code src operational model inference propositional inference py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-inference-transitive-closure-py",
+      "path": "Fuentes/Source_Code_src_operational_model_inference_transitive_closure_py.md",
+      "title": "Source Code src operational model inference transitive closure py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-language-owl2matrix-py",
+      "path": "Fuentes/Source_Code_src_operational_model_language_owl2matrix_py.md",
+      "title": "Source Code src operational model language owl2matrix py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-language-s-expressions-py",
+      "path": "Fuentes/Source_Code_src_operational_model_language_s_expressions_py.md",
+      "title": "Source Code src operational model language s expressions py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-language-shrdlu-english-parser-py",
+      "path": "Fuentes/Source_Code_src_operational_model_language_shrdlu_english_parser_py.md",
+      "title": "Source Code src operational model language shrdlu english parser py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-language-shrdlu-lowering-py",
+      "path": "Fuentes/Source_Code_src_operational_model_language_shrdlu_lowering_py.md",
+      "title": "Source Code src operational model language shrdlu lowering py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-matrices-block-matrix-py",
+      "path": "Fuentes/Source_Code_src_operational_model_matrices_block_matrix_py.md",
+      "title": "Source Code src operational model matrices block matrix py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-matrices-si-matrix-py",
+      "path": "Fuentes/Source_Code_src_operational_model_matrices_si_matrix_py.md",
+      "title": "Source Code src operational model matrices si matrix py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-matrices-vi-matrix-py",
+      "path": "Fuentes/Source_Code_src_operational_model_matrices_vi_matrix_py.md",
+      "title": "Source Code src operational model matrices vi matrix py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-optimization-dimensional-collapse-py",
+      "path": "Fuentes/Source_Code_src_operational_model_optimization_dimensional_collapse_py.md",
+      "title": "Source Code src operational model optimization dimensional collapse py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-optimization-information-energy-py",
+      "path": "Fuentes/Source_Code_src_operational_model_optimization_information_energy_py.md",
+      "title": "Source Code src operational model optimization information energy py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-system-logical-system-py",
+      "path": "Fuentes/Source_Code_src_operational_model_system_logical_system_py.md",
+      "title": "Source Code src operational model system logical system py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-code-src-operational-model-system-wigame-py",
+      "path": "Fuentes/Source_Code_src_operational_model_system_wigame_py.md",
+      "title": "Source Code src operational model system wigame py",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-arxiv2305-13300-pdf",
+      "path": "Fuentes/Source_PDF_arxiv2305_13300_pdf.md",
+      "title": "Source PDF arxiv2305 13300 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-arxiv2402-10412-pdf",
+      "path": "Fuentes/Source_PDF_arxiv2402_10412_pdf.md",
+      "title": "Source PDF arxiv2402 10412 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-arxiv2501-12345-pdf",
+      "path": "Fuentes/Source_PDF_arxiv2501_12345_pdf.md",
+      "title": "Source PDF arxiv2501 12345 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-arxiv2502-01234-pdf",
+      "path": "Fuentes/Source_PDF_arxiv2502_01234_pdf.md",
+      "title": "Source PDF arxiv2502 01234 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-assran2023ijepa",
+      "path": "Fuentes/Source_PDF_assran2023ijepa_pdf.md",
+      "title": "Source PDF assran2023ijepa",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-bender2020",
+      "path": "Fuentes/Source_PDF_bender2020_pdf.md",
+      "title": "Source PDF bender2020",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-bian2025llm",
+      "path": "Fuentes/Source_PDF_bian2025llm_pdf.md",
+      "title": "Source PDF bian2025llm",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-brachman1990",
+      "path": "Fuentes/Source_PDF_brachman1990_pdf.md",
+      "title": "Source PDF brachman1990",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-chen2024",
+      "path": "Fuentes/Source_PDF_chen2024_pdf.md",
+      "title": "Source PDF chen2024",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-cheng2025empowering",
+      "path": "Fuentes/Source_PDF_cheng2025empowering_pdf.md",
+      "title": "Source PDF cheng2025empowering",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-choi2025knowledge",
+      "path": "Fuentes/Source_PDF_choi2025knowledge_pdf.md",
+      "title": "Source PDF choi2025knowledge",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-chuang2024",
+      "path": "Fuentes/Source_PDF_chuang2024_pdf.md",
+      "title": "Source PDF chuang2024",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-dawid2024latent",
+      "path": "Fuentes/Source_PDF_dawid2024latent_pdf.md",
+      "title": "Source PDF dawid2024latent",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-factscore2023-pdf",
+      "path": "Fuentes/Source_PDF_factscore2023_pdf.md",
+      "title": "Source PDF factscore2023 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-ferrone2019",
+      "path": "Fuentes/Source_PDF_ferrone2019_pdf.md",
+      "title": "Source PDF ferrone2019",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-gekhman2024",
+      "path": "Fuentes/Source_PDF_gekhman2024_pdf.md",
+      "title": "Source PDF gekhman2024",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-halueval2023",
+      "path": "Fuentes/Source_PDF_halueval2023_pdf.md",
+      "title": "Source PDF halueval2023",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-hanin2017universal",
+      "path": "Fuentes/Source_PDF_hanin2017universal_pdf.md",
+      "title": "Source PDF hanin2017universal",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-harnad1990symbolgrounding",
+      "path": "Fuentes/Source_PDF_harnad1990symbolgrounding_pdf.md",
+      "title": "Source PDF harnad1990symbolgrounding",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-hornik1991approximation",
+      "path": "Fuentes/Source_PDF_hornik1991approximation_pdf.md",
+      "title": "Source PDF hornik1991approximation",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-ibrahim2026",
+      "path": "Fuentes/Source_PDF_ibrahim2026_pdf.md",
+      "title": "Source PDF ibrahim2026",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-iclr2025-a712d4-pdf",
+      "path": "Fuentes/Source_PDF_iclr2025_a712d4_pdf.md",
+      "title": "Source PDF iclr2025 a712d4 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-kang2025",
+      "path": "Fuentes/Source_PDF_kang2025_pdf.md",
+      "title": "Source PDF kang2025",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-kommers2025slop",
+      "path": "Fuentes/Source_PDF_kommers2025slop_pdf.md",
+      "title": "Source PDF kommers2025slop",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-kruse2022causal",
+      "path": "Fuentes/Source_PDF_kruse2022causal_pdf.md",
+      "title": "Source PDF kruse2022causal",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-lecun-jepa2023-pdf",
+      "path": "Fuentes/Source_PDF_lecun_jepa2023_pdf.md",
+      "title": "Source PDF lecun jepa2023 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-lee2025entailment",
+      "path": "Fuentes/Source_PDF_lee2025entailment_pdf.md",
+      "title": "Source PDF lee2025entailment",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-lehmann1992",
+      "path": "Fuentes/Source_PDF_lehmann1992_pdf.md",
+      "title": "Source PDF lehmann1992",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-liang2025survey",
+      "path": "Fuentes/Source_PDF_liang2025survey_pdf.md",
+      "title": "Source PDF liang2025survey",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-liu2025code4logic",
+      "path": "Fuentes/Source_PDF_liu2025code4logic_pdf.md",
+      "title": "Source PDF liu2025code4logic",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-lyre2024understanding",
+      "path": "Fuentes/Source_PDF_lyre2024understanding_pdf.md",
+      "title": "Source PDF lyre2024understanding",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-marks2024",
+      "path": "Fuentes/Source_PDF_marks2024_pdf.md",
+      "title": "Source PDF marks2024",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-mckenna2023",
+      "path": "Fuentes/Source_PDF_mckenna2023_pdf.md",
+      "title": "Source PDF mckenna2023",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-nature-shumailov2024-pdf",
+      "path": "Fuentes/Source_PDF_nature_shumailov2024_pdf.md",
+      "title": "Source PDF nature shumailov2024 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-quigley2025-pdf",
+      "path": "Fuentes/Source_PDF_quigley2025_pdf.md",
+      "title": "Source PDF quigley2025 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-sansford2024grapheval",
+      "path": "Fuentes/Source_PDF_sansford2024grapheval_pdf.md",
+      "title": "Source PDF sansford2024grapheval",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-selfcheckgpt2023-pdf",
+      "path": "Fuentes/Source_PDF_selfcheckgpt2023_pdf.md",
+      "title": "Source PDF selfcheckgpt2023 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-semantic-entropy2024",
+      "path": "Fuentes/Source_PDF_semantic_entropy2024_pdf.md",
+      "title": "Source PDF semantic_entropy2024",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-simhi2024distinguishing",
+      "path": "Fuentes/Source_PDF_simhi2024distinguishing_pdf.md",
+      "title": "Source PDF simhi2024distinguishing",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-sowa1991",
+      "path": "Fuentes/Source_PDF_sowa1991_pdf.md",
+      "title": "Source PDF sowa1991",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-symcode2025-pdf",
+      "path": "Fuentes/Source_PDF_symcode2025_pdf.md",
+      "title": "Source PDF symcode2025 pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-vossel2025advancing-pdf",
+      "path": "Fuentes/Source_PDF_vossel2025advancing_pdf.md",
+      "title": "Source PDF vossel2025advancing pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-wei2024measuring",
+      "path": "Fuentes/Source_PDF_wei2024measuring_pdf.md",
+      "title": "Source PDF wei2024measuring",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-winograd1972shrdlu-pdf",
+      "path": "Fuentes/Source_PDF_winograd1972shrdlu_pdf.md",
+      "title": "Source PDF winograd1972shrdlu pdf",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-wittgenstein1922",
+      "path": "Fuentes/Source_PDF_wittgenstein1922_pdf.md",
+      "title": "Source PDF wittgenstein1922",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-source-pdf-yin2023",
+      "path": "Fuentes/Source_PDF_yin2023_pdf.md",
+      "title": "Source PDF yin2023",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Fuentes",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "01_El_Mundo_como_Espacio_Tensor",
+      "path": "Isomorfismo_Tractatus_Algebra/01_El_Mundo_como_Espacio_Tensor.md",
+      "title": "El Mundo como Espacio Tensorial",
+      "tags": [],
+      "folder": "Isomorfismo_Tractatus_Algebra",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "02_Hecho_Atomico_como_Mintermo",
+      "path": "Isomorfismo_Tractatus_Algebra/02_Hecho_Atomico_como_Mintermo.md",
+      "title": "Hecho Atómico como Mintermo",
+      "tags": [],
+      "folder": "Isomorfismo_Tractatus_Algebra",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "03_Espacio_Logico_como_Arquitectura_JAX",
+      "path": "Isomorfismo_Tractatus_Algebra/03_Espacio_Logico_como_Arquitectura_JAX.md",
+      "title": "Espacio Lógico como Arquitectura JAX",
+      "tags": [],
+      "folder": "Isomorfismo_Tractatus_Algebra",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "04_Forma_Logica_como_Matriz_Si",
+      "path": "Isomorfismo_Tractatus_Algebra/04_Forma_Logica_como_Matriz_Si.md",
+      "title": "Forma Lógica como Matriz de Sintaxis ($S_i$)",
+      "tags": [],
+      "folder": "Isomorfismo_Tractatus_Algebra",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "05_Sentido_Sinn_como_Region_Tensorial",
+      "path": "Isomorfismo_Tractatus_Algebra/05_Sentido_Sinn_como_Region_Tensorial.md",
+      "title": "Sentido (Sinn) como Región Tensorial Valida",
+      "tags": [],
+      "folder": "Isomorfismo_Tractatus_Algebra",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "06_Absurdo_Unsinnig_como_Violacion_Sintactica",
+      "path": "Isomorfismo_Tractatus_Algebra/06_Absurdo_Unsinnig_como_Violacion_Sintactica.md",
+      "title": "Absurdo (Unsinnig) como Violación Sintáctica",
+      "tags": [],
+      "folder": "Isomorfismo_Tractatus_Algebra",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-algebra-de-boole",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Algebra_de_Boole.md",
+      "title": "Algebra de Boole",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-axiomas-huntington",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Axiomas_Huntington.md",
+      "title": "Axiomas Huntington",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-formas-canonicas-y-mintermos",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Formas_Canonicas_y_Mintermos.md",
+      "title": "Formas Canonicas y Mintermos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-maxtermo",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Maxtermo.md",
+      "title": "Maxtermo",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-mintermo",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Mintermo.md",
+      "title": "Mintermo",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-semianillo-booleano",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Semianillo_Booleano.md",
+      "title": "Semianillo Booleano",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-suma-de-productos-sop",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Suma_de_Productos_SOP.md",
+      "title": "Suma de Productos SOP",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-tabla-de-verdad",
+      "path": "Matematica/Algebra_Booleana_y_Canonica/Tabla_de_Verdad.md",
+      "title": "Tabla de Verdad",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Canonica",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-algebra-booleana",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md",
+      "title": "Algebra Booleana",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Matematica",
+        "Source_Code_src_operational_model_algebra_boolean_algebra_py",
+        "Tractatus",
+        "Operaciones_MEEL"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_algebra_boolean_algebra_py"
+        ],
+        "mathematically_proves": [
+          "Tractatus",
+          "Operaciones_MEEL"
+        ]
+      }
+    },
+    {
+      "id": "atom-contrastes-xor-booleanos",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Contrastes_XOR_Booleanos.md",
+      "title": "Contrastes XOR Booleanos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Matematica",
+        "Algebra_Booleana",
+        "BooleanMatrix",
+        "Vectorizacion_Bitwise_Densa"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Algebra_Booleana",
+          "BooleanMatrix",
+          "Vectorizacion_Bitwise_Densa"
+        ]
+      }
+    },
+    {
+      "id": "atom-mapas-karnaugh",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Mapas_Karnaugh.md",
+      "title": "Mapas Karnaugh",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Matematica",
+        "Categorias_Sentido",
+        "Tipado_Typestate"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Categorias_Sentido",
+          "Tipado_Typestate"
+        ]
+      }
+    },
+    {
+      "id": "atom-maquina-estados-dfa",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Maquina_Estados_DFA.md",
+      "title": "Maquina Estados DFA",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Matematica",
+        "Omnirepresentacion",
+        "Algebra_Booleana",
+        "MEEL"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Omnirepresentacion",
+          "Algebra_Booleana"
+        ]
+      }
+    },
+    {
+      "id": "atom-medida-y-semianillos-booleanos-vs-probabilistas",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Medida_y_Semianillos_Booleanos_vs_Probabilistas.md",
+      "title": "Medida y Semianillos Booleanos vs Probabilistas",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Algebra_Booleana_y_Silicio",
+        "Algebra_Booleana",
+        "Discretizacion_Logica_vs_Continuo",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Algebra_Booleana",
+          "Discretizacion_Logica_vs_Continuo",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+        ]
+      }
+    },
+    {
+      "id": "atom-multiplicacion-matricial-booleana-y-clausura-transitiva",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva.md",
+      "title": "Multiplicacion Matricial Booleana y Clausura Transitiva",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Matematica",
+        "Source_Code_src_operational_model_hardware_bool_mult_py",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "RuleMatrixCompiler",
+        "BooleanMatrix"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_hardware_bool_mult_py"
+        ],
+        "mathematically_proves": [
+          "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+          "RuleMatrixCompiler",
+          "BooleanMatrix"
+        ]
+      }
+    },
+    {
+      "id": "atom-regla-dont-care",
+      "path": "Matematica/Algebra_Booleana_y_Silicio/Regla_Dont_Care.md",
+      "title": "Regla Dont Care",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Algebra_Booleana_y_Silicio",
+      "wikilinks_out": [
+        "Matematica",
+        "Categorias_Sentido",
+        "Mapas_Karnaugh"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Categorias_Sentido",
+          "Mapas_Karnaugh"
+        ]
+      }
+    },
+    {
+      "id": "atom-alfabeto-sigma",
+      "path": "Matematica/Gramatica_y_Sentido/Alfabeto_Sigma.md",
+      "title": "Alfabeto Sigma",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Gramatica_y_Sentido",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-gramatica-formal",
+      "path": "Matematica/Gramatica_y_Sentido/Gramatica_Formal.md",
+      "title": "Gramatica Formal",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Gramatica_y_Sentido",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-reglas-de-produccion-sintactica",
+      "path": "Matematica/Gramatica_y_Sentido/Reglas_de_Produccion_Sintactica.md",
+      "title": "Reglas de Produccion Sintactica",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Gramatica_y_Sentido",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-colapso-dimensional",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Colapso_Dimensional.md",
+      "title": "Colapso Dimensional",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Matematica",
+        "Source_Code_src_operational_model_optimization_dimensional_collapse_py",
+        "Enrutamiento_Jerarquico"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_optimization_dimensional_collapse_py"
+        ],
+        "mathematically_proves": [
+          "Enrutamiento_Jerarquico"
+        ]
+      }
+    },
+    {
+      "id": "atom-expansion-submatricial-recursiva",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Expansion_Submatricial_Recursiva.md",
+      "title": "Expansion Submatricial Recursiva",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Matematica",
+        "Construccion_Tensor_Jerarquico",
+        "BlockMatrix",
+        "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Construccion_Tensor_Jerarquico",
+          "BlockMatrix",
+          "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico"
+        ]
+      }
+    },
+    {
+      "id": "atom-fenomeno-de-gibbs-en-funciones-indicadoras",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Fenomeno_de_Gibbs_en_Funciones_Indicadoras.md",
+      "title": "Fenomeno de Gibbs en Funciones Indicadoras",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Optimizacion_y_Desambiguacion",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Geometria_de_Politopos_y_Ancho_Acotado_Hanin"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+          "Geometria_de_Politopos_y_Ancho_Acotado_Hanin"
+        ]
+      }
+    },
+    {
+      "id": "atom-funcion-objetivo-seleccion-dimensiones",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Funcion_Objetivo_Seleccion_Dimensiones.md",
+      "title": "Funcion Objetivo Seleccion Dimensiones",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Matematica",
+        "Algoritmo_Minimizacion_ER",
+        "Construccion_Tensor_Jerarquico",
+        "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Algoritmo_Minimizacion_ER",
+          "Construccion_Tensor_Jerarquico",
+          "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico"
+        ]
+      }
+    },
+    {
+      "id": "atom-geometria-de-politopos-y-ancho-acotado-hanin",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Geometria_de_Politopos_y_Ancho_Acotado_Hanin.md",
+      "title": "Geometria de Politopos y Ancho Acotado Hanin",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Optimizacion_y_Desambiguacion",
+        "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+        ]
+      }
+    },
+    {
+      "id": "atom-juego-de-desambiguacion",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Juego_de_Desambiguacion.md",
+      "title": "Juego de Desambiguacion",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Matematica",
+        "Source_Code_src_operational_model_game_wi_game_py",
+        "Colapso_Dimensional",
+        "Representacion_Flotante",
+        "Enrutamiento_Jerarquico",
+        "Capa_Sentido_Si"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_game_wi_game_py"
+        ],
+        "mathematically_proves": [
+          "Colapso_Dimensional",
+          "Representacion_Flotante",
+          "Enrutamiento_Jerarquico",
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "Teorema_Aproximacion_Universal_Hornik",
+      "path": "Matematica/Optimizacion_y_Desambiguacion/Teorema_Aproximacion_Universal_Hornik.md",
+      "title": "Teorema de Aproximación Universal de Hornik (1991)",
+      "tags": [],
+      "folder": "Matematica/Optimizacion_y_Desambiguacion",
+      "wikilinks_out": [
+        "Optimizacion_y_Desambiguacion",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+        "Source_PDF_hornik1991approximation_pdf"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "Fenomeno_de_Gibbs_en_Funciones_Indicadoras"
+        ],
+        "grounded_by": [
+          "Source_PDF_hornik1991approximation_pdf"
+        ],
+        "mathematically_proves": [
+          "Eje_A_Justificacion_Matematica_Limites_Continuos",
+          "Prueba_Necesidad_Representacion_Simbolica_Discreta"
+        ]
+      }
+    },
+    {
+      "id": "atom-dualidad-del-hipertensor",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Dualidad_del_Hipertensor.md",
+      "title": "Dualidad del Hipertensor",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Tensores_y_Matriz_Bloques",
+        "Hipertensor_Canonico",
+        "Matriz_por_Bloques",
+        "WiGame",
+        "Esparsidad_Hardware"
+      ],
+      "predicados": {
+        "avoids": [
+          "Esparsidad_Hardware"
+        ],
+        "implemented_via": [
+          "Matriz_por_Bloques",
+          "WiGame"
+        ],
+        "optimizes": [
+          "Hipertensor_Canonico"
+        ]
+      }
+    },
+    {
+      "id": "atom-geometria-de-embeddings-y-canales-semanticos",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Geometria_de_Embeddings_y_Canales_Semanticos.md",
+      "title": "Geometria de Embeddings y Canales Semanticos",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Tensores_y_Matriz_Bloques",
+        "Origen_Geometrico_y_Espacio_Vectorial",
+        "Representacion_Plana_vs_Tensorial",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Origen_Geometrico_y_Espacio_Vectorial",
+          "Representacion_Plana_vs_Tensorial",
+          "Teorema_Suboptimizabilidad_Diagonal"
+        ]
+      }
+    },
+    {
+      "id": "atom-hecho-atomico-cdv",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Hecho_Atomico_CDV.md",
+      "title": "Hecho Atomico CDV",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Matematica",
+        "Matrices_y_Tensores",
+        "Tractatus"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Matrices_y_Tensores",
+          "Tractatus"
+        ]
+      }
+    },
+    {
+      "id": "atom-matrices-y-tensores",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Matrices_y_Tensores.md",
+      "title": "Matrices y Tensores",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Matematica",
+        "Contexto_Logico",
+        "S_Expressions"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Contexto_Logico",
+          "S_Expressions"
+        ]
+      }
+    },
+    {
+      "id": "atom-matriz-por-bloques",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Matriz_por_Bloques.md",
+      "title": "Matriz por Bloques",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Matematica",
+        "Source_Code_src_operational_model_matrices_block_matrix_py",
+        "Omnirepresentacion",
+        "Maquina_Estados_DFA",
+        "Regla_Dont_Care"
+      ],
+      "predicados": {
+        "implements": [
+          "Source_Code_src_operational_model_matrices_block_matrix_py"
+        ],
+        "mathematically_proves": [
+          "Omnirepresentacion",
+          "Maquina_Estados_DFA",
+          "Regla_Dont_Care"
+        ]
+      }
+    },
+    {
+      "id": "atom-proyeccion-tensorial",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Proyeccion_Tensorial.md",
+      "title": "Proyeccion Tensorial",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Tensores_y_Matriz_Bloques",
+        "Hipertensor_Canonico",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si"
+      ],
+      "predicados": {
+        "extracts_from": [
+          "Hipertensor_Canonico"
+        ],
+        "generates": [
+          "Capa_Verdad_Vi",
+          "Capa_Sentido_Si"
+        ]
+      }
+    },
+    {
+      "id": "atom-representacion-plana-vs-tensorial",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Representacion_Plana_vs_Tensorial.md",
+      "title": "Representacion Plana vs Tensorial",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Matematica",
+        "Matrices_y_Tensores",
+        "Tensor_Jerarquico_NxNxC",
+        "Matriz_por_Bloques",
+        "Enrutamiento_Jerarquico",
+        "Colapso_Dimensional"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Matrices_y_Tensores",
+          "Tensor_Jerarquico_NxNxC",
+          "Matriz_por_Bloques",
+          "Enrutamiento_Jerarquico",
+          "Colapso_Dimensional"
+        ]
+      }
+    },
+    {
+      "id": "atom-teorema-suboptimizabilidad-diagonal",
+      "path": "Matematica/Tensores_y_Matriz_Bloques/Teorema_Suboptimizabilidad_Diagonal.md",
+      "title": "Teorema Suboptimizabilidad Diagonal",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Tensores_y_Matriz_Bloques",
+      "wikilinks_out": [
+        "Matematica",
+        "Energia_Informacion",
+        "Principio_de_Minimalidad",
+        "Representacion_Plana_vs_Tensorial"
+      ],
+      "predicados": {
+        "mathematically_proves": [
+          "Energia_Informacion",
+          "Principio_de_Minimalidad",
+          "Representacion_Plana_vs_Tensorial"
+        ]
+      }
+    },
+    {
+      "id": "atom-poset-conjunto-parcialmente-ordenado",
+      "path": "Matematica/Teoria_de_Reticulos_Contextuales/Poset_Conjunto_Parcialmente_Ordenado.md",
+      "title": "Poset Conjunto Parcialmente Ordenado",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Teoria_de_Reticulos_Contextuales",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-reticulo-matematico-lattice",
+      "path": "Matematica/Teoria_de_Reticulos_Contextuales/Reticulo_Matematico_Lattice.md",
+      "title": "Reticulo Matematico Lattice",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Teoria_de_Reticulos_Contextuales",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-supremo-e-infimo",
+      "path": "Matematica/Teoria_de_Reticulos_Contextuales/Supremo_e_Infimo.md",
+      "title": "Supremo e Infimo",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "Matematica/Teoria_de_Reticulos_Contextuales",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "Propuesta_Indice",
+      "path": "Propuesta_Indice.md",
+      "title": "Propuesta de Índice y Taxonomía del Conocimiento (Matrix SSOT)",
+      "tags": [],
+      "folder": "",
+      "wikilinks_out": [
+        "Alucinaciones_Inducidas_por_RAG_y_Conflicto_de_Conocimiento",
+        "Alucinaciones_Multi_Agente_y_Context_Drift",
+        "Causas_Estructurales_y_de_Entrenamiento",
+        "Dicotomia_HK_Minus_vs_HK_Plus",
+        "Diferenciacion_Factualidad_Conocimiento_Alucinacion",
+        "Entropia_Semantica",
+        "Evaluacion_Epistemica_FActScore_HaluEval",
+        "Falla_de_Representabilidad",
+        "Ilusion_de_la_Autocorreccion",
+        "Ley_del_Ocultamiento_del_Conocimiento_Knowledge_Overshadowing",
+        "Origen_Geometrico_y_Espacio_Vectorial",
+        "Sicofancia_y_Problemas_del_RLHF",
+        "Ausencia_de_Senal_de_Fallo_Determinista",
+        "Barrera_Deteccion_AUROC_Error_Tipo_III",
+        "Comparacion_Arquitecturas_JEPA",
+        "Incongruencia_Decodificacion_Estocastica_vs_Conocimiento_Latente",
+        "Infidelidad_del_Razonamiento_en_Prosa_y_la_Ilusion_de_Pensar",
+        "Probing_Latente_y_Decodificacion",
+        "Semantica_Formal_Neuro_Simbolica_vs_Opacidad_Neuronal",
+        "Demostracion_Compilacion_Reglas_y_Modus_Ponens",
+        "Demostracion_Juego_Desambiguacion_WiGame",
+        "Demostracion_Mundo_Bloques_SHRDLU",
+        "Demostracion_Ontologias_OWL_Semantic_Web",
+        "Demostracion_Dominio_Culinario_Ragout",
+        "Arquitectura_End_to_End_Ejecutable",
+        "CanonicalHypertensor",
+        "LogicalSpace",
+        "MEELEngine",
+        "Diccionario_Bits_y_Codificacion",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Tipado_Typestate",
+        "Vectorizacion_Bitwise_Densa",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi",
+        "Construccion_Tensor_Jerarquico",
+        "Context_Ci",
+        "Distincion_Ausencia_vs_Unsinnig",
+        "Emergencia_Estructural_de_Si_en_Cruces_de_Contexto",
+        "Enrutamiento_Jerarquico",
+        "Evolucion_y_Versionado_Contextos",
+        "Grafo_Indice_G",
+        "LogicalSpace_Li",
+        "Mascaras_Estructurales",
+        "Matrices_Puras",
+        "Optimizador_de_Contextos",
+        "Procedencia_y_Evidencia",
+        "Relation_Ri",
+        "Ruteo_Como_Relacion",
+        "Tensor_Jerarquico_NxNxC",
+        "W_Operativo",
+        "WiGame_Wi",
+        "Clausura_Transitiva_Matricial",
+        "Compilador_Matricial_Reglas",
+        "Eje_E_Implementacion_MEEL_y_Compilador_Matricial",
+        "Inferencia_Deductiva_Matricial",
+        "MEEL",
+        "Operaciones_MEEL",
+        "Politica_Simbolos_Kernel",
+        "Fact",
+        "Hipertensor_Canonico",
+        "LogicalSystem",
+        "Proposition",
+        "Relation",
+        "Symbol",
+        "Thing",
+        "WiGame",
+        "Operacion_Assert",
+        "Operacion_Auditar_Consistencia",
+        "Operacion_Consultar_Entidad",
+        "Operacion_Consultar_Proposicion",
+        "Operacion_Contrafactual",
+        "Operacion_Deducir",
+        "Operacion_Evaluar_Sentido",
+        "Operacion_Evaluar_Verdad",
+        "Operacion_Identificar_Faltantes",
+        "Operacion_Justificar",
+        "Operacion_Particionar",
+        "Operacion_Proyectar",
+        "Operacion_Retractar",
+        "Operacion_Unificar",
+        "Operacion_Validar_Formulacion",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Algoritmo_Minimizacion_ER",
+        "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico",
+        "Energia_Informacion",
+        "Gramatica_Universal_UNL",
+        "Manejo_de_Contradicciones",
+        "Mascara_Sentido_en_Mecanismos_Atencion",
+        "Matrix_vs_Neuro_Simbolicos_Previos",
+        "Matrix_vs_RAG",
+        "Matrix_vs_Verificacion_Formal",
+        "Omnirepresentacion",
+        "Reduccion_Descriptiva",
+        "Representacion_AST_y_Algebra_Booleana",
+        "Roadmap_Evolutivo_Fases",
+        "Seguridad_Pseudo_Proposicional",
+        "Sistema_Tipos_Ti",
+        "Anclaje_Simbolos_Grounding",
+        "AtomFeeder",
+        "Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva",
+        "Eje_C_Mecanismo_Conexion_LLM_y_SHRDLU",
+        "Integracion_LLM_en_Training_e_Inferencia_Aun_No_Demostrada",
+        "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro",
+        "Interrupcion_Decodificacion_Si_Cero",
+        "MatrixFeeder",
+        "OWLFeeder",
+        "Parser_OWL2Matrix",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Prototipo_Graphlang",
+        "Prototipo_SHRDLU",
+        "RuleMatrixCompiler",
+        "Walkthrough_Pipeline_con_Ejemplo",
+        "S_Expressions",
+        "SExprFeeder",
+        "Arquitectura_Neuro_Estocastica",
+        "Contexto_Logico",
+        "Discretizacion_Logica_vs_Continuo",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Estados_Verdad_Epistemicos_Semanticos",
+        "Modelos_Mundo_Continuo_Lyre",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Refactorizacion_SOTA_Paper_NeurIPS",
+        "Representacion_Continua_vs_Implementacion_Discreta",
+        "Taxonomia_SOTA_Alucinaciones",
+        "Triparticion_Contextual",
+        "Categorias_Sentido",
+        "Eje_F_Auditoria_Terminologica_Unsinnig",
+        "Fundamento_Logico_aRb",
+        "Insuficiencia_de_Embeddings_de_Signos_para_Logica_Auditable",
+        "Modelo_SMG",
+        "Origen_Nombre_Matrix",
+        "Principio_de_Minimalidad",
+        "Representacion_Flotante",
+        "Signo_vs_Simbolo",
+        "Tractatus",
+        "Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig",
+        "Source_Code_examples_ragout_demonstration_py",
+        "Source_Code_src_operational_model_algebra_boolean_algebra_py",
+        "Source_Code_src_operational_model_compiler_rule_matrix_compiler_py",
+        "Source_Code_src_operational_model_core_relation_py",
+        "Source_Code_src_operational_model_core_symbol_py",
+        "Source_Code_src_operational_model_core_thing_py",
+        "Source_Code_src_operational_model_engine_meel_engine_py",
+        "Source_Code_src_operational_model_game_wi_game_py",
+        "Source_Code_src_operational_model_hardware_bool_mult_py",
+        "Source_Code_src_operational_model_inference_propositional_inference_py",
+        "Source_Code_src_operational_model_inference_transitive_closure_py",
+        "Source_Code_src_operational_model_language_owl2matrix_py",
+        "Source_Code_src_operational_model_language_s_expressions_py",
+        "Source_Code_src_operational_model_language_shrdlu_english_parser_py",
+        "Source_Code_src_operational_model_language_shrdlu_lowering_py",
+        "Source_Code_src_operational_model_matrices_block_matrix_py",
+        "Source_Code_src_operational_model_matrices_si_matrix_py",
+        "Source_Code_src_operational_model_matrices_vi_matrix_py",
+        "Source_Code_src_operational_model_optimization_dimensional_collapse_py",
+        "Source_Code_src_operational_model_optimization_information_energy_py",
+        "Source_Code_src_operational_model_system_logical_system_py",
+        "Source_Code_src_operational_model_system_wigame_py",
+        "Source_PDF_arxiv2305_13300_pdf",
+        "Source_PDF_arxiv2402_10412_pdf",
+        "Source_PDF_arxiv2501_12345_pdf",
+        "Source_PDF_arxiv2502_01234_pdf",
+        "Source_PDF_factscore2023_pdf",
+        "Source_PDF_iclr2025_a712d4_pdf",
+        "Source_PDF_lecun_jepa2023_pdf",
+        "Source_PDF_nature_shumailov2024_pdf",
+        "Source_PDF_quigley2025_pdf",
+        "Source_PDF_selfcheckgpt2023_pdf",
+        "Source_PDF_symcode2025_pdf",
+        "Source_PDF_vossel2025advancing_pdf",
+        "Source_PDF_winograd1972shrdlu_pdf",
+        "Benchmarks_y_Metricas_Cuantitativas",
+        "01_El_Mundo_como_Espacio_Tensor",
+        "02_Hecho_Atomico_como_Mintermo",
+        "03_Espacio_Logico_como_Arquitectura_JAX",
+        "04_Forma_Logica_como_Matriz_Si",
+        "05_Sentido_Sinn_como_Region_Tensorial",
+        "06_Absurdo_Unsinnig_como_Violacion_Sintactica",
+        "Algebra_de_Boole",
+        "Axiomas_Huntington",
+        "Formas_Canonicas_y_Mintermos",
+        "Maxtermo",
+        "Mintermo",
+        "Semianillo_Booleano",
+        "Suma_de_Productos_SOP",
+        "Tabla_de_Verdad",
+        "Algebra_Booleana",
+        "Contrastes_XOR_Booleanos",
+        "Mapas_Karnaugh",
+        "Maquina_Estados_DFA",
+        "Medida_y_Semianillos_Booleanos_vs_Probabilistas",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+        "Regla_Dont_Care",
+        "Alfabeto_Sigma",
+        "Gramatica_Formal",
+        "Reglas_de_Produccion_Sintactica",
+        "Colapso_Dimensional",
+        "Expansion_Submatricial_Recursiva",
+        "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+        "Funcion_Objetivo_Seleccion_Dimensiones",
+        "Geometria_de_Politopos_y_Ancho_Acotado_Hanin",
+        "Juego_de_Desambiguacion",
+        "Teorema_Aproximacion_Universal_Hornik",
+        "Dualidad_del_Hipertensor",
+        "Geometria_de_Embeddings_y_Canales_Semanticos",
+        "Hecho_Atomico_CDV",
+        "Matrices_y_Tensores",
+        "Matriz_por_Bloques",
+        "Proyeccion_Tensorial",
+        "Representacion_Plana_vs_Tensorial",
+        "Teorema_Suboptimizabilidad_Diagonal",
+        "Poset_Conjunto_Parcialmente_Ordenado",
+        "Reticulo_Matematico_Lattice",
+        "Supremo_e_Infimo",
+        "01_indice_como_coordenada",
+        "02_query_como_proyeccion_tensorial",
+        "03_acid_y_consistencia_logica",
+        "04_vista_materializada_clausura"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "01_indice_como_coordenada",
+      "path": "Teoria_de_Bases_de_Datos/01_indice_como_coordenada.md",
+      "title": "Índice: Símbolo a Coordenada",
+      "tags": [],
+      "folder": "Teoria_de_Bases_de_Datos",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "02_query_como_proyeccion_tensorial",
+      "path": "Teoria_de_Bases_de_Datos/02_query_como_proyeccion_tensorial.md",
+      "title": "Query: Operador de Máscara y Proyección Tensorial",
+      "tags": [],
+      "folder": "Teoria_de_Bases_de_Datos",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "03_acid_y_consistencia_logica",
+      "path": "Teoria_de_Bases_de_Datos/03_acid_y_consistencia_logica.md",
+      "title": "Consistencia (ACID): Invariantes Lógicos y la Matriz $S_i$",
+      "tags": [],
+      "folder": "Teoria_de_Bases_de_Datos",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "04_vista_materializada_clausura",
+      "path": "Teoria_de_Bases_de_Datos/04_vista_materializada_clausura.md",
+      "title": "Vista Materializada: Clausura Transitiva Persistente",
+      "tags": [],
+      "folder": "Teoria_de_Bases_de_Datos",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "Gaps_Argumentativos_Pendientes",
+      "path": "composiciones_review/Gaps_Argumentativos_Pendientes.md",
+      "title": "Gaps Argumentativos Pendientes",
+      "tags": [],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "composiciones_review",
+        "comp_eje_a",
+        "comp_eje_b",
+        "comp_eje_c",
+        "comp_eje_d",
+        "comp_eje_e",
+        "comp_eje_reviewer",
+        "Representacion_Continua_vs_Implementacion_Discreta",
+        "Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva",
+        "Emergencia_Estructural_de_Si_en_Cruces_de_Contexto",
+        "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro",
+        "Matrix_vs_Verificacion_Formal"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "comp_eje_a",
+          "comp_eje_b",
+          "comp_eje_c",
+          "comp_eje_d",
+          "comp_eje_e",
+          "comp_eje_reviewer"
+        ]
+      }
+    },
+    {
+      "id": "Limitaciones_y_Trabajo_Futuro_Implementacion",
+      "path": "composiciones_review/Limitaciones_y_Trabajo_Futuro_Implementacion.md",
+      "title": "Limitaciones y Trabajo Futuro sobre la Implementación",
+      "tags": [],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "composiciones_review",
+        "comp_eje_e",
+        "comp_eje_reviewer",
+        "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro"
+      ],
+      "predicados": {
+        "explains_failure_of": [
+          "comp_eje_e",
+          "comp_eje_reviewer",
+          "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro"
+        ]
+      }
+    },
+    {
+      "id": "comp_antecedentes",
+      "path": "composiciones_review/comp_antecedentes.md",
+      "title": "Necesidad ontológica de primitivos discretos — Antecedentes",
+      "tags": [
+        "system:matrix",
+        "topic:necesidad-discreta",
+        "layer:epistemology"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Arquitectura_Neuro_Estocastica",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Falla_de_Representabilidad",
+        "Dicotomia_HK_Minus_vs_HK_Plus",
+        "Origen_Geometrico_y_Espacio_Vectorial"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_aplicaciones",
+      "path": "composiciones_review/comp_aplicaciones.md",
+      "title": "Demostraciones empíricas del acoplamiento discreto — Aplicaciones",
+      "tags": [],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Demostracion_Compilacion_Reglas_y_Modus_Ponens",
+        "Demostracion_Juego_Desambiguacion_WiGame",
+        "Demostracion_Mundo_Bloques_SHRDLU",
+        "Demostracion_Dominio_Culinario_Ragout"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_basededatos",
+      "path": "composiciones_review/comp_basededatos.md",
+      "title": "Teoría de Bases de Datos como instancia concreta del isomorfismo lógico-discreto",
+      "tags": [],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "01_indice_como_coordenada",
+        "02_query_como_proyeccion_tensorial",
+        "03_acid_y_consistencia_logica",
+        "04_vista_materializada_clausura"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_computacion",
+      "path": "composiciones_review/comp_computacion.md",
+      "title": "Qué impide que la distancia vectorial continua aproxime lógica formal — Computacion",
+      "tags": [
+        "system:matrix",
+        "topic:limites-continuo",
+        "layer:computation"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Capa_Sentido_Si",
+        "Capa_Verdad_Vi",
+        "Operaciones_MEEL",
+        "Inferencia_Deductiva_Matricial"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_eje_a",
+      "path": "composiciones_review/comp_eje_a.md",
+      "title": "Eje A — Embeddings continuos como causa de alucinación",
+      "tags": [
+        "system:matrix",
+        "eje:a",
+        "topic:embeddings-continuos"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Arquitectura_Neuro_Estocastica",
+        "Prueba_Necesidad_Representacion_Simbolica_Discreta",
+        "Falla_de_Representabilidad",
+        "Dicotomia_HK_Minus_vs_HK_Plus",
+        "Incongruencia_Decodificacion_Estocastica_vs_Conocimiento_Latente",
+        "Origen_Geometrico_y_Espacio_Vectorial",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+        "Geometria_de_Politopos_y_Ancho_Acotado_Hanin",
+        "Medida_y_Semianillos_Booleanos_vs_Probabilistas",
+        "Representacion_Continua_vs_Implementacion_Discreta"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_eje_b",
+      "path": "composiciones_review/comp_eje_b.md",
+      "title": "Eje B — Escalabilidad y construcción de matrices V_i, S_i",
+      "tags": [
+        "system:matrix",
+        "eje:b",
+        "topic:escalabilidad"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Eje_B_Escalabilidad_Minimizacion_ER_y_Tensor_Jerarquico",
+        "Algoritmo_Minimizacion_ER",
+        "Construccion_Tensor_Jerarquico",
+        "Teorema_Suboptimizabilidad_Diagonal",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Optimizador_de_Contextos",
+        "Categorias_Sentido",
+        "Estados_Verdad_Epistemicos_Semanticos",
+        "Operacion_Identificar_Faltantes",
+        "Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva",
+        "Emergencia_Estructural_de_Si_en_Cruces_de_Contexto",
+        "Bootstrapping_Contextos_Cerrados_y_Poblacion_Masiva"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_eje_c",
+      "path": "composiciones_review/comp_eje_c.md",
+      "title": "Eje C — Mecanismo de conexión con LLMs",
+      "tags": [
+        "system:matrix",
+        "eje:c",
+        "topic:conexion-llm"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Mascara_Sentido_en_Mecanismos_Atencion",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Eje_C_Mecanismo_Conexion_LLM_y_SHRDLU",
+        "Capa_Sentido_Si",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Integracion_LLM_en_Training_e_Inferencia_Aun_No_Demostrada",
+        "Integracion_Teorica_con_LLMs_y_Trabajo_Futuro",
+        "Interrupcion_Decodificacion_Si_Cero"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_eje_d",
+      "path": "composiciones_review/comp_eje_d.md",
+      "title": "Eje D — Diferenciación con métodos existentes",
+      "tags": [
+        "system:matrix",
+        "eje:d",
+        "topic:diferenciacion"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Alucinaciones_Inducidas_por_RAG_y_Conflicto_de_Conocimiento",
+        "Falla_de_Representabilidad",
+        "Eje_D_Diferenciacion_OWL_KGs_y_Vectorizacion_Bitwise",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Parser_OWL2Matrix",
+        "Matrix_vs_Verificacion_Formal"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_eje_e",
+      "path": "composiciones_review/comp_eje_e.md",
+      "title": "Eje E — Opacidad sobre la implementación funcional",
+      "tags": [
+        "system:matrix",
+        "eje:e",
+        "topic:implementacion"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Source_Code_src_operational_model_algebra_boolean_algebra_py",
+        "Source_Code_src_operational_model_compiler_rule_matrix_compiler_py",
+        "Source_Code_src_operational_model_core_relation_py",
+        "Source_Code_src_operational_model_core_symbol_py",
+        "Source_Code_src_operational_model_core_thing_py",
+        "Source_Code_src_operational_model_engine_meel_engine_py",
+        "Source_Code_src_operational_model_game_wi_game_py",
+        "Source_Code_src_operational_model_hardware_bool_mult_py",
+        "Source_Code_src_operational_model_inference_propositional_inference_py",
+        "Source_Code_src_operational_model_inference_transitive_closure_py",
+        "Source_Code_src_operational_model_language_owl2matrix_py",
+        "Source_Code_src_operational_model_language_s_expressions_py",
+        "Source_Code_src_operational_model_language_shrdlu_english_parser_py",
+        "Source_Code_src_operational_model_language_shrdlu_lowering_py",
+        "Source_Code_src_operational_model_matrices_block_matrix_py",
+        "Source_Code_src_operational_model_matrices_si_matrix_py",
+        "Source_Code_src_operational_model_matrices_vi_matrix_py",
+        "Source_Code_src_operational_model_optimization_dimensional_collapse_py",
+        "Source_Code_src_operational_model_optimization_information_energy_py",
+        "Source_Code_src_operational_model_system_logical_system_py",
+        "Source_Code_src_operational_model_system_wigame_py",
+        "Source_Code_examples_ragout_demonstration_py",
+        "LogicalSystem",
+        "Proposition",
+        "Symbol",
+        "Thing",
+        "Relation",
+        "Hipertensor_Canonico",
+        "Demostracion_Compilacion_Reglas_y_Modus_Ponens",
+        "Demostracion_Juego_Desambiguacion_WiGame",
+        "Demostracion_Mundo_Bloques_SHRDLU",
+        "Demostracion_Ontologias_OWL_Semantic_Web",
+        "Arquitectura_End_to_End_Ejecutable",
+        "Benchmarks_y_Metricas_Cuantitativas",
+        "Limitaciones_y_Trabajo_Futuro_Implementacion",
+        "Benchmarks_y_Metricas_Cuantitativas",
+        "Arquitectura_End_to_End_Ejecutable"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_eje_reviewer",
+      "path": "composiciones_review/comp_eje_reviewer.md",
+      "title": "Preguntas adicionales de revisores (ZHLy, FJpU)",
+      "tags": [
+        "system:matrix",
+        "eje:reviewer",
+        "topic:revisor-objeciones"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Arquitectura_Neuro_Estocastica",
+        "Discretizacion_Logica_vs_Continuo",
+        "Insuficiencia_de_Embeddings_de_Signos_para_Logica_Auditable",
+        "Mascara_Sentido_en_Mecanismos_Atencion",
+        "Acoplamiento_Neuro_Estocastico_Simbolico",
+        "Eje_C_Mecanismo_Conexion_LLM_y_SHRDLU",
+        "Integracion_LLM_en_Training_e_Inferencia_Aun_No_Demostrada",
+        "Demostracion_Mundo_Bloques_SHRDLU",
+        "Anclaje_Simbolos_Grounding",
+        "Pipeline_Ingesta_Lenguaje_Matrix",
+        "Operacion_Assert",
+        "Operacion_Evaluar_Sentido",
+        "Operacion_Evaluar_Verdad",
+        "Operacion_Validar_Formulacion",
+        "Representacion_Continua_vs_Implementacion_Discreta",
+        "Walkthrough_Pipeline_con_Ejemplo"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_filosofia",
+      "path": "composiciones_review/comp_filosofia.md",
+      "title": "Discontinuidad de la verdad y el sentido — Filosofia",
+      "tags": [
+        "system:matrix",
+        "topic:ontologia-discreta",
+        "layer:epistemology"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Discretizacion_Logica_vs_Continuo",
+        "Categorias_Sentido",
+        "Estados_Verdad_Epistemicos_Semanticos",
+        "Signo_vs_Simbolo",
+        "Modelo_SMG"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_fuentes",
+      "path": "composiciones_review/comp_fuentes.md",
+      "title": "Fuentes: evidencia científica que fundamenta las pruebas",
+      "tags": [],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Source_PDF_iclr2025_a712d4_pdf",
+        "Source_PDF_arxiv2305_13300_pdf",
+        "Source_PDF_arxiv2402_10412_pdf",
+        "Source_PDF_factscore2023_pdf",
+        "Source_PDF_selfcheckgpt2023_pdf",
+        "Source_PDF_lecun_jepa2023_pdf",
+        "Source_PDF_nature_shumailov2024_pdf",
+        "Source_PDF_symcode2025_pdf",
+        "Source_PDF_quigley2025_pdf",
+        "Source_PDF_vossel2025advancing_pdf",
+        "Source_PDF_winograd1972shrdlu_pdf",
+        "Source_PDF_arxiv2501_12345_pdf",
+        "Source_PDF_arxiv2502_01234_pdf",
+        "Source_PDF_harnad1990symbolgrounding_pdf",
+        "Source_PDF_wittgenstein1922_pdf",
+        "Source_PDF_bender2020_pdf",
+        "Source_PDF_lyre2024understanding_pdf",
+        "Source_PDF_halueval2023_pdf",
+        "Source_PDF_semantic_entropy2024_pdf",
+        "Source_PDF_kommers2025slop_pdf",
+        "Source_PDF_dawid2024latent_pdf",
+        "Source_PDF_assran2023ijepa_pdf",
+        "Source_PDF_ibrahim2026_pdf",
+        "Source_PDF_ferrone2019_pdf",
+        "Source_PDF_liu2025code4logic_pdf",
+        "Source_PDF_lee2025entailment_pdf",
+        "Source_PDF_choi2025knowledge_pdf",
+        "Source_PDF_cheng2025empowering_pdf",
+        "Source_PDF_bian2025llm_pdf",
+        "Source_PDF_liang2025survey_pdf",
+        "Source_PDF_hornik1991approximation_pdf",
+        "Source_PDF_hanin2017universal_pdf",
+        "Source_PDF_wei2024measuring_pdf",
+        "Source_PDF_simhi2024distinguishing_pdf",
+        "Source_PDF_brachman1990_pdf",
+        "Source_PDF_lehmann1992_pdf",
+        "Source_PDF_sowa1991_pdf",
+        "Source_PDF_sansford2024grapheval_pdf",
+        "Source_PDF_mckenna2023_pdf",
+        "Source_PDF_yin2023_pdf",
+        "Source_PDF_marks2024_pdf",
+        "Source_PDF_chen2024_pdf",
+        "Source_PDF_gekhman2024_pdf",
+        "Source_PDF_kang2025_pdf",
+        "Source_PDF_chuang2024_pdf",
+        "Source_PDF_kruse2022causal_pdf",
+        "Source_Code_src_operational_model_algebra_boolean_algebra_py",
+        "Source_Code_src_operational_model_compiler_rule_matrix_compiler_py",
+        "Source_Code_src_operational_model_engine_meel_engine_py",
+        "Source_Code_src_operational_model_matrices_si_matrix_py",
+        "Source_Code_src_operational_model_matrices_vi_matrix_py",
+        "Source_Code_src_operational_model_matrices_block_matrix_py",
+        "Source_Code_src_operational_model_inference_propositional_inference_py",
+        "Source_Code_src_operational_model_inference_transitive_closure_py",
+        "Source_Code_src_operational_model_system_logical_system_py",
+        "Source_Code_src_operational_model_system_wigame_py",
+        "Source_Code_src_operational_model_language_s_expressions_py",
+        "Source_Code_src_operational_model_language_shrdlu_english_parser_py",
+        "Source_Code_src_operational_model_language_shrdlu_lowering_py",
+        "Source_Code_src_operational_model_language_owl2matrix_py",
+        "Source_Code_src_operational_model_hardware_bool_mult_py",
+        "Source_Code_src_operational_model_optimization_dimensional_collapse_py",
+        "Source_Code_src_operational_model_optimization_information_energy_py",
+        "Source_Code_src_operational_model_core_relation_py",
+        "Source_Code_src_operational_model_core_symbol_py",
+        "Source_Code_src_operational_model_core_thing_py",
+        "Source_Code_examples_ragout_demonstration_py"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_gaps",
+      "path": "composiciones_review/comp_gaps.md",
+      "title": "Gaps Argumentativos Pendientes — 12 preguntas sin respuesta",
+      "tags": [
+        "system:matrix",
+        "topic:gaps",
+        "layer:review"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "comp_isomorfismo",
+      "path": "composiciones_review/comp_isomorfismo.md",
+      "title": "Isomorfismo Tractatus–Álgebra — la prueba de que Wittgenstein exigía discreción",
+      "tags": [
+        "system:matrix",
+        "topic:isomorfismo-tractatus",
+        "layer:philosophy"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "01_El_Mundo_como_Espacio_Tensor",
+        "02_Hecho_Atomico_como_Mintermo",
+        "03_Espacio_Logico_como_Arquitectura_JAX",
+        "04_Forma_Logica_como_Matriz_Si",
+        "05_Sentido_Sinn_como_Region_Tensorial",
+        "06_Absurdo_Unsinnig_como_Violacion_Sintactica"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "comp_matematica",
+      "path": "composiciones_review/comp_matematica.md",
+      "title": "Pruebas matemáticas de la imposibilidad continua — Matematica",
+      "tags": [
+        "system:matrix",
+        "topic:imposibilidad-continua",
+        "layer:mathematics"
+      ],
+      "folder": "composiciones_review",
+      "wikilinks_out": [
+        "Fenomeno_de_Gibbs_en_Funciones_Indicadoras",
+        "Geometria_de_Politopos_y_Ancho_Acotado_Hanin",
+        "Eje_A_Justificacion_Matematica_Limites_Continuos",
+        "Medida_y_Semianillos_Booleanos_vs_Probabilistas",
+        "Teorema_Suboptimizabilidad_Diagonal"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "atom-spec-canonical-hypertensor",
+      "path": "composiciones_spec/atom-spec-canonical-hypertensor.md",
+      "title": "Spec del CanonicalHypertensor",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "composiciones_spec",
+      "wikilinks_out": [
+        "01_El_Mundo_como_Espacio_Tensor",
+        "Capa_Verdad_Vi",
+        "Capa_Sentido_Si",
+        "Vectorizacion_Bitwise_Densa"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "atom-spec-logical-space",
+      "path": "composiciones_spec/atom-spec-logical-space.md",
+      "title": "Spec de LogicalSpace (JAX Era)",
+      "tags": [],
+      "folder": "composiciones_spec",
+      "wikilinks_out": [],
+      "predicados": {}
+    },
+    {
+      "id": "atom-spec-meel-engine",
+      "path": "composiciones_spec/atom-spec-meel-engine.md",
+      "title": "Spec del MEELEngine",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "composiciones_spec",
+      "wikilinks_out": [
+        "Inferencia_Deductiva_Matricial",
+        "Multiplicacion_Matricial_Booleana_y_Clausura_Transitiva",
+        "02_query_como_proyeccion_tensorial"
+      ],
+      "predicados": {}
+    },
+    {
+      "id": "atom-spec-rule-matrix-compiler",
+      "path": "composiciones_spec/atom-spec-rule-matrix-compiler.md",
+      "title": "Spec de Feeders y RuleMatrixCompiler",
+      "tags": [
+        "system:matrix"
+      ],
+      "folder": "composiciones_spec",
+      "wikilinks_out": [
+        "Formas_Canonicas_y_Mintermos",
+        "Suma_de_Productos_SOP",
+        "04_Forma_Logica_como_Matriz_Si"
+      ],
+      "predicados": {}
+    }
+  ]
+}

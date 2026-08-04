@@ -1,0 +1,146 @@
+{
+  "provenance": "Fase 2 residual review (3 delegate shards, 2026-08-03); atom_path normalizado relativo a TractatusKnowledgeMachine/atoms/",
+  "verdicts": [
+    {
+      "anchor": "01_1_sota-p01",
+      "accepted": [
+        {"atom_id": "atom-taxonomia-sota-alucinaciones", "atom_path": "Filosofia/Epistemologia_y_Contextos/Taxonomia_SOTA_Alucinaciones.md", "confidence": 0.9, "reason": "Taxonomía formal SOTA de alucinaciones que el párrafo resume."}
+      ],
+      "note": "Párrafo taxonómico; fuente KB directa."
+    },
+    {
+      "anchor": "01_1_sota-p05",
+      "accepted": [
+        {"atom_id": "atom-modelos-mundo-continuo-lyre", "atom_path": "Filosofia/Epistemologia_y_Contextos/Modelos_Mundo_Continuo_Lyre.md", "confidence": 0.95, "reason": "Postura Lyre 2024: world models continuos y crítica Matrix."}
+      ],
+      "note": "Bender/stochastic parrots sin átomo propio."
+    },
+    {
+      "anchor": "02_philosophical_foundation-p03",
+      "accepted": [
+        {"atom_id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig", "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md", "confidence": 0.9, "reason": "Define Sinnvoll con coordenadas válidas en Li."},
+        {"atom_id": "atom-categorias-sentido", "atom_path": "Filosofia/Tractatus_y_Ontologia/Categorias_Sentido.md", "confidence": 0.8, "reason": "Clasificación tripartita operacional."}
+      ],
+      "note": "Ejemplos empíricos instancian definiciones."
+    },
+    {
+      "anchor": "02_philosophical_foundation-p04",
+      "accepted": [
+        {"atom_id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig", "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md", "confidence": 0.9, "reason": "Sinnlos = tautología/contradicción formal."},
+        {"atom_id": "atom-categorias-sentido", "atom_path": "Filosofia/Tractatus_y_Ontologia/Categorias_Sentido.md", "confidence": 0.8, "reason": "Sinnlos = sin sentido informativo."}
+      ],
+      "note": "Tautologías y gato de Schrödinger mapean directo."
+    },
+    {
+      "anchor": "02_philosophical_foundation-p05",
+      "accepted": [
+        {"atom_id": "06_Absurdo_Unsinnig_como_Violacion_Sintactica", "atom_path": "Isomorfismo_Tractatus_Algebra/06_Absurdo_Unsinnig_como_Violacion_Sintactica.md", "confidence": 0.9, "reason": "TLP 5.473: Unsinn = partes sin significado asignado."},
+        {"atom_id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig", "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md", "confidence": 0.85, "reason": "Unsinnig = símbolos sin función lógica en Li."}
+      ],
+      "note": "Casi verbatim TLP 5.473."
+    },
+    {
+      "anchor": "04_discussion-p02",
+      "accepted": [],
+      "note": "Solo encabezado '# Relationship with Language'; sin afirmación."
+    },
+    {
+      "anchor": "04_discussion-p07",
+      "accepted": [],
+      "note": "Solo encabezado '# Relationship with LLM'; sin afirmación."
+    },
+    {
+      "anchor": "04_discussion-p08",
+      "accepted": [
+        {"atom_id": "atom-mascara-sentido-en-mecanismos-atencion", "atom_path": "Computacion/Optimizacion_y_Seguridad/Mascara_Sentido_en_Mecanismos_Atencion.md", "confidence": 0.95, "reason": "Propuesta exacta: Si en atención, pérdida lógica, RL."},
+        {"atom_id": "atom-capa-sentido-si", "atom_path": "Computacion/Estructuras_Matriciales/Capa_Sentido_Si.md", "confidence": 0.8, "reason": "Define la máscara booleana S."}
+      ],
+      "note": "Atención + definición formal de S."
+    },
+    {
+      "anchor": "03_proposed_representation-p04",
+      "accepted": [
+        {"atom_id": "atom-capa-verdad-vi", "atom_path": "Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md", "confidence": 0.85, "reason": "Matriz binaria objetos×propiedades = Vi."},
+        {"atom_id": "atom-tabla-de-verdad", "atom_path": "Matematica/Algebra_Booleana_y_Canonica/Tabla_de_Verdad.md", "confidence": 0.8, "reason": "Tabla del ejemplo = tabla de verdad del contexto."}
+      ],
+      "note": "Tabla instancia directamente Vi."
+    },
+    {
+      "anchor": "03_proposed_representation-p06",
+      "accepted": [
+        {"atom_id": "atom-proyeccion-tensorial", "atom_path": "Matematica/Tensores_y_Matriz_Bloques/Proyeccion_Tensorial.md", "confidence": 0.7, "reason": "Vista transpuesta = reindexación del espacio matricial."},
+        {"atom_id": "atom-capa-verdad-vi", "atom_path": "Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md", "confidence": 0.6, "reason": "Misma Vi con ejes permutados."}
+      ],
+      "note": "Transposición cubierta por proyección."
+    },
+    {
+      "anchor": "03_proposed_representation-p07",
+      "accepted": [
+        {"atom_id": "atom-semianillo-booleano", "atom_path": "Matematica/Algebra_Booleana_y_Canonica/Semianillo_Booleano.md", "confidence": 0.95, "reason": "Semianillo booleano ⊕=OR ⊗=AND exacto."}
+      ],
+      "note": "Correspondencia 1:1."
+    },
+    {
+      "anchor": "03_proposed_representation-p10",
+      "accepted": [
+        {"atom_id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig", "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md", "confidence": 0.9, "reason": "Tautología = Sinnlos."}
+      ],
+      "note": "Fundamenta definición de tautología."
+    },
+    {
+      "anchor": "03_proposed_representation-p11",
+      "accepted": [
+        {"atom_id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig", "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md", "confidence": 0.9, "reason": "Contradicción = Sinnlos."}
+      ],
+      "note": "Tautología y contradicción comparten clase."
+    },
+    {
+      "anchor": "03_proposed_representation-p13",
+      "accepted": [
+        {"atom_id": "atom-logicalspace-li", "atom_path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md", "confidence": 0.85, "reason": "Indexabilidad: Li dota de identidad semántica."},
+        {"atom_id": "atom-inferencia-deductiva-matricial", "atom_path": "Computacion/Kernel_MEEL/Inferencia_Deductiva_Matricial.md", "confidence": 0.7, "reason": "'Máquina de verdad lógica' = deducción matricial."}
+      ],
+      "note": "Indexability↔Li; truth machine↔inferencia."
+    },
+    {
+      "anchor": "03_proposed_representation-p20",
+      "accepted": [
+        {"atom_id": "Distincion_Ausencia_vs_Unsinnig", "atom_path": "Computacion/Estructuras_Matriciales/Distincion_Ausencia_vs_Unsinnig.md", "confidence": 0.9, "reason": "Celdas Ø distinguen inaplicabilidad categorial."},
+        {"atom_id": "atom-diccionario-bits-y-codificacion", "atom_path": "Computacion/Bitwise_Hardware/Diccionario_Bits_y_Codificacion.md", "confidence": 0.8, "reason": "Pares objeto-propiedad a bits, multi-hot."},
+        {"atom_id": "atom-capa-verdad-vi", "atom_path": "Computacion/Estructuras_Matriciales/Capa_Verdad_Vi.md", "confidence": 0.75, "reason": "Matriz booleana de hechos observados."}
+      ],
+      "note": "Tabla 4x5 con Ø."
+    },
+    {
+      "anchor": "03_proposed_representation-p21",
+      "accepted": [
+        {"atom_id": "atom-operacion-particionar", "atom_path": "Computacion/Operaciones_DB_Logica/Operacion_Particionar.md", "confidence": 0.85, "reason": "Partición genera la tautología descrita."},
+        {"atom_id": "atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig", "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md", "confidence": 0.8, "reason": "Tautological/nonsense = sinnlos/unsinnig."},
+        {"atom_id": "Distincion_Ausencia_vs_Unsinnig", "atom_path": "Computacion/Estructuras_Matriciales/Distincion_Ausencia_vs_Unsinnig.md", "confidence": 0.75, "reason": "Inaplicabilidad categorial."}
+      ],
+      "note": "Tautología por partición + sinsentido categorial."
+    },
+    {
+      "anchor": "03_proposed_representation-p22",
+      "accepted": [
+        {"atom_id": "atom-capa-sentido-si", "atom_path": "Computacion/Estructuras_Matriciales/Capa_Sentido_Si.md", "confidence": 0.95, "reason": "Sense mask S_i fuerza a 0 consultas absurdas."},
+        {"atom_id": "atom-mascaras-estructurales", "atom_path": "Computacion/Estructuras_Matriciales/Mascaras_Estructurales.md", "confidence": 0.7, "reason": "Marco de máscaras booleanas que filtran hechos."}
+      ],
+      "note": "Bullet definitorio de S_i."
+    },
+    {
+      "anchor": "03_proposed_representation-p24",
+      "accepted": [],
+      "note": "Frase transicional sin afirmación formal propia."
+    },
+    {
+      "anchor": "03_proposed_representation-p26",
+      "accepted": [
+        {"atom_id": "atom-proyeccion-tensorial", "atom_path": "Matematica/Tensores_y_Matriz_Bloques/Proyeccion_Tensorial.md", "confidence": 0.7, "reason": "Proyección como operación algebraica central."},
+        {"atom_id": "atom-diccionario-bits-y-codificacion", "atom_path": "Computacion/Bitwise_Hardware/Diccionario_Bits_y_Codificacion.md", "confidence": 0.75, "reason": "Imagen lógica 'represented in bits'."},
+        {"atom_id": "atom-algebra-booleana", "atom_path": "Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md", "confidence": 0.7, "reason": "'Operable through Boolean logic'."}
+      ],
+      "note": "Cierre pensamiento↔imagen lógica."
+    }
+  ]
+}

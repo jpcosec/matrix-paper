@@ -1,0 +1,617 @@
+{
+ "provenance": "Fase 5 revisión léxica completa: shards A+B+C (36 anchors, 72 entries)",
+ "reviews": [
+  {
+   "anchor": "01_1_sota-p04",
+   "entries": [
+    {
+     "atom_path": "Fuentes/Source_Code_src_operational_model_system_logical_system_py.md",
+     "verdict": "replace",
+     "replacement_atom_path": "Fuentes/Source_PDF_nature_shumailov2024_pdf.md",
+     "reason": "Párrafo cita @shumailov2024; stub de código no fundamenta colapso"
+    }
+   ]
+  },
+  {
+   "anchor": "01_introduction-p02",
+   "entries": [
+    {
+     "atom_path": "Filosofia/Tractatus_y_Ontologia/Tractatus.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Apoyo explícito en atomismo lógico del Tractatus"
+    },
+    {
+     "atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Enumera los tres estados de sentido exactos"
+    },
+    {
+     "atom_path": "Fuentes/Source_PDF_nature_shumailov2024_pdf.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "No cita shumailov2024; solape espurio"
+    }
+   ]
+  },
+  {
+   "anchor": "02_philosophical_foundation-p02",
+   "entries": [
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Fact.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Define hecho con valor de verdad"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Proposition.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Define proposición evaluable"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Relation.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Operador R no aparece en el párrafo"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Relation_Ri.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Mapeo matricial ausente; párrafo filosófico"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p08",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Átomo define W_i; párrafo opera W_i"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p09",
+   "entries": [
+    {
+     "atom_path": "Filosofia/Tractatus_y_Ontologia/Tractatus.md",
+     "verdict": "replace",
+     "replacement_atom_path": "Filosofia/Tractatus_y_Ontologia/Triparticion_Wittgensteiniana_Sinnvoll_Sinnlos_Unsinnig.md",
+     "reason": "Tripartición cubre las categorías descritas"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p14",
+   "entries": [
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Fact.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Extensión de W_i con nuevos hechos"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Proposition.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Verificación por proposición generada"
+    },
+    {
+     "atom_path": "Matematica/Optimizacion_y_Desambiguacion/Colapso_Dimensional.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Colapso ≠ adición dimensional; falso cognado"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Coordenadas mapeables a L_i citadas"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Extensión directa de W_i"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p03",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Contexto como propiedad operable"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p04",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Límites de contexto admitido = C_i"
+    },
+    {
+     "atom_path": "Computacion/Optimizacion_y_Seguridad/Gramatica_Universal_UNL.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Cita explícita al proyecto UNL"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p06",
+   "entries": [
+    {
+     "atom_path": "Fuentes/Source_Code_src_operational_model_algebra_boolean_algebra_py.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Stub genérico; matemáticos ya cubren"
+    },
+    {
+     "atom_path": "Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Álgebra booleana base de representación"
+    },
+    {
+     "atom_path": "Matematica/Algebra_Booleana_y_Canonica/Algebra_de_Boole.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Semianillo booleano fundamenta capa"
+    },
+    {
+     "atom_path": "Fuentes/Source_PDF_nature_shumailov2024_pdf.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "No cita shumailov2024; espuria"
+    }
+   ]
+  },
+  {
+   "anchor": "09_conclusion-p03",
+   "entries": [
+    {
+     "atom_path": "Computacion/Optimizacion_y_Seguridad/Gramatica_Universal_UNL.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Gramática dominio-específica contradice UNL"
+    }
+   ]
+  },
+  {
+   "anchor": "01_1_sota-p07",
+   "entries": [
+    {
+     "atom_path": "Matematica/Optimizacion_y_Desambiguacion/Colapso_Dimensional.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'dimensional conflict' ≠ colapso; cognado falso"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "$W_i$ espacio acotado, afirmación central"
+    }
+   ]
+  },
+  {
+   "anchor": "01_introduction-p04",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Matrices_Puras.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Eficiencia de almacenamiento, no proyección"
+    },
+    {
+     "atom_path": "Matematica/Tensores_y_Matriz_Bloques/Matrices_y_Tensores.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Codificar conocimiento como bits en matrices"
+    }
+   ]
+  },
+  {
+   "anchor": "02_philosophical_foundation-p06",
+   "entries": [
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Fact.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Hecho como unidad expresable mediante signos"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p01",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Introduce $W_i$ como partición del mundo"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p02",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Ítem 1 define contexto que limita $W_i$"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Relation.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'relationships' genérico; sin operador R"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Relation_Ri.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Mapeo verdad (a,b)→bool fundamenta $V_i$"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Ítem 2 define $L_i$ coordenadas admisibles"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Enumera componentes exactos de $W_i$"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p16",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Opera $W_i \\otimes W_i^T$ directamente"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p18",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "replace",
+     "replacement_atom_path": "Matematica/Optimizacion_y_Desambiguacion/Colapso_Dimensional.md",
+     "reason": "Colapso dimensional por vector de unos exacto"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p23",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "replace",
+     "replacement_atom_path": "Computacion/Estructuras_Matriciales/Matrices_Puras.md",
+     "reason": "Núcleo: vectores puente entre contextos"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p25",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Jerarquías de contextos como índice"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Relation.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Genérico; Relation_Ri ya cubre"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Relation_Ri.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Toda relación expresable en lógica booleana"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "$L_i$ objetos→propiedades explícito"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Matrices_Puras.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Mención genérica; párrafo es enrutamiento"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p09",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Contexto como límite del universo sinnvoll"
+    },
+    {
+     "atom_path": "Computacion/Optimizacion_y_Seguridad/Gramatica_Universal_UNL.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Cognado falso: párrafo rechaza máquinas universales"
+    }
+   ]
+  },
+  {
+   "anchor": "09_conclusion-p01",
+   "entries": [
+    {
+     "atom_path": "Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "'operated entirely through Boolean algebra'"
+    },
+    {
+     "atom_path": "Matematica/Algebra_Booleana_y_Canonica/Algebra_de_Boole.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Definición formal + traducción MEEL $V_i,S_i$"
+    },
+    {
+     "atom_path": "Matematica/Gramatica_y_Sentido/Gramatica_Formal.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'formal framework' es adjetivo genérico"
+    }
+   ]
+  },
+  {
+   "anchor": "01_1_sota-p03",
+   "entries": [
+    {
+     "atom_path": "Fuentes/Source_PDF_nature_shumailov2024_pdf.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'nature' cognado falso; solo cita @orgad2025apple"
+    }
+   ]
+  },
+  {
+   "anchor": "01_introduction-p01",
+   "entries": [
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Symbol.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Symbol grounding; átomo define la primitiva discreta"
+    }
+   ]
+  },
+  {
+   "anchor": "01_introduction-p03",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Define W_i con matrices V_i y S_i"
+    }
+   ]
+  },
+  {
+   "anchor": "02_philosophical_foundation-p01",
+   "entries": [
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Thing.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Things como átomos indexadores; definición directa"
+    },
+    {
+     "atom_path": "Filosofia/Tractatus_y_Ontologia/Tractatus.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Cita directa: mundo como hechos, no cosas"
+    }
+   ]
+  },
+  {
+   "anchor": "02_philosophical_foundation-p07",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Contexto como partición suficientemente definida"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Symbol.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Define symbol como signo en espacio lógico"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p03",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "W_i como AND booleano de V_i y S_i"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p05",
+   "entries": [
+    {
+     "atom_path": "Filosofia/Tractatus_y_Ontologia/Tractatus.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Invoca definición Tractatus y sinnlos"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Opera sobre W_i y su transpuesta"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p12",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Unsinnig = sin coordenada en L_i"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p15",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Ambigüedad detectada algebraicamente sobre W_i"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p17",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Operación (W_i ⊗ W^T_i) − I sobre W_i"
+    }
+   ]
+  },
+  {
+   "anchor": "03_proposed_representation-p19",
+   "entries": [
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Thing.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'the easiest thing to do'; genérico"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/LogicalSpace_Li.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Añadir propiedad a L_i para desambiguar"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p01",
+   "entries": [
+    {
+     "atom_path": "Filosofia/Tractatus_y_Ontologia/Tractatus.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Atribuye utilidad al sustrato del Tractatus"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Matrices_Puras.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Aislamiento por contexto, no mapeo histórico"
+    },
+    {
+     "atom_path": "Matematica/Tensores_y_Matriz_Bloques/Matrices_y_Tensores.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Matriz 2D representa relación binaria"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p05",
+   "entries": [
+    {
+     "atom_path": "Matematica/Gramatica_y_Sentido/Gramatica_Formal.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'formal logic' genérico; tangencial"
+    },
+    {
+     "atom_path": "Fuentes/Source_PDF_nature_shumailov2024_pdf.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "'stochastic in nature' cognado falso"
+    }
+   ]
+  },
+  {
+   "anchor": "04_discussion-p11",
+   "entries": [
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/Context_Ci.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Árboles de hechos y contextos; C_i delimita"
+    },
+    {
+     "atom_path": "Computacion/Modelos_Datos_MEEL/Fact.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Máquina basada en facts y operaciones lógicas"
+    }
+   ]
+  },
+  {
+   "anchor": "09_conclusion-p02",
+   "entries": [
+    {
+     "atom_path": "Matematica/Algebra_Booleana_y_Silicio/Algebra_Booleana.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "'Matrix algebra'; semianillo booleano del sistema"
+    },
+    {
+     "atom_path": "Matematica/Algebra_Booleana_y_Canonica/Algebra_de_Boole.md",
+     "verdict": "drop",
+     "replacement_atom_path": null,
+     "reason": "Redundante con Algebra_Booleana"
+    },
+    {
+     "atom_path": "Computacion/Estructuras_Matriciales/WiGame_Wi.md",
+     "verdict": "keep",
+     "replacement_atom_path": null,
+     "reason": "Contextos estrictamente acotados ($W_i$)"
+    }
+   ]
+  }
+ ]
+}
