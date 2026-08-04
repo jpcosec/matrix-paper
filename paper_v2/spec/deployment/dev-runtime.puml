@@ -1,0 +1,16 @@
+@startuml
+node "Browser" as browser {
+  artifact "index.astro (document + inspector)" as editorial_browser_ui
+}
+node "Astro dev server" as astro_dev {
+  artifact "api/graph.json.ts" as graph_api
+  artifact "built assets" as static_app
+}
+node "paper_v2 content store" as filesystem {
+  artifact "manuscript/ sections/ paragraphs/ notes/ sources/" as sldb_docs
+}
+
+editorial_browser_ui --> graph_api : HTTP (fetch /api/graph.json)
+graph_api --> sldb_docs : filesystem read
+static_app --> editorial_browser_ui : serve
+@enduml

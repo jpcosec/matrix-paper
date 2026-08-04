@@ -1,0 +1,107 @@
+id: matrix.paper-v2-ui-components
+title: paper_v2 - UI / Component Matrix
+type: component_view_matrix
+version: "0.1"
+data:
+  views:
+    - id: document
+      label: Documento renderizado (izquierda)
+      stages:
+        - id: browse-sections
+          label: navegar secciones
+        - id: read-paragraphs
+          label: leer parrafos
+        - id: select-paragraph
+          label: seleccionar parrafo
+        - id: view-status
+          label: ver estado soporte
+
+    - id: inspector
+      label: Inspector SLDB (derecha)
+      stages:
+        - id: section-context
+          label: contexto seccion
+        - id: paragraph-detail
+          label: detalle parrafo
+        - id: note-support
+          label: soporte notas
+        - id: source-evidence
+          label: evidencia fuentes
+
+    - id: api
+      label: API /api/graph.json
+      stages:
+        - id: compose
+          label: componer payload
+        - id: derive-status
+          label: derivar estados
+        - id: serve
+          label: servir UI
+
+  components:
+    - name: AstroApp
+      kind: core
+      stages:
+        document: [browse-sections, read-paragraphs, select-paragraph, view-status]
+        inspector: [section-context, paragraph-detail, note-support, source-evidence]
+        api: [serve]
+      children:
+        - name: DocumentPane
+          kind: boundary
+          stages:
+            document: [browse-sections, read-paragraphs, select-paragraph, view-status]
+          children:
+            - name: RenderedManuscript
+              kind: ui
+              stages:
+                document: [browse-sections, read-paragraphs, select-paragraph]
+            - name: StatusBadges
+              kind: ui
+              stages:
+                document: [view-status]
+
+        - name: SldbInspector
+          kind: boundary
+          stages:
+            inspector: [section-context, paragraph-detail, note-support, source-evidence]
+          children:
+            - name: SectionsPane
+              kind: ui
+              stages:
+                inspector: [section-context]
+            - name: ParagraphInspector
+              kind: ui
+              stages:
+                inspector: [paragraph-detail]
+            - name: NotesPane
+              kind: ui
+              stages:
+                inspector: [note-support]
+            - name: SourcesPane
+              kind: ui
+              stages:
+                inspector: [source-evidence]
+
+        - name: GraphApi
+          kind: service
+          stages:
+            api: [compose, derive-status, serve]
+          children:
+            - name: StatusDerivation
+              kind: core
+              stages:
+                api: [derive-status]
+            - name: SldbLoaders
+              kind: core
+              stages:
+                api: [compose]
+
+    - name: BuildPipeline
+      kind: core
+      stages:
+        api: [compose]
+
+    - name: DeskopsWorkflow
+      kind: boundary
+      stages:
+        api: [serve]

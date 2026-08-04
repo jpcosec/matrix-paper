@@ -1,0 +1,52 @@
+graph TD
+    AstroApp["paper_v2 Astro App"]
+    AstroApp --> DocumentPane
+    AstroApp --> SldbInspector
+    AstroApp --> GraphApi
+    DocumentPane["Document Pane (left)"]
+    DocumentPane --> RenderedManuscript
+    RenderedManuscript["Rendered Manuscript"]
+    RenderedManuscript --> SectionBlocks
+    RenderedManuscript --> ParagraphBlocks
+    SectionBlocks["Section Blocks"]
+    ParagraphBlocks["Paragraph Blocks"]
+    SldbInspector["SLDB Inspector (right)"]
+    SldbInspector --> SectionsPane
+    SldbInspector --> ParagraphInspector
+    SldbInspector --> NotesPane
+    SldbInspector --> SourcesPane
+    SectionsPane["Sections Pane"]
+    ParagraphInspector["Paragraph Inspector"]
+    NotesPane["Notes Pane"]
+    SourcesPane["Sources Pane"]
+    GraphApi["/api/graph.json"]
+    GraphApi --> StatusDerivation
+    StatusDerivation["Status Derivation"]
+    ContentStore["paper_v2 content store"]
+    ContentStore --> Manuscript
+    ContentStore --> Sections
+    ContentStore --> Paragraphs
+    ContentStore --> Notes
+    ContentStore --> Sources
+    Manuscript["manuscript/"]
+    Sections["sections/"]
+    Paragraphs["paragraphs/"]
+    Notes["notes/"]
+    Sources["sources/"]
+    BuildPipeline["build_pipeline.py"]
+    Deskops["deskops workflow layer"]
+    Deskops --> DeskBoard
+    Deskops --> DeskTasks
+    Deskops --> DeskRituals
+    DeskBoard["desk/tasks/Board.md"]
+    DeskTasks["desk/tasks/task-*.md"]
+    DeskRituals["desk/rituals/"]
+    AstroApp -->|fetch graph payload| GraphApi
+    GraphApi -->|load SLDB docs| ContentStore
+    GraphApi -->|derive support_status| StatusDerivation
+    DocumentPane -->|left reading surface| RenderedManuscript
+    SldbInspector -->|selection sync| RenderedManuscript
+    BuildPipeline -->|compose manuscript + frontmatter| ContentStore
+    BuildPipeline -->|source paper.yaml + section markdown| Manuscript
+    Deskops -->|route UI tasks| AstroApp
+    DeskBoard -->|task set| DeskTasks

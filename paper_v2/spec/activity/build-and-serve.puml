@@ -1,0 +1,17 @@
+@startuml
+start
+:Run build_pipeline.py;
+if (Manuscript + notes composed??) then (yes)
+:Astro loads /api/graph.json;
+:Derive paragraph/note/section status;
+:Render document pane + SLDB inspector;
+if (Selection synchronized both panes??) then (yes)
+:Serve app (dev/build);
+else (no)
+:Fix selection propagation;
+endif
+else (no)
+:Report missing docs/fields;
+endif
+stop
+@enduml

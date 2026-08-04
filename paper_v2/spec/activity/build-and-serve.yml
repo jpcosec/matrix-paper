@@ -1,0 +1,52 @@
+id: activity.paper-v2-build-and-serve
+title: paper_v2 - Build and Serve Flow
+type: activity
+version: "0.1"
+
+data:
+  start: compose
+
+  steps:
+    compose:
+      label: Run build_pipeline.py
+      next: check_outputs
+
+    check_outputs:
+      label: Manuscript + notes composed?
+      kind: decision
+      branches:
+        "yes": load_graph
+        "no": report_missing
+
+    report_missing:
+      label: Report missing docs/fields
+      next: end
+
+    load_graph:
+      label: Astro loads /api/graph.json
+      next: derive_status
+
+    derive_status:
+      label: Derive paragraph/note/section status
+      next: render_ui
+
+    render_ui:
+      label: Render document pane + SLDB inspector
+      next: check_sync
+
+    check_sync:
+      label: Selection synchronized both panes?
+      kind: decision
+      branches:
+        "yes": serve_ok
+        "no": fix_sync
+
+    fix_sync:
+      label: Fix selection propagation
+      next: render_ui
+
+    serve_ok:
+      label: Serve app (dev/build)
+      next: end
+
+  end: end

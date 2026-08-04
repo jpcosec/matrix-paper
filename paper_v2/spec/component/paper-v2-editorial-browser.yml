@@ -1,0 +1,187 @@
+id: component.paper-v2-editorial-browser
+title: paper_v2 Editorial Browser - Components
+type: component
+version: "0.1"
+
+style:
+  kinds:
+    core:
+      plantuml:
+        background: "#D8ECFF"
+        border: "#4C78A8"
+        font: "#16324F"
+    boundary:
+      plantuml:
+        background: "#FCECC9"
+        border: "#D4A73C"
+        font: "#5E450B"
+    document:
+      plantuml:
+        background: "#E6F4EA"
+        border: "#3C8D52"
+        font: "#1F4A2A"
+    workflow:
+      plantuml:
+        background: "#F3E5F5"
+        border: "#8E44AD"
+        font: "#4A235A"
+
+data:
+  nodes:
+    AstroApp:
+      label: paper_v2 Astro App
+      kind: boundary
+      contains:
+        - DocumentPane
+        - SldbInspector
+        - GraphApi
+
+    DocumentPane:
+      label: Document Pane (left)
+      kind: core
+      contains:
+        - RenderedManuscript
+
+    RenderedManuscript:
+      label: Rendered Manuscript
+      kind: document
+      contains:
+        - SectionBlocks
+        - ParagraphBlocks
+
+    SectionBlocks:
+      label: Section Blocks
+      kind: document
+
+    ParagraphBlocks:
+      label: Paragraph Blocks
+      kind: document
+
+    SldbInspector:
+      label: SLDB Inspector (right)
+      kind: core
+      contains:
+        - SectionsPane
+        - ParagraphInspector
+        - NotesPane
+        - SourcesPane
+
+    SectionsPane:
+      label: Sections Pane
+      kind: core
+
+    ParagraphInspector:
+      label: Paragraph Inspector
+      kind: core
+
+    NotesPane:
+      label: Notes Pane
+      kind: core
+
+    SourcesPane:
+      label: Sources Pane
+      kind: core
+
+    GraphApi:
+      label: /api/graph.json
+      kind: boundary
+      contains:
+        - StatusDerivation
+
+    StatusDerivation:
+      label: Status Derivation
+      kind: core
+
+    ContentStore:
+      label: paper_v2 content store
+      kind: database
+      contains:
+        - Manuscript
+        - Sections
+        - Paragraphs
+        - Notes
+        - Sources
+
+    Manuscript:
+      label: manuscript/
+      kind: database
+    Sections:
+      label: sections/
+      kind: database
+    Paragraphs:
+      label: paragraphs/
+      kind: database
+    Notes:
+      label: notes/
+      kind: database
+    Sources:
+      label: sources/
+      kind: database
+
+    BuildPipeline:
+      label: build_pipeline.py
+      kind: core
+
+    Deskops:
+      label: deskops workflow layer
+      kind: workflow
+      contains:
+        - DeskBoard
+        - DeskTasks
+        - DeskRituals
+
+    DeskBoard:
+      label: desk/tasks/Board.md
+      kind: workflow
+    DeskTasks:
+      label: desk/tasks/task-*.md
+      kind: workflow
+    DeskRituals:
+      label: desk/rituals/
+      kind: workflow
+
+  edges:
+    - from: AstroApp
+      to: GraphApi
+      relation: reads
+      label: fetch graph payload
+
+    - from: GraphApi
+      to: ContentStore
+      relation: reads
+      label: load SLDB docs
+
+    - from: GraphApi
+      to: StatusDerivation
+      relation: invokes
+      label: derive support_status
+
+    - from: DocumentPane
+      to: RenderedManuscript
+      relation: renders
+      label: left reading surface
+
+    - from: SldbInspector
+      to: RenderedManuscript
+      relation: mirrors
+      label: selection sync
+
+    - from: BuildPipeline
+      to: ContentStore
+      relation: writes
+      label: compose manuscript + frontmatter
+
+    - from: BuildPipeline
+      to: Manuscript
+      relation: reads
+      label: source paper.yaml + section markdown
+
+    - from: Deskops
+      to: AstroApp
+      relation: governs
+      label: route UI tasks
+
+    - from: DeskBoard
+      to: DeskTasks
+      relation: routes
+      label: task set

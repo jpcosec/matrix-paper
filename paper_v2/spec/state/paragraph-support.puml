@@ -1,0 +1,12 @@
+@startuml
+[*] --> incomplete
+
+incomplete --> missing-note : compose [no linked note]
+incomplete --> missing-source : compose [note exists, no source refs]
+incomplete --> evidence-pending : compose [sources linked, excerpt or anchor missing]
+incomplete --> supported : compose [note + sources complete]
+missing-note --> supported : link note
+missing-source --> supported : link sources
+evidence-pending --> supported : fill excerpt and anchor
+supported --> incomplete : remove note or source
+@enduml

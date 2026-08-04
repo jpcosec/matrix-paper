@@ -1,0 +1,47 @@
+id: state.paper-v2-paragraph-support
+title: paper_v2 - Paragraph Support Status
+type: state
+version: "0.1"
+data:
+  entity: Paragraph
+  initial: incomplete
+  states:
+    - id: missing-note
+      label: Missing Note
+    - id: missing-source
+      label: Missing Source
+    - id: evidence-pending
+      label: Evidence Pending
+    - id: supported
+      label: Supported
+    - id: incomplete
+      label: Incomplete
+  transitions:
+    - from: incomplete
+      to: missing-note
+      "on": compose
+      guard: no linked note
+    - from: incomplete
+      to: missing-source
+      "on": compose
+      guard: note exists, no source refs
+    - from: incomplete
+      to: evidence-pending
+      "on": compose
+      guard: sources linked, excerpt or anchor missing
+    - from: incomplete
+      to: supported
+      "on": compose
+      guard: note + sources complete
+    - from: missing-note
+      to: supported
+      "on": link note
+    - from: missing-source
+      to: supported
+      "on": link sources
+    - from: evidence-pending
+      to: supported
+      "on": fill excerpt and anchor
+    - from: supported
+      to: incomplete
+      "on": remove note or source

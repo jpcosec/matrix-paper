@@ -1,0 +1,14 @@
+graph TD
+    subgraph browser ["Browser"]
+        editorial_browser_ui["index.astro (document + inspector)"]
+    end
+    subgraph astro_dev ["Astro dev server"]
+        graph_api["api/graph.json.ts"]
+        static_app["built assets"]
+    end
+    subgraph filesystem ["paper_v2 content store"]
+        sldb_docs["manuscript/ sections/ paragraphs/ notes/ sources/"]
+    end
+    editorial_browser_ui -->|HTTP (fetch /api/graph.json)| graph_api
+    graph_api -->|filesystem read| sldb_docs
+    static_app -->|serve| editorial_browser_ui

@@ -1,0 +1,24 @@
+flowchart TD
+    __start([Start])
+    compose["Run build_pipeline.py"]
+    check_outputs{"Manuscript + notes composed?"}
+    report_missing["Report missing docs/fields"]
+    load_graph["Astro loads /api/graph.json"]
+    derive_status["Derive paragraph/note/section status"]
+    render_ui["Render document pane + SLDB inspector"]
+    check_sync{"Selection synchronized both panes?"}
+    fix_sync["Fix selection propagation"]
+    serve_ok["Serve app (dev/build)"]
+    __end([End])
+    __start --> compose
+    compose --> check_outputs
+    check_outputs -->|yes| load_graph
+    check_outputs -->|no| report_missing
+    report_missing --> __end
+    load_graph --> derive_status
+    derive_status --> render_ui
+    render_ui --> check_sync
+    check_sync -->|yes| serve_ok
+    check_sync -->|no| fix_sync
+    fix_sync --> render_ui
+    serve_ok --> __end

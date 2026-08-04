@@ -1,0 +1,47 @@
+id: sequence.paper-v2-select-trace
+title: paper_v2 - Synchronized Selection Flow
+type: sequence
+version: "0.1"
+data:
+  participants:
+    - id: Reader
+      kind: actor
+    - id: DocumentPane
+      kind: component
+    - id: SldbInspector
+      kind: component
+    - id: GraphApi
+      kind: boundary
+  messages:
+    - from: Reader
+      to: DocumentPane
+      message: open manuscript
+    - from: DocumentPane
+      to: GraphApi
+      message: fetch /api/graph.json
+      kind: sync
+    - from: GraphApi
+      to: DocumentPane
+      message: graph payload with support_status
+      kind: return
+    - from: Reader
+      to: DocumentPane
+      message: click paragraph block
+    - from: DocumentPane
+      to: SldbInspector
+      message: set active paragraph
+    - from: SldbInspector
+      to: SldbInspector
+      message: reveal section context + note/source chain
+    - from: Reader
+      to: SldbInspector
+      message: click note card
+    - from: SldbInspector
+      to: DocumentPane
+      message: highlight linked paragraph anchor
+    - from: Reader
+      to: SldbInspector
+      message: click source card
+    - from: SldbInspector
+      to: DocumentPane
+      message: keep trace anchored on active paragraph

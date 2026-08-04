@@ -1,0 +1,15 @@
+sequenceDiagram
+    actor Reader
+    participant DocumentPane
+    participant SldbInspector
+    participant GraphApi
+    Reader->>DocumentPane: open manuscript
+    DocumentPane->>GraphApi: fetch /api/graph.json
+    GraphApi<<--DocumentPane: graph payload with support_status
+    Reader->>DocumentPane: click paragraph block
+    DocumentPane->>SldbInspector: set active paragraph
+    SldbInspector->>SldbInspector: reveal section context + note/source chain
+    Reader->>SldbInspector: click note card
+    SldbInspector->>DocumentPane: highlight linked paragraph anchor
+    Reader->>SldbInspector: click source card
+    SldbInspector->>DocumentPane: keep trace anchored on active paragraph

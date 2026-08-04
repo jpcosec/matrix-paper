@@ -1,0 +1,45 @@
+id: deployment.paper-v2-dev-runtime
+title: paper_v2 - Dev Runtime Deployment
+type: deployment
+version: "0.1"
+data:
+  nodes:
+    browser:
+      label: Browser
+      kind: client
+      contains:
+        - editorial_browser_ui
+    astro_dev:
+      label: Astro dev server
+      kind: server
+      contains:
+        - graph_api
+        - static_app
+    filesystem:
+      label: paper_v2 content store
+      kind: storage
+      contains:
+        - sldb_docs
+  artifacts:
+    editorial_browser_ui:
+      label: index.astro (document + inspector)
+      kind: frontend
+    graph_api:
+      label: api/graph.json.ts
+      kind: backend
+    static_app:
+      label: built assets
+      kind: frontend
+    sldb_docs:
+      label: manuscript/ sections/ paragraphs/ notes/ sources/
+      kind: data
+  connections:
+    - from: editorial_browser_ui
+      to: graph_api
+      protocol: HTTP (fetch /api/graph.json)
+    - from: graph_api
+      to: sldb_docs
+      protocol: filesystem read
+    - from: static_app
+      to: editorial_browser_ui
+      protocol: serve

@@ -1,0 +1,103 @@
+@startuml
+skinparam component<<boundary>> BackgroundColor #FCECC9
+skinparam component<<boundary>> BorderColor #D4A73C
+skinparam component<<boundary>> FontColor #5E450B
+skinparam rectangle<<boundary>> BackgroundColor #FCECC9
+skinparam rectangle<<boundary>> BorderColor #D4A73C
+skinparam rectangle<<boundary>> FontColor #5E450B
+skinparam database<<boundary>> BackgroundColor #FCECC9
+skinparam database<<boundary>> BorderColor #D4A73C
+skinparam database<<boundary>> FontColor #5E450B
+skinparam package<<boundary>> BackgroundColor #FCECC9
+skinparam package<<boundary>> BorderColor #D4A73C
+skinparam package<<boundary>> FontColor #5E450B
+skinparam component<<core>> BackgroundColor #D8ECFF
+skinparam component<<core>> BorderColor #4C78A8
+skinparam component<<core>> FontColor #16324F
+skinparam rectangle<<core>> BackgroundColor #D8ECFF
+skinparam rectangle<<core>> BorderColor #4C78A8
+skinparam rectangle<<core>> FontColor #16324F
+skinparam database<<core>> BackgroundColor #D8ECFF
+skinparam database<<core>> BorderColor #4C78A8
+skinparam database<<core>> FontColor #16324F
+skinparam package<<core>> BackgroundColor #D8ECFF
+skinparam package<<core>> BorderColor #4C78A8
+skinparam package<<core>> FontColor #16324F
+skinparam component<<database>> BackgroundColor #DCEFD8
+skinparam component<<database>> BorderColor #5A9B5A
+skinparam component<<database>> FontColor #1F4F1F
+skinparam rectangle<<database>> BackgroundColor #DCEFD8
+skinparam rectangle<<database>> BorderColor #5A9B5A
+skinparam rectangle<<database>> FontColor #1F4F1F
+skinparam database<<database>> BackgroundColor #DCEFD8
+skinparam database<<database>> BorderColor #5A9B5A
+skinparam database<<database>> FontColor #1F4F1F
+skinparam package<<database>> BackgroundColor #DCEFD8
+skinparam package<<database>> BorderColor #5A9B5A
+skinparam package<<database>> FontColor #1F4F1F
+skinparam component<<document>> BackgroundColor #E6F4EA
+skinparam component<<document>> BorderColor #3C8D52
+skinparam component<<document>> FontColor #1F4A2A
+skinparam rectangle<<document>> BackgroundColor #E6F4EA
+skinparam rectangle<<document>> BorderColor #3C8D52
+skinparam rectangle<<document>> FontColor #1F4A2A
+skinparam database<<document>> BackgroundColor #E6F4EA
+skinparam database<<document>> BorderColor #3C8D52
+skinparam database<<document>> FontColor #1F4A2A
+skinparam package<<document>> BackgroundColor #E6F4EA
+skinparam package<<document>> BorderColor #3C8D52
+skinparam package<<document>> FontColor #1F4A2A
+skinparam component<<workflow>> BackgroundColor #F3E5F5
+skinparam component<<workflow>> BorderColor #8E44AD
+skinparam component<<workflow>> FontColor #4A235A
+skinparam rectangle<<workflow>> BackgroundColor #F3E5F5
+skinparam rectangle<<workflow>> BorderColor #8E44AD
+skinparam rectangle<<workflow>> FontColor #4A235A
+skinparam database<<workflow>> BackgroundColor #F3E5F5
+skinparam database<<workflow>> BorderColor #8E44AD
+skinparam database<<workflow>> FontColor #4A235A
+skinparam package<<workflow>> BackgroundColor #F3E5F5
+skinparam package<<workflow>> BorderColor #8E44AD
+skinparam package<<workflow>> FontColor #4A235A
+
+package "paper_v2 Astro App" as AstroApp <<boundary>> {
+  package "Document Pane (left)" as DocumentPane <<core>> {
+    package "Rendered Manuscript" as RenderedManuscript <<document>> {
+      component "Section Blocks" as SectionBlocks <<document>>
+      component "Paragraph Blocks" as ParagraphBlocks <<document>>
+    }
+  }
+  package "SLDB Inspector (right)" as SldbInspector <<core>> {
+    component "Sections Pane" as SectionsPane <<core>>
+    component "Paragraph Inspector" as ParagraphInspector <<core>>
+    component "Notes Pane" as NotesPane <<core>>
+    component "Sources Pane" as SourcesPane <<core>>
+  }
+  package "/api/graph.json" as GraphApi <<boundary>> {
+    component "Status Derivation" as StatusDerivation <<core>>
+  }
+}
+package "paper_v2 content store" as ContentStore <<database>> {
+  database "manuscript/" as Manuscript <<database>>
+  database "sections/" as Sections <<database>>
+  database "paragraphs/" as Paragraphs <<database>>
+  database "notes/" as Notes <<database>>
+  database "sources/" as Sources <<database>>
+}
+component "build_pipeline.py" as BuildPipeline <<core>>
+package "deskops workflow layer" as Deskops <<workflow>> {
+  component "desk/tasks/Board.md" as DeskBoard <<workflow>>
+  component "desk/tasks/task-*.md" as DeskTasks <<workflow>>
+  component "desk/rituals/" as DeskRituals <<workflow>>
+}
+
+AstroApp --> GraphApi : fetch graph payload
+GraphApi --> ContentStore : load SLDB docs
+GraphApi --> StatusDerivation : derive support_status
+DocumentPane --> RenderedManuscript : left reading surface
+SldbInspector --> RenderedManuscript : selection sync
+BuildPipeline --> ContentStore : compose manuscript + frontmatter
+BuildPipeline --> Manuscript : source paper.yaml + section markdown
+Deskops --> AstroApp : route UI tasks
+DeskBoard --> DeskTasks : task set
+@enduml
