@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "stress": "node scripts/stress-test.mjs"
   },
   "dependencies": {
     "@astrojs/node": "^8.3.4",

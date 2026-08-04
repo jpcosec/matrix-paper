@@ -1,0 +1,288 @@
+{
+  "generated_at": "2026-08-04T04:34:12.073Z",
+  "source_specs": [
+    "../spec/component/paper-v2-editorial-browser.yml",
+    "../spec/matrix/ui-components.yml",
+    "../spec/sequence/select-trace.yml",
+    "../spec/state/paragraph-support.yml",
+    "../spec/activity/build-and-serve.yml",
+    "../spec/deployment/dev-runtime.yml"
+  ],
+  "graph_summary": {
+    "manuscript_status": "incomplete",
+    "section_count": 7,
+    "paragraph_count": 100,
+    "observed_status_counts": {
+      "incomplete": 13,
+      "supported": 195
+    }
+  },
+  "component_contract": {
+    "paperTitle": 1,
+    "sectionsPane": 1,
+    "paragraphPane": 1,
+    "notesPane": 1,
+    "sourcesPane": 1,
+    "paragraphTraces": 100,
+    "sectionRows": 7
+  },
+  "status_mapping": {
+    "expected_statuses": [
+      "incomplete",
+      "supported"
+    ],
+    "seen_ui_labels": [
+      "Incomplete",
+      "Supported"
+    ]
+  },
+  "navigation_runs": [
+    {
+      "sectionIndex": 0,
+      "activeSectionTitle": "Introduction",
+      "paragraphIndex": 0,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Introduction paragraph 01",
+      "notePaneTitle": "Introduction note 01",
+      "sourcePaneTitle": "Symbol"
+    },
+    {
+      "sectionIndex": 0,
+      "activeSectionTitle": "Introduction",
+      "paragraphIndex": 1,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Introduction paragraph 02",
+      "notePaneTitle": "Introduction note 02",
+      "sourcePaneTitle": "Tractatus"
+    },
+    {
+      "sectionIndex": 0,
+      "activeSectionTitle": "Introduction",
+      "paragraphIndex": 2,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Introduction paragraph 03",
+      "notePaneTitle": "Introduction note 03",
+      "sourcePaneTitle": "WiGame Wi"
+    },
+    {
+      "sectionIndex": 0,
+      "activeSectionTitle": "Introduction",
+      "paragraphIndex": 3,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Introduction paragraph 04",
+      "notePaneTitle": "Introduction note 04",
+      "sourcePaneTitle": "Matrices y Tensores"
+    },
+    {
+      "sectionIndex": 1,
+      "activeSectionTitle": "State of the Art: Hallucination Mitigation and Representational Geometries",
+      "paragraphIndex": 0,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries paragraph 01",
+      "notePaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries note 01",
+      "sourcePaneTitle": "Taxonomia SOTA Alucinaciones"
+    },
+    {
+      "sectionIndex": 1,
+      "activeSectionTitle": "State of the Art: Hallucination Mitigation and Representational Geometries",
+      "paragraphIndex": 1,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries paragraph 02",
+      "notePaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries note 02",
+      "sourcePaneTitle": "Source PDF factscore2023 pdf"
+    },
+    {
+      "sectionIndex": 1,
+      "activeSectionTitle": "State of the Art: Hallucination Mitigation and Representational Geometries",
+      "paragraphIndex": 2,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries paragraph 03",
+      "notePaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries note 03",
+      "sourcePaneTitle": "Source PDF iclr2025 a712d4 pdf"
+    },
+    {
+      "sectionIndex": 1,
+      "activeSectionTitle": "State of the Art: Hallucination Mitigation and Representational Geometries",
+      "paragraphIndex": 3,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries paragraph 04",
+      "notePaneTitle": "State of the Art: Hallucination Mitigation and Representational Geometries note 04",
+      "sourcePaneTitle": "Source PDF nature shumailov2024 pdf"
+    },
+    {
+      "sectionIndex": 2,
+      "activeSectionTitle": "02 Philosophical Foundation",
+      "paragraphIndex": 0,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "02 Philosophical Foundation paragraph 01",
+      "notePaneTitle": "02 Philosophical Foundation note 01",
+      "sourcePaneTitle": "Thing"
+    },
+    {
+      "sectionIndex": 2,
+      "activeSectionTitle": "02 Philosophical Foundation",
+      "paragraphIndex": 1,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "02 Philosophical Foundation paragraph 02",
+      "notePaneTitle": "02 Philosophical Foundation note 02",
+      "sourcePaneTitle": "Fact"
+    },
+    {
+      "sectionIndex": 2,
+      "activeSectionTitle": "02 Philosophical Foundation",
+      "paragraphIndex": 2,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "02 Philosophical Foundation paragraph 03",
+      "notePaneTitle": "02 Philosophical Foundation note 03",
+      "sourcePaneTitle": "Triparticion Wittgensteiniana Sinnvoll Sinnlos Unsinnig"
+    },
+    {
+      "sectionIndex": 2,
+      "activeSectionTitle": "02 Philosophical Foundation",
+      "paragraphIndex": 3,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "02 Philosophical Foundation paragraph 04",
+      "notePaneTitle": "02 Philosophical Foundation note 04",
+      "sourcePaneTitle": "Triparticion Wittgensteiniana Sinnvoll Sinnlos Unsinnig"
+    },
+    {
+      "sectionIndex": 3,
+      "activeSectionTitle": "Proposed representation",
+      "paragraphIndex": 0,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Proposed representation paragraph 01",
+      "notePaneTitle": "Proposed representation note 01",
+      "sourcePaneTitle": "WiGame Wi"
+    },
+    {
+      "sectionIndex": 3,
+      "activeSectionTitle": "Proposed representation",
+      "paragraphIndex": 1,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Proposed representation paragraph 02",
+      "notePaneTitle": "Proposed representation note 02",
+      "sourcePaneTitle": "Context Ci"
+    },
+    {
+      "sectionIndex": 3,
+      "activeSectionTitle": "Proposed representation",
+      "paragraphIndex": 2,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Proposed representation paragraph 03",
+      "notePaneTitle": "Proposed representation note 03",
+      "sourcePaneTitle": "Signo vs Simbolo"
+    },
+    {
+      "sectionIndex": 3,
+      "activeSectionTitle": "Proposed representation",
+      "paragraphIndex": 3,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Proposed representation paragraph 04",
+      "notePaneTitle": "Proposed representation note 04",
+      "sourcePaneTitle": "WiGame Wi"
+    },
+    {
+      "sectionIndex": 4,
+      "activeSectionTitle": "Discussion",
+      "paragraphIndex": 0,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Discussion paragraph 01",
+      "notePaneTitle": "Discussion note 01",
+      "sourcePaneTitle": "Tractatus"
+    },
+    {
+      "sectionIndex": 4,
+      "activeSectionTitle": "Discussion",
+      "paragraphIndex": 1,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Discussion paragraph 02",
+      "notePaneTitle": "Discussion note 02",
+      "sourcePaneTitle": "Discussion source 02"
+    },
+    {
+      "sectionIndex": 4,
+      "activeSectionTitle": "Discussion",
+      "paragraphIndex": 2,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Discussion paragraph 03",
+      "notePaneTitle": "Discussion note 03",
+      "sourcePaneTitle": "Source PDF vossel2025advancing pdf"
+    },
+    {
+      "sectionIndex": 4,
+      "activeSectionTitle": "Discussion",
+      "paragraphIndex": 3,
+      "activeSection": 1,
+      "activeParagraph": 1,
+      "activeNote": 1,
+      "activeSource": 1,
+      "paragraphPaneTitle": "Discussion paragraph 04",
+      "notePaneTitle": "Discussion note 04",
+      "sourcePaneTitle": "Context Ci"
+    }
+  ],
+  "failures": {
+    "active_invariant_failures": [],
+    "console_errors": [],
+    "page_errors": [],
+    "http_404s": []
+  },
+  "pass": true
+}
