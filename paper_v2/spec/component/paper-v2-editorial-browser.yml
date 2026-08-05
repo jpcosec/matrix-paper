@@ -65,6 +65,7 @@ data:
         - ParagraphInspector
         - NotesPane
         - SourcesPane
+        - EditActionSurface
 
     SectionsPane:
       label: Sections Pane
@@ -80,6 +81,10 @@ data:
 
     SourcesPane:
       label: Sources Pane
+      kind: core
+
+    EditActionSurface:
+      label: Edit Action Surface
       kind: core
 
     GraphApi:
@@ -165,6 +170,11 @@ data:
       to: RenderedManuscript
       relation: mirrors
       label: selection sync
+
+    - from: SldbInspector
+      to: ContentStore
+      relation: reveals
+      label: edit target + readable support content
 
     - from: BuildPipeline
       to: ContentStore

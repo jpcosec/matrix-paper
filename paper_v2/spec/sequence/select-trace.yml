@@ -45,3 +45,13 @@ data:
     - from: SldbInspector
       to: DocumentPane
       message: keep trace anchored on active paragraph
+    - from: SldbInspector
+      to: Reader
+      message: reveal next editorial action + edit target
+    - from: Reader
+      to: SldbInspector
+      message: trigger rebuild/refresh after edit
+    - from: SldbInspector
+      to: GraphApi
+      message: reload graph payload and verify changed support state
+      kind: sync

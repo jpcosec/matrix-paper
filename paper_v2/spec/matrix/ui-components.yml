@@ -27,6 +27,20 @@ data:
           label: soporte notas
         - id: source-evidence
           label: evidencia fuentes
+        - id: identify-next-action
+          label: decidir siguiente accion
+        - id: reveal-edit-target
+          label: revelar punto de edicion
+
+    - id: workflow
+      label: Flujo editorial
+      stages:
+        - id: edit-artifact
+          label: editar artefacto
+        - id: rebuild
+          label: rebuild
+        - id: verify-change
+          label: verificar cambio
 
     - id: api
       label: API /api/graph.json
@@ -43,7 +57,8 @@ data:
       kind: core
       stages:
         document: [browse-sections, read-paragraphs, select-paragraph, view-status]
-        inspector: [section-context, paragraph-detail, note-support, source-evidence]
+        inspector: [section-context, paragraph-detail, note-support, source-evidence, identify-next-action, reveal-edit-target]
+        workflow: [edit-artifact, rebuild, verify-change]
         api: [serve]
       children:
         - name: DocumentPane
@@ -63,7 +78,7 @@ data:
         - name: SldbInspector
           kind: boundary
           stages:
-            inspector: [section-context, paragraph-detail, note-support, source-evidence]
+            inspector: [section-context, paragraph-detail, note-support, source-evidence, identify-next-action, reveal-edit-target]
           children:
             - name: SectionsPane
               kind: ui
@@ -72,15 +87,18 @@ data:
             - name: ParagraphInspector
               kind: ui
               stages:
-                inspector: [paragraph-detail]
+                inspector: [paragraph-detail, identify-next-action, reveal-edit-target]
+                workflow: [edit-artifact, rebuild, verify-change]
             - name: NotesPane
               kind: ui
               stages:
-                inspector: [note-support]
+                inspector: [note-support, identify-next-action, reveal-edit-target]
+                workflow: [edit-artifact, rebuild, verify-change]
             - name: SourcesPane
               kind: ui
               stages:
-                inspector: [source-evidence]
+                inspector: [source-evidence, identify-next-action, reveal-edit-target]
+                workflow: [edit-artifact, rebuild, verify-change]
 
         - name: GraphApi
           kind: service
@@ -99,9 +117,11 @@ data:
     - name: BuildPipeline
       kind: core
       stages:
+        workflow: [rebuild, verify-change]
         api: [compose]
 
     - name: DeskopsWorkflow
       kind: boundary
       stages:
+        workflow: [edit-artifact, rebuild, verify-change]
         api: [serve]

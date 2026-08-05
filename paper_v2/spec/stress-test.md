@@ -8,6 +8,8 @@ Derived from:
 - `spec/matrix/ui-components.yml`
 - `spec/sequence/select-trace.yml`
 - `spec/state/paragraph-support.yml`
+- `spec/workflow/editorial-repair-loop.yml`
+- `spec/acceptance/editorial-workloop.md`
 - `spec/activity/build-and-serve.yml`
 - `spec/deployment/dev-runtime.yml`
 
@@ -48,9 +50,39 @@ Repeated paragraph, note, and source navigation must preserve one active trace:
 
 Every observed `support_status` coming from `/api/graph.json` must map cleanly into the UI without client-side invention.
 
-### 5. Endurance
+### 5. Editorial work-loop coverage
+
+The runtime must support the minimum editorial loop, not just navigation:
+
+- read non-trivial note reasoning text for the active paragraph
+- read non-trivial source excerpt/body text for the active note
+- identify what is missing from the current support state
+- discover the next artifact to edit
+- rebuild and verify the changed state
+
+### 6. Endurance
 
 The app must survive repeated cross-pane navigation without console errors or selection drift.
+
+## Acceptance gaps in the current executable test
+
+The current stress runner is still weaker than the workflow contract.
+
+It proves:
+
+- pane presence
+- active-trace invariants
+- status mapping
+- repeated navigation stability
+
+It does not yet prove end-to-end:
+
+- direct edit-point discovery
+- save/edit execution
+- rebuild after a targeted change
+- visible verification of a repaired gap
+
+Until those assertions exist, stress success must be treated as partial evidence only.
 
 ## Executable test
 
@@ -69,3 +101,11 @@ The script will:
 - walk sections, paragraphs, notes, and sources repeatedly
 - assert active-trace invariants
 - write `../spec/stress-report.json`
+
+## Required next assertions for closure-quality acceptance
+
+- selected note exposes substantial body text, not only labels or counts
+- selected source exposes substantial excerpt/body text, not only metadata
+- UI exposes the next editorial action for an unsupported paragraph
+- UI exposes the edit target for the active gap
+- rebuild/refresh verification is exercised after a controlled content change

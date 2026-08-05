@@ -5,6 +5,11 @@ version: "0.1"
 data:
   entity: Paragraph
   initial: incomplete
+  workloop_guards:
+    - has_readable_note_body
+    - has_readable_source_excerpt
+    - has_next_editorial_action
+    - has_edit_target
   states:
     - id: missing_note
       label: Missing Note
@@ -42,6 +47,10 @@ data:
     - from: evidence_pending
       to: supported
       "on": fill excerpt and anchor
+      guard: note/source content remains readable and actionable in the UI
     - from: supported
       to: incomplete
       "on": remove note or source
+  acceptance_notes:
+    - support status alone is insufficient when note/source content is unreadable in the UI
+    - a paragraph is not operationally supported unless the user can identify the next editorial action and edit target

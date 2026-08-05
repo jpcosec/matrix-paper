@@ -1,10 +1,12 @@
 {
-  "generated_at": "2026-08-04T04:34:12.073Z",
+  "generated_at": "2026-08-04T23:51:11.046Z",
   "source_specs": [
     "../spec/component/paper-v2-editorial-browser.yml",
     "../spec/matrix/ui-components.yml",
     "../spec/sequence/select-trace.yml",
     "../spec/state/paragraph-support.yml",
+    "../spec/workflow/editorial-repair-loop.yml",
+    "../spec/acceptance/editorial-workloop.md",
     "../spec/activity/build-and-serve.yml",
     "../spec/deployment/dev-runtime.yml"
   ],
@@ -278,8 +280,180 @@
       "sourcePaneTitle": "Context Ci"
     }
   ],
+  "editorial_readability": {
+    "note_body_threshold": 120,
+    "source_excerpt_threshold": 120,
+    "checks": [
+      {
+        "sectionIndex": 0,
+        "paragraphIndex": 0,
+        "note_body_length": 978,
+        "source_excerpt_length": 184,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 0,
+        "paragraphIndex": 1,
+        "note_body_length": 795,
+        "source_excerpt_length": 224,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 0,
+        "paragraphIndex": 2,
+        "note_body_length": 505,
+        "source_excerpt_length": 152,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 0,
+        "paragraphIndex": 3,
+        "note_body_length": 476,
+        "source_excerpt_length": 217,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 1,
+        "paragraphIndex": 0,
+        "note_body_length": 479,
+        "source_excerpt_length": 367,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 1,
+        "paragraphIndex": 1,
+        "note_body_length": 913,
+        "source_excerpt_length": 337,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 1,
+        "paragraphIndex": 2,
+        "note_body_length": 1302,
+        "source_excerpt_length": 345,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 1,
+        "paragraphIndex": 3,
+        "note_body_length": 865,
+        "source_excerpt_length": 364,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 2,
+        "paragraphIndex": 0,
+        "note_body_length": 597,
+        "source_excerpt_length": 158,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 2,
+        "paragraphIndex": 1,
+        "note_body_length": 494,
+        "source_excerpt_length": 191,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 2,
+        "paragraphIndex": 2,
+        "note_body_length": 276,
+        "source_excerpt_length": 583,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 2,
+        "paragraphIndex": 3,
+        "note_body_length": 258,
+        "source_excerpt_length": 583,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 3,
+        "paragraphIndex": 0,
+        "note_body_length": 602,
+        "source_excerpt_length": 152,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 3,
+        "paragraphIndex": 1,
+        "note_body_length": 485,
+        "source_excerpt_length": 146,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 3,
+        "paragraphIndex": 2,
+        "note_body_length": 357,
+        "source_excerpt_length": 169,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 3,
+        "paragraphIndex": 3,
+        "note_body_length": 138,
+        "source_excerpt_length": 152,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 4,
+        "paragraphIndex": 0,
+        "note_body_length": 584,
+        "source_excerpt_length": 224,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 4,
+        "paragraphIndex": 1,
+        "note_body_length": 227,
+        "source_excerpt_length": 202,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 4,
+        "paragraphIndex": 2,
+        "note_body_length": 405,
+        "source_excerpt_length": 364,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      },
+      {
+        "sectionIndex": 4,
+        "paragraphIndex": 3,
+        "note_body_length": 1410,
+        "source_excerpt_length": 146,
+        "has_trace_guidance": true,
+        "has_source_meta": true
+      }
+    ],
+    "weak_note_readability": [],
+    "weak_source_readability": [],
+    "missing_trace_guidance": []
+  },
   "failures": {
     "active_invariant_failures": [],
+    "weak_note_readability": [],
+    "weak_source_readability": [],
+    "missing_trace_guidance": [],
     "console_errors": [],
     "page_errors": [],
     "http_404s": []

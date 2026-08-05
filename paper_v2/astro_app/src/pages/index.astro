@@ -165,6 +165,39 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <span class="status-pill ${statusTone[status] || 'muted'}">${safeText(statusLabel[status] || status)}</span>
     `;
 
+    const normalizeReadableText = (value) => String(value ?? '').trim();
+
+    const joinReadableSections = (parts) => parts
+      .map(normalizeReadableText)
+      .filter(Boolean)
+      .join('\n\n');
+
+    const buildNoteNarrative = (note, paragraph) => {
+      const noteBody = normalizeReadableText(note?.data?.notes);
+      if (noteBody.length > 120) return noteBody;
+      const primarySource = note?.sources?.[0];
+      return joinReadableSections([
+        noteBody,
+        note?.data?.claim ? `Claim under support: ${note.data.claim}` : '',
+        note?.data?.intent ? `Editorial intent: ${note.data.intent}` : '',
+        paragraph?.data?.paragraph_text ? `Paragraph under repair: ${paragraph.data.paragraph_text}` : '',
+        primarySource?.data?.relevance ? `Linked evidence role: ${primarySource.data.relevance}` : '',
+        primarySource?.data?.origin ? `Current source artifact: ${primarySource.data.origin}` : '',
+      ]) || '—';
+    };
+
+    const buildSourceNarrative = (source) => {
+      const excerpt = normalizeReadableText(source?.data?.excerpt);
+      if (excerpt.length > 120) return excerpt;
+      return joinReadableSections([
+        excerpt,
+        source?.data?.relevance ? `Why this evidence matters: ${source.data.relevance}` : '',
+        source?.data?.origin ? `Origin artifact: ${source.data.origin}` : '',
+        source?.data?.anchor ? `Anchor: ${source.data.anchor}` : '',
+        source?.data?.kind ? `Source type: ${source.data.kind}` : '',
+      ]) || '—';
+    };
+
     const renderReasonList = (reasons) => {
       if (!reasons?.length) return '<div class="reason-line ok">Trace complete</div>';
       return reasons.map((reason) => `<div class="reason-line">${safeText(reason)}</div>`).join('');
@@ -359,7 +392,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
           <div class="trace-block">
             <div class="section-label">Reasoning note</div>
-            <div class="read-box note-body">${safeText(item.data.notes || '—')}</div>
+            <div class="read-box note-body">${safeText(buildNoteNarrative(item, paragraph))}</div>
           </div>
         </section>
       `).join('');
@@ -400,7 +433,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
           <div class="trace-block">
             <div class="section-label">Excerpt</div>
-            <div class="read-box note-body">${safeText(item.data.excerpt || '—')}</div>
+            <div class="read-box note-body">${safeText(buildSourceNarrative(item))}</div>
           </div>
           <div class="trace-block">
             <div class="section-label">Origin</div>

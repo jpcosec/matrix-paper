@@ -18,6 +18,7 @@ tasks:
 pills:
 - desk/contexts/pills.md
 - desk/contexts/pill-pattern-document-left-sldb-right.md
+- desk/contexts/pill-pattern-editorial-workloop.md
 # List of ritual-xxx paths
 rituals:
 - desk/rituals/execution.md
@@ -39,20 +40,24 @@ Route the paper_v2 editorial browser work as a rendered-document + SLDB-inspecto
 ## Notes
 
 - The old five-column record-browser framing is obsolete.
-- `pill-pattern-document-left-sldb-right` is the governing pill for every remaining UI task.
-- The rendered document is the only full prose surface.
-- The right rail may show structure, counts, status, and linked support, but it must not duplicate manuscript text.
-- `paper_v2/spec/` (spec2viz diagrams + UI mocks) is the visual source of truth: any task that changes layout or selection behavior must update the component spec, the UI-component matrix, or the HTML mocks.
-- Synchronized active state (paragraph ↔ section ↔ note ↔ source) is the core acceptance criterion, not a detail.
+- `pill-pattern-document-left-sldb-right` defines the base split-pane model.
+- `pill-pattern-editorial-workloop` defines the minimum viable editorial loop and acceptance gate.
+- `context-task-typing-and-inheritance` defines task types and `inherits_from` as workflow-context inheritance, not parent/child categorization.
+- `context-workflow-logbook-scope` defines the logbook as a workflow-only surface.
+- The rendered document remains the primary reading surface, but support content in notes and sources must be readable in the inspector.
+- The right rail may summarize structure and status, but it must also expose enough note/source content to decide the next action without leaving the app.
+- `paper_v2/spec/` (spec2viz diagrams + UI mocks + workflow contracts) is the source of truth: any task that changes layout, navigation, evidence visibility, or edit/rebuild behavior must update the relevant spec artifact.
+- Synchronized active state (paragraph ↔ section ↔ note ↔ source) is necessary, but it is not sufficient acceptance by itself.
+- Large workflow changes should be split into typed tasks (`design`, `implementation`, `test`, `reflection`, etc.) instead of collapsing mixed evidence into one task.
 
 ## Task Details
 
-- paper_v2 editorial browser: shift from node editor to argument trace UI [complete] - Captures the corrected product direction for the remaining work.
-- paper_v2: derive editorial trace status in graph payload [complete] - Expose note, section, and manuscript support state so the inspector does not invent it client-side.
-- paper_v2: rebuild manuscript pane as trace-first reading surface [complete] - Keep the rendered document as the primary selection surface.
-- paper_v2: turn the sections column into editorial context [complete] - Make the sections pane a compact SLDB navigator with status and counts.
-- paper_v2: make the paragraph column an assertion surface [complete] - Make the paragraph inspector structural and status-first without duplicating prose.
-- paper_v2: reframe notes as warrant and reasoning [complete] - Render notes as support cards inside the inspector.
-- paper_v2: reframe sources as evidence cards [complete] - Render sources as scannable evidence cards inside the inspector.
-- paper_v2: enforce paragraph-to-note-to-source trace navigation [complete] - Keep document and inspector selection synchronized.
-- paper_v2: add editorial validation language and interruption cues [complete] - Add readable support-state cues across both panes.
+- paper_v2 editorial browser: shift from node editor to argument trace UI [draft] - Captures the corrected product direction for the remaining work.
+- paper_v2: derive editorial trace status in graph payload [draft] - Expose note, section, and manuscript support state so the inspector does not invent it client-side.
+- paper_v2: rebuild manuscript pane as trace-first reading surface [draft] - Keep the rendered document as the primary selection surface.
+- paper_v2: turn the sections column into editorial context [draft] - Make the sections pane a compact SLDB navigator with status and counts.
+- paper_v2: make the paragraph column an assertion surface [draft] - Make the paragraph inspector structural and status-first without duplicating prose.
+- paper_v2: reframe notes as warrant and reasoning [draft] - Render notes as support cards inside the inspector.
+- paper_v2: reframe sources as evidence cards [draft] - Render sources as scannable evidence cards inside the inspector.
+- paper_v2: enforce paragraph-to-note-to-source trace navigation [draft] - Keep document and inspector selection synchronized.
+- paper_v2: add editorial validation language and interruption cues [draft] - Add readable support-state cues across both panes.

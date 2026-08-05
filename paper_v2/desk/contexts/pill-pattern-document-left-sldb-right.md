@@ -38,10 +38,16 @@ astro_app/src/pages/index.astro and task routing under desk/tasks/Board.md.
 
 _Describe the correct way to apply this guidance._
 
-Keep the rendered document on the left, keep the SLDB structure on the right, drive state from graph-derived metadata, and avoid duplicating paragraph prose in the inspector.
+Keep the rendered document on the left, keep the SLDB structure on the right, drive state from graph-derived metadata, and avoid duplicating the manuscript paragraph prose as a second reading surface in the inspector.
+
+Readable support content is still allowed and required:
+
+- note reasoning/body must be visible in the notes pane
+- source excerpt/body must be visible in the sources pane
+- the split must support the editorial work loop, not just structural inspection
 
 ## How Not
 
 _Describe the shortcut or failure mode to avoid._
 
-Do not reintroduce equal-weight CRUD columns, duplicate the paragraph text across panes, or let mock labels override the SLDB structure.
+Do not reintroduce equal-weight CRUD columns, duplicate the manuscript as a second pane, hide note/source content behind labels or counts, or let mock labels override the SLDB structure.

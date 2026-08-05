@@ -1,0 +1,53 @@
+id: workflow.paper-v2-editorial-repair-loop
+title: paper_v2 - Editorial Repair Loop
+type: workflow_contract
+version: "0.1"
+data:
+  purpose: >-
+    Define the minimum human work loop the editorial browser must support.
+  actor: editor
+  preconditions:
+    - manuscript rendered in the left pane
+    - graph payload loaded
+    - paragraph/note/source relations available
+  steps:
+    - id: select-paragraph
+      label: select paragraph
+      success:
+        - active paragraph is visually obvious
+        - section context is visible
+    - id: read-note-body
+      label: read linked note body
+      success:
+        - selected note title is visible
+        - selected note exposes non-trivial reasoning text
+        - user can understand why the paragraph exists without opening the repo
+    - id: read-source-evidence
+      label: read linked source evidence
+      success:
+        - selected source title is visible
+        - selected source exposes non-trivial excerpt or body text
+        - origin and anchor are visible
+    - id: identify-next-action
+      label: identify next editorial action
+      success:
+        - UI states what is missing or blocking support
+        - user can tell which artifact must be edited next
+    - id: reach-edit-point
+      label: reach editable artifact
+      success:
+        - paragraph, note, or source edit point is discoverable from the UI
+    - id: rebuild-and-verify
+      label: rebuild and verify
+      success:
+        - rebuild/refresh path is available
+        - changed content is visible after rebuild
+        - support state or evidence visibility can be rechecked in the UI
+  hard_failures:
+    - note/source panes show only labels, counts, or pills without readable content
+    - active trace sync works but the next editorial action is not discoverable
+    - UI requires leaving the app to find the edit target for the selected gap
+    - task is marked complete without proving rebuild-and-verify
+  acceptance:
+    - full loop must be testable end to end
+    - component and sync correctness are necessary but insufficient

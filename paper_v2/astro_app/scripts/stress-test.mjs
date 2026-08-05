@@ -122,6 +122,7 @@ async function main() {
     }
 
     const navigationRuns = [];
+    const readabilityChecks = [];
     const sectionCount = Math.min(await page.locator('.section-row').count(), 5);
     for (let s = 0; s < sectionCount; s++) {
       await page.locator('.section-row').nth(s).click();
@@ -143,6 +144,20 @@ async function main() {
           await page.locator('.source-card').nth(Math.min(1, sourceCount - 1)).click();
           await page.waitForTimeout(40);
         }
+        const noteBodyText = ((await page.locator('.note-card.active .note-body').first().textContent()) || '').trim();
+        const sourceExcerptText = ((await page.locator('.source-card.active .note-body').first().textContent()) || '').trim();
+        const traceDiagnosisText = ((await page.locator('#paragraph-pane .card-reasons').textContent()) || '').trim();
+        const sourceMetaText = ((await page.locator('.source-card.active .row-meta').first().textContent()) || '').trim();
+
+        readabilityChecks.push({
+          sectionIndex: s,
+          paragraphIndex: p,
+          note_body_length: noteBodyText.length,
+          source_excerpt_length: sourceExcerptText.length,
+          has_trace_guidance: traceDiagnosisText.length > 0,
+          has_source_meta: sourceMetaText.length > 0,
+        });
+
         navigationRuns.push({
           sectionIndex: s,
           activeSectionTitle,
@@ -161,6 +176,9 @@ async function main() {
     const activeInvariantFailures = navigationRuns.filter((run) => (
       run.activeSection !== 1 || run.activeParagraph !== 1 || run.activeNote > 1 || run.activeSource > 1
     ));
+    const weakNoteReadability = readabilityChecks.filter((run) => run.note_body_length <= 120);
+    const weakSourceReadability = readabilityChecks.filter((run) => run.source_excerpt_length <= 120);
+    const missingTraceGuidance = readabilityChecks.filter((run) => !run.has_trace_guidance);
 
     const report = {
       generated_at: new Date().toISOString(),
@@ -169,6 +187,8 @@ async function main() {
         '../spec/matrix/ui-components.yml',
         '../spec/sequence/select-trace.yml',
         '../spec/state/paragraph-support.yml',
+        '../spec/workflow/editorial-repair-loop.yml',
+        '../spec/acceptance/editorial-workloop.md',
         '../spec/activity/build-and-serve.yml',
         '../spec/deployment/dev-runtime.yml',
       ],
@@ -184,8 +204,19 @@ async function main() {
         seen_ui_labels: Array.from(seenStatusLabels).sort(),
       },
       navigation_runs: navigationRuns,
+      editorial_readability: {
+        note_body_threshold: 120,
+        source_excerpt_threshold: 120,
+        checks: readabilityChecks,
+        weak_note_readability: weakNoteReadability,
+        weak_source_readability: weakSourceReadability,
+        missing_trace_guidance: missingTraceGuidance,
+      },
       failures: {
         active_invariant_failures: activeInvariantFailures,
+        weak_note_readability: weakNoteReadability,
+        weak_source_readability: weakSourceReadability,
+        missing_trace_guidance: missingTraceGuidance,
         console_errors: consoleErrors,
         page_errors: pageErrors,
         http_404s: Array.from(new Set(http404s)).sort(),
@@ -199,6 +230,9 @@ async function main() {
         selectorsPresent.paragraphTraces > 0 &&
         selectorsPresent.sectionRows > 0 &&
         activeInvariantFailures.length === 0 &&
+        weakNoteReadability.length === 0 &&
+        weakSourceReadability.length === 0 &&
+        missingTraceGuidance.length === 0 &&
         pageErrors.length === 0 &&
         Array.from(new Set(http404s)).filter((url) => !url.endsWith('/favicon.ico')).length === 0
       ),
