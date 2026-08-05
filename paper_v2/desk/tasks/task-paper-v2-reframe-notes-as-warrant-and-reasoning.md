@@ -7,7 +7,7 @@ tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-reframe-notes-as-warrant-and-reasoning
-current_node: checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-closeout-ready
+current_node: complete
 history:
 - 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
   acceptance changes.
