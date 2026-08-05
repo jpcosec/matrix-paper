@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T23:51:11.046Z",
+  "generated_at": "2026-08-05T04:49:31.398Z",
   "source_specs": [
     "../spec/component/paper-v2-editorial-browser.yml",
     "../spec/matrix/ui-components.yml",
@@ -290,7 +290,15 @@
         "note_body_length": 978,
         "source_excerpt_length": 184,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_introduction-p01.md",
+        "note_edit_target_text": "Note file: notes/01_introduction-p01.md",
+        "source_edit_target_text": "Source file: sources/kb/01_introduction-p01__atom-symbol.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 0,
@@ -298,7 +306,15 @@
         "note_body_length": 795,
         "source_excerpt_length": 224,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_introduction-p02.md",
+        "note_edit_target_text": "Note file: notes/01_introduction-p02.md",
+        "source_edit_target_text": "Source file: sources/kb/01_introduction-p02__atom-tractatus.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 0,
@@ -306,7 +322,15 @@
         "note_body_length": 505,
         "source_excerpt_length": 152,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_introduction-p03.md",
+        "note_edit_target_text": "Note file: notes/01_introduction-p03.md",
+        "source_edit_target_text": "Source file: sources/kb/01_introduction-p03__atom-wigame-wi.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 0,
@@ -314,7 +338,15 @@
         "note_body_length": 476,
         "source_excerpt_length": 217,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_introduction-p04.md",
+        "note_edit_target_text": "Note file: notes/01_introduction-p04.md",
+        "source_edit_target_text": "Source file: sources/kb/01_introduction-p04__atom-matrices-y-tensores.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 1,
@@ -322,7 +354,15 @@
         "note_body_length": 479,
         "source_excerpt_length": 367,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_1_sota-p01.md",
+        "note_edit_target_text": "Note file: notes/01_1_sota-p01.md",
+        "source_edit_target_text": "Source file: sources/kb/01_1_sota-p01__atom-taxonomia-sota-alucinaciones.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 1,
@@ -330,7 +370,15 @@
         "note_body_length": 913,
         "source_excerpt_length": 337,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_1_sota-p02.md",
+        "note_edit_target_text": "Note file: notes/01_1_sota-p02.md",
+        "source_edit_target_text": "Source file: sources/kb/01_1_sota-p02__atom-source-pdf-factscore2023-pdf.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 1,
@@ -338,7 +386,15 @@
         "note_body_length": 1302,
         "source_excerpt_length": 345,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_1_sota-p03.md",
+        "note_edit_target_text": "Note file: notes/01_1_sota-p03.md",
+        "source_edit_target_text": "Source file: sources/kb/01_1_sota-p03__atom-source-pdf-iclr2025-a712d4-pdf.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 1,
@@ -346,7 +402,15 @@
         "note_body_length": 865,
         "source_excerpt_length": 364,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/01_1_sota-p04.md",
+        "note_edit_target_text": "Note file: notes/01_1_sota-p04.md",
+        "source_edit_target_text": "Source file: sources/kb/01_1_sota-p04__atom-source-pdf-nature-shumailov2024-pdf.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 2,
@@ -354,7 +418,15 @@
         "note_body_length": 597,
         "source_excerpt_length": 158,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/02_philosophical_foundation-p01.md",
+        "note_edit_target_text": "Note file: notes/02_philosophical_foundation-p01.md",
+        "source_edit_target_text": "Source file: sources/kb/02_philosophical_foundation-p01__atom-thing.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 2,
@@ -362,7 +434,15 @@
         "note_body_length": 494,
         "source_excerpt_length": 191,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/02_philosophical_foundation-p02.md",
+        "note_edit_target_text": "Note file: notes/02_philosophical_foundation-p02.md",
+        "source_edit_target_text": "Source file: sources/kb/02_philosophical_foundation-p02__atom-fact.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 2,
@@ -370,7 +450,15 @@
         "note_body_length": 276,
         "source_excerpt_length": 583,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/02_philosophical_foundation-p03.md",
+        "note_edit_target_text": "Note file: notes/02_philosophical_foundation-p03.md",
+        "source_edit_target_text": "Source file: sources/kb/02_philosophical_foundation-p03__atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 2,
@@ -378,7 +466,15 @@
         "note_body_length": 258,
         "source_excerpt_length": 583,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/02_philosophical_foundation-p04.md",
+        "note_edit_target_text": "Note file: notes/02_philosophical_foundation-p04.md",
+        "source_edit_target_text": "Source file: sources/kb/02_philosophical_foundation-p04__atom-triparticion-wittgensteiniana-sinnvoll-sinnlos-unsinnig.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 3,
@@ -386,7 +482,15 @@
         "note_body_length": 602,
         "source_excerpt_length": 152,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/03_proposed_representation-p01.md",
+        "note_edit_target_text": "Note file: notes/03_proposed_representation-p01.md",
+        "source_edit_target_text": "Source file: sources/kb/03_proposed_representation-p01__atom-wigame-wi.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 3,
@@ -394,7 +498,15 @@
         "note_body_length": 485,
         "source_excerpt_length": 146,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/03_proposed_representation-p02.md",
+        "note_edit_target_text": "Note file: notes/03_proposed_representation-p02.md",
+        "source_edit_target_text": "Source file: sources/kb/03_proposed_representation-p02__atom-context-ci.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 3,
@@ -402,7 +514,15 @@
         "note_body_length": 357,
         "source_excerpt_length": 169,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/03_proposed_representation-p03.md",
+        "note_edit_target_text": "Note file: notes/03_proposed_representation-p03.md",
+        "source_edit_target_text": "Source file: sources/kb/03_proposed_representation-p03__atom-signo-vs-simbolo.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 3,
@@ -410,7 +530,15 @@
         "note_body_length": 138,
         "source_excerpt_length": 152,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/03_proposed_representation-p04.md",
+        "note_edit_target_text": "Note file: notes/03_proposed_representation-p04.md",
+        "source_edit_target_text": "Source file: sources/kb/03_proposed_representation-p04__atom-wigame-wi.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 4,
@@ -418,7 +546,15 @@
         "note_body_length": 584,
         "source_excerpt_length": 224,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/04_discussion-p01.md",
+        "note_edit_target_text": "Note file: notes/04_discussion-p01.md",
+        "source_edit_target_text": "Source file: sources/kb/04_discussion-p01__atom-tractatus.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 4,
@@ -426,7 +562,15 @@
         "note_body_length": 227,
         "source_excerpt_length": 202,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "Fill the empty paragraph or support fields that keep this trace incomplete.",
+        "edit_target_text": "Paragraph file: paragraphs/04_discussion-p02.md",
+        "note_edit_target_text": "Note file: notes/04_discussion-p02.md",
+        "source_edit_target_text": "Source file: sources/04_discussion-p02.md",
+        "verify_text": "After completing the missing fields, click Rebuild and then Refresh to verify the trace is readable and complete again."
       },
       {
         "sectionIndex": 4,
@@ -434,7 +578,15 @@
         "note_body_length": 405,
         "source_excerpt_length": 364,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/04_discussion-p03.md",
+        "note_edit_target_text": "Note file: notes/04_discussion-p03.md",
+        "source_edit_target_text": "Source file: sources/kb/04_discussion-p03__atom-source-pdf-vossel2025advancing-pdf.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       },
       {
         "sectionIndex": 4,
@@ -442,18 +594,48 @@
         "note_body_length": 1410,
         "source_excerpt_length": 146,
         "has_trace_guidance": true,
-        "has_source_meta": true
+        "has_source_meta": true,
+        "has_next_action_text": true,
+        "has_edit_target_text": true,
+        "has_verify_text": true,
+        "next_action_text": "This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.",
+        "edit_target_text": "Note file: notes/04_discussion-p04.md",
+        "note_edit_target_text": "Note file: notes/04_discussion-p04.md",
+        "source_edit_target_text": "Source file: sources/kb/04_discussion-p04__atom-context-ci.md",
+        "verify_text": "Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI."
       }
     ],
     "weak_note_readability": [],
     "weak_source_readability": [],
-    "missing_trace_guidance": []
+    "missing_trace_guidance": [],
+    "missing_next_action_evidence": [],
+    "missing_edit_target_evidence": [],
+    "missing_verify_guidance": []
+  },
+  "rebuild_refresh_verification": {
+    "target_path": "notes/01_introduction-p01.md",
+    "marker": "stress-marker-1785905367529",
+    "rebuild_button_present": 1,
+    "refresh_button_present": 1,
+    "pre_mutation_note_label": "Discussion note 04",
+    "after_refresh_mutation_note_label": "Introduction note 01 stress-marker-1785905367529",
+    "after_rebuild_note_label": "Introduction note 01",
+    "after_final_refresh_note_label": "Introduction note 01",
+    "changed_state_visible_after_refresh": true,
+    "rebuild_cleared_changed_state": true,
+    "final_refresh_preserved_rebuild_state": true,
+    "cleanup_restored": true,
+    "cleanup_error": ""
   },
   "failures": {
     "active_invariant_failures": [],
     "weak_note_readability": [],
     "weak_source_readability": [],
     "missing_trace_guidance": [],
+    "missing_next_action_evidence": [],
+    "missing_edit_target_evidence": [],
+    "missing_verify_guidance": [],
+    "rebuild_refresh_verification": [],
     "console_errors": [],
     "page_errors": [],
     "http_404s": []

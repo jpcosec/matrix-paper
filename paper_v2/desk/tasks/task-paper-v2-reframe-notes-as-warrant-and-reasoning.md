@@ -7,9 +7,10 @@ tags:
 - workspace:desk
 - artifact:task
 routine: routine-task-paper-v2-reframe-notes-as-warrant-and-reasoning
-current_node: checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-testing-ready
+current_node: checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-closeout-ready
 history:
-- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow acceptance changes.
+- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
+  acceptance changes.
 - 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
 - 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
 - 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB
@@ -36,16 +37,16 @@ checklists:
 - checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-testing-ready
 - checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-closeout-ready
 task_type: implementation
-resolver_role: executor
 inherits_from:
 - task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
 - task-paper-v2-make-the-paragraph-column-an-assertion-surface
 inherit_acceptance_context: true
+atoms: []
+resolver_role: executor
 subtasks:
 - desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-readiness-check.md
 - desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-test.md
 - desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-check.md
-atoms: []
 ---
 
 # paper_v2: reframe notes as warrant and reasoning
@@ -96,15 +97,11 @@ For the broader editorial workloop, this task relies on inherited acceptance con
 
 _List the checks required before this task can close._
 
-Executor-scoped validation for this parent task:
-
 - `cd astro_app && npm run build`
 - `cd astro_app && node scripts/stress-test.mjs`
 - inspect the generated stress report JSON and confirm the notes-pane slice records note-body readability metrics for the exercised traces
 - treat any non-empty `editorial_readability.weak_note_readability` entries in the generated stress report JSON as reopen-and-fix conditions for this parent task
 - record the evidence path left for the tester instead of relying on an unstructured manual browser impression
-
-Broader inherited editorial acceptance is judged by the `-test` and `-check` subtasks, not by the executor alone.
 
 ## Done When
 

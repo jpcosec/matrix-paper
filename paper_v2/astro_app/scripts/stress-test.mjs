@@ -1,5 +1,5 @@
 import { spawn } from 'node:child_process';
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import process from 'node:process';
 import { chromium } from 'playwright';
@@ -37,6 +37,28 @@ async function fetchJsonWithRetry(url, attempts = 6) {
     }
   }
   throw lastError;
+}
+
+function resolveRepoPath(relativePath) {
+  return path.resolve(root, '..', relativePath);
+}
+
+async function mutateValidationReport(relativePath, marker) {
+  const filePath = resolveRepoPath('build/validation_report.json');
+  const original = await readFile(filePath, 'utf8');
+  const report = JSON.parse(original);
+  const entry = (report.validation || []).find((item) => item.path === relativePath);
+  if (!entry) {
+    throw new Error(`Could not find ${relativePath} in validation_report.json`);
+  }
+  entry.input_data = entry.input_data || {};
+  entry.input_data.title = `${entry.input_data.title || relativePath} ${marker}`;
+  await writeFile(filePath, JSON.stringify(report, null, 2), 'utf8');
+  return { filePath, original };
+}
+
+async function restoreFile(filePath, original) {
+  await writeFile(filePath, original, 'utf8');
 }
 
 function countStatuses(graph) {
@@ -149,6 +171,12 @@ async function main() {
         const traceDiagnosisText = ((await page.locator('#paragraph-pane .card-reasons').textContent()) || '').trim();
         const sourceMetaText = ((await page.locator('.source-card.active .row-meta').first().textContent()) || '').trim();
 
+        const nextActionText = ((await page.locator('#paragraph-pane .next-action-box').textContent()) || '').trim();
+        const editTargetText = ((await page.locator('#paragraph-pane .edit-target-box').textContent()) || '').trim();
+        const noteEditTargetText = ((await page.locator('.note-card.active .edit-target-box').first().textContent()) || '').trim();
+        const sourceEditTargetText = ((await page.locator('.source-card.active .edit-target-box').first().textContent()) || '').trim();
+        const verifyText = ((await page.locator('#paragraph-pane .verify-workloop').textContent()) || '').trim();
+
         readabilityChecks.push({
           sectionIndex: s,
           paragraphIndex: p,
@@ -156,6 +184,14 @@ async function main() {
           source_excerpt_length: sourceExcerptText.length,
           has_trace_guidance: traceDiagnosisText.length > 0,
           has_source_meta: sourceMetaText.length > 0,
+          has_next_action_text: nextActionText.length > 0,
+          has_edit_target_text: [editTargetText, noteEditTargetText, sourceEditTargetText].some((value) => value.length > 0),
+          has_verify_text: verifyText.length > 0,
+          next_action_text: nextActionText,
+          edit_target_text: editTargetText,
+          note_edit_target_text: noteEditTargetText,
+          source_edit_target_text: sourceEditTargetText,
+          verify_text: verifyText,
         });
 
         navigationRuns.push({
@@ -179,6 +215,76 @@ async function main() {
     const weakNoteReadability = readabilityChecks.filter((run) => run.note_body_length <= 120);
     const weakSourceReadability = readabilityChecks.filter((run) => run.source_excerpt_length <= 120);
     const missingTraceGuidance = readabilityChecks.filter((run) => !run.has_trace_guidance);
+    const missingNextActionEvidence = readabilityChecks.filter((run) => !run.has_next_action_text);
+    const missingEditTargetEvidence = readabilityChecks.filter((run) => !run.has_edit_target_text);
+    const missingVerifyGuidance = readabilityChecks.filter((run) => !run.has_verify_text);
+
+    const rebuildVerification = {
+      target_path: graph.sections?.[0]?.paragraphs?.[0]?.notes?.[0]?.path || '',
+      marker: `stress-marker-${Date.now()}`,
+      rebuild_button_present: await page.locator('#rebuild').count(),
+      refresh_button_present: await page.locator('#refresh-graph').count(),
+      pre_mutation_note_label: (await page.locator('#selected-note-label').textContent())?.trim() || '',
+      after_refresh_mutation_note_label: '',
+      after_rebuild_note_label: '',
+      after_final_refresh_note_label: '',
+      changed_state_visible_after_refresh: false,
+      rebuild_cleared_changed_state: false,
+      final_refresh_preserved_rebuild_state: false,
+      cleanup_restored: false,
+      cleanup_error: '',
+    };
+
+    let mutationSnapshot = null;
+    if (rebuildVerification.target_path) {
+      try {
+        await page.locator('.section-row').first().click();
+        await page.waitForTimeout(100);
+        await page.locator('.section-block[data-active="true"] .paragraph-trace').first().click();
+        await page.waitForTimeout(60);
+        mutationSnapshot = await mutateValidationReport(rebuildVerification.target_path, rebuildVerification.marker);
+
+        await page.locator('#refresh-graph').click();
+        await page.waitForFunction((marker) => {
+          const label = document.querySelector('#selected-note-label')?.textContent || '';
+          return label.includes(marker);
+        }, rebuildVerification.marker);
+        rebuildVerification.after_refresh_mutation_note_label = (await page.locator('#selected-note-label').textContent())?.trim() || '';
+        rebuildVerification.changed_state_visible_after_refresh = rebuildVerification.after_refresh_mutation_note_label.includes(rebuildVerification.marker);
+
+        await page.locator('#rebuild').click();
+        await page.waitForFunction((marker) => {
+          const label = document.querySelector('#selected-note-label')?.textContent || '';
+          return !label.includes(marker);
+        }, rebuildVerification.marker);
+        rebuildVerification.after_rebuild_note_label = (await page.locator('#selected-note-label').textContent())?.trim() || '';
+        rebuildVerification.rebuild_cleared_changed_state = !rebuildVerification.after_rebuild_note_label.includes(rebuildVerification.marker);
+
+        await page.locator('#refresh-graph').click();
+        await page.waitForFunction((marker) => {
+          const label = document.querySelector('#selected-note-label')?.textContent || '';
+          return !label.includes(marker);
+        }, rebuildVerification.marker);
+        rebuildVerification.after_final_refresh_note_label = (await page.locator('#selected-note-label').textContent())?.trim() || '';
+        rebuildVerification.final_refresh_preserved_rebuild_state = !rebuildVerification.after_final_refresh_note_label.includes(rebuildVerification.marker);
+      } finally {
+        if (mutationSnapshot) {
+          try {
+            if (!(rebuildVerification.rebuild_cleared_changed_state && rebuildVerification.final_refresh_preserved_rebuild_state)) {
+              await restoreFile(mutationSnapshot.filePath, mutationSnapshot.original);
+              await page.locator('#refresh-graph').click();
+              await page.waitForFunction((marker) => {
+                const label = document.querySelector('#selected-note-label')?.textContent || '';
+                return !label.includes(marker);
+              }, rebuildVerification.marker);
+            }
+            rebuildVerification.cleanup_restored = true;
+          } catch (cleanupError) {
+            rebuildVerification.cleanup_error = String(cleanupError);
+          }
+        }
+      }
+    }
 
     const report = {
       generated_at: new Date().toISOString(),
@@ -211,12 +317,20 @@ async function main() {
         weak_note_readability: weakNoteReadability,
         weak_source_readability: weakSourceReadability,
         missing_trace_guidance: missingTraceGuidance,
+        missing_next_action_evidence: missingNextActionEvidence,
+        missing_edit_target_evidence: missingEditTargetEvidence,
+        missing_verify_guidance: missingVerifyGuidance,
       },
+      rebuild_refresh_verification: rebuildVerification,
       failures: {
         active_invariant_failures: activeInvariantFailures,
         weak_note_readability: weakNoteReadability,
         weak_source_readability: weakSourceReadability,
         missing_trace_guidance: missingTraceGuidance,
+        missing_next_action_evidence: missingNextActionEvidence,
+        missing_edit_target_evidence: missingEditTargetEvidence,
+        missing_verify_guidance: missingVerifyGuidance,
+        rebuild_refresh_verification: rebuildVerification.changed_state_visible_after_refresh && rebuildVerification.rebuild_cleared_changed_state && rebuildVerification.final_refresh_preserved_rebuild_state ? [] : [rebuildVerification],
         console_errors: consoleErrors,
         page_errors: pageErrors,
         http_404s: Array.from(new Set(http404s)).sort(),
@@ -233,6 +347,13 @@ async function main() {
         weakNoteReadability.length === 0 &&
         weakSourceReadability.length === 0 &&
         missingTraceGuidance.length === 0 &&
+        missingNextActionEvidence.length === 0 &&
+        missingEditTargetEvidence.length === 0 &&
+        missingVerifyGuidance.length === 0 &&
+        rebuildVerification.changed_state_visible_after_refresh &&
+        rebuildVerification.rebuild_cleared_changed_state &&
+        rebuildVerification.final_refresh_preserved_rebuild_state &&
+        rebuildVerification.cleanup_restored &&
         pageErrors.length === 0 &&
         Array.from(new Set(http404s)).filter((url) => !url.endsWith('/favicon.ico')).length === 0
       ),

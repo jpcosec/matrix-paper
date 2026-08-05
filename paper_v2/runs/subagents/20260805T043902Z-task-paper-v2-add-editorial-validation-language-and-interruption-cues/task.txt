@@ -1,0 +1,48 @@
+Task: task-paper-v2-add-editorial-validation-language-and-interruption-cues
+Title: paper_v2: add editorial validation language and interruption cues
+Status: draft
+Current node: checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-execution-ready
+Task type: implementation
+Inherits from:
+- task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+- task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+Routine: routine-task-paper-v2-add-editorial-validation-language-and-interruption-cues
+Effective pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
+Effective validation:
+- `deskops show task task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui --root .`
+- Confirm the task references the governing workflow surfaces: `../spec/acceptance/editorial-workloop.md` and `../spec/workflow/editorial-repair-loop.yml`.
+- Confirm the plan defines target UX, backend derivations, slices, and risks.
+- Confirm the plan does **not** assume a richer backend than the current ref-derived graph.
+- Confirm downstream implementation and test tasks inherit the editorial workloop acceptance context instead of defining only pane-local success.
+- cd astro_app && npm run build
+- verify `/api/graph.json` exposes stable derived editorial status fields for manuscript, section, paragraph, note, and source-linked context
+- verify the payload supports the editorial workloop acceptance surfaces from `../spec/acceptance/editorial-workloop.md`
+- cd astro_app && node scripts/stress-test.mjs
+- manual browser check focused on whether the derived status helps identify the next editorial action, not only whether labels render
+- manual browser check against `../spec/acceptance/editorial-workloop.md` step 1 (`select paragraph`)
+- verify a paragraph can be selected from the manuscript and the active trace remains visually obvious across panes
+- verify the manuscript pane reveals support state without becoming the only place where the next editorial action is understandable
+- inspect the generated stress report JSON
+- manual browser check against `spec/acceptance/editorial-workloop.md` step 4 (`identify next editorial action`) and step 5 (`reveal edit target`)
+- verify the paragraph inspector exposes support state, section context, and support-gap guidance strongly enough to decide what to fix next
+- verify the paragraph inspector helps reveal the relevant edit target instead of functioning only as a status summary
+- `cd astro_app && npm run build`
+- `cd astro_app && node scripts/stress-test.mjs`
+- inspect the generated stress report JSON and confirm the notes-pane slice records note-body readability metrics for the exercised traces
+- treat any non-empty `editorial_readability.weak_note_readability` entries in the generated stress report JSON as reopen-and-fix conditions for this parent task
+- record the evidence path left for the tester instead of relying on an unstructured manual browser impression
+- manual browser check against `../spec/acceptance/editorial-workloop.md` step 3 (`read source evidence`)
+- verify the selected source exposes substantial visible excerpt/body text plus origin and anchor when available
+- verify the evidence cards support deciding whether the current paragraph is actually supported, not only scanning metadata
+- run the structural stress test from `../spec/stress-test.md`
+- validate navigation against `../spec/acceptance/editorial-workloop.md` steps 1-3 so sync is proven together with readable support visibility
+- verify navigation preserves orientation while still exposing the next editorial action and edit target for the selected gap
+- manual browser check against `spec/acceptance/editorial-workloop.md` step 4 (`identify next editorial action`)
+- verify validation cues communicate what is missing or blocked, not only that a status exists
+- verify interruption cues guide the editor toward the next repair action and the relevant artifact without collapsing the manuscript reading experience
+Effective done when: Validation cues visibly communicate support weakness without collapsing the manuscript reading experience or duplicating content. Done means: aggregate status strip over the title, per-paragraph status rail in the document, status pills in every inspector pane, empty states that read as guidance, and support-gap language that helps the editor decide what to do next.
+Checklist status:
+- checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-execution-ready: complete
+- checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-testing-ready: complete
+- checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-closeout-ready: pending

@@ -64,9 +64,9 @@ The runtime must support the minimum editorial loop, not just navigation:
 
 The app must survive repeated cross-pane navigation without console errors or selection drift.
 
-## Acceptance gaps in the current executable test
+## Executable coverage status
 
-The current stress runner is still weaker than the workflow contract.
+The stress runner now proves more than structural stability.
 
 It proves:
 
@@ -74,15 +74,16 @@ It proves:
 - active-trace invariants
 - status mapping
 - repeated navigation stability
+- visible next-action guidance for exercised traces
+- visible edit-target evidence for the active paragraph/note/source chain
+- rebuild plus refresh verification after a controlled content mutation that is restored before exit
 
-It does not yet prove end-to-end:
+It still does not prove full closure-quality acceptance for everything a human editor might do end-to-end:
 
-- direct edit-point discovery
-- save/edit execution
-- rebuild after a targeted change
-- visible verification of a repaired gap
+- arbitrary save/edit execution outside the controlled scripted mutation
+- every possible repair path across all artifact types
 
-Until those assertions exist, stress success must be treated as partial evidence only.
+Stress success is now stronger workflow evidence, but reviewer acceptance should still inspect whether any task claims broader behavior than the script actually exercises.
 
 ## Executable test
 
@@ -109,3 +110,4 @@ The script will:
 - UI exposes the next editorial action for an unsupported paragraph
 - UI exposes the edit target for the active gap
 - rebuild/refresh verification is exercised after a controlled content change
+- reviewer confirms any remaining uncovered repair paths are routed to the correct task instead of inferred from this script alone

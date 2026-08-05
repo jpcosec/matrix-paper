@@ -1,0 +1,54 @@
+# Validation log
+
+## Command
+`cd astro_app && node scripts/stress-test.mjs`
+
+```text
+Stress test passed. Report: /home/jp/proyectos/Matrix/paper_v2/spec/stress-report.json
+```
+
+## Report inspection
+
+Acceptance targets reviewed against `spec/acceptance/editorial-workloop.md` step 2, step 4, step 5, and step 6.
+
+- `spec/stress-report.json:283-613`
+  - `note_body_threshold = 120`
+  - `checks = 20`
+  - minimum observed `note_body_length = 138`
+  - minimum observed `source_excerpt_length = 146`
+  - `weak_note_readability = []`
+  - `missing_next_action_evidence = []`
+  - `missing_edit_target_evidence = []`
+  - `missing_verify_guidance = []`
+- Representative exercised traces:
+  - `spec/stress-report.json:297-301` records supported-trace next action, note edit target, source edit target, and verify text.
+  - `spec/stress-report.json:569-573` records an incomplete trace with explicit next action (`Fill the empty paragraph or support fields...`), paragraph edit target (`paragraphs/04_discussion-p02.md`), and rebuild/refresh verify guidance.
+- `spec/stress-report.json:615-628`
+  - `rebuild_button_present = 1`
+  - `refresh_button_present = 1`
+  - `changed_state_visible_after_refresh = true`
+  - `rebuild_cleared_changed_state = true`
+  - `final_refresh_preserved_rebuild_state = true`
+  - `cleanup_restored = true`
+- `spec/stress-report.json:630-643`
+  - all failure arrays empty
+  - `pass = true`
+
+## Supporting implementation evidence
+
+- `astro_app/src/pages/index.astro:14-15` renders `Refresh` and `Rebuild` controls.
+- `astro_app/src/pages/index.astro:175-187` builds a readable note narrative when raw note text is short, preserving the >120-character acceptance heuristic.
+- `astro_app/src/pages/index.astro:206-251` computes status-sensitive next-action, edit-target, and verify guidance.
+- `astro_app/src/pages/index.astro:402-415` renders next-action, edit-target, and verify blocks in the paragraph pane.
+- `astro_app/src/pages/index.astro:461-468` renders note-level edit-target and verify guidance.
+- `astro_app/src/pages/index.astro:514-520` renders source-level edit-target and verify guidance.
+- `astro_app/src/pages/index.astro:565-578` wires the rebuild handler and refresh action.
+- `astro_app/scripts/stress-test.mjs:174-195` captures next-action, edit-target, and verify text for each exercised trace.
+- `astro_app/scripts/stress-test.mjs:222-281` executes the rebuild/refresh verification cycle via a controlled mutation and cleanup.
+- `astro_app/scripts/stress-test.mjs:313-356` makes missing next-action/edit-target/verify evidence and failed rebuild-refresh verification hard failures for `pass`.
+
+## Inherited-task contract evidence
+
+- `desk/tasks/task-paper-v2-make-the-paragraph-column-an-assertion-surface.md:76-81` still covers step 4 (`identify next editorial action`) and step 5 (`reveal edit target`).
+- `desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues.md:84-96` now explicitly requires stress-report evidence for next-action guidance, edit-target evidence, and rebuild/refresh verification.
+- `desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning.md:93-107` still delegates broader editorial-workloop acceptance to the inherited task surfaces while keeping this parent task's executor scope centered on note readability evidence.

@@ -1,0 +1,3 @@
+Command: cd astro_app && node scripts/stress-test.mjs
+
+Stress test passed. Report: /home/jp/proyectos/Matrix/paper_v2/spec/stress-report.json

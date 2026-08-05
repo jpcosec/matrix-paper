@@ -1,0 +1,54 @@
+# Validation log — supervisor closeout review (inspect-only)
+
+## Command
+`deskops show task task-paper-v2-reframe-notes-as-warrant-and-reasoning --root .` -> passed (see task.txt)
+
+## Command
+`deskops show task task-paper-v2-reframe-notes-as-warrant-and-reasoning-check --root .` -> passed (see task.txt)
+
+## Command
+`deskops next task-paper-v2-reframe-notes-as-warrant-and-reasoning --root .` -> passed (see next.txt)
+
+## Command
+`deskops graph missing --root .` -> passed; no missing graph references (see graph.txt)
+
+## Command
+`git status --short --branch` / `git diff --cached --name-only` -> no staged files (see git-status.txt)
+
+## Executable evidence inspection (inspect-only; no re-run per bounded-lane constraint)
+
+Named artifact: `spec/stress-report.json`
+- generated_at: 2026-08-05T04:49:31.398Z (matches retest run 20260805T044911Z)
+- pass: True
+- navigation_runs: 20; editorial_readability.checks: 20
+- note_body_threshold: 120; min observed note_body_length: 138
+- source_excerpt_threshold: 120; min observed source_excerpt_length: 146
+- weak_note_readability: []
+- weak_source_readability: []
+- missing_trace_guidance: []
+- missing_next_action_evidence: []
+- missing_edit_target_evidence: []
+- missing_verify_guidance: []
+- rebuild_refresh_verification.changed_state_visible_after_refresh: True
+- rebuild_refresh_verification.rebuild_cleared_changed_state: True
+- rebuild_refresh_verification.final_refresh_preserved_rebuild_state: True
+- rebuild_refresh_verification.cleanup_restored: True
+- failures (all categories): {"active_invariant_failures": [], "weak_note_readability": [], "weak_source_readability": [], "missing_trace_guidance": [], "missing_next_action_evidence": [], "missing_edit_target_evidence": [], "missing_verify_guidance": [], "rebuild_refresh_verification": [], "console_errors": [], "page_errors": [], "http_404s": []}
+
+## Editorial-workloop contract mapping (spec/acceptance/editorial-workloop.md)
+
+- step 2 (read note body): satisfied; 20/20 exercised traces exceed the 120-char heuristic; hard failure gate in astro_app/scripts/stress-test.mjs (weakNoteReadability) would fail the run otherwise.
+- step 3 (read source evidence): satisfied; weak_source_readability empty; min excerpt 146 > 120.
+- step 4 (identify next editorial action): satisfied; missing_next_action_evidence and missing_trace_guidance empty; report records real guidance text, including gap guidance for the incomplete Discussion p02 trace ("Fill the empty paragraph or support fields that keep this trace incomplete.").
+- step 5 (reveal edit target): satisfied; missing_edit_target_evidence empty; paragraph/note/source file targets recorded per trace (e.g. paragraphs/04_discussion-p02.md, notes/04_discussion-p02.md, sources/04_discussion-p02.md).
+- step 6 (rebuild and verify): satisfied; controlled mutation -> refresh re-observed changed state -> rebuild cleared it -> final refresh preserved rebuild state -> cleanup restored; all true.
+- Evidence format (acceptance spec lines ~105-114): report contains note readability metrics, source readability metrics, active trace integrity, visible support-gap guidance, visible edit-target evidence, and rebuild/refresh verification evidence.
+
+## Prior blocker re-verification
+
+- Blocker 1 (first tester run): inherited surface task-paper-v2-add-editorial-validation-language-and-interruption-cues lacked rebuild/refresh proof. CLOSED: its Validation now requires stress-report evidence for next-action guidance, edit-target evidence, and rebuild/refresh verification, and its Done When requires executable rebuild/refresh re-observation evidence (desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues.md:82-96).
+- Blocker 2 (first tester run): no repo-artifact proof of visible edit-target or rebuild/refresh verification. CLOSED: astro_app/scripts/stress-test.mjs:174-195 captures next-action/edit-target/verify text per trace; lines 222-281 execute the rebuild/refresh verification cycle; lines 313-356 make missing evidence a hard failure; spec/stress-report.json records all categories with pass=true.
+
+## Usefulness gate (check task: reject closure when evidence proves only rendering)
+
+The exercised evidence is behavioral, not pane-presence-only: an incomplete trace produces distinct gap guidance and artifact-level edit targets; a controlled file mutation is visibly re-observed after refresh and cleared after rebuild. This proves next-action usefulness and rebuild/verify usefulness, not only sync/layout/status rendering.

@@ -1,0 +1,81 @@
+## Command
+`deskops show task task-paper-v2-reframe-notes-as-warrant-and-reasoning --root .`
+
+```text
+Task: task-paper-v2-reframe-notes-as-warrant-and-reasoning
+Title: paper_v2: reframe notes as warrant and reasoning
+Status: draft
+Current node: checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-testing-ready
+Task type: implementation
+Inherits from:
+- task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+- task-paper-v2-make-the-paragraph-column-an-assertion-surface
+Routine: routine-task-paper-v2-reframe-notes-as-warrant-and-reasoning
+Effective pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
+Effective validation:
+- `deskops show task task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui --root .`
+- Confirm the task references the governing workflow surfaces: `../spec/acceptance/editorial-workloop.md` and `../spec/workflow/editorial-repair-loop.yml`.
+- Confirm the plan defines target UX, backend derivations, slices, and risks.
+- Confirm the plan does **not** assume a richer backend than the current ref-derived graph.
+- Confirm downstream implementation and test tasks inherit the editorial workloop acceptance context instead of defining only pane-local success.
+- cd astro_app && npm run build
+- verify `/api/graph.json` exposes stable derived editorial status fields for manuscript, section, paragraph, note, and source-linked context
+- verify the payload supports the editorial workloop acceptance surfaces from `../spec/acceptance/editorial-workloop.md`
+- cd astro_app && node scripts/stress-test.mjs
+- manual browser check focused on whether the derived status helps identify the next editorial action, not only whether labels render
+- inspect the generated stress report JSON
+- manual browser check against `spec/acceptance/editorial-workloop.md` step 4 (`identify next editorial action`) and step 5 (`reveal edit target`)
+- verify the paragraph inspector exposes support state, section context, and support-gap guidance strongly enough to decide what to fix next
+- verify the paragraph inspector helps reveal the relevant edit target instead of functioning only as a status summary
+- `cd astro_app && npm run build`
+- `cd astro_app && node scripts/stress-test.mjs`
+- inspect the generated stress report JSON and confirm the notes-pane slice records note-body readability metrics for the exercised traces
+- treat any non-empty `editorial_readability.weak_note_readability` entries in the generated stress report JSON as reopen-and-fix conditions for this parent task
+- record the evidence path left for the tester instead of relying on an unstructured manual browser impression
+Effective done when: The notes pane explains why the selected paragraph exists and what support logic is attached to it, and the executor has left explicit repo-artifact evidence for the tester to evaluate the inherited editorial workloop contract.
+Checklist status:
+- checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-execution-ready: complete
+- checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-testing-ready: complete
+- checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-closeout-ready: pending
+```
+
+## Command
+`deskops show task task-paper-v2-reframe-notes-as-warrant-and-reasoning-check --root .`
+
+```text
+Task: task-paper-v2-reframe-notes-as-warrant-and-reasoning-check
+Title: paper_v2: reframe notes as warrant and reasoning — check
+Status: draft
+Current node: checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-check-execution-ready
+Task type: closeout
+Inherits from:
+- task-paper-v2-reframe-notes-as-warrant-and-reasoning
+- task-paper-v2-reframe-notes-as-warrant-and-reasoning-test
+Routine: 
+Effective pills:
+- desk/contexts/pill-pattern-document-left-sldb-right.md
+- desk/contexts/pill-pattern-editorial-workloop.md
+Effective validation:
+- `deskops show task task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui --root .`
+- Confirm the task references the governing workflow surfaces: `../spec/acceptance/editorial-workloop.md` and `../spec/workflow/editorial-repair-loop.yml`.
+- Confirm the plan defines target UX, backend derivations, slices, and risks.
+- Confirm the plan does **not** assume a richer backend than the current ref-derived graph.
+- Confirm downstream implementation and test tasks inherit the editorial workloop acceptance context instead of defining only pane-local success.
+- cd astro_app && npm run build
+- verify `/api/graph.json` exposes stable derived editorial status fields for manuscript, section, paragraph, note, and source-linked context
+- verify the payload supports the editorial workloop acceptance surfaces from `../spec/acceptance/editorial-workloop.md`
+- cd astro_app && node scripts/stress-test.mjs
+- manual browser check focused on whether the derived status helps identify the next editorial action, not only whether labels render
+- inspect the generated stress report JSON
+- manual browser check against `spec/acceptance/editorial-workloop.md` step 4 (`identify next editorial action`) and step 5 (`reveal edit target`)
+- verify the paragraph inspector exposes support state, section context, and support-gap guidance strongly enough to decide what to fix next
+- verify the paragraph inspector helps reveal the relevant edit target instead of functioning only as a status summary
+- `cd astro_app && npm run build`
+- `cd astro_app && node scripts/stress-test.mjs`
+- inspect the generated stress report JSON and confirm the notes-pane slice records note-body readability metrics for the exercised traces
+- treat any non-empty `editorial_readability.weak_note_readability` entries in the generated stress report JSON as reopen-and-fix conditions for this parent task
+- record the evidence path left for the tester instead of relying on an unstructured manual browser impression
+Effective done when: The notes pane explains why the selected paragraph exists and what support logic is attached to it, and the executor has left explicit repo-artifact evidence for the tester to evaluate the inherited editorial workloop contract.
+Checklist status:
+```

@@ -31,7 +31,9 @@ pills:
 - desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
+- astro_app/scripts/stress-test.mjs
 - astro_app/src/pages/api/graph.json.ts
+- spec/stress-test.md
 checklists:
 - checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-execution-ready
 - checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-testing-ready
@@ -82,12 +84,13 @@ _List the checks required before this task can close._
 - cd astro_app && npm run build
 - cd astro_app && node scripts/stress-test.mjs
 - inspect the generated stress report JSON
-- manual browser check against `spec/acceptance/editorial-workloop.md` step 4 (`identify next editorial action`)
+- verify the generated stress report records visible next-action guidance, visible edit-target evidence, and rebuild/refresh verification evidence for exercised traces
+- manual browser check against `spec/acceptance/editorial-workloop.md` step 4 (`identify next editorial action`), step 5 (`reveal edit target`), and step 6 (`rebuild and verify`)
 - verify validation cues communicate what is missing or blocked, not only that a status exists
-- verify interruption cues guide the editor toward the next repair action and the relevant artifact without collapsing the manuscript reading experience
+- verify interruption cues guide the editor toward the next repair action, the relevant artifact, and the rebuild/refresh verification path without collapsing the manuscript reading experience
 
 ## Done When
 
 _Name the observable condition that makes the task complete._
 
-Validation cues visibly communicate support weakness without collapsing the manuscript reading experience or duplicating content. Done means: aggregate status strip over the title, per-paragraph status rail in the document, status pills in every inspector pane, empty states that read as guidance, and support-gap language that helps the editor decide what to do next.
+Validation cues visibly communicate support weakness without collapsing the manuscript reading experience or duplicating content. Done means: aggregate status strip over the title, per-paragraph status rail in the document, status pills in every inspector pane, empty states that read as guidance, visible next-action and edit-target cues for the active trace, and executable rebuild/refresh verification evidence that proves the changed state can be re-observed in the UI.

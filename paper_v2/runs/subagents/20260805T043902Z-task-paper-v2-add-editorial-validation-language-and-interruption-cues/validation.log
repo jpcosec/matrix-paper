@@ -1,0 +1,30 @@
+
+> build
+> astro build
+
+24:43:07 [vite] Re-optimizing dependencies because vite config has changed
+24:43:07 [types] Generated 46ms
+24:43:07 [build] output: "server"
+24:43:07 [build] directory: /home/jp/proyectos/Matrix/paper_v2/astro_app/dist/
+24:43:07 [build] adapter: @astrojs/node
+24:43:07 [build] Collecting build info...
+24:43:07 [build] ✓ Completed in 63ms.
+24:43:07 [build] Building server entrypoints...
+24:43:08 [vite] ✓ built in 634ms
+24:43:08 [build] ✓ Completed in 657ms.
+
+ building client (vite) 
+24:43:08 [vite] transforming...
+24:43:08 [vite] ✓ 2 modules transformed.
+24:43:08 [vite] rendering chunks...
+24:43:08 [vite] computing gzip size...
+24:43:08 [vite] dist/client/_astro/hoisted.x4WFGPm0.js  15.44 kB │ gzip: 3.75 kB
+24:43:08 [vite] ✓ built in 36ms
+24:43:08 [build] Rearranging server assets...
+24:43:08 [build] Server built in 776ms
+24:43:08 [build] Complete!
+page.waitForFunction: Timeout 30000ms exceeded.
+    at main (/home/jp/proyectos/Matrix/paper_v2/astro_app/scripts/stress-test.mjs:238:20)
+page.waitForFunction: Timeout 30000ms exceeded.
+    at main (/home/jp/proyectos/Matrix/paper_v2/astro_app/scripts/stress-test.mjs:240:20)
+Stress test passed. Report: /home/jp/proyectos/Matrix/paper_v2/spec/stress-report.json

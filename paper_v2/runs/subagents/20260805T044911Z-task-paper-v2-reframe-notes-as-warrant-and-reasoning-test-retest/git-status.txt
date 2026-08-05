@@ -1,0 +1,30 @@
+## Command
+`git status --short --branch`
+
+```text
+## master
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___aria-query.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___aria-query.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___axobject-query.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___axobject-query.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___cssesc.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___cssesc.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/chunk-BUSYA2B4.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/chunk-BUSYA2B4.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/package.json
+ M astro_app/scripts/stress-test.mjs
+ M astro_app/src/pages/index.astro
+ M desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues.md
+ M spec/stress-report.json
+ M spec/stress-test.md
+?? astro_app/node_modules/.vite/deps/
+?? runs/subagents/20260805T043201Z-task-paper-v2-reframe-notes-as-warrant-and-reasoning-test-testing/
+?? runs/subagents/20260805T043902Z-task-paper-v2-add-editorial-validation-language-and-interruption-cues/
+```
+
+## Command
+`git diff --cached --name-only`
+
+```text
+(no output)
+```

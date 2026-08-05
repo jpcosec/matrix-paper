@@ -1,0 +1,19 @@
+Board: board-001
+Title: review Board
+status: 
+summary: 
+scope: desk
+purpose: Route the paper_v2 editorial browser work as a rendered-document + SLDB-inspector UI, not as a multi-column record form.
+tasks: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui.md, desk/tasks/task-paper-v2-derive-editorial-trace-status-in-graph-payload.md, desk/tasks/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface.md, desk/tasks/task-paper-v2-turn-the-sections-column-into-editorial-context.md, desk/tasks/task-paper-v2-make-the-paragraph-column-an-assertion-surface.md, desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning.md, desk/tasks/task-paper-v2-reframe-sources-as-evidence-cards.md, desk/tasks/task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation.md, desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues.md
+pills: desk/contexts/pills.md, desk/contexts/pill-pattern-document-left-sldb-right.md, desk/contexts/pill-pattern-editorial-workloop.md
+rituals: desk/rituals/execution.md, desk/rituals/testing.md, desk/rituals/closeout.md
+notes: - The old five-column record-browser framing is obsolete.
+- `pill-pattern-document-left-sldb-right` defines the base split-pane model.
+- `pill-pattern-editorial-workloop` defines the minimum viable editorial loop and acceptance gate.
+- `context-task-typing-and-inheritance` defines task types and `inherits_from` as workflow-context inheritance, not parent/child categorization.
+- `context-workflow-logbook-scope` defines the logbook as a workflow-only surface.
+- The rendered document remains the primary reading surface, but support content in notes and sources must be readable in the inspector.
+- The right rail may summarize structure and status, but it must also expose enough note/source content to decide the next action without leaving the app.
+- `paper_v2/spec/` (spec2viz diagrams + UI mocks + workflow contracts) is the source of truth: any task that changes layout, navigation, evidence visibility, or edit/rebuild behavior must update the relevant spec artifact.
+- Synchronized active state (paragraph ↔ section ↔ note ↔ source) is necessary, but it is not sufficient acceptance by itself.
+- Large workflow changes should be split into typed tasks (`design`, `implementation`, `test`, `reflection`, etc.) instead of collapsing mixed evidence into one task.

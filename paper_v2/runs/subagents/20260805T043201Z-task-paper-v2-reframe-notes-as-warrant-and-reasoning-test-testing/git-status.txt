@@ -1,0 +1,14 @@
+Command: git status --short --branch
+
+## master
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___aria-query.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___aria-query.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___axobject-query.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___axobject-query.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___cssesc.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/astro___cssesc.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/chunk-BUSYA2B4.js
+ D astro_app/node_modules/.vite/deps_temp_6100f414/chunk-BUSYA2B4.js.map
+ D astro_app/node_modules/.vite/deps_temp_6100f414/package.json
+ M spec/stress-report.json
+?? astro_app/node_modules/.vite/deps/

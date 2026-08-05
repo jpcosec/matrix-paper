@@ -203,6 +203,54 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       return reasons.map((reason) => `<div class="reason-line">${safeText(reason)}</div>`).join('');
     };
 
+    const buildRepairPlan = (paragraph, note = getNote(), source = getSource()) => {
+      if (!paragraph) return null;
+
+      if (paragraph.derived.support_status === 'missing-note') {
+        return {
+          nextAction: 'Add and link a warrant note from this paragraph so the support chain can start.',
+          editTargetLabel: 'Paragraph file',
+          editTargetPath: paragraph.path,
+          verifyText: 'After linking the note, click Rebuild and then Refresh to confirm the paragraph leaves the missing-note state.',
+        };
+      }
+
+      const noteWithoutSources = (paragraph.notes || []).find((item) => !(item.sources || []).length);
+      if (paragraph.derived.support_status === 'missing-source' || noteWithoutSources) {
+        return {
+          nextAction: 'Link at least one source to the active warrant so the paragraph has visible evidence.',
+          editTargetLabel: 'Note file',
+          editTargetPath: noteWithoutSources?.path || note?.path || paragraph.path,
+          verifyText: 'After linking the source, click Rebuild and then Refresh to verify the paragraph no longer reports a missing source.',
+        };
+      }
+
+      if (paragraph.derived.support_status === 'evidence-pending') {
+        return {
+          nextAction: 'Complete the active evidence details that are still pending so the support can be re-checked cleanly.',
+          editTargetLabel: source?.path ? 'Source file' : note?.path ? 'Note file' : 'Paragraph file',
+          editTargetPath: source?.path || note?.path || paragraph.path,
+          verifyText: 'After filling the pending evidence fields, click Rebuild and then Refresh to confirm the support warning clears.',
+        };
+      }
+
+      if (paragraph.derived.support_status === 'incomplete') {
+        return {
+          nextAction: 'Fill the empty paragraph or support fields that keep this trace incomplete.',
+          editTargetLabel: 'Paragraph file',
+          editTargetPath: paragraph.path,
+          verifyText: 'After completing the missing fields, click Rebuild and then Refresh to verify the trace is readable and complete again.',
+        };
+      }
+
+      return {
+        nextAction: 'This trace is currently supported. If you revise the reasoning or evidence, rebuild and refresh to verify the status stays supported.',
+        editTargetLabel: note?.path ? 'Note file' : 'Paragraph file',
+        editTargetPath: note?.path || paragraph.path,
+        verifyText: 'Use Rebuild to regenerate the composed artifacts and Refresh to reload the graph so the updated support state is visible in the UI.',
+      };
+    };
+
     const renderPaper = () => {
       const graph = state.graph;
       if (!graph) return;
@@ -313,6 +361,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         selectedParagraphLabelEl.textContent = 'Select one';
         return;
       }
+      const repairPlan = buildRepairPlan(paragraph);
       paragraphPaneEl.className = 'detail-scroll';
       selectedParagraphLabelEl.textContent = paragraph.data.title || `Paragraph ${paragraph.data.paragraph_index}`;
       paragraphPaneEl.innerHTML = `
@@ -348,6 +397,21 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <section>
             <div class="section-label">Trace diagnosis</div>
             <div class="trace-reasons card-reasons">${renderReasonList(paragraph.derived.status_reasons)}</div>
+          </section>
+
+          <section>
+            <div class="section-label">Next editorial action</div>
+            <div class="read-box next-action-box">${safeText(repairPlan?.nextAction || 'Select a trace to see the next action.')}</div>
+          </section>
+
+          <section>
+            <div class="section-label">Edit target</div>
+            <div class="read-box edit-target-box">${safeText(repairPlan?.editTargetLabel || 'Artifact')}: ${safeText(repairPlan?.editTargetPath || paragraph.path)}</div>
+          </section>
+
+          <section>
+            <div class="section-label">Verify after edit</div>
+            <div class="read-box verify-workloop">${safeText(repairPlan?.verifyText || 'Use Rebuild and Refresh to re-check the visible support state in the same UI.')}</div>
           </section>
         </div>
       `;
@@ -394,6 +458,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <div class="section-label">Reasoning note</div>
             <div class="read-box note-body">${safeText(buildNoteNarrative(item, paragraph))}</div>
           </div>
+          <div class="trace-block">
+            <div class="section-label">Edit target</div>
+            <div class="read-box edit-target-box">Note file: ${safeText(item.path)}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Verify after edit</div>
+            <div class="read-box verify-workloop">After editing this warrant, click Rebuild and then Refresh to re-check the paragraph support state with the updated note.</div>
+          </div>
         </section>
       `).join('');
 
@@ -438,6 +510,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <div class="trace-block">
             <div class="section-label">Origin</div>
             <div class="read-box">${safeText(item.data.origin || '—')}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Edit target</div>
+            <div class="read-box edit-target-box">Source file: ${safeText(item.path)}</div>
+          </div>
+          <div class="trace-block">
+            <div class="section-label">Verify after edit</div>
+            <div class="read-box verify-workloop">After editing this evidence record, click Rebuild and then Refresh to verify the refreshed support state and excerpt visibility.</div>
           </div>
         </section>
       `).join('');

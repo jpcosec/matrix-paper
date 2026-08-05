@@ -1,0 +1,6 @@
+## Command
+`deskops graph missing --root .`
+
+```text
+No missing graph references found.
+```
