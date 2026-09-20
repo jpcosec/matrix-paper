@@ -33,14 +33,16 @@ Este documento organiza jerárquicamente la base de conocimiento atómica del pr
 
 ## Aplicaciones
 
-### 📁 Aplicaciones (4 átomos)
+### 📁 Aplicaciones (5 átomos)
 * [[Demostracion_Compilacion_Reglas_y_Modus_Ponens]]
 * [[Demostracion_Juego_Desambiguacion_WiGame]]
 * [[Demostracion_Mundo_Bloques_SHRDLU]]
 * [[Demostracion_Ontologias_OWL_Semantic_Web]]
+* [[KB_Fanout_y_Stress_de_Contextos]]
 
-### 📁 Dominio_Culinario (1 átomo)
+### 📁 Dominio_Culinario (2 átomos)
 * [[Demostracion_Dominio_Culinario_Ragout]]
+* [[Operatoria_Lectura_de_Recetas]]
 
 ---
 
@@ -58,7 +60,7 @@ Este documento organiza jerárquicamente la base de conocimiento atómica del pr
 * [[Tipado_Typestate]]
 * [[Vectorizacion_Bitwise_Densa]]
 
-### 📁 Estructuras_Matriciales (19 átomos)
+### 📁 Estructuras_Matriciales (20 átomos)
 * [[Capa_Sentido_Si]]
 * [[Capa_Verdad_Vi]]
 * [[Construccion_Tensor_Jerarquico]]
@@ -71,6 +73,7 @@ Este documento organiza jerárquicamente la base de conocimiento atómica del pr
 * [[LogicalSpace_Li]]
 * [[Mascaras_Estructurales]]
 * [[Matrices_Puras]]
+* [[Maquina_de_Estados_como_WiGame]]
 * [[Optimizador_de_Contextos]]
 * [[Procedencia_y_Evidencia]]
 * [[Relation_Ri]]
@@ -88,7 +91,7 @@ Este documento organiza jerárquicamente la base de conocimiento atómica del pr
 * [[Operaciones_MEEL]]
 * [[Politica_Simbolos_Kernel]]
 
-### 📁 Modelos_Datos_MEEL (8 átomos)
+### 📁 Modelos_Datos_MEEL (9 átomos)
 * [[Fact]]
 * [[Hipertensor_Canonico]]
 * [[LogicalSystem]]
@@ -97,6 +100,7 @@ Este documento organiza jerárquicamente la base de conocimiento atómica del pr
 * [[Symbol]]
 * [[Thing]]
 * [[WiGame]]
+* [[WiGame_Contexto_y_Desambiguacion]]
 
 ### 📁 Operaciones_DB_Logica (15 átomos)
 * [[Operacion_Assert]]
