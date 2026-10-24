@@ -1,0 +1,49 @@
+answers:
+  - key: claims
+    answer: yes
+    justification: "The abstract and introduction state the paper's scope as a position paper arguing for a world-local semantic layer and do not claim empirical results beyond that scope."
+  - key: limitations
+    answer: yes
+    justification: "The paper includes a limitations discussion that states the absence of benchmark evidence and the dependence on bounded domains and symbol-mapping quality."
+  - key: theory
+    answer: no
+    justification: "The paper presents a formal framework and operational intuitions, but it does not yet include theorem-proof style results with complete formal proofs."
+  - key: reproducibility
+    answer: na
+    justification: "The current submission is a position paper and does not report experimental results."
+  - key: open_code
+    answer: na
+    justification: "The paper does not report experiments whose main claims depend on open release of code or data."
+  - key: experimental_details
+    answer: na
+    justification: "No training or evaluation experiments are included in the present version."
+  - key: significance
+    answer: na
+    justification: "The present submission does not include statistical experimental comparisons."
+  - key: compute
+    answer: na
+    justification: "The paper does not report experiments requiring compute disclosures for reproducibility."
+  - key: ethics
+    answer: yes
+    justification: "The work is conceptual and does not involve deceptive data collection, harmful deployment, or noncompliance with the stated NeurIPS ethics expectations."
+  - key: broader_impacts
+    answer: yes
+    justification: "The discussion addresses both positive implications for more reliable domain-specific systems and the limits of the approach in practice."
+  - key: safeguards
+    answer: na
+    justification: "This submission does not release a high-risk model, dataset, or system artifact."
+  - key: licenses
+    answer: yes
+    justification: "The paper cites external scholarly works and does not redistribute third-party datasets or models as core assets."
+  - key: new_assets
+    answer: no
+    justification: "The submission does not yet release a new documented asset alongside the paper."
+  - key: crowdsourcing
+    answer: na
+    justification: "The work does not involve crowdsourcing or research with human subjects."
+  - key: irb
+    answer: na
+    justification: "The work does not involve human-subject research requiring IRB or equivalent review."
+  - key: llm_usage
+    answer: na
+    justification: "LLMs are discussed as the object of analysis, but they are not used as a non-standard component of the paper's own core methodology."

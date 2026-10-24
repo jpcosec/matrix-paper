@@ -1,0 +1,7 @@
+# LaTeX build outputs
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+neurips_2026*.pdf

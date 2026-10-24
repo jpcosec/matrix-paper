@@ -1,0 +1,53 @@
+# Reference URL report
+
+- `wittgenstein1922`: warning - no `url` or `doi` field
+- `harnad1990symbolgrounding`: ok (200) `https://arxiv.org/html/cs/9906002`
+- `factscore2023`: warning - no `url` or `doi` field
+- `halueval2023`: warning - no `url` or `doi` field
+- `selfcheckgpt2023`: warning - no `url` or `doi` field
+- `semantic_entropy2024`: warning - no `url` or `doi` field
+- `lyre2024understanding`: warning - no `url` or `doi` field
+- `bender2020`: warning - no `url` or `doi` field
+- `orgad2025apple`: warning - no `url` or `doi` field
+- `shumailov2024`: warning - no `url` or `doi` field
+- `kommers2025slop`: warning - no `url` or `doi` field
+- `vossel2025advancing`: ok (200) `https://arxiv.org/abs/2509.22338`
+- `liu2025code4logic`: ok (200) `https://aclanthology.org/2025.naacl-long.547/`
+- `lee2025entailment`: ok (200) `https://aclanthology.org/2025.acl-long.286/`
+- `choi2025knowledge`: broken (403) `https://www.mdpi.com/2076-3417/15/7/3727` -> `HTTP Error 403: Forbidden`
+- `cheng2025empowering`: ok (200), redirected from `https://www.ijcai.org/proceedings/2025/1155` to `https://ijcai.org/proceedings/2025/1155`
+- `bian2025llm`: ok (200) `https://arxiv.org/abs/2510.20345`
+- `liang2025survey`: broken (403) `https://www.sciencedirect.com/science/article/abs/pii/S0278612525001050` -> `HTTP Error 403: Forbidden`
+- `ferrone2019`: warning - no `url` or `doi` field
+- `lecun2022path`: ok (200), redirected from `https://openreview.net/forum?id=BZ5a1r-kVsf` to `https://openreview.net/challenge?redirect=%2Fforum%3Fid%3DBZ5a1r-kVsf`
+- `dawid2024latent`: ok (200) `https://arxiv.org/abs/2306.02572`
+- `assran2023ijepa`: ok (200) `https://arxiv.org/abs/2301.08243`
+- `ibrahim2026`: warning - no `url` or `doi` field
+- `ata2025`: warning - no `url` or `doi` field
+- `symcode2025`: warning - no `url` or `doi` field
+- `liu2021`: warning - no `url` or `doi` field
+- `quigley2025`: warning - no `url` or `doi` field
+- `zoellner2021`: warning - no `url` or `doi` field
+- `cup2026`: warning - no `url` or `doi` field
+- `brachman1990`: warning - no `url` or `doi` field
+- `lehmann1992`: warning - no `url` or `doi` field
+- `sowa1991`: warning - no `url` or `doi` field
+- `hornik1991approximation`: ok (200), redirected from `https://doi.org/10.1016/0893-6080(91)90009-T` to `https://linkinghub.elsevier.com/retrieve/pii/089360809190009T`
+- `hanin2017universal`: ok (200) `https://arxiv.org/abs/1708.02691`
+- `feldman2023trapping`: warning - no `url` or `doi` field
+- `orgad2025iclr`: warning - no `url` or `doi` field
+- `wei2024measuring`: warning - no `url` or `doi` field
+- `sansford2024grapheval`: warning - no `url` or `doi` field
+- `simhi2024distinguishing`: warning - no `url` or `doi` field
+- `ma2025semanticenergy`: warning - no `url` or `doi` field
+- `eghbali2024dehallucinator`: warning - no `url` or `doi` field
+- `yao2023llmlies`: warning - no `url` or `doi` field
+- `agents2025survey`: warning - no `url` or `doi` field
+- `mckenna2023`: warning - no `url` or `doi` field
+- `yin2023`: warning - no `url` or `doi` field
+- `marks2024`: warning - no `url` or `doi` field
+- `chen2024`: warning - no `url` or `doi` field
+- `gekhman2024`: warning - no `url` or `doi` field
+- `kang2025`: warning - no `url` or `doi` field
+- `chuang2024`: warning - no `url` or `doi` field
+- `kruse2022causal`: ok (200), redirected from `https://doi.org/10.1007/978-3-030-42227-1_30` to `https://link.springer.com/10.1007/978-3-030-42227-1_30`
