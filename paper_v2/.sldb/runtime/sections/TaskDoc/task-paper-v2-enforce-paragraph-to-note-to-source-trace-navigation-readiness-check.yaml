@@ -1,0 +1,219 @@
+doc_name: task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check
+sections:
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check
+  title: 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness
+    check'
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check
+  level: 1
+  line_start: 33
+  line_end: 71
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check/rationale
+  title: Rationale
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - Rationale
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - Rationale
+  - rationale
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: rationale
+  level: 2
+  line_start: 35
+  line_end: 40
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check/goal
+  title: Goal
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - Goal
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - Goal
+  - goal
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: goal
+  level: 2
+  line_start: 41
+  line_end: 46
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check/scope
+  title: Scope
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - Scope
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - Scope
+  - scope
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: scope
+  level: 2
+  line_start: 47
+  line_end: 52
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - Implementation Path
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - Implementation Path
+  - implementation path
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: implementation-path
+  level: 2
+  line_start: 53
+  line_end: 56
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check/validation
+  title: Validation
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - Validation
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - Validation
+  - validation
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: validation
+  level: 2
+  line_start: 57
+  line_end: 65
+- path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check/done-when
+  title: Done When
+  breadcrumbs:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - Done When
+  about:
+  - 'paper_v2: enforce paragraph-to-note-to-source trace navigation — readiness check'
+  - paper v2 enforce paragraph to note to source trace navigation readiness check
+  - Done When
+  - done when
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - topic:readiness
+  - topic:workflow
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: done-when
+  level: 2
+  line_start: 66
+  line_end: 71
+source_hash: 83581d66cdd8d83b766574335d071e3575272aafe343d0e5ca2361d3afb1df3b
+sections_version: '2'

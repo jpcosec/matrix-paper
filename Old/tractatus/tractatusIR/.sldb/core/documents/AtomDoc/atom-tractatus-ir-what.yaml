@@ -1,0 +1,19 @@
+name: atom-tractatus-ir-what
+path: desk/atoms/atom-tractatus-ir-what.md
+source_hash: 6b41a7248a0a17eefced8bdddd51304ee648806186cece1a973a3a35a520dd04
+content_hash: 6b6610f796ed3d24bcf6ef767b0c9cebafa798f99b8ae77d3e00cd4372728003
+field_hashes:
+  id: 0b0259593f40894d8f139ccb7ed42a8754846f6fbb4646765c25c82fde8ac999
+  title: a8bffd7d5fa26141ebcb29ba61a76442e830ec87c4164bb5d33fb2e8c36b1f31
+  five_wh_one_plus: 0ac5b48a10a651e75b01f8d26468c18977ea336c90a9607a6163d0d330a4bb40
+  answer: f4d467f96806b44e8912db4b12f6ec277d8f74dbc1ce2d4c205b5f3462afc071
+  tags: 6c096be361b29d7f640a77a6b850a15d2ebaa48ed607597338d54c969cf992e3
+  provenance: 9aba352b53520a40a3fab8f1ac256e24893a9edc95b59efff342a76187c8771a
+semantic_tags:
+- kind:code
+- project:tractatus-ir
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms

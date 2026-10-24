@@ -1,0 +1,636 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    name: task-paper-v2-reframe-sources-as-evidence-cards
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-reframe-sources-as-evidence-cards.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: e97c844f448574cbdc741dbfd879c6c236e530aa0f3b268e8fcdb82faff77822
+    hash_d: fdc3da4aa78d2f7f013fc2279a0a91a74dad4bed7d0afd60b10386bccb804421
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards
+    title: 'paper_v2: reframe sources as evidence cards'
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-reframe-sources-as-evidence-cards
+    level: 1
+    line_start: 41
+    line_end: 81
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    - Rationale
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 43
+    line_end: 48
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    - Goal
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 49
+    line_end: 54
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    - Scope
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 55
+    line_end: 60
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    - Implementation Path
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 61
+    line_end: 66
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    - Validation
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 67
+    line_end: 76
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+    document_id: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+    path: paper-v2-reframe-sources-as-evidence-cards/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2: reframe sources as evidence cards'
+    - Done When
+    about:
+    - 'paper_v2: reframe sources as evidence cards'
+    - paper v2 reframe sources as evidence cards
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 77
+    line_end: 81
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards#paper-v2-reframe-sources-as-evidence-cards/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/../spec/component/paper-v2-editorial-browser.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/component/paper-v2-editorial-browser.yml
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/../spec/matrix/ui-components.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/matrix/ui-components.yml
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/../spec/index.html
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/index.html
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/task-paper-v2-reframe-notes-as-warrant-and-reasoning
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-reframe-notes-as-warrant-and-reasoning
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/task-paper-v2-reframe-notes-as-warrant-and-reasoning
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-reframe-notes-as-warrant-and-reasoning
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-document-left-sldb-right.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-document-left-sldb-right.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-reframe-sources-as-evidence-cards
+model_name: TaskDoc
+source_hash: e97c844f448574cbdc741dbfd879c6c236e530aa0f3b268e8fcdb82faff77822
+content_hash: fdc3da4aa78d2f7f013fc2279a0a91a74dad4bed7d0afd60b10386bccb804421
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk

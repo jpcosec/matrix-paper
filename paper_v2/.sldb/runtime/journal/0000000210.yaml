@@ -1,0 +1,15 @@
+operation: untrack_document
+address: PillDoc:context-task-typing-and-inheritance
+field: null
+previous_value: null
+new_value: null
+hash_c_before: 85bf5b07d43b863455ff529201c5bedc771f54646e5102a41d43f48583dbdb1c
+hash_c_after: null
+hash_d_before: ''
+hash_d_after: null
+hash_a_before: ed14bfae2d7908993d682d15cdbcd4761bc9436079670b5b29f4eae41893380a
+hash_a_after: e8e19ae4e31cec18738dff12a1058c4b60e9c9a9daeb7b1c825d7ba468e0a244
+actor: null
+timestamp: 2026-09-30 14:25:25.038825+00:00
+previous_hash: 0cd2bbcecce0518be38c3974c82b3a5ad441fcc390e2d8f05eaf304bc63627c0
+entry_hash: 5c24dcba18bc11daefdd01aad0980552a0d7d9984ba5b0da31d18c256f863ac4

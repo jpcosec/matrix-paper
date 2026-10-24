@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 210a0d8fff12b07567e1d46e1530aabc371f26512886b8722762147f670ceadc
+hash_d_before: null
+hash_d_after: 132ba0a7a6dd849611e02081fb0367013035450e7f220128cac358e508ebce4c
+hash_a_before: 149810b693e59e35df52f38365f0b5bacf8870d1ac6fd39d2bb65f890cf52388
+hash_a_after: 2a0a1b55713ed94bb66e0960833c7b3dad02333928f062b31f1d50ec96997fb8
+actor: null
+timestamp: 2026-09-30 13:44:45.589572+00:00
+previous_hash: 3d3218494e42860329b5a4051c91684b27e90355ab7876aa7ba5c1a5c6625196
+entry_hash: da519d7e9b6dd9b29aae0f343f6d57d1f75e416ff6b19890144496819c422cf4

@@ -1,0 +1,10 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-reframe-sources-as-evidence-cards.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: e97c844f448574cbdc741dbfd879c6c236e530aa0f3b268e8fcdb82faff77822

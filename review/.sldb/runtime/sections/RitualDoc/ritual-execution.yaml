@@ -1,0 +1,26 @@
+doc_name: ritual-execution
+sections:
+- path: execution-ritual
+  title: Execution ritual
+  breadcrumbs:
+  - Execution ritual
+  about:
+  - Execution ritual
+  - execution ritual
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.ritual
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.ritual
+  - workspace.desk
+  - workspace:desk
+  slug: execution-ritual
+  level: 1
+  line_start: 8
+  line_end: 10
+source_hash: 322173ee1184d5491a1d6a1ab2d3eac2868e12288f00bcb30edb35c7b7147cfa
+sections_version: '2'

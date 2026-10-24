@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-add-editorial-validation-language-and-interruption-cues-ready-for-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 8bf86ec9e197d493212d566df727d7be03eb072674d6c469daee7c57ca113ffe
+hash_d_before: null
+hash_d_after: d92df024ab549b2c1a40f526664220b6ef9696e9f0da7da06083bf3ac0e161bb
+hash_a_before: c1a87c9fa666e2d5954ebe31e2f129808ba6f1241a36170f4e9ae68f528ab5ee
+hash_a_after: 41176d58e2a5b6abb863d71d5be477cf380a1a77ebd168140335d0624256c2b0
+actor: null
+timestamp: 2026-09-30 13:44:39.728622+00:00
+previous_hash: 73c5c3e5f8238330a794b1ad6c4dddc403a3a0c636e410178b3c3fe0535c44c3
+entry_hash: a7c231746c5b3c80715aff3beb49b37b05aa0f82fb8de4505f49f2ed82c42718

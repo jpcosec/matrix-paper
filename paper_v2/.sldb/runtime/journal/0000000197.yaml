@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-has-validation
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 4bce0af65b106ef18e4faafc29226693528e4951f4617b1b0ec37d9d63e9fef5
+hash_d_before: null
+hash_d_after: 230652e58788b7a2c5b9007e593fddcf1c58b8493176dd9e1f4ac9fffc8b29a2
+hash_a_before: b5af3bd34c2290128dab743423608f39fa765144be363857ade48019a66e19ca
+hash_a_after: 870f7cc5d743515411e10d3818da1e4d5d7293fd97120fa3f9f1e8ad84359908
+actor: null
+timestamp: 2026-09-30 13:44:51.025398+00:00
+previous_hash: 08a75fc8b187d6e07e55c45ab35c12573263a3aa3b80b32005cee3bf4f36af12
+entry_hash: dafbe2ccaf7cd2e24b33955c5d7554383a240432c105d129e9bb2eefb49f9ff0

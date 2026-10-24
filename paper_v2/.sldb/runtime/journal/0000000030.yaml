@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-closeout-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 6f682176c3ce820fa3d210885f4a6dfb3b592c13e5c0dda652251be6a86d157b
+hash_d_before: null
+hash_d_after: de2b2dd3917bdc4b04e83cbe47a6f162b4a93a391b3cb4bafe4b5abfd76387d0
+hash_a_before: 9c975cf91b1adf2f5ac4f0905dab98ddb1ca1a9afe6cb69a2c262c5f121c2416
+hash_a_after: 0be7de579df403392e471c84c78dce7fdda3ef7f502254859769fb0b9856478e
+actor: null
+timestamp: 2026-09-30 13:44:38.673683+00:00
+previous_hash: 792a1330323f3a5ed5f2b795e878d2345b6af1f3e8e5670abe5b7c0e837a7984
+entry_hash: bcd7039511e182d09a097789392d615184cbc51764cf74722d4bac109bedda61

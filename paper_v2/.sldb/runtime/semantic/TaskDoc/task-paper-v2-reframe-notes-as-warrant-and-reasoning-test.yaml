@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-test.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:acceptance
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 8e36eab41d5b33e8911e7c92992503062b61ff7b4f14c28344514e65b0edc9b7

@@ -1,0 +1,681 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    name: task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: cf984b68ccfc8590b42977c798d325c91f8a8f345d48d5d71645fc9dc662f18a
+    hash_d: 360e2daf7b8c25bedbddf4ac6d3f36882f9454a6410bea5185edbcb3beee7997
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues
+    title: 'paper_v2: add editorial validation language and interruption cues'
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-add-editorial-validation-language-and-interruption-cues
+    level: 1
+    line_start: 50
+    line_end: 92
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - Rationale
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 52
+    line_end: 57
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - Goal
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 58
+    line_end: 63
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - Scope
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 64
+    line_end: 69
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - Implementation Path
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 70
+    line_end: 75
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - Validation
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 76
+    line_end: 87
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+    document_id: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+    path: paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - Done When
+    about:
+    - 'paper_v2: add editorial validation language and interruption cues'
+    - paper v2 add editorial validation language and interruption cues
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 88
+    line_end: 92
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues#paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/../spec/component/paper-v2-editorial-browser.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/component/paper-v2-editorial-browser.yml
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/../spec/matrix/ui-components.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/matrix/ui-components.yml
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/../spec/index.html
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/index.html
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-turn-the-sections-column-into-editorial-context
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-turn-the-sections-column-into-editorial-context
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-make-the-paragraph-column-an-assertion-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-make-the-paragraph-column-an-assertion-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-reframe-notes-as-warrant-and-reasoning
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-reframe-notes-as-warrant-and-reasoning
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-reframe-sources-as-evidence-cards
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-reframe-sources-as-evidence-cards
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-document-left-sldb-right.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-document-left-sldb-right.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-add-editorial-validation-language-and-interruption-cues
+model_name: TaskDoc
+source_hash: cf984b68ccfc8590b42977c798d325c91f8a8f345d48d5d71645fc9dc662f18a
+content_hash: 360e2daf7b8c25bedbddf4ac6d3f36882f9454a6410bea5185edbcb3beee7997
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk

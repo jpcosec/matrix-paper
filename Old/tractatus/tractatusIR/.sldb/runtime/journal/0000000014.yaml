@@ -1,0 +1,15 @@
+operation: add_model
+address: ChecklistDoc
+field: null
+previous_value: null
+new_value: deskops.models:ChecklistDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 2f15bb3d950b5994638dbe4a64ea68a3e5a1623544a97eeb87ff60e0980db411
+hash_a_after: bf4d38626ae6f276b3a63a5bd9fd6c4276206c4ffb74a1afbf4dd8c0ba83da1d
+actor: null
+timestamp: 2026-09-30 13:41:17.959159+00:00
+previous_hash: 376bd5f116513086d8c8e29fafda748c4a8f981bb3eba9c806a893fcc53a89b8
+entry_hash: 18f2045bba3ad9fe7adf10d11170f9d131a732d6a2fcd9b49230612da58fa24d

@@ -1,0 +1,59 @@
+doc_name: atom-tractatus-ir-for_whom
+sections:
+- path: tractatus-ir-purpose
+  title: Tractatus IR — Purpose
+  breadcrumbs:
+  - Tractatus IR — Purpose
+  about:
+  - Tractatus IR — Purpose
+  - tractatus ir purpose
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: tractatus-ir-purpose
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: tractatus-ir-purpose/answer
+  title: Answer
+  breadcrumbs:
+  - Tractatus IR — Purpose
+  - Answer
+  about:
+  - Tractatus IR — Purpose
+  - tractatus ir purpose
+  - Answer
+  - answer
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 56116f4912b175212940711addf43a26a28787d910f7232c300345cbb876af27
+sections_version: '2'

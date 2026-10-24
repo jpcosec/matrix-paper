@@ -1,0 +1,11 @@
+model: PillDoc
+path: desk/contexts/pill-pattern-document-left-sldb-right.md
+tags:
+- representation.markdown
+- source.document.markdown
+- system:sldb
+- topic:ui
+- type.workflow.pill
+- workspace.desk
+- workspace:desk
+source_hash: acb0518402059c936ad587e6f42e69b13f2d7c00f88033664773f6e00ba63c9b

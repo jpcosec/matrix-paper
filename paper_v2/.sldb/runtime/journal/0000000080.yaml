@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-reframe-sources-as-evidence-cards-ready-for-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: b20d750d8831210f96b2e23496ab644e701cba60174478c66e48f874ea41fbe9
+hash_d_before: null
+hash_d_after: 2a648d622c5e75bfc38540d94180d839bcab44b3d19681f296935b1796f81ff9
+hash_a_before: 8a8e6b964ab8bcb1e9daff6e163fbcb868a1464b1a8d3d2cfac8a6325294450f
+hash_a_after: 627da2bd3436c13f4d6d6aac5e9f87373012facbb6795c8ec36b20d10f96e996
+actor: null
+timestamp: 2026-09-30 13:44:42.110975+00:00
+previous_hash: 80e5d2047b3b88c344450902b5ab8debb44d087cacef1ee87d2edec051830702
+entry_hash: c3cddf6188507913ea05dc3db8c72cdba5953468e816fbd299b52c114125bdcd

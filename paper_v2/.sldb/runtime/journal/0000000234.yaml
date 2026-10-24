@@ -1,0 +1,16 @@
+operation: inherit_model
+address: PillDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 8389c4df5b12046103e0545f2b80ae1754f8d470314e35e69a4424d9d9a3c325
+hash_a_after: 8389c4df5b12046103e0545f2b80ae1754f8d470314e35e69a4424d9d9a3c325
+actor: null
+timestamp: 2026-10-18 15:31:00.773307+00:00
+previous_hash: 750639735a14e00b78fa237908370325aaece9977a5d389c17e02a9d6074a22d
+entry_hash: a429639ac80da56363641d9a085eb71617bdabcfd5185477ac77fb312e4be45c

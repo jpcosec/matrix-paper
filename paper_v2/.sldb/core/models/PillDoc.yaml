@@ -1,0 +1,20 @@
+name: PillDoc
+model_ref: deskops.models:PillDoc
+path: ''
+documents_index: .sldb/core/documents/PillDoc.yaml
+sections_index: .sldb/runtime/sections/PillDoc.yaml
+model_hash: e9afa465eba25be7cf6a3abbd4123262eba4b929e79a4da0787ab06bfeceeb83
+roster_hash: 659be0439621f9777f8e46cde1dd368015ac12f615f3550284b1f302d3f2e762
+contract_hash: 16cbc282a5f20f99f8e31d890d1006d8c243049a78e1d1fca1c0a62737fee5a6
+documents_count: 2
+version: 1
+canonical: false
+family: null
+semantics:
+- representation.markdown
+- source.document.markdown
+- type.workflow.pill
+- workspace.desk
+base_models:
+- OperationalArtifactDoc
+- PrimitiveDoc

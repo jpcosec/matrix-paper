@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-has-closeout-evidence
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: b7859f70654b55ba7e7a44a6c831d77d16a60f5c608049e0c0514357d4338c49
+hash_d_before: null
+hash_d_after: ab4bdba01e3cabfb36f98bbf088e70459ec9472701d1c505df4afc4c95b8cdda
+hash_a_before: 2d8ff9ad9adc2fe572a808e8544f88510b5a44d00cdca01a3af94d27f0da4852
+hash_a_after: 9c975cf91b1adf2f5ac4f0905dab98ddb1ca1a9afe6cb69a2c262c5f121c2416
+actor: null
+timestamp: 2026-09-30 13:44:38.608673+00:00
+previous_hash: 3a093b92d14048dbb180244477348df7eb3aaab0b8bdd8075718b19b9cd99436
+entry_hash: 792a1330323f3a5ed5f2b795e878d2345b6af1f3e8e5670abe5b7c0e837a7984

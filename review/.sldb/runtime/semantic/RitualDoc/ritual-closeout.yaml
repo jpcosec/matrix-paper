@@ -1,0 +1,9 @@
+model: RitualDoc
+path: desk/rituals/closeout.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.ritual
+- workspace.desk
+- workspace:desk
+source_hash: 0f61c72feb9e20a04d1907fabc5835eb02af2ea594c9d6e1cd076da416596f8e

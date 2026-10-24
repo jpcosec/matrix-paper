@@ -6,10 +6,10 @@ summary: Add readable support-state cues across the rendered document and the SL
 tags:
 - workspace:desk
 - artifact:task
-routine: routine-task-paper-v2-add-editorial-validation-language-and-interruption-cues
-current_node: checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-execution-ready
+current_node: ritual-execution
 history:
-- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow acceptance changes.
+- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
+  acceptance changes.
 - 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
 - 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
 - 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB
@@ -34,10 +34,6 @@ files:
 - astro_app/scripts/stress-test.mjs
 - astro_app/src/pages/api/graph.json.ts
 - spec/stress-test.md
-checklists:
-- checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-execution-ready
-- checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-testing-ready
-- checklist-task-paper-v2-add-editorial-validation-language-and-interruption-cues-closeout-ready
 task_type: implementation
 resolver_role: executor
 inherits_from:

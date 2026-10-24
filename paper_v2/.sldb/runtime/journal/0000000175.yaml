@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 9c401df38df3f8d26e061da4852749d386c2c7d55b4cf306efd328bddf247a41
+hash_d_before: null
+hash_d_after: 9238b2ac71c78e784375ae49bb362cbceb3721d0b6cf7c4f35a6eea9c59c9d03
+hash_a_before: bffdc9893c7c24dbcfd97a29c05ed5ce17528c27928be484d4d25e18459da977
+hash_a_after: dd0cd5f001c05bb52ff42e1bbb86d21a71972c797c744f0c908e2965b58f7a7d
+actor: null
+timestamp: 2026-09-30 13:44:49.286293+00:00
+previous_hash: 49b65ae1605885ddd1827a5fe4fe8df3fe579aa969bfcc781235ff08de80d385
+entry_hash: 1abbfb760a9970e88bff605485c4419a49e52bf12de63b2eec92cc1cda6ccaf7

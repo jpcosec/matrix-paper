@@ -1,0 +1,15 @@
+operation: add_model
+address: BoardDoc
+field: null
+previous_value: null
+new_value: deskops.models:BoardDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: ''
+hash_a_after: d2ead1ee185ff8d6760555ad06c1e69d75ebd103ef3d80a4c5f58a35b8127769
+actor: null
+timestamp: 2026-09-30 13:44:36.936261+00:00
+previous_hash: null
+entry_hash: 26d8ccb35be7b6b56af19a4586e22d87f3cb168bbc20d19f6227b5fe6bff4d4d

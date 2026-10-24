@@ -1,0 +1,15 @@
+operation: track_document_file
+address: RitualDoc:ritual-execution
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 322173ee1184d5491a1d6a1ab2d3eac2868e12288f00bcb30edb35c7b7147cfa
+hash_d_before: null
+hash_d_after: 60407c17eb1e79cba4b006d193ba05266d645e48a3be0a7667d6a45fc6d92028
+hash_a_before: a6f153cbe4cd16e4bc0d87353b2509adf1d7d82967203a99f1a485ade8e13e9e
+hash_a_after: 805bc308814f7b845ebab98bf209eb2480c9c775962fa8eefd6dec4bcb0de248
+actor: null
+timestamp: 2026-10-18 15:30:56.646822+00:00
+previous_hash: f292b7c5b68c2f3fc545fd28532109c0f16021b2586b7b054247a9c0a59e65f4
+entry_hash: bb1f2e0b097d88e02798c446cfbb6be53f36b3a6f18fa35af49ef1f12bae1cc8

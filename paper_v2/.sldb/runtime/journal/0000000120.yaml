@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-execution-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 974386f2f5c0df1e0cc02c95f039dfeb09aa94866fee878fe8fe9a3ae6ebf66c
+hash_d_before: null
+hash_d_after: 61b8680cb628740295fc3cb54cc96b54c0a6f3d122479024ad9d0fac68dd3d12
+hash_a_before: 0f8162e9799da4b0950cddafcd4cda5c1dea6c3085a01621d403ad5bba8986d3
+hash_a_after: 82cb33bc0488f7057e99ccd63385552f25c23559055339730418d9a1c6f51409
+actor: null
+timestamp: 2026-09-30 13:44:45.168888+00:00
+previous_hash: 0f95446823339d6d05dcdf1c2abcf5ba2317623a52d9c93feec9622d1f32b385
+entry_hash: 41b13947eae83a1ad7880aa414ccb9b7c5dc57414994f2b38670868891848d03

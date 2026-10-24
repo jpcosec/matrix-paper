@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:closeout
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: c29596787340c6f78d287dd3c61df44a22e34800f8dddd71c66e2d25350e7a2c

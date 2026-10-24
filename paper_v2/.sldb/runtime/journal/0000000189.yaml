@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-make-the-paragraph-column-an-assertion-surface-activate-to-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 12108de4751792d89ec71dade73c3dc021f049c64b439557fb90863f6e3dbcc5
+hash_d_before: null
+hash_d_after: 8c541b45733a8919ec9096d2a9075465db58d2a487c58adfb6a5dfe1af67c2ad
+hash_a_before: 52888d218d91125c5f76966bdebc0b49a904b327a4202f227a4a29acb341d402
+hash_a_after: d130db9b9a70630f0bf251d5d2bf02c731ca861daae7ed1fa62199d95434a07b
+actor: null
+timestamp: 2026-09-30 13:44:50.343177+00:00
+previous_hash: 7117cb2a246fa4d10c12fe80903fa2466c92e15dc57f98bbc25aba5be6f86d79
+entry_hash: ddc530e217c45be616d16ee62b5a9dd1a4ad69115914cd81e5f943bdbe4637cf

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: PillDoc:context-workflow-logbook-scope
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: c2372baf792a57d668c8416d4c24b8fe63831f3bcf78927991d4aee091890e7a
+hash_d_before: null
+hash_d_after: ''
+hash_a_before: 3864d0d479a60ccb2f582ef5aeb2ea02c059cb63f806cc72f9fe628527294d0b
+hash_a_after: c1a87c9fa666e2d5954ebe31e2f129808ba6f1241a36170f4e9ae68f528ab5ee
+actor: null
+timestamp: 2026-09-30 13:44:39.662818+00:00
+previous_hash: 472393fd46e211a831606766b7084b957a2ebbb97cc146e081b9a065a9d7a469
+entry_hash: 73c5c3e5f8238330a794b1ad6c4dddc403a3a0c636e410178b3c3fe0535c44c3

@@ -7,7 +7,6 @@ tags:
 - workspace:desk
 - artifact:task
 - topic:closeout
-routine: ''
 current_node: complete
 history: []
 references:
@@ -23,7 +22,6 @@ pills:
 files:
 - desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning.md
 - desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-test.md
-checklists: []
 task_type: closeout
 inherits_from:
 - task-paper-v2-reframe-notes-as-warrant-and-reasoning

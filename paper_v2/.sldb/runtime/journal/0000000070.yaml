@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-reframe-notes-as-warrant-and-reasoning-testing-to-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 668ed788c580afe9fa5de9a40b78914973256c7bc75b07ff081315e408912df4
+hash_d_before: null
+hash_d_after: cc8523794fc4b7d96471def66193e4696605e123e329475eacd42bdd3415145e
+hash_a_before: cd8378ec58255c556191c9fd608b615326022a764bc03872d6720f2bfa2d5d37
+hash_a_after: 2b4d372a042ec94fb41470d7eb54c3a07ec1af875084b8d0e2e069496310a14e
+actor: null
+timestamp: 2026-09-30 13:44:41.442437+00:00
+previous_hash: 06a97c7b215dc5046aee2292b5dd7e596033659484954211e79db17b773a69d4
+entry_hash: 7b9ead822875e677c2cb85d7fab10d3b1b05654b7b82de9d0374fdc3dd436241

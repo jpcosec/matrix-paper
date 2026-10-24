@@ -1,0 +1,16 @@
+operation: inherit_model
+address: StepDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 973111371033ab962b69cab046c36ea2e599ccfd9a242a12966ac0d8ac1121f0
+hash_a_after: 973111371033ab962b69cab046c36ea2e599ccfd9a242a12966ac0d8ac1121f0
+actor: null
+timestamp: 2026-10-18 15:31:01.053659+00:00
+previous_hash: f6aacc9119a5a95223175b8134ad517743f73757b531312b7ec6289e1c618ed3
+entry_hash: 766398311d388de0ad1d2c5cca5b5d401a66562683fca1b34c4149a49db4e1e1

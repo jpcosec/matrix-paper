@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues-readiness-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 66db94b6a4db32708eb968da8bf2ef5954832868480572678476f663462ab59c

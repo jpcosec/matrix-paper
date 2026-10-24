@@ -1,0 +1,15 @@
+operation: track_document_file
+address: PillDoc:pill-pattern-document-left-sldb-right
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: acb0518402059c936ad587e6f42e69b13f2d7c00f88033664773f6e00ba63c9b
+hash_d_before: null
+hash_d_after: f14a3e1808d72ce0077596c16cbb18d7896ca928ac1de3ea26f1b8561587745d
+hash_a_before: 321702afb50f2725a8c3c3c2592000bca08e5a07dd8c900d337509eef612a4fd
+hash_a_after: e566c7b718217356b80c1ee317bb518c3fab385721612f1d881492b046bdf4cf
+actor: null
+timestamp: 2026-09-30 13:44:48.680090+00:00
+previous_hash: aa0b19d7ba6df7415da9ac8d15a06a5999cf9c24e75116247d4d0cfa43feac31
+entry_hash: 835b1e120dcccae7a6c6ef18e6dc604d6b28e019bff69cdef79275fc1c727e2c

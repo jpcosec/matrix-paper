@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-turn-the-sections-column-into-editorial-context-closeout-to-close
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: f8e892b04f693ebcd58b960c5dc9faccb6f37b686cc131fa5343658bafd00412
+hash_d_before: null
+hash_d_after: edcb99c27ab0e06dca1e44d627377c0a11a0ed5bff77e15fb252e58830afe88a
+hash_a_before: 3c4b7b5593892df751da0f4bfc0432ed78128bfd0892eff2dbef17395b1eb62f
+hash_a_after: 4d971ad16179a708b856cb393aba29962549a4ca8d0037a0f1b83f7909663105
+actor: null
+timestamp: 2026-09-30 13:44:43.007827+00:00
+previous_hash: 73f3bec3a41179f7ad50fdcb092d75642f6ccd1b868f58b4ffe6c6e2690ffd13
+entry_hash: 3ee9949c0a8c223c3535a6f6e212c953339b05bf5f0bef508c2f37da135dfae5

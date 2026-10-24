@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:closeout
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: c3b0772ad54782c09605813e2084a2d2f05cdf54b4fd36dc4250e1dd425b0a3f

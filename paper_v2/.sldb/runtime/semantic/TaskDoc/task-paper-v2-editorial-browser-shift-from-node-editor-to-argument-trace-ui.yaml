@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:editorial-browser
+- topic:ui
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: c68693e228bf55916cf0af3aa7710b7daf565460ce3f4276fa2c6f1edfa5759b

@@ -1,0 +1,20 @@
+name: RitualDoc
+model_ref: deskops.models:RitualDoc
+path: ''
+documents_index: .sldb/core/documents/RitualDoc.yaml
+sections_index: .sldb/runtime/sections/RitualDoc.yaml
+model_hash: 661b079ecc354de707c3959edb9c8b993477356b1344af347b927e8535911d86
+roster_hash: 39345719147d591bd681404002a14f7d8eb392272a511532b5aef2bf5e38c485
+contract_hash: fd5777c6019cce9e2c3425026376c9de410e9f8c9c66fe52f88a26a8e8f398d6
+documents_count: 3
+version: 1
+canonical: false
+family: null
+semantics:
+- representation.markdown
+- source.document.markdown
+- type.workflow.ritual
+- workspace.desk
+base_models:
+- OperationalArtifactDoc
+- PrimitiveDoc

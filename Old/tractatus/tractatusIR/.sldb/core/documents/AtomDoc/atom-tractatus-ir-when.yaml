@@ -1,0 +1,19 @@
+name: atom-tractatus-ir-when
+path: desk/atoms/atom-tractatus-ir-when.md
+source_hash: 9c3ff41c492f6e0941d4554bc25a31a27ab798070bce76215e48e0e58aafa331
+content_hash: a9c5245afb73f7b645b35e547eaa04f8c33245581513a9b3c2d8d70f6082e685
+field_hashes:
+  id: d5a34643a56444d413826827d81aeffb1c517f79bbde5846f785563fe3ff04bc
+  title: 2254d790202265e2be456cbdb5938d9ebc7af457e77bc45a2b9fded2e3885db6
+  five_wh_one_plus: 6d924791a1798656302bd4b9716a494a0c5f7f55ad9ceebf629dfb2317e86078
+  answer: 2f6fda528a0bc385902711dfbc121869c1d83d529b81cf8bfc7020e6d14299cb
+  tags: 6c096be361b29d7f640a77a6b850a15d2ebaa48ed607597338d54c969cf992e3
+  provenance: 52cf11ec1f409297853a3445adfc6353ccc49d025a29ab36f7c3bb1bae18b24a
+semantic_tags:
+- kind:code
+- project:tractatus-ir
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms

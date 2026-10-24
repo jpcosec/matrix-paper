@@ -1,0 +1,16 @@
+operation: inherit_model
+address: CrossroadDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: ab901924158a47cfb5cb3d350624a332dbce383dbed115f497362644573142b4
+hash_a_after: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+actor: null
+timestamp: 2026-10-18 15:31:08.920435+00:00
+previous_hash: null
+entry_hash: d034c4af661be7d280eef914015005215632f3d866214126268ee98effa4a03c

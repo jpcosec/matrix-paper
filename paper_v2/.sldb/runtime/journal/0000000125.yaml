@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-closeout-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 5bce36d3280e85e621af7d3e2bc1d4b81bfed187972413b55a855d88a070adef
+hash_d_before: null
+hash_d_after: c4a2f823319f232d8d3cbdc859fccd98bca46daeb98b3250e9c9bde57f896a4c
+hash_a_before: eff36715c7cfa979e1fb5744f7d5765b0b9704d01dbcc4065c30fd66f21c6202
+hash_a_after: 149810b693e59e35df52f38365f0b5bacf8870d1ac6fd39d2bb65f890cf52388
+actor: null
+timestamp: 2026-09-30 13:44:45.522907+00:00
+previous_hash: e19923385cf52f64dd8a7ed6d45764d7d716a361aca2c1545fc5d3273698190d
+entry_hash: 3d3218494e42860329b5a4051c91684b27e90355ab7876aa7ba5c1a5c6625196

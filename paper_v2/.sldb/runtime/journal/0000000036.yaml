@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-derive-editorial-trace-status-in-graph-payload-ready-for-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 8e18514a802d3c46238823ffe9c4bddc3a7070678cb9a031521e4dc8937bf87a
+hash_d_before: null
+hash_d_after: 2151fb1964c7603a1594940ca2098236faa0687c4d0770567763d9dc152749c2
+hash_a_before: 5fffbd4c0c12b4ce166a5d0bb492234f8fd97b1819164ca08cd0854210dd7b63
+hash_a_after: 3a847b1f1a66ac8f4dadea467637ea311755c5b81743c849846534fdb865b99b
+actor: null
+timestamp: 2026-09-30 13:44:39.067851+00:00
+previous_hash: 023a26e6a733c4ff65cf1b57e37e6589bd615b5a39934201f31c995478f5700b
+entry_hash: d1be2d4e0edf861bd86f969dd42aa9c05af331efd17d2b18973c22af11e4b461

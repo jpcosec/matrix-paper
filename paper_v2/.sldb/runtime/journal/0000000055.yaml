@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-make-the-paragraph-column-an-assertion-surface-has-closeout-evidence
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 353c39a58b2ce3150d4f58d01993a8d5f1cb2ddf695168556be6e64301b631c6
+hash_d_before: null
+hash_d_after: bda1e492b33b7eb331fa7c94ac17543e50904f04010af88c02aaf223b8043bb4
+hash_a_before: e57d5910bc5be9331cde3e2a97c80fdfce6b1c52fac5b3eb487fedabfe8b5159
+hash_a_after: b713eac1ea10114d6ef04c3ad3050b3d786162b0c77ee06ab5d7c4da4a80e543
+actor: null
+timestamp: 2026-09-30 13:44:40.377712+00:00
+previous_hash: c91fef2ee129a9f54d92287906dd4cd1164612d984c4b1c5e207b8dfdbd8fc5f
+entry_hash: b10e96026103be0319f6dc355ebd5d23269f1a276aad1c5609f8ae9073b51702

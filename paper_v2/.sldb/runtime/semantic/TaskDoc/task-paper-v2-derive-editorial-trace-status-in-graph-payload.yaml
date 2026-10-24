@@ -1,0 +1,10 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-derive-editorial-trace-status-in-graph-payload.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 02001f598b7d8a98942761f08896969e2524e0b17efdc02cc0a6c4adfda5b02e

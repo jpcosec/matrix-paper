@@ -1,0 +1,143 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/RitualDoc:ritual-testing
+  node_type: RitualDoc
+  semantics:
+    export_id: RitualDoc:ritual-testing
+    name: ritual-testing
+    model: RitualDoc
+    path: desk/rituals/testing.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.ritual
+    - workspace.desk
+    - workspace:desk
+    hash_c: 1d41cf846052c427f1d4c3523bea6ae190409b1c720ce623eba5d210e0053346
+    hash_d: 1f0f0f0effb769da3740472dd95a1ec836f6b5cf5f3f9a094a6465964f80bc7b
+  facets: {}
+- id: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  node_type: sldb_section
+  semantics:
+    export_id: RitualDoc:ritual-testing#testing-ritual
+    document_id: RitualDoc:ritual-testing
+    path: testing-ritual
+    title: Testing ritual
+    breadcrumbs:
+    - Testing ritual
+    about:
+    - Testing ritual
+    - testing ritual
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.ritual
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.ritual
+    - workspace.desk
+    - workspace:desk
+    slug: testing-ritual
+    level: 1
+    line_start: 8
+    line_end: 10
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.ritual
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.ritual
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/RitualDoc
+  target: sldb://document/RitualDoc:ritual-testing
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/RitualDoc:ritual-testing
+  target: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/RitualDoc:ritual-testing
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/RitualDoc:ritual-testing
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/RitualDoc:ritual-testing
+  target: sldb://semantic_tag/type.workflow.ritual
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/RitualDoc:ritual-testing
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/RitualDoc:ritual-testing
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  target: sldb://semantic_tag/type.workflow.ritual
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/RitualDoc:ritual-testing#testing-ritual
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: ritual-testing
+model_name: RitualDoc
+source_hash: 1d41cf846052c427f1d4c3523bea6ae190409b1c720ce623eba5d210e0053346
+content_hash: 1f0f0f0effb769da3740472dd95a1ec836f6b5cf5f3f9a094a6465964f80bc7b
+contract_hash: fd5777c6019cce9e2c3425026376c9de410e9f8c9c66fe52f88a26a8e8f398d6
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.ritual
+- workspace.desk
+- workspace:desk

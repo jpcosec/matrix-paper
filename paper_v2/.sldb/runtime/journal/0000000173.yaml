@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-add-editorial-validation-language-and-interruption-cues-ready-for-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 7ecc1def39da0cf16c5a9437f6c2fa9dec142832b89c2d4cee2fcd08cc8ffc6a
+hash_d_before: null
+hash_d_after: 93f80acc5097e691fd91db44f95ee6cc1ed46624205821cd29838bd031aef609
+hash_a_before: 333ee276e3227df3181eb1c782b4740b22b6b5bb0314ec36d0c89196edcc0d31
+hash_a_after: 4954be37ec6918bb5e6cb070187cfd4d5d0d9a5cc57b4d285d3960c6d786e8ef
+actor: null
+timestamp: 2026-09-30 13:44:49.145782+00:00
+previous_hash: 5010cd9e4d3f0823d5487cabd8d013ce5430a66a0e5cafae6afe45c544bd769f
+entry_hash: 352362c968aa02ef2950ff1b03fcdeb85a79774ade267ccde8efa11e45ad72db

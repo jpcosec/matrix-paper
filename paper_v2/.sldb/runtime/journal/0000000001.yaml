@@ -1,0 +1,15 @@
+operation: add_model
+address: TaskDoc
+field: null
+previous_value: null
+new_value: deskops.models:TaskDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: d2ead1ee185ff8d6760555ad06c1e69d75ebd103ef3d80a4c5f58a35b8127769
+hash_a_after: b1f9b880711672eb1ab2fbd05a3f839a39570cf62367896f8fe394f68e68214c
+actor: null
+timestamp: 2026-09-30 13:44:36.970542+00:00
+previous_hash: 26d8ccb35be7b6b56af19a4586e22d87f3cb168bbc20d19f6227b5fe6bff4d4d
+entry_hash: a5027e9d82c3f6593953fc6865dc44ba9d9b7cbe646496ec69bf9f6baf8eded9

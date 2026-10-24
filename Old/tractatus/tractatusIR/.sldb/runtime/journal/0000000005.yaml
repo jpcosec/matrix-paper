@@ -1,0 +1,15 @@
+operation: add_model
+address: RepositoryDoc
+field: null
+previous_value: null
+new_value: deskops.models:RepositoryDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: ada856492928b68d45c281eb05f5d09e2eacb0b8ed483523f999807609cf4b90
+hash_a_after: b2e274bc070373d7423e2e61d65a3a3e44853b6a00dcdc992e3759ac0ac6067d
+actor: null
+timestamp: 2026-09-30 13:41:17.576976+00:00
+previous_hash: 068f07aafc68ebd3b5b66582291051980233eb643001f20dba6b284299eaaea9
+entry_hash: 3871e397dbefaac9494b32e287497f82b7244f7c90ba73898bb9ff663ad2fc09

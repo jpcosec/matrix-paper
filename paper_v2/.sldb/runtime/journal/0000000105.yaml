@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-has-closeout-evidence
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 4529efcbcbd1dcee5d16d47fcdeb300335d737c572c6a19ac576eb696a887c9e
+hash_d_before: null
+hash_d_after: bd64faea063bc3b41bd4563c13a295336ba615cc36f21349db7fa318fddd932b
+hash_a_before: 01a65ca0ab3fd727c4ef92f9ac34834440c2a84278e8d6fcc7269a613e244160
+hash_a_after: 7603a7056d3cb9b9718db3e55f9f065111fdb0747a36150c03d253e7b43f00e9
+actor: null
+timestamp: 2026-09-30 13:44:43.997784+00:00
+previous_hash: 1ea53d82465e23ebe922aec71852b8df5f99b72055088e941b032fc71520bf76
+entry_hash: 64dadda514612ec6ef321e4cf536e555bbd62b2bda911ffd0951b0a5dd8a755e

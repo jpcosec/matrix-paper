@@ -1,0 +1,34 @@
+name: task-paper-v2-add-editorial-validation-language-and-interruption-cues-test
+path: desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues-test.md
+source_hash: f75eb51172af99b2224d1802699234e976fad812686406083ffffdfb24f6d683
+content_hash: d0d283285bf12a32868e93e501bf10fa001b7fe76aabcceff2370ef440c6f49f
+field_hashes:
+  title: 66baca46bf89484cae225c1bbd32486d3e7409dd08b6d74f3cfda0832e2f7fc4
+  id: 6856f5559307aad27546b6307b10657c118a520f0bc7981f911d980fb9dabf73
+  status: 6ae048f08fcab44bfbc8463f074bfdb40f94c6bdf56d3aad9a7e1c05e5d5b5c1
+  summary: 07d16399ae36136b31ef3055860162ca8a64ab2bd5c6d4ae55c0c8ff4a48482a
+  tags: 978d3936563ea486094d808c5e534f52995f7eb65a3b632814e05f075118f3cd
+  current_node: ff5161892aac34735bf10c411f7230b62b7b56446e230a5d26fb75afde4704b6
+  history: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  why: 736893f2b47ee9314748e0b6a0c7bd94c7dd08825c24d1a306f03cbcebb2ec08
+  goal: 5605d3c2e8abd9ff9ab6ebf47194b4b66856e77e5106f296f9998e1fa4fa69ee
+  scope: 84bb3fecf484c760c0f84b4751dc494ddf6b2e05fc0b9ccdff46f34b7e14342f
+  references: 436a9fa24bbebef8562e97d655defb1c41c14ecf70d067a8b28e107d38a67c7b
+  depends_on: db71869e30c30bdb16851bff56d8f6e455d17a5ee237692f3f3991b450c4bf55
+  pills: ece8d18a1414310f4650fbe1b4e67a72f65ca2685512a2fa5064421812d66cec
+  files: b1a05612c64e46369e714bd5e4184231e1e4e3f6d893bdc242244590610cf201
+  implementation_path: 12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126
+  validation: 32b60097c33cadc7b840310334d094d9340ca49659ab6f5b750d0dc61f53fd6b
+  done_when: 8a60a2eee9426de1f082182c531fa790b5a4c6b9e94d7bc55298eb7bce11f4be
+  task_type: 4d967a30111bf29f0eba01c448b375c1629b2fed01cdfcc3aed91f1b57d5dd5e
+  inherits_from: db71869e30c30bdb16851bff56d8f6e455d17a5ee237692f3f3991b450c4bf55
+  inherit_acceptance_context: b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+  atoms: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:acceptance
+- type.workflow.task
+- workspace.desk
+- workspace:desk

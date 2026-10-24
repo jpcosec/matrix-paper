@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-reframe-notes-as-warrant-and-reasoning-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: bc66cf294d4b020e92411a4c6d8677f88923590965d4fe6a0c867bb2ab398012
+hash_d_before: null
+hash_d_after: fa9e87b84e18bff32ab01db5636a990d26c689b362f968e5c49c90402992ddd0
+hash_a_before: 2a0a1b55713ed94bb66e0960833c7b3dad02333928f062b31f1d50ec96997fb8
+hash_a_after: 2a25d042b750a09a195f4fd6eeb83db220ded58be567652097cfb193a2f64e00
+actor: null
+timestamp: 2026-09-30 13:44:45.658055+00:00
+previous_hash: da519d7e9b6dd9b29aae0f343f6d57d1f75e416ff6b19890144496819c422cf4
+entry_hash: 839d2bf206763a890007c69575ad87a784caf264aa3bc90689a59ce739f4aeef

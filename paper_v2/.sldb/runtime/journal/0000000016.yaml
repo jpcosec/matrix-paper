@@ -1,0 +1,15 @@
+operation: add_model
+address: EdgeDoc
+field: null
+previous_value: null
+new_value: deskops.models:EdgeDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: daa471a9bfa46defedec05c86d93a5c67d1a78204413dbe2d07b4e6a1c071483
+hash_a_after: 33006ecfe569c31d7535efcfb12ae05b4f91ac2cc4e9da69d1d1c268624eed27
+actor: null
+timestamp: 2026-09-30 13:44:37.527640+00:00
+previous_hash: e3a163b6821324564ebd297c8dd507ca48a9a95ca4649f258e7d73d6068fadde
+entry_hash: ddd03d4487a6b9eeaa64b4749039c2ed4fb7a60038a91f16939719e1099f5aaf

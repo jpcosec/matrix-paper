@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-reframe-notes-as-warrant-and-reasoning-ready-for-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: efd5f916165cccf83a29688e4306d12620e7383d24d4ff8d7e49f7d4e4682bad
+hash_d_before: null
+hash_d_after: dd6893f403db8bc3f046ff8c271ecc1d6b61040dd692ef6f14d6620d0bb0580a
+hash_a_before: 87ca5f6ce7cf9f940ca685cfaeb4e49e327d16966df74a9e31794b30ed0568cd
+hash_a_after: 3864d0d479a60ccb2f582ef5aeb2ea02c059cb63f806cc72f9fe628527294d0b
+actor: null
+timestamp: 2026-09-30 13:44:39.575625+00:00
+previous_hash: 6f8d5e4cb6535090b14d7a2f813feb872063bf32eccb7896496fc91011c75dd6
+entry_hash: 472393fd46e211a831606766b7084b957a2ebbb97cc146e081b9a065a9d7a469

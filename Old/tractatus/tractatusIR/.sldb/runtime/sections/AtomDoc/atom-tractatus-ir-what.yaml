@@ -1,0 +1,59 @@
+doc_name: atom-tractatus-ir-what
+sections:
+- path: tractatus-ir-what-it-is
+  title: Tractatus IR — What it is
+  breadcrumbs:
+  - Tractatus IR — What it is
+  about:
+  - Tractatus IR — What it is
+  - tractatus ir what it is
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: tractatus-ir-what-it-is
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: tractatus-ir-what-it-is/answer
+  title: Answer
+  breadcrumbs:
+  - Tractatus IR — What it is
+  - Answer
+  about:
+  - Tractatus IR — What it is
+  - tractatus ir what it is
+  - Answer
+  - answer
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 6b41a7248a0a17eefced8bdddd51304ee648806186cece1a973a3a35a520dd04
+sections_version: '2'

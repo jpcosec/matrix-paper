@@ -1,0 +1,16 @@
+operation: inherit_model
+address: RoleDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 8389c4df5b12046103e0545f2b80ae1754f8d470314e35e69a4424d9d9a3c325
+hash_a_after: 8389c4df5b12046103e0545f2b80ae1754f8d470314e35e69a4424d9d9a3c325
+actor: null
+timestamp: 2026-10-18 15:31:00.924770+00:00
+previous_hash: 4ca03467ca5cc83f94448f689541b6030e2ca27e3efbde3a40030bae1d9fe467
+entry_hash: c967209e4ef5bfd16324419f26c48c4ea2be44f2e15fa402c2f5f93e1fd8280e

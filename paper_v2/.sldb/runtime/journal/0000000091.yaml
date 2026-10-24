@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 2cf8e436d1f318cc239ffa089ff64249d5dc7f9d2001ac218666f69651fb331a
+hash_d_before: null
+hash_d_after: 638fb58dcc03a7af7e7a645719f9698d8212fc62fe34bed212917050b56d1c1d
+hash_a_before: fc5dff5dc031cd8be426c4d3c8719059ffe9e758bfb1b2594e8864856bbc8e04
+hash_a_after: 3c4b7b5593892df751da0f4bfc0432ed78128bfd0892eff2dbef17395b1eb62f
+actor: null
+timestamp: 2026-09-30 13:44:42.934172+00:00
+previous_hash: 3fe738abafcf44303846ddeaa7b0bc1eb36aaae91025d3f2ecfbc471e1ca34e9
+entry_hash: 73f3bec3a41179f7ad50fdcb092d75642f6ccd1b868f58b4ffe6c6e2690ffd13

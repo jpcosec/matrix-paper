@@ -6,7 +6,6 @@ summary: Fix and preserve readable notes-pane support cards for the selected par
 tags:
 - workspace:desk
 - artifact:task
-routine: routine-task-paper-v2-reframe-notes-as-warrant-and-reasoning
 current_node: complete
 history:
 - 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
@@ -32,10 +31,6 @@ files:
 - astro_app/scripts/stress-test.mjs
 - spec/acceptance/editorial-workloop.md
 - spec/workflow/editorial-repair-loop.yml
-checklists:
-- checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-execution-ready
-- checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-testing-ready
-- checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-closeout-ready
 task_type: implementation
 inherits_from:
 - task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui

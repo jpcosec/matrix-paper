@@ -1,0 +1,15 @@
+operation: track_document_file
+address: AtomDoc:atom-tractatus-ir-how
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: e1834900d61f4671ab0418abbdb936ba6b04d170d9a14922653478a9e1176bbe
+hash_d_before: null
+hash_d_after: 1c4f0580042a59297db2504a149dabba69d8a84db4258c8bc834696fcf00dabf
+hash_a_before: 6646f1ac92df2022c990cea1f370412d3cf4028a2e66e0065cc2ff127fd39b4d
+hash_a_after: f79663b2934f8dd7fce2d61a9099687a140d52600ad7818738346a6843368130
+actor: null
+timestamp: 2026-09-30 13:55:46.508883+00:00
+previous_hash: c851f6dd943e857f35e8f35f448fa7c5047ac0d1dd33fc916e6486cc18831d8c
+entry_hash: 3c06fe8be7501cdcddb275e1c1a044d2518523ca744b5c32f806e62da9e67b5f

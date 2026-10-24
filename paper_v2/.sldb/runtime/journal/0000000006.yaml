@@ -1,0 +1,15 @@
+operation: add_model
+address: RoleDoc
+field: null
+previous_value: null
+new_value: deskops.models:RoleDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: b2e274bc070373d7423e2e61d65a3a3e44853b6a00dcdc992e3759ac0ac6067d
+hash_a_after: 4a1f7ea0ad8554fac82bfaf79d0dd53f4b294e846503cef99712d8b9abcfe100
+actor: null
+timestamp: 2026-09-30 13:44:37.147418+00:00
+previous_hash: 981d5d2823ba1a6b4f3743dcc4eca3e87da4b61d970b9c698ff5c012081e3003
+entry_hash: 845c1455fcdc50db40edd37efce0a1e7d1435f7704e3372eee219a04c1efb220

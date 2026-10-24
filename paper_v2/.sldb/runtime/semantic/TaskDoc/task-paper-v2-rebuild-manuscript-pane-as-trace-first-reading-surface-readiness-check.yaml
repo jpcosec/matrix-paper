@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-readiness-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 11f5b2163dd9762177f94e1a805ad2956a5fd4d68dfa16670c6162b0295459ca

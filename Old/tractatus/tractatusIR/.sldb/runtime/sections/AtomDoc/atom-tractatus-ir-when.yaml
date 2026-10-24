@@ -1,0 +1,59 @@
+doc_name: atom-tractatus-ir-when
+sections:
+- path: tractatus-ir-when
+  title: Tractatus IR — When
+  breadcrumbs:
+  - Tractatus IR — When
+  about:
+  - Tractatus IR — When
+  - tractatus ir when
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: tractatus-ir-when
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: tractatus-ir-when/answer
+  title: Answer
+  breadcrumbs:
+  - Tractatus IR — When
+  - Answer
+  about:
+  - Tractatus IR — When
+  - tractatus ir when
+  - Answer
+  - answer
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: 9c3ff41c492f6e0941d4554bc25a31a27ab798070bce76215e48e0e58aafa331
+sections_version: '2'

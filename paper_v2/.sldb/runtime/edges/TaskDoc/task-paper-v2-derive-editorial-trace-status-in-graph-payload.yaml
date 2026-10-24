@@ -1,0 +1,627 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    name: task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-derive-editorial-trace-status-in-graph-payload.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: 02001f598b7d8a98942761f08896969e2524e0b17efdc02cc0a6c4adfda5b02e
+    hash_d: eacfbc385dd9b0cb3c992655ddf986b1782236cd1b6e64bfbec8b15df039de72
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload
+    title: 'paper_v2: derive editorial trace status in graph payload'
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-derive-editorial-trace-status-in-graph-payload
+    level: 1
+    line_start: 41
+    line_end: 81
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - Rationale
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 43
+    line_end: 48
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - Goal
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 49
+    line_end: 54
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - Scope
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 55
+    line_end: 60
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - Implementation Path
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 61
+    line_end: 66
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - Validation
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 67
+    line_end: 76
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - Done When
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload'
+    - paper v2 derive editorial trace status in graph payload
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 77
+    line_end: 81
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload#paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/spec/acceptance/editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: spec/acceptance/editorial-workloop.md
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/spec/workflow/editorial-repair-loop.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: spec/workflow/editorial-repair-loop.yml
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/spec/index.html
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: spec/index.html
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-document-left-sldb-right.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-document-left-sldb-right.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-derive-editorial-trace-status-in-graph-payload
+model_name: TaskDoc
+source_hash: 02001f598b7d8a98942761f08896969e2524e0b17efdc02cc0a6c4adfda5b02e
+content_hash: eacfbc385dd9b0cb3c992655ddf986b1782236cd1b6e64bfbec8b15df039de72
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk

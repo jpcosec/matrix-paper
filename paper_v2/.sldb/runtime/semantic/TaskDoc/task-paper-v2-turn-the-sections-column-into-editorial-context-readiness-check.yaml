@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-turn-the-sections-column-into-editorial-context-readiness-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 4e8a69ccb0f64c3599adbcbcbff5d962734fde1ae3bb7c9f4a4d6bc8b5b38a54

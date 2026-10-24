@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-reframe-sources-as-evidence-cards-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 52136f848d510d684528c6e3fa2e1d39808ddb1b46fff1da6ac582978090bfe3
+hash_d_before: null
+hash_d_after: f3563b28b0d8010c45f6d0a15de1d69926e4368a563c2b70ac6d0e623723abbd
+hash_a_before: 8bc70cdd4a5f789b7b91bd8e10996df95d1a86f8381fa7232fd0b2901c05f04e
+hash_a_after: 08dadc457dd13c424097a153def85f25d48e31ad065c774d13286dc7bf7de56f
+actor: null
+timestamp: 2026-09-30 13:44:44.710625+00:00
+previous_hash: 0ee08fc641028680fd4c555acb292db76e9895c847fd0412d558cd9fb0d1b0b2
+entry_hash: 98ebcac1be6e0b12df2f6b403f94af41afc6df9e6b1ce31a5a3ba99a1a515908

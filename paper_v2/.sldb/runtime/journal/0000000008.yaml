@@ -1,0 +1,15 @@
+operation: add_model
+address: AtomDoc
+field: null
+previous_value: null
+new_value: deskops.models:AtomDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: b52de4c7cb3db3b4c1cc184dce07c798d63ad52b0f6edaeb7bc351494135e404
+hash_a_after: 954bb9ee0c4d7725cbbc7ed3bf669bbe1822d4e737582075233f746099ba8651
+actor: null
+timestamp: 2026-09-30 13:44:37.218633+00:00
+previous_hash: b5c2ded54dd64f6ed9913a8d5202a3f5ef84f41152e8c4dda2cb8750e6aed8b8
+entry_hash: 05921c2ab0c6ac6f22e1d9fa72e3cc29bef3e917a8bfdacf878c64be5125e963

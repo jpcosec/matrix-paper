@@ -1,0 +1,16 @@
+operation: inherit_model
+address: AtomDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+hash_a_after: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+actor: null
+timestamp: 2026-10-18 15:31:08.953045+00:00
+previous_hash: d034c4af661be7d280eef914015005215632f3d866214126268ee98effa4a03c
+entry_hash: aee29227ca112c6b34f52f3e3400736545eff2acb9ff8f42eb95349b3aa042ec

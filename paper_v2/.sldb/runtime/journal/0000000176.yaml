@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-reframe-sources-as-evidence-cards-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 7bb73976bca090be01015d2112416808270ad8947e15c56ae6169cf4937d9913
+hash_d_before: null
+hash_d_after: 08c386e47ed6910208a2bcdda94338276be06d64dd8259af86ddf062944d1b91
+hash_a_before: dd0cd5f001c05bb52ff42e1bbb86d21a71972c797c744f0c908e2965b58f7a7d
+hash_a_after: 24e98cfcddba84fe3a761ed7e2b62da8a6961f8672e1cdc2bfaa0fa6dc1e23de
+actor: null
+timestamp: 2026-09-30 13:44:49.359848+00:00
+previous_hash: 1abbfb760a9970e88bff605485c4419a49e52bf12de63b2eec92cc1cda6ccaf7
+entry_hash: ed91cd5e758f798d5f00b71917a0021744151bac2d15ffde55a7a66ae69e169b

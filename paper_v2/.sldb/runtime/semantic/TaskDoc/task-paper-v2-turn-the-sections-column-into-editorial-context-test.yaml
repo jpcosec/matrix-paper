@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-turn-the-sections-column-into-editorial-context-test.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:acceptance
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: ac2e21d16e61de568b12ef844bffa1b73259fd39ab7044522402cabf1c8b7ec5

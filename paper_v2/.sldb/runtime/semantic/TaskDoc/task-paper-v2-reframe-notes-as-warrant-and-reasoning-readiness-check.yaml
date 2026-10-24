@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-readiness-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 4f54650e687079e078f9ccd3978884a7ae610dba8aa04912139ceb1e66f3c2f2

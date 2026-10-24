@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-reframe-sources-as-evidence-cards-execution-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 87ec518aafb874e0b81d97fc54c3b18044aa254e890b3b9da1cccb2fe499a222
+hash_d_before: null
+hash_d_after: 33ad0f2172fdcf8048995a1b2f65d1fbb17b864fc0959bbdf0eb3e341180d71e
+hash_a_before: b34dac17dbfdf036a4a52de73fa892599b57b00e404babc970942c33ca883878
+hash_a_after: 15b69c61905098c64bfd32a90b67c65778d3d62f99065e6ed6b99b0badc458ad
+actor: null
+timestamp: 2026-09-30 13:44:38.802259+00:00
+previous_hash: 44d7be1c4c70a64a2defeea969b570596f10450ec102ba946961e1558eebcfa6
+entry_hash: 6175ef771851991c2d0f93bf320dac1e61d9129ad6540225da14165601610485

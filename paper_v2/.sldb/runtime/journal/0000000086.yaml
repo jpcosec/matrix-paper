@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-turn-the-sections-column-into-editorial-context
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 7fc511536c0fb138013afec91af7b696ae27b52804272fb1959a33825e275e2b
+hash_d_before: null
+hash_d_after: c2b6a9a95127db58c9e9889755121dfc2b4b1b034b3ed00619cd37db44c3d297
+hash_a_before: db48f3a8d9966d3398c951e5b773641a0966a739d33cca9c3191b4bf227c7bd8
+hash_a_after: 728a933b25a046e363ca8ec63b10ee12e014e2d3e84176625ad7d73a96439193
+actor: null
+timestamp: 2026-09-30 13:44:42.558517+00:00
+previous_hash: 2c4f49726def69d412fe6c4648cc28f807031c429b32a99d360da8b293c824eb
+entry_hash: 6ca49ef794289f2a96d5ca6d698dcc4cb489c0830f8bbd4bab546e0d144d846e

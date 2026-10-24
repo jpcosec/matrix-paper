@@ -1,0 +1,9 @@
+model: RitualDoc
+path: desk/rituals/testing.md
+tags:
+- representation.markdown
+- source.document.markdown
+- type.workflow.ritual
+- workspace.desk
+- workspace:desk
+source_hash: cfc15558a5368f7008bdd44ffb20b41f2d3b0154276664044df30b71171455b6

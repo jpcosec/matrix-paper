@@ -1,0 +1,12 @@
+model: PillDoc
+path: desk/contexts/pill-pattern-editorial-workloop.md
+tags:
+- representation.markdown
+- source.document.markdown
+- system:sldb
+- topic:editorial-workflow
+- topic:ui
+- type.workflow.pill
+- workspace.desk
+- workspace:desk
+source_hash: 70cdb2ccda81508b614d3ea40f1872deaf6a709f1b157158245bd9e373f83a5b

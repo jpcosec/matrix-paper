@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 17bfa1635942072978084362f27dd42671a3e214a6307d4ccb823ba89be0d277
+hash_d_before: null
+hash_d_after: 7760a6cab577bb0303c6cd52eb37c269391d29a5afb13e65b5481ada7f5cb2b4
+hash_a_before: 4d971ad16179a708b856cb393aba29962549a4ca8d0037a0f1b83f7909663105
+hash_a_after: d759b4f3f3f788f56f50a9ac832ef7fdc8ebd774f78cfa84b1d54ae3a38bb52c
+actor: null
+timestamp: 2026-09-30 13:44:43.144440+00:00
+previous_hash: 3ee9949c0a8c223c3535a6f6e212c953339b05bf5f0bef508c2f37da135dfae5
+entry_hash: e3818a76f46bb4b6ba91415ea19052901440823ef5f19a0893b14d3809aae9d4

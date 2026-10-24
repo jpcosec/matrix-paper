@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-reframe-notes-as-warrant-and-reasoning-closeout-to-close
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: d768bfecef21ebe35eca701094e57e58323625481bc5d9b91ea6bd401716d658
+hash_d_before: null
+hash_d_after: dc73eccfca7eefc9c01dd6674c423bae0a9f354efbe16e6e16d425fe1aa2460a
+hash_a_before: 4cefe69d738a73b68decfe1a84e0f150a125206207587a6033fcbccaa32ad8f1
+hash_a_after: e55180c5705088b1c0639617ef6d2a1c5e5d853e679a0cf457b43d124f9aad22
+actor: null
+timestamp: 2026-09-30 13:44:50.893604+00:00
+previous_hash: 61e525e0b1474aaa9d7b484bbc821e89bf2b70990b9ccb46c3314e42343dac26
+entry_hash: b0e38ca907826fdfedddb0bc37d4e8aba268ae587ddcbe10e99b2fa8d78f06c5

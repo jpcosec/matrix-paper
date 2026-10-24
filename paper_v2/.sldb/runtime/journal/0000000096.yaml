@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-close
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: eb2f06299db88af5bdb3b0de5012642217961afdcf73ada0f5368c715ef442fc
+hash_d_before: null
+hash_d_after: 2b7cc55cebf0f74b840f84b09088a132bc7fdbde1b2620d47af5a9decb04aad3
+hash_a_before: 95eb7ddf1c86a623d40080fa65f3470cbdf199ef9dc284e4d91bb9ea10e7672e
+hash_a_after: 9496c0de591c51076ccb77b822f544940a6794565375489e8445a5ae4135072b
+actor: null
+timestamp: 2026-09-30 13:44:43.362954+00:00
+previous_hash: 61dbfb0e6bd04834e087bc046488b7d2958d2229978253478be4e96c3c17e17b
+entry_hash: 85c9a0ef57a5af826c2845cf64d3e966b78ce5e0fbe4b3b33fb20e836d76ba85

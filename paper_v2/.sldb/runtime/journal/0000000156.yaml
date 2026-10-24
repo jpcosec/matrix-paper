@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-make-the-paragraph-column-an-assertion-surface
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: c2b9f59eedf0c84ba879c60738ee40a4c32b168b92643853a9aa6b7665964c5e
+hash_d_before: null
+hash_d_after: 081b1a743af0f8412a946cb11a2136613f62e92db501860e5d5c1231411e5d39
+hash_a_before: c60303e16310c0c6ab9d209cd6c788fc7295afdf04d6e9ab45fa0513b0f4f9f7
+hash_a_after: d520a31ceb8af82d08aa3efecf81d16bc11fac37a830a8783e3f25084cc08dd7
+actor: null
+timestamp: 2026-09-30 13:44:47.863622+00:00
+previous_hash: 693b1099f39bb55d14c6c4eeffb5012e6efbad09fc48d5ebe877c240fe423806
+entry_hash: 5fe335307116c1014f7093e9b91a099b9ff875ff68ac1658cdb7bbac0d2a9fc5

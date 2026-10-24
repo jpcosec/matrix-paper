@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-test
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: fc18230c8b68884abf0148cb57e2d3b6b9fd349645aa25c0e826cc6afebec454
+hash_d_before: null
+hash_d_after: f38ecd4ef2b525790f9c81b612c35a91318e4d6242e84d535e92546766103e11
+hash_a_before: e12b77469ebb9db7cebf101a038f3bba67ebd55feaffc7ad9a7818a43fad8941
+hash_a_after: 88b5812804c7d268a9654f8868d781c06db48250e3a00f7a0e807bd451c79c92
+actor: null
+timestamp: 2026-09-30 13:44:50.536498+00:00
+previous_hash: d578728b4af9441a22ff3e0c9657c94c041258de9a616fb4fe49bb3517bcd240
+entry_hash: 262d37dd00d75f23eeb9732e78a0e9828f86ecbe7a00c1861823199e25e312e6

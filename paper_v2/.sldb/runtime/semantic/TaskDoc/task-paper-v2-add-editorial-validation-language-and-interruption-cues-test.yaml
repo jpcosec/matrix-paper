@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues-test.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:acceptance
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: f75eb51172af99b2224d1802699234e976fad812686406083ffffdfb24f6d683

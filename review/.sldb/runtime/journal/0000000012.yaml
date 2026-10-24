@@ -1,0 +1,16 @@
+operation: inherit_model
+address: RuntimeProfileDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 2332364254f2064ca758653e375b9130b61038054cf77f3f1d87cc53a5a5e729
+hash_a_after: 9653c7518c4045f3d8838a5444a5bdb0e1b4ab0976421d867035ae564399cf2c
+actor: null
+timestamp: 2026-10-18 15:31:09.331792+00:00
+previous_hash: c7b9d52c277c49c304e7f58cdeff574121b459c909fc522d86435fad40d2b869
+entry_hash: e6c0c4e2d4568d5e5a145750d7a94c54b8e83ea02729fc90618386ebf83606ec

@@ -1,0 +1,690 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    name: task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: c8f750aca68052d264a3d0d2f9e6f0b5f7d08022163cc89f9c67e3cbd29acc9a
+    hash_d: 90857ec8f4364318dea4addbc6b4fbdf042a3cbeb8d4552d411cf2f5a8897d21
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    title: 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    level: 1
+    line_start: 48
+    line_end: 87
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - Rationale
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 50
+    line_end: 55
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - Goal
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 56
+    line_end: 61
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - Scope
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 62
+    line_end: 67
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - Implementation Path
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 68
+    line_end: 73
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - Validation
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 74
+    line_end: 82
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+    document_id: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+    path: paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - Done When
+    about:
+    - 'paper_v2: enforce paragraph-to-note-to-source trace navigation'
+    - paper v2 enforce paragraph to note to source trace navigation
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 83
+    line_end: 87
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation#paper-v2-enforce-paragraph-to-note-to-source-trace-navigation/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/../spec/component/paper-v2-editorial-browser.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/component/paper-v2-editorial-browser.yml
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/../spec/matrix/ui-components.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/matrix/ui-components.yml
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/../spec/index.html
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/index.html
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-make-the-paragraph-column-an-assertion-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-make-the-paragraph-column-an-assertion-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-reframe-notes-as-warrant-and-reasoning
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-reframe-notes-as-warrant-and-reasoning
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-reframe-sources-as-evidence-cards
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-reframe-sources-as-evidence-cards
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-make-the-paragraph-column-an-assertion-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-make-the-paragraph-column-an-assertion-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-reframe-notes-as-warrant-and-reasoning
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-reframe-notes-as-warrant-and-reasoning
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/task-paper-v2-reframe-sources-as-evidence-cards
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-reframe-sources-as-evidence-cards
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-document-left-sldb-right.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-document-left-sldb-right.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+model_name: TaskDoc
+source_hash: c8f750aca68052d264a3d0d2f9e6f0b5f7d08022163cc89f9c67e3cbd29acc9a
+content_hash: 90857ec8f4364318dea4addbc6b4fbdf042a3cbeb8d4552d411cf2f5a8897d21
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk

@@ -1,0 +1,16 @@
+operation: remove_model
+address: RoutineDoc
+field: null
+previous_value: deskops.models:RoutineDoc
+new_value:
+  documents_untracked: 0
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: b1773837fe9570e8fcca4e89f6c910006006cfa4aa4528c4ac44246a0be20511
+hash_a_after: a7d5d6a14a2748ab35d056f4f07c2b21b3362b8618f0f8801b4385cf6f9afdd7
+actor: null
+timestamp: 2026-10-18 15:31:37.791132+00:00
+previous_hash: 3c06fe8be7501cdcddb275e1c1a044d2518523ca744b5c32f806e62da9e67b5f
+entry_hash: 8071ab4357729a3fd7867f359c342c3db0f0f68c449c6535c09288d962c5b386

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-reframe-sources-as-evidence-cards-closeout-to-close
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 821c115dfdb609cd5b69967cc60aa745f8a5353e0a17291668fcd213c69d801f
+hash_d_before: null
+hash_d_after: d0db7435208bdd09dfb494b37217389cf824aaed26481b134744de7e9be2a782
+hash_a_before: 81c1090f9fb76eea5f918cfaf7bb29816a0b4a2c27eed1e8c0472bf088c8b8e9
+hash_a_after: cab6b2e21651f17eae1235ab27c56a8b16f913a0d739fa3ca81a6b681dc28c0c
+actor: null
+timestamp: 2026-09-30 13:44:43.722333+00:00
+previous_hash: dcb88edfc4ad7b8fdb5f0cd9bf58cdb5147d3436b3b8811c4bd6a0b2a5c8959b
+entry_hash: 9bfaa29fa9a540b1d50ba06edffaa8e19129a48171594d98f1754efa345d52fc

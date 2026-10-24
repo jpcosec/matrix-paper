@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: c05fff2a5073c7bc74dc3d366f1699b6145ac552df3d466d3307ddee0cbcf74c
+hash_d_before: null
+hash_d_after: dede4028d28a87e33cead2d29a17f9ec4aa1addf5b2c50c2b7a109f2e496621c
+hash_a_before: 2bf40d66630a2d02553beecadfc8c269ee206a5d294ff11e7f73509d3ff82a0f
+hash_a_after: fc276736791f3258c5d7e9e919959784bfafdb20b585e6c915bc54c11b3a8599
+actor: null
+timestamp: 2026-09-30 13:44:47.548238+00:00
+previous_hash: 1080fc0a3f894da17e05c662aa19894958f4cdec1eeb676aef06d1848bae363a
+entry_hash: 033c5c4227b20f5482df48533bbe12aefc67e0ef044630c9d72571eb137a15f3

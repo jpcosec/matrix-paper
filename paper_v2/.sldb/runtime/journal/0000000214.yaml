@@ -1,0 +1,16 @@
+operation: remove_model
+address: ChecklistDoc
+field: null
+previous_value: deskops.models:ChecklistDoc
+new_value:
+  documents_untracked: 27
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 36d64343afc267e1496069a64760d37868a98555829f0bb83a01c73dfe94f865
+hash_a_after: aa678d68262dd87b783917b0521440f795a220bf3d415729d55f9eb6ee979a1f
+actor: null
+timestamp: 2026-10-18 15:30:55.394297+00:00
+previous_hash: 0c0e7de7d9c40fb44f10bf5d66b2107c42b9d821b98b03dbf0acf61e2ba3d96b
+entry_hash: abbd778eb950750c423e498471519530004ea7cc96dc67cb434a9e868524ff1b

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-make-the-paragraph-column-an-assertion-surface-execution-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 5f138b61bc53ffc2d6d48b3fbc425c4f4e718d487eca534dbebf8ac9e67f86c2
+hash_d_before: null
+hash_d_after: b060def76cebd128a079121aa30c7ce96e391b0b3e8ca6a915cd26af824aad07
+hash_a_before: 19c7d48177d213b96ad41fceca1f98a7ab2aa25adea79920a8a835b68a76d1c6
+hash_a_after: b2d62559e4235e8e123f2bd0e345a82a2c35df386c015a9961ac28d64c824d90
+actor: null
+timestamp: 2026-09-30 13:44:46.329404+00:00
+previous_hash: 00604ebbe49fd0f23b16c59121d780cd0fa8d611d2fcdd8694f0a19cbb7881f8
+entry_hash: 53e063ed57ca3a130197afe8f86565ca945cee5fa76f2a9a20c53251e055f00d

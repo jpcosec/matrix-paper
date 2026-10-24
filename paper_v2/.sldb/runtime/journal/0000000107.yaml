@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-make-the-paragraph-column-an-assertion-surface-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: ca268e015ade6c909ad8b96f6ce4730ea435d0105222b92d168057a6db27d657
+hash_d_before: null
+hash_d_after: 5d7bf0439fcb31229034a3785adb128ce65eb5d2a675222ec1c0fcf5fa672f25
+hash_a_before: 190dbcf3c9fdd70bd7e7f8ae124c0acdcf4889fd712b22d362bb009f09e5a6e6
+hash_a_after: ed0432333d0a179d5c3d0a7ad39bbd79199bb9334a58650195ca9858e55c04a9
+actor: null
+timestamp: 2026-09-30 13:44:44.141691+00:00
+previous_hash: 118487639b5328f5a3d07847377b18309cff7b840bb81e378e4dac0306c63cdc
+entry_hash: e65da0e8f735f0d232a930ed1c48fb3655987f052cf71c31b6fad7d8a6b36aa6

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-ready-to-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: cec19b49fa041150a8a334d5aa645ffa1a7956a8e96a72bf96f468c72302c2a3
+hash_d_before: null
+hash_d_after: ccc4489ce53cd5f283bf54dfdbafccd66ae0a155aba8208e0737c6addb9b1989
+hash_a_before: 78927aabc60d64a96875b366f612f3a9c6091d716d4ecad75a76809dace3f9cd
+hash_a_after: 9485db3f7601728244007afed66806ba6c79847e10414aabef35ff2cf157c618
+actor: null
+timestamp: 2026-09-30 13:44:40.903397+00:00
+previous_hash: cff5adef3c9f73a097277ac14fa073dbfec516fe4e4212fef575950bcd71083e
+entry_hash: 0a7124d62ef5253eaac501d3ae0e60a22e68b3704fd570d3da23564f2465dd21

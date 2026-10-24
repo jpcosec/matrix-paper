@@ -1,0 +1,11 @@
+model: AtomDoc
+path: desk/atoms/atom-tractatus-ir-when.md
+tags:
+- kind:code
+- project:tractatus-ir
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms
+source_hash: 9c3ff41c492f6e0941d4554bc25a31a27ab798070bce76215e48e0e58aafa331

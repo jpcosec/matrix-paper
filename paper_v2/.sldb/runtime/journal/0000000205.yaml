@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-reframe-notes-as-warrant-and-reasoning-execution-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 8da627655ad6a797931d51ceeb57e0ca4bb42b7497db1068452451a7102d1c8f
+hash_d_before: null
+hash_d_after: 10acae1bae68688b6b11af0e63eec243e23ddc5b67b2d76498e33732e7ed9d5b
+hash_a_before: 5f36f65c5673443ee82ad9c445c6352195a5f42458ab34480a40058b3df8d144
+hash_a_after: 0169b54932e8ba052210b19593de314483a483253b452ff4ad3627fb083410ce
+actor: null
+timestamp: 2026-09-30 13:44:51.628172+00:00
+previous_hash: 81dfaeb5d380fd656ef51d25c2aa420e61d02740568f839cb6c0b56e036ba32c
+entry_hash: 3ff1b8bc626be28c6fee01264859a7fa1c31459fc49aae9ab9e83c9c3f9f6c69

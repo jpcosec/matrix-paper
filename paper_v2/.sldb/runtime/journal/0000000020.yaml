@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-make-the-paragraph-column-an-assertion-surface-activate
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 6bf73696d414e39fabcd8eeceb245b5da66588bb76fee82bab8686a8d24ba324
+hash_d_before: null
+hash_d_after: 5d9140cb2efc049a7515566b7296d28e7f0f943d0b11962187d978e814280072
+hash_a_before: b78ed0c3f5cbbc141e39bcdee053788737816344bf07aed3f013ed922ce41212
+hash_a_after: 5c183cd06b6eff10c0c896b132b9a6d18f833be3902f0efd77e112636d850f3f
+actor: null
+timestamp: 2026-09-30 13:44:37.936984+00:00
+previous_hash: 4ac348f383370a9c280b240a26d71b3ecca17edce44ff2eea3407c3064cd2446
+entry_hash: e54a19fd1d1b016c6ee0c9e4a6f2d526edfe05d83af9b3b2927c2c13ac9b8127

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-test
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 3b1bbc42794f2dccf3852aad59cb47aeec7775f80bf9ef95a46e4e6eac738a83
+hash_d_before: null
+hash_d_after: ff17bed209ed0dc0404804e231a8505d1db0be093f52ea982eea025101b899ae
+hash_a_before: 9f82e38523a8e333239751f906159c18cf9308102b31c024557bca03b3c0ec63
+hash_a_after: 1331231a169faef669dbaed992cbe0e9f0f3863d1e690435d8e3f91a81a74a74
+actor: null
+timestamp: 2026-09-30 13:44:38.279618+00:00
+previous_hash: 38eeedbbfcc88ef7567cac5f7bb8973b854fb291458e274ac3938c75b56bcbfe
+entry_hash: bbb93ed36716afa626f81cfd411af36ce01a963f6dfa3f303cfab1fa5459bb84

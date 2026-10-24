@@ -6,10 +6,10 @@ summary: Synchronize document and inspector selection across paragraph, note, an
 tags:
 - workspace:desk
 - artifact:task
-routine: routine-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
-current_node: checklist-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-execution-ready
+current_node: ritual-execution
 history:
-- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow acceptance changes.
+- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
+  acceptance changes.
 - 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
 - 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
 - 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB
@@ -29,10 +29,6 @@ pills:
 - desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
-checklists:
-- checklist-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-execution-ready
-- checklist-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-testing-ready
-- checklist-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-closeout-ready
 task_type: test
 resolver_role: tester
 inherits_from:

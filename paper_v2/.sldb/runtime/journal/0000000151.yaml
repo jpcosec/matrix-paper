@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: ea429f5d24bf7629e78e9947eaf425f02b4380e463e2d95dc0e80e023c71a27f
+hash_d_before: null
+hash_d_after: 0c2548bc4918f08c56673c0bc731b1422680c3c1bc1e5881c0538994bb4592ad
+hash_a_before: 18610d63dde7baa8105020d2010e89e9c28f90947691a889264d1cee34a92b32
+hash_a_after: 2bf40d66630a2d02553beecadfc8c269ee206a5d294ff11e7f73509d3ff82a0f
+actor: null
+timestamp: 2026-09-30 13:44:47.452667+00:00
+previous_hash: 6863603434dae69bccf264a4fc7f1bda8080f8eeed6b375e9099defb6b255851
+entry_hash: 1080fc0a3f894da17e05c662aa19894958f4cdec1eeb676aef06d1848bae363a

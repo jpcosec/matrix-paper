@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-reframe-sources-as-evidence-cards-ready-for-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 98de2e834f3a735c019dec269fc126f368461d98910f8f6413746343f42ed109
+hash_d_before: null
+hash_d_after: 6a396819b2f2e4ab94dcdc363d63f5886c9122fcf78f30a0ec7c49ce87fb8c80
+hash_a_before: adfa9d5ea477bba53005fbcd4e4285f41b8c2eab9ef6eb41cdb70ecc7d2946aa
+hash_a_after: 019b132f0f79a944ac2059e5ef2ef15c109d9bef0d11e6cb76f47eeff7c44e74
+actor: null
+timestamp: 2026-09-30 13:44:50.195473+00:00
+previous_hash: 518cf39ef1a1f3598c82e0d25afa9510ab43ddcead4f4bd7da1e47c701592b62
+entry_hash: 1f0147435d8709c94375b93013311224112a391349c04776b86ac9fa11ff3917

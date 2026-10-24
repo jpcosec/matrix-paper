@@ -1,0 +1,711 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    name: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: c29596787340c6f78d287dd3c61df44a22e34800f8dddd71c66e2d25350e7a2c
+    hash_d: 4b2f8aba8f0eed5b607a24e0568104f75fecef789e2d08598dbe614826f39dda
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    title: 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    level: 1
+    line_start: 34
+    line_end: 72
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - Rationale
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 36
+    line_end: 41
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - Goal
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 42
+    line_end: 47
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - Scope
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 48
+    line_end: 53
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - Implementation Path
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 54
+    line_end: 57
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - Validation
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 58
+    line_end: 66
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+    document_id: TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+    path: paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - Done When
+    about:
+    - 'paper_v2: rebuild manuscript pane as trace-first reading surface — check'
+    - paper v2 rebuild manuscript pane as trace first reading surface check
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 67
+    line_end: 72
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/topic:closeout
+  node_type: semantic_tag
+  semantics:
+    tag: topic:closeout
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check#paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/../spec/component/paper-v2-editorial-browser.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/component/paper-v2-editorial-browser.yml
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/../spec/matrix/ui-components.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/matrix/ui-components.yml
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/../spec/index.html
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/index.html
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/../spec/acceptance/editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/acceptance/editorial-workloop.md
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/../spec/workflow/editorial-repair-loop.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/workflow/editorial-repair-loop.yml
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-editorial-workloop.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
+model_name: TaskDoc
+source_hash: c29596787340c6f78d287dd3c61df44a22e34800f8dddd71c66e2d25350e7a2c
+content_hash: 4b2f8aba8f0eed5b607a24e0568104f75fecef789e2d08598dbe614826f39dda
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:closeout
+- type.workflow.task
+- workspace.desk
+- workspace:desk

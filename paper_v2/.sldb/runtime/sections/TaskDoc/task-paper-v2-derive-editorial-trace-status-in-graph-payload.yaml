@@ -1,0 +1,190 @@
+doc_name: task-paper-v2-derive-editorial-trace-status-in-graph-payload
+sections:
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload
+  title: 'paper_v2: derive editorial trace status in graph payload'
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: paper-v2-derive-editorial-trace-status-in-graph-payload
+  level: 1
+  line_start: 41
+  line_end: 81
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload/rationale
+  title: Rationale
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - Rationale
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - Rationale
+  - rationale
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: rationale
+  level: 2
+  line_start: 43
+  line_end: 48
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload/goal
+  title: Goal
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - Goal
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - Goal
+  - goal
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: goal
+  level: 2
+  line_start: 49
+  line_end: 54
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload/scope
+  title: Scope
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - Scope
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - Scope
+  - scope
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: scope
+  level: 2
+  line_start: 55
+  line_end: 60
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - Implementation Path
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - Implementation Path
+  - implementation path
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: implementation-path
+  level: 2
+  line_start: 61
+  line_end: 66
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload/validation
+  title: Validation
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - Validation
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - Validation
+  - validation
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: validation
+  level: 2
+  line_start: 67
+  line_end: 76
+- path: paper-v2-derive-editorial-trace-status-in-graph-payload/done-when
+  title: Done When
+  breadcrumbs:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - Done When
+  about:
+  - 'paper_v2: derive editorial trace status in graph payload'
+  - paper v2 derive editorial trace status in graph payload
+  - Done When
+  - done when
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: done-when
+  level: 2
+  line_start: 77
+  line_end: 81
+source_hash: 02001f598b7d8a98942761f08896969e2524e0b17efdc02cc0a6c4adfda5b02e
+sections_version: '2'

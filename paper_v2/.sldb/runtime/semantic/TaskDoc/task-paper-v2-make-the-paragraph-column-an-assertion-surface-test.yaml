@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-make-the-paragraph-column-an-assertion-surface-test.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:acceptance
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: fa363c078279e9aa9ae8fcbe69c006c0964409e9727985c405250b32de19fb3c

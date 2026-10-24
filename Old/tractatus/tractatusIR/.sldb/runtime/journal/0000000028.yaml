@@ -1,0 +1,16 @@
+operation: remove_model
+address: EdgeDoc
+field: null
+previous_value: deskops.models:EdgeDoc
+new_value:
+  documents_untracked: 0
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: faa7418b8073ac5af96653ccdff7f8ac2fe1168d39b2032bf6ea4ad99ae588d5
+hash_a_after: 4f8fc11a0c7d8ab84af2838891c8ee21d8a4b051dc16cbb5470028833bdeada0
+actor: null
+timestamp: 2026-10-18 15:31:37.985399+00:00
+previous_hash: 8b1a0847c34a87ea75b8371bb7b4e7c198651fab167c69f97b693b71b2f913c7
+entry_hash: 0dbbc108c1c4213158a649885dcef4b4c4fe166da9dc6f047218b3ed6f4357d4

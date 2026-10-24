@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-turn-the-sections-column-into-editorial-context-ready-for-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 96335c759c305757089435f9bff6418f835b4f150aad187d011b1124f356f3d4
+hash_d_before: null
+hash_d_after: bd0214900f389a6a6a8a32110fc60af8fae7532b36bc07dd9c21c9f4ced872a3
+hash_a_before: 7f0ed0f91ae5952cf4e27c5855db0516683c07825980bbb0869fe5f7026158c8
+hash_a_after: 98261e8208a1048cc596853883d7c6d5095262662aac005e9bd7f28c21abb89c
+actor: null
+timestamp: 2026-09-30 13:44:44.863901+00:00
+previous_hash: ad9fd5e4e944ba3beb5703722c627a10de6c1c1cdf266e88a3ad00c91075a48e
+entry_hash: eb1d9c2d201d8d3709f264fbeedb0ce4cfebd13997e0686a2a576ddb5ee883ee

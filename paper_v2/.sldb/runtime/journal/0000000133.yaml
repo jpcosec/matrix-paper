@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-close
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 3475329c529775f4549e8a2e2d5fc0e35fa7232767327ed6718d9020db5a56ff
+hash_d_before: null
+hash_d_after: 689666961d45a23c158bcf2280a259e89eb7125ccf83930d61473088aa3d6adb
+hash_a_before: 006d7313ae84a275c1d80636af35c943d697e5b0cf567884ba931f2d2e3f0656
+hash_a_after: 99282bf0641746fc1c9516c51a25c277c5abdb2e7d51e4975fdf99d19ff410ec
+actor: null
+timestamp: 2026-09-30 13:44:46.058655+00:00
+previous_hash: be828a32429e8723c0486de0784836454da6063478456a15042aff3dd733223c
+entry_hash: a848f47bc40cb91454ec1444a25f793cb3f53c1e424b2842619790c339de4f0e

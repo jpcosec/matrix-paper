@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-make-the-paragraph-column-an-assertion-surface-ready-for-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 98f9a2d2f86670987f850a0af0f750e7bea4e0ad94fa8726405773b908013c27
+hash_d_before: null
+hash_d_after: 2a04fec0f2663fb2ac1c5d14c1ffbc4d82d1b7ca83b900a347abe473f022bb0a
+hash_a_before: 64d9ceb8b9a0c3f3fa04db63ab5b56bb7d7fd54750ba9c0915b4701d74a53edf
+hash_a_after: fb9144acd9e29831db324652be3628ea394dfe81bf0ecbc878ed9c8ef543d36c
+actor: null
+timestamp: 2026-09-30 13:44:45.384791+00:00
+previous_hash: 22aa301cb6a174e9266b4927f86ce506abfc08633838f7e42bd2d0825425e5e8
+entry_hash: 3b2c67764d00dab539d8380a9db646b65adac2add1aa8b79dffb09335a52a109

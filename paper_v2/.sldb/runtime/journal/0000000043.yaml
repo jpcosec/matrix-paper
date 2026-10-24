@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-turn-the-sections-column-into-editorial-context-has-closeout-evidence
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 2456e3c84c01052193bf4a27370c95e24c6f995f78dc0c6666c1afa7d6425e2c
+hash_d_before: null
+hash_d_after: 796abe7f9ecc28a73c5022857181e3cad0cf346d2245b4b55eddafe300c9c47e
+hash_a_before: 57523b655ee44e48ea55f45d9d6d15fa6d1a9fd94ec0391d8576fcb1bf6aa309
+hash_a_after: 87ca5f6ce7cf9f940ca685cfaeb4e49e327d16966df74a9e31794b30ed0568cd
+actor: null
+timestamp: 2026-09-30 13:44:39.506667+00:00
+previous_hash: cdaada1b70097980c738b60883bbfd2aff6e8fb61297cb9f16f4e1eb000aaa16
+entry_hash: 6f8d5e4cb6535090b14d7a2f813feb872063bf32eccb7896496fc91011c75dd6

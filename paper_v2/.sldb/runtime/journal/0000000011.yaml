@@ -1,0 +1,15 @@
+operation: add_model
+address: FAQDoc
+field: null
+previous_value: null
+new_value: deskops.models:FAQDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 82d660de87998fe56ae4b2024cd64dba003d3dd6cdd6ecf052f38a1c6c77b091
+hash_a_after: 64546154c4faf1b0af03bf030177dfff52898070a98f3fb3db81f923e5d186a3
+actor: null
+timestamp: 2026-09-30 13:44:37.330632+00:00
+previous_hash: ac3b60ffe312f64e7012ad149b6595ac30ed9f3d1eb8f010111e1e173c25b201
+entry_hash: 92096a702c1ded1c83a687112a1ebf3ad1670c24309fdc1b87dcc3af33a2b1fd

@@ -1,14 +1,15 @@
 ---
 id: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check
 status: draft
-summary: Review and close the acceptance evidence for make the left manuscript pane the primary trace entry surface.
+summary: Review and close the acceptance evidence for make the left manuscript pane
+  the primary trace entry surface.
 tags:
 - workspace:desk
 - artifact:task
 - topic:closeout
 task_type: closeout
 resolver_role: supervisor
-current_node: checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-check-execution-ready
+current_node: ritual-execution
 depends_on:
 - task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test
 inherits_from:
@@ -26,7 +27,6 @@ pills:
 files:
 - astro_app/src/pages/index.astro
 - astro_app/src/pages/api/graph.json.ts
-checklists: []
 subtasks: []
 atoms: []
 ---
@@ -35,17 +35,29 @@ atoms: []
 
 ## Rationale
 
+_Explain why this task exists or the business driver behind it._
+
 A parent task should not close only because implementation exists; a supervisor-level check must confirm that the acceptance evidence is strong enough.
 
 ## Goal
+
+_Describe the concrete result this task must produce._
 
 Review the parent implementation and test evidence, then decide whether the task can be considered truly closed.
 
 ## Scope
 
+_State what is in scope and what is out of scope._
+
 Closeout review only for `task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface`.
 
+## Implementation Path
+
+_Outline the expected implementation route or affected surface._
+
 ## Validation
+
+_List the checks required before this task can close._
 
 - inspect the implementation evidence from `task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface`
 - inspect the acceptance evidence from `task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test`
@@ -54,4 +66,7 @@ Closeout review only for `task-paper-v2-rebuild-manuscript-pane-as-trace-first-r
 
 ## Done When
 
+_Name the observable condition that makes the task complete._
+
 A supervisor can attest that `task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface` is either genuinely closable under the editorial workloop contract or must be reopened.
+

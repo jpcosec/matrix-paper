@@ -1,0 +1,15 @@
+operation: add_model
+address: RelationTypeDoc
+field: null
+previous_value: null
+new_value: sldb.models.relation_type_doc:RelationTypeDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 4f8fc11a0c7d8ab84af2838891c8ee21d8a4b051dc16cbb5470028833bdeada0
+hash_a_after: dde7eb6bb7e026348e9c84c51783650bcac31bcc76a5138c41aeea1751033fc7
+actor: null
+timestamp: 2026-10-18 15:31:38.034854+00:00
+previous_hash: 0dbbc108c1c4213158a649885dcef4b4c4fe166da9dc6f047218b3ed6f4357d4
+entry_hash: e5adaf4275c3d3e64e41d905e97811617ac4725d4f040c656aa447bbaa8f6fe0

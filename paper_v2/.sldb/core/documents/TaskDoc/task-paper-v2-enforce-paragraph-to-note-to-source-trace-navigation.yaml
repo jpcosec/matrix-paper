@@ -1,0 +1,33 @@
+name: task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation
+path: desk/tasks/task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation.md
+source_hash: c8f750aca68052d264a3d0d2f9e6f0b5f7d08022163cc89f9c67e3cbd29acc9a
+content_hash: 90857ec8f4364318dea4addbc6b4fbdf042a3cbeb8d4552d411cf2f5a8897d21
+field_hashes:
+  title: f1c38318f2b90c1b94c508ba83b661b4cae47e4c02415cd111164a6c7b10580e
+  id: 2d2a59c188a7757c87d392e6cc6a046b4f919f6fc566ed8df4c0ae082dc2d056
+  status: 6ae048f08fcab44bfbc8463f074bfdb40f94c6bdf56d3aad9a7e1c05e5d5b5c1
+  summary: b12c2098e19623e76b02de7705d88f9f84c89731a91fc58ac30ab310da2aedd7
+  tags: 9e7e8be2998f87dfcbb538781d827f202722ef7dad630b93bca343e20f247db8
+  current_node: ff5161892aac34735bf10c411f7230b62b7b56446e230a5d26fb75afde4704b6
+  history: 2cd9dd94887221de39eb96ae28bb5c7e3fdafc275d478a923426c704f0ad1302
+  why: a3975997a2843121c4d0063c5c7e15ec6b43f21fd80409d407c1eb1c5139ce86
+  goal: 096ef4b337e5f90f37700e70a51638088dee85ec1c767a1c54703839a4241a44
+  scope: 7aa5487a88ddcdaecddc4b0dd5c2d8036755e8587f235351c97165d8e051eb47
+  references: 808bfac3a05066ed333780310fe094b7ef389cce75e5541d839043a95adceee5
+  depends_on: deb77defc86d13aec1536b14b45b6e6ecfd2b74a52e71a6c199208d97120f199
+  pills: 1cf20502806f500aa78fd7b24c96da490db826454302349a1adf610a89ab5368
+  files: d194038a3640fd3f69d471dce4e7a6998ef8c6f68d0daab41e94b0e0106db1d3
+  implementation_path: 129f202bcba9c471a38ad0caa21de98667fdd2ec00543ea68156db5bd6f268df
+  validation: cba15c0ae55a7b3e023690df8f50197d1763c5f8f3fa07b8ee7f2cc512adf0c1
+  done_when: 071f678c2ecea312f1dcfbed2963868563b7918a4f417482c6ce11cfb49b6f5d
+  task_type: 4d967a30111bf29f0eba01c448b375c1629b2fed01cdfcc3aed91f1b57d5dd5e
+  inherits_from: f8d45c22669564dc8649e1782c7e0ec3948d6002a6fce85333492c898b8ffd2a
+  inherit_acceptance_context: b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+  atoms: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- type.workflow.task
+- workspace.desk
+- workspace:desk

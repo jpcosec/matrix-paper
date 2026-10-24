@@ -1,0 +1,35 @@
+name: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+path: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui.md
+source_hash: c68693e228bf55916cf0af3aa7710b7daf565460ce3f4276fa2c6f1edfa5759b
+content_hash: 3a983bdb2cc16aa60fda39de5ce62c74e0c5983e21afc5b09342d42d1072f2a0
+field_hashes:
+  title: 7a16a611185b890beca02a4b4e52c854f97a7e4742b45497a9a985773abd1497
+  id: 8fe75e2bb4de3b9afd3d4e64c63e23dc7784ab06592af1d39c641863b7f6dae0
+  status: 6ae048f08fcab44bfbc8463f074bfdb40f94c6bdf56d3aad9a7e1c05e5d5b5c1
+  summary: d015899ddb808f0e8f3736aec84ce446dcd72cb7f8ab75802990ea759a6f6ff1
+  tags: 0faea7ca2350ad77fbde207e4b3d7ff0c0235aacb92c0ef37c2a367330c9747f
+  current_node: ff5161892aac34735bf10c411f7230b62b7b56446e230a5d26fb75afde4704b6
+  history: d83f1bac7073c2540d9393bf9b3c44c5fe88b774f7c16317fc7f678651dec9e0
+  why: eda2b8d466950256a162c819ad30148a334b2fc3004e0c8d3850c128274e4d36
+  goal: 9fcad3b411b72cdd2d629a55ae03f4379e5841a00a1dcc661a7f4dd659eb9278
+  scope: 3b90f746acd59048985cb294edbbb8f484768ac336ca33a3db1acc27d81c56c9
+  references: 436a9fa24bbebef8562e97d655defb1c41c14ecf70d067a8b28e107d38a67c7b
+  depends_on: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  pills: 1cf20502806f500aa78fd7b24c96da490db826454302349a1adf610a89ab5368
+  files: b1a05612c64e46369e714bd5e4184231e1e4e3f6d893bdc242244590610cf201
+  implementation_path: 31d8ce45bdd373fcae24bee6428eef9672301c45988ba7d08dd433c2f538a0ff
+  validation: 5077be51896137416ddbc4423d6f47f8e319365963e90d0d790ad72ef2ffa7fa
+  done_when: 520511d8b8e15ccb9733d80580d95177272242aecabe945886df80e66c9ac89a
+  task_type: 528784b364a2e4712426a6f229951542b9b669eaceebda59a4ce7ec426064e08
+  inherits_from: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  inherit_acceptance_context: b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+  atoms: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:editorial-browser
+- topic:ui
+- type.workflow.task
+- workspace.desk
+- workspace:desk

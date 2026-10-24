@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-reframe-notes-as-warrant-and-reasoning-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: b163daf07d2bfcb86711eb267197a964709f2375306da665f1217346e3c9071a
+hash_d_before: null
+hash_d_after: d3099b6fb656a12f69a469b85207e6c2209fc0f452ccefd4d7f0c63024ea54ae
+hash_a_before: 4874f42f4463133c64cf091ebbdbcf8480d7939fc8b41e687d5cdda31e6abcef
+hash_a_after: 803425e7e81fb1befcaf97360b7c97b7b849094405a077774e4f1ecfb992f877
+actor: null
+timestamp: 2026-09-30 13:44:42.405772+00:00
+previous_hash: 6bfeecefbe72043ecbbf3116f4da694f2810a5ba4d1c161a8e135efe710fd988
+entry_hash: e86f4d7840207bc91c0df13fd33d7cc294cf2911bbcc0d1f28c50431e0ae51a9

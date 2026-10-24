@@ -13,17 +13,25 @@ tags:
 
 ## What
 
+_Define the context or guardrail this pill carries._
+
 Define the minimum viable editorial loop for the paper_v2 UI.
 
 ## Why
+
+_Explain why this context matters for safe execution._
 
 A UI can satisfy layout, sync, and status contracts while still failing the actual editorial job.
 
 ## When
 
+_Describe when an agent should apply this pill._
+
 Apply to every paper_v2 task that changes UI behavior, acceptance, edit flow, rebuild flow, or evidence visibility.
 
 ## Where
+
+_Name the files, surfaces, or scope this pill applies to._
 
 - astro_app/src/pages/index.astro
 - astro_app/src/pages/api/*.ts
@@ -32,6 +40,8 @@ Apply to every paper_v2 task that changes UI behavior, acceptance, edit flow, re
 - desk/tasks/task-paper-v2-*.md
 
 ## How
+
+_Describe the correct way to apply this guidance._
 
 Every editorial UI slice must preserve this loop:
 
@@ -53,6 +63,8 @@ Minimum acceptance for any shipped UI path:
 
 ## How Not
 
+_Describe the shortcut or failure mode to avoid._
+
 Do not:
 
 - treat pane presence as proof of usability
@@ -60,3 +72,4 @@ Do not:
 - hide note/source content behind labels, counts, or status pills
 - forbid all prose duplication when support content must be readable
 - mark a task complete without proving the full editorial loop
+

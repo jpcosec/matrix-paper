@@ -1,0 +1,15 @@
+operation: add_model
+address: PillDoc
+field: null
+previous_value: null
+new_value: deskops.models:PillDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: b1f9b880711672eb1ab2fbd05a3f839a39570cf62367896f8fe394f68e68214c
+hash_a_after: 19d3552491be6ece8d589a643472c4823e964c7d7646b5a2fa675408ba9debfa
+actor: null
+timestamp: 2026-09-30 13:44:37.005034+00:00
+previous_hash: a5027e9d82c3f6593953fc6865dc44ba9d9b7cbe646496ec69bf9f6baf8eded9
+entry_hash: 97d58d9daffdfdd97fb4fe5dd7a47e1f3c0e90893ceda244e8911e9329080e7f

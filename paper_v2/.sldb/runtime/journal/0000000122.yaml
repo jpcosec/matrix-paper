@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-add-editorial-validation-language-and-interruption-cues-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 278622fb2b1999400b8f9bec4b8bbbfc6d3e5cffb94569012b7a1e460831dbe6
+hash_d_before: null
+hash_d_after: a6f833fc9836deaca9a85e220040cd19f243799b858f5c05e6fd3e63f6f07b76
+hash_a_before: 0f357170e7a1d742236ccd53c4ed6b8e3419c75d97dccb891716c767dd109018
+hash_a_after: 64d9ceb8b9a0c3f3fa04db63ab5b56bb7d7fd54750ba9c0915b4701d74a53edf
+actor: null
+timestamp: 2026-09-30 13:44:45.318356+00:00
+previous_hash: c6219e5a39d361521a287c975813528e525ed4c0e95a62b12471c75c0d331338
+entry_hash: 22aa301cb6a174e9266b4927f86ce506abfc08633838f7e42bd2d0825425e5e8

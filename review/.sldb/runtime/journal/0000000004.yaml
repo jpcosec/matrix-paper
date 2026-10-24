@@ -1,0 +1,16 @@
+operation: inherit_model
+address: InboxNoteDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+hash_a_after: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+actor: null
+timestamp: 2026-10-18 15:31:09.039733+00:00
+previous_hash: 40e61c8a143c9d813a5c7af894dff38c288bf8814b15b7c60070ebc150528faf
+entry_hash: c493d48b224c637647085674b0182832ce65972b7715e081ec966ce2f8f98d96

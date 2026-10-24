@@ -1,0 +1,742 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    name: task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: af0d4d53fe4f3f143f8e4ef3e19a57009a8824e3f71e78dd8fef278c9d3263ea
+    hash_d: 7e08184d42ede82a5dcbcc2ae46dc267056cf41f349fe101f8313d03f1b45cb8
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    title: 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    level: 1
+    line_start: 30
+    line_end: 68
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - Rationale
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 32
+    line_end: 37
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - Goal
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 38
+    line_end: 43
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - Scope
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 44
+    line_end: 49
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - Implementation Path
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 50
+    line_end: 53
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - Validation
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 54
+    line_end: 62
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+    document_id: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+    path: paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - Done When
+    about:
+    - 'paper_v2: derive editorial trace status in graph payload — readiness check'
+    - paper v2 derive editorial trace status in graph payload readiness check
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:readiness
+    - topic:workflow
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 63
+    line_end: 68
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/topic:readiness
+  node_type: semantic_tag
+  semantics:
+    tag: topic:readiness
+  facets: {}
+- id: sldb://semantic_tag/topic:workflow
+  node_type: semantic_tag
+  semantics:
+    tag: topic:workflow
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/topic:readiness
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/topic:workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check#paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://unresolved_ref/../spec/acceptance/editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/acceptance/editorial-workloop.md
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://unresolved_ref/../spec/workflow/editorial-repair-loop.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/workflow/editorial-repair-loop.yml
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://unresolved_ref/task-paper-v2-derive-editorial-trace-status-in-graph-payload
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-derive-editorial-trace-status-in-graph-payload
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-document-left-sldb-right.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-document-left-sldb-right.md
+    allowed_models:
+    - PillDoc
+- source: sldb://document/TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-editorial-workloop.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+model_name: TaskDoc
+source_hash: af0d4d53fe4f3f143f8e4ef3e19a57009a8824e3f71e78dd8fef278c9d3263ea
+content_hash: 7e08184d42ede82a5dcbcc2ae46dc267056cf41f349fe101f8313d03f1b45cb8
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk

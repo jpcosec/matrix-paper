@@ -1,0 +1,15 @@
+operation: track_document_file
+address: OperatorDoc:operator-task-paper-v2-turn-the-sections-column-into-editorial-context-ready-for-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 5a8a1ab81eae3dabed4da1955fea30a9ffb23f3066ca54932e22e80f90acc852
+hash_d_before: null
+hash_d_after: e7d01d8859d46830a3b52719ab1eba290b3035aff58332b654eb51aa9d74a023
+hash_a_before: 9496c0de591c51076ccb77b822f544940a6794565375489e8445a5ae4135072b
+hash_a_after: 4046bfc6fbef2913bd86f09fb82e31a9eef87309ea5fa67596cdbb6dba4a36da
+actor: null
+timestamp: 2026-09-30 13:44:43.431400+00:00
+previous_hash: 85c9a0ef57a5af826c2845cf64d3e966b78ce5e0fbe4b3b33fb20e836d76ba85
+entry_hash: d51232a6f4c7f9ad6d994b6a11e7a6caef28f84cd69c5a6865e036b36fe44a15

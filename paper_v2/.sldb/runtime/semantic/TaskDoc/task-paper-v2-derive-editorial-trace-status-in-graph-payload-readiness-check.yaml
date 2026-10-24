@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: af0d4d53fe4f3f143f8e4ef3e19a57009a8824e3f71e78dd8fef278c9d3263ea

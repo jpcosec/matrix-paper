@@ -1,0 +1,15 @@
+operation: track_document_file
+address: RoutineDoc:routine-task-paper-v2-reframe-sources-as-evidence-cards
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: d1e8d8c3125ae52a7ba0c4ea2eb3c7ce8a2fb724685c7578d8ea260b788e39f8
+hash_d_before: null
+hash_d_after: 9391e078a5c1a8b9221e68b2c635d356ae5412737750fe0c4c8466031fa02cb3
+hash_a_before: 71a4a57bb5cc2aa7e7d0895a92230e55490c86a0c2e62dec618a3d61ae091c07
+hash_a_after: adfa9d5ea477bba53005fbcd4e4285f41b8c2eab9ef6eb41cdb70ecc7d2946aa
+actor: null
+timestamp: 2026-09-30 13:44:50.127481+00:00
+previous_hash: beafecef51500bcc0562450a095cdb86f886b83f2fbddb6a6d62b96e5ad57ea7
+entry_hash: 518cf39ef1a1f3598c82e0d25afa9510ab43ddcead4f4bd7da1e47c701592b62

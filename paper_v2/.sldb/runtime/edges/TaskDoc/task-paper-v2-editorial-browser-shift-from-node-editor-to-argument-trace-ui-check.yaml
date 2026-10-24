@@ -1,0 +1,691 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  node_type: TaskDoc
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    name: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    model: TaskDoc
+    path: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check.md
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    hash_c: 79d21705c614ba08cf7b4a0fe4d06b86e7f546ad2d9d335761ae02fd6875ffac
+    hash_d: e8e37527af5a27f0fa5ec9870dabb1909f1ba47ca02f3237c9dee6593e66552d
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    title: 'paper_v2 editorial browser: shift from node editor to argument trace UI
+      — check'
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    level: 1
+    line_start: 31
+    line_end: 69
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+    title: Rationale
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - Rationale
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - Rationale
+    - rationale
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: rationale
+    level: 2
+    line_start: 33
+    line_end: 38
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+    title: Goal
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - Goal
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - Goal
+    - goal
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: goal
+    level: 2
+    line_start: 39
+    line_end: 44
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+    title: Scope
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - Scope
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - Scope
+    - scope
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: scope
+    level: 2
+    line_start: 45
+    line_end: 50
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+    title: Implementation Path
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - Implementation Path
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - Implementation Path
+    - implementation path
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: implementation-path
+    level: 2
+    line_start: 51
+    line_end: 54
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+    title: Validation
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - Validation
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - Validation
+    - validation
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: validation
+    level: 2
+    line_start: 55
+    line_end: 63
+  facets: {}
+- id: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  node_type: sldb_section
+  semantics:
+    export_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+    document_id: TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+    path: paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+    title: Done When
+    breadcrumbs:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - Done When
+    about:
+    - 'paper_v2 editorial browser: shift from node editor to argument trace UI — check'
+    - paper v2 editorial browser shift from node editor to argument trace ui check
+    - Done When
+    - done when
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - artifact:task
+    - representation.markdown
+    - source.document.markdown
+    - topic:closeout
+    - type.workflow.task
+    - workspace.desk
+    - workspace:desk
+    slug: done-when
+    level: 2
+    line_start: 64
+    line_end: 69
+  facets: {}
+- id: sldb://semantic_tag/artifact:task
+  node_type: semantic_tag
+  semantics:
+    tag: artifact:task
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/topic:closeout
+  node_type: semantic_tag
+  semantics:
+    tag: topic:closeout
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.task
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.task
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/TaskDoc
+  target: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/rationale
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/goal
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/scope
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/implementation-path
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/validation
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/artifact:task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/topic:closeout
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/type.workflow.task
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check#paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check/done-when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/../spec/acceptance/editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/acceptance/editorial-workloop.md
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/../spec/workflow/editorial-repair-loop.yml
+  relation: references
+  metadata:
+    origin: schema
+    field: references
+    declared: ../spec/workflow/editorial-repair-loop.yml
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-test
+  relation: references
+  metadata:
+    origin: schema
+    field: depends_on
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-test
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-test
+  relation: references
+  metadata:
+    origin: schema
+    field: inherits_from
+    declared: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-test
+    allowed_models:
+    - TaskDoc
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/ritual-execution
+  relation: references
+  metadata:
+    origin: schema
+    field: current_node
+    declared: ritual-execution
+    allowed_models:
+    - RitualDoc
+- source: sldb://document/TaskDoc:task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+  target: sldb://unresolved_ref/desk/contexts/pill-pattern-editorial-workloop.md
+  relation: references
+  metadata:
+    origin: schema
+    field: pills
+    declared: desk/contexts/pill-pattern-editorial-workloop.md
+    allowed_models:
+    - PillDoc
+doc_name: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check
+model_name: TaskDoc
+source_hash: 79d21705c614ba08cf7b4a0fe4d06b86e7f546ad2d9d335761ae02fd6875ffac
+content_hash: e8e37527af5a27f0fa5ec9870dabb1909f1ba47ca02f3237c9dee6593e66552d
+contract_hash: f4ea849267cabaad40507cd101ae9f46f7826b9ebf63e4c7ab60eb571bce6aa8
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:closeout
+- type.workflow.task
+- workspace.desk
+- workspace:desk

@@ -1,0 +1,12 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-readiness-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: cb20fdd00fc9b99ce12553180ff84fa93dc5532fa634ccfe28ee57425e06cc61

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-add-editorial-validation-language-and-interruption-cues-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: eee0df1cad06e0c2ed4670eda177a1b9dcd994fc9e05a4484e47e4139d605e59
+hash_d_before: null
+hash_d_after: b339b84e8aee4a43a1be2d7b30a4eb7bde5021a6aa8d32b717a7ab3e990c11a7
+hash_a_before: bdac0fad1cfe0b1e1acc99d34d68f0711be6f343a3a7bb47d593fb049a1ffd00
+hash_a_after: 10a2e4693fe8d117fb568c7b9424630a57f75b0cb03bae907b10292b3a027b9d
+actor: null
+timestamp: 2026-09-30 13:44:41.112380+00:00
+previous_hash: b00649f34b1a94129a9016085ae27c67cd828d344de9abfc639b259b5d3f355d
+entry_hash: 04385eed724d31496a42240fcdf09e6d9e7c62b802c282fa055a7b22b03764c9

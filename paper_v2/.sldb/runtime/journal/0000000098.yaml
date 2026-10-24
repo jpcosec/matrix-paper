@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-make-the-paragraph-column-an-assertion-surface-closeout-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 53f8aa86b85eed5121509d222c01cd0a476a6719f4ecdba030d6a1abe92d6f2d
+hash_d_before: null
+hash_d_after: dcadadd619ad5dcd81118c265db60ec8f29d97c81a3093f1dcf21c9352ac0f63
+hash_a_before: 4046bfc6fbef2913bd86f09fb82e31a9eef87309ea5fa67596cdbb6dba4a36da
+hash_a_after: e967cac931141945192d8b06de59fb813fb1c95a2942400e3a4e3b8196aa2169
+actor: null
+timestamp: 2026-09-30 13:44:43.502247+00:00
+previous_hash: d51232a6f4c7f9ad6d994b6a11e7a6caef28f84cd69c5a6865e036b36fe44a15
+entry_hash: 0337f3e7f16403f2cf731edcb2e13ab12b7f37e484e6dfd450df943c0c07c783

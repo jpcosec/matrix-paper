@@ -1,0 +1,59 @@
+doc_name: atom-tractatus-ir-why
+sections:
+- path: tractatus-ir-why
+  title: Tractatus IR — Why
+  breadcrumbs:
+  - Tractatus IR — Why
+  about:
+  - Tractatus IR — Why
+  - tractatus ir why
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: tractatus-ir-why
+  level: 1
+  line_start: 12
+  line_end: 16
+- path: tractatus-ir-why/answer
+  title: Answer
+  breadcrumbs:
+  - Tractatus IR — Why
+  - Answer
+  about:
+  - Tractatus IR — Why
+  - tractatus ir why
+  - Answer
+  - answer
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  semantic_tags:
+  - kind:code
+  - project:tractatus-ir
+  - representation.markdown
+  - source.document.markdown
+  - source:legacy-brief
+  - type.knowledge.atom
+  - workspace.desk.atoms
+  slug: answer
+  level: 2
+  line_start: 14
+  line_end: 16
+source_hash: f05fc1eb906ece851dddbd5f048bf3c247ed2ed24e3b1866b78fd0e75b682b29
+sections_version: '2'

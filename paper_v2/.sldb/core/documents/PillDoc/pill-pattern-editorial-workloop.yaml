@@ -1,0 +1,23 @@
+name: pill-pattern-editorial-workloop
+path: desk/contexts/pill-pattern-editorial-workloop.md
+source_hash: 70cdb2ccda81508b614d3ea40f1872deaf6a709f1b157158245bd9e373f83a5b
+content_hash: 33f971f1fdfd404563445cc30f8aecaff367c3e26bba0e963d27c69987d1d990
+field_hashes:
+  title: 94e83b63e9df9a5b806ee0331c533ecd880906563b0408d60cfd64df3e4b5a3f
+  id: ba3476f1e37ac1391e3596c084007d460a0fe17c7e2c3af15bd9f9a286102061
+  tags: bb67fe7c2cb4a879571c8184065dbf073192f7ecaeb6f8938702bee5a723f6f0
+  what: b4b3d0926eba39fd255a248b2fe4aa33e40d4d07cf99cf88d4671dc07b6d610e
+  why: e69c826e514c9880742f3bb1f4e2f903672ddce10953527ca1cf6ccbb8db88d4
+  when: 3f81fbe2d90d4c0b505d93e881da24266fa2cf988572048c0f66a9456995ee07
+  where: 76782116c30d9143192703fc42bd3616a4e0b3f762cfe20e9b179bf523b46bef
+  how: 36dc966a6304ba36665a745e083f0354346ba4c55d70f66e68e638372c058459
+  how_not: cc5a3db5b3c80a5bcdf6c5712d5b4415b2ffc8cf3c079fc3ca4d92ee7891f0d7
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- system:sldb
+- topic:editorial-workflow
+- topic:ui
+- type.workflow.pill
+- workspace.desk
+- workspace:desk

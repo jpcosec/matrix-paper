@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-derive-editorial-trace-status-in-graph-payload-closeout-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 51c244e8a1f056f78eb0a64ba10cdd308751b68955fcd3a3d9bba53f061d1cba
+hash_d_before: null
+hash_d_after: 7cf5057d9e3e10b7f76a895c665e8548e39821e3e02767b51995e4d20b73db9f
+hash_a_before: 6f18d29f28ed849efaca9292910697058f7cddd0922dbc20fed50996776ef64d
+hash_a_after: 66b0da44b668ca7f44344b23d95d56107ad746f1ed18231fc19f12e953792dae
+actor: null
+timestamp: 2026-09-30 13:44:41.973287+00:00
+previous_hash: 32c7f4764c79f6bf0648e9ca002923a3f31feeb89756bad914aba232734d9623
+entry_hash: e2642e92e3c9a8dead5c8e2fb3ba7bf0ee2e1e5942e5b638f75b4906eaa8492d

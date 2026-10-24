@@ -1,0 +1,26 @@
+doc_name: ritual-testing
+sections:
+- path: testing-ritual
+  title: Testing ritual
+  breadcrumbs:
+  - Testing ritual
+  about:
+  - Testing ritual
+  - testing ritual
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.ritual
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.ritual
+  - workspace.desk
+  - workspace:desk
+  slug: testing-ritual
+  level: 1
+  line_start: 8
+  line_end: 10
+source_hash: 1d41cf846052c427f1d4c3523bea6ae190409b1c720ce623eba5d210e0053346
+sections_version: '2'

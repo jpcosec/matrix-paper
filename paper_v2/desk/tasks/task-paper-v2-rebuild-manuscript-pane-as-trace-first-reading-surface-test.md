@@ -1,14 +1,15 @@
 ---
 id: task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test
 status: draft
-summary: Prove the acceptance contract for make the left manuscript pane the primary trace entry surface.
+summary: Prove the acceptance contract for make the left manuscript pane the primary
+  trace entry surface.
 tags:
 - workspace:desk
 - artifact:task
 - topic:acceptance
 task_type: test
 resolver_role: tester
-current_node: checklist-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-test-execution-ready
+current_node: ritual-execution
 depends_on:
 - task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
 inherits_from:
@@ -25,7 +26,6 @@ pills:
 files:
 - astro_app/src/pages/index.astro
 - astro_app/src/pages/api/graph.json.ts
-checklists: []
 subtasks: []
 atoms: []
 ---
@@ -34,17 +34,29 @@ atoms: []
 
 ## Rationale
 
+_Explain why this task exists or the business driver behind it._
+
 Prove that the parent task satisfies the editorial repair loop, not only local rendering or structural correctness.
 
 ## Goal
+
+_Describe the concrete result this task must produce._
 
 Produce test evidence that the parent task works for the editor-facing workflow contract.
 
 ## Scope
 
+_State what is in scope and what is out of scope._
+
 Acceptance validation only for `task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface`.
 
+## Implementation Path
+
+_Outline the expected implementation route or affected surface._
+
 ## Validation
+
+_List the checks required before this task can close._
 
 - run the smallest executable check relevant to the parent task
 - validate the relevant step(s) in `../spec/acceptance/editorial-workloop.md`
@@ -53,4 +65,7 @@ Acceptance validation only for `task-paper-v2-rebuild-manuscript-pane-as-trace-f
 
 ## Done When
 
+_Name the observable condition that makes the task complete._
+
 There is explicit test evidence that `task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface` satisfies its inherited editorial acceptance context.
+

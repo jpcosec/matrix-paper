@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-make-the-paragraph-column-an-assertion-surface-close-to-complete
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: e5f9eecc0857885b2d81d0f969c53e2ccbeaa638743ed1298b0be8db2d45ccff
+hash_d_before: null
+hash_d_after: e5fadf285ef01caf498cdb9ca08365f5e643cf0c059ebaf39d2990c4968e1bb0
+hash_a_before: c0f691d344716feda29363484e9f08e16e4e202d9c080ebcadccf106e2d4fa15
+hash_a_after: 5ddcf261b95173fa3476953203bd20f4c94fc316df3a53269f35412ef6c005ca
+actor: null
+timestamp: 2026-09-30 13:44:41.835898+00:00
+previous_hash: df7b671a58c68e4a2ed8b1aec0e74f5534aba1bcc74e350e5bffdf71d8fb7e22
+entry_hash: 8565c200ebfc113728bc25cb532ed1074685c7e81f9a3b5ddf0d793a858a533f

@@ -1,0 +1,19 @@
+name: atom-tractatus-ir-why
+path: desk/atoms/atom-tractatus-ir-why.md
+source_hash: f05fc1eb906ece851dddbd5f048bf3c247ed2ed24e3b1866b78fd0e75b682b29
+content_hash: 30cc7fe1d55924e40922e2c666456068b63a0418500deecf914c4f93e34f7900
+field_hashes:
+  id: e6cf0242742b1046ac1b1531e20966b01d824cbd4d6154fec0f9ff4d23602c35
+  title: 325ab28d639b895bd24e94db79ed060f8b67e820ec0688c5bd9ffda58028e089
+  five_wh_one_plus: 1566d618b9ad05f5d6636ef68875b058a3311f288ab671709bb72d36b5dd1a5c
+  answer: 5d09343ecf798eee304ed1136a8de85ecdbc2f5fabc7694dbe6f72d67410311a
+  tags: 6c096be361b29d7f640a77a6b850a15d2ebaa48ed607597338d54c969cf992e3
+  provenance: 54c8197fe2bc313b7c9ba81748e2e83925f64c54402e26ce4e4965ce0ed249c0
+semantic_tags:
+- kind:code
+- project:tractatus-ir
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms

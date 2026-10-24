@@ -1,2 +1,44 @@
-nodes: []
+nodes:
+- id: layer
+  parents: []
+- id: layer.topology
+  parents:
+  - layer
+- id: representation
+  parents: []
+- id: representation.markdown
+  parents:
+  - representation
+- id: source
+  parents: []
+- id: source.document
+  parents:
+  - source
+- id: source.document.markdown
+  parents:
+  - source.document
+- id: type
+  parents: []
+- id: type.relation
+  parents:
+  - type
+- id: type.relation.instance
+  parents:
+  - type.relation
+- id: type.relation.type
+  parents:
+  - type.relation
+- id: type.workflow
+  parents:
+  - type
+- id: type.workflow.ritual
+  parents:
+  - type.workflow
+- id: workspace
+  parents: []
+- id: workspace.desk
+  parents:
+  - workspace
+- id: workspace:desk
+  parents: []
 equivalences: {}

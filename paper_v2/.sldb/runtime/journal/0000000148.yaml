@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-execution-to-activate
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 49a5d3d4cc39dac166c929f7cfbc7a8b2750311ac8bdd7b0972e672c38841e12
+hash_d_before: null
+hash_d_after: 95dd53dddbfdff5a9f72dc0b4c5ce2e0cb5143b15e74ac41b499b46e0820a5e1
+hash_a_before: b9dddbb9bc529fa6843996f5323f78b526a71c748218d847a156aac6f915c818
+hash_a_after: 00ebdcba0d9cf655cb6e14dd1bb4b923712bf20816d2278663709caa8b389a5b
+actor: null
+timestamp: 2026-09-30 13:44:47.234836+00:00
+previous_hash: 3461cb2a9e65ff70dde727b8322ea341167cd42bf82d0b7d8172f30234c7c439
+entry_hash: 96849254070536ec280bb52d8bbd89dfea4c3eef21cfd4e74c3bf7e89201e614

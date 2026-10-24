@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-derive-editorial-trace-status-in-graph-payload-has-closeout-evidence
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 35a27d18b462fbb4fde9baddd21bb2acdedd1a2b7fcfa119c3ccb95943a59f59
+hash_d_before: null
+hash_d_after: b9459e20aea2fe430adda9ada9419f5c465f268430a0e870f44b4f07354ad08a
+hash_a_before: 00ebdcba0d9cf655cb6e14dd1bb4b923712bf20816d2278663709caa8b389a5b
+hash_a_after: 3515fb36cecff27549993db95af9ee0865aaaefb59dee9ddb45d0e9e1908139d
+actor: null
+timestamp: 2026-09-30 13:44:47.303047+00:00
+previous_hash: 96849254070536ec280bb52d8bbd89dfea4c3eef21cfd4e74c3bf7e89201e614
+entry_hash: 80a7f9280bc5b41a2622cb3e89024fcef3becd26f9a3570462e609c30fbfad88

@@ -1,0 +1,15 @@
+operation: add_model
+address: StepDoc
+field: null
+previous_value: null
+new_value: deskops.models:StepDoc
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 4a1f7ea0ad8554fac82bfaf79d0dd53f4b294e846503cef99712d8b9abcfe100
+hash_a_after: b52de4c7cb3db3b4c1cc184dce07c798d63ad52b0f6edaeb7bc351494135e404
+actor: null
+timestamp: 2026-09-30 13:44:37.182765+00:00
+previous_hash: 845c1455fcdc50db40edd37efce0a1e7d1435f7704e3372eee219a04c1efb220
+entry_hash: b5c2ded54dd64f6ed9913a8d5202a3f5ef84f41152e8c4dda2cb8750e6aed8b8

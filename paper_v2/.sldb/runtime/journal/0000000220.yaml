@@ -1,0 +1,15 @@
+operation: track_document_file
+address: RitualDoc:ritual-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: cfc15558a5368f7008bdd44ffb20b41f2d3b0154276664044df30b71171455b6
+hash_d_before: null
+hash_d_after: 81002a6c6279fed3cd33cc320274fb7dfff570e5fb4f8d2ad97e49ae6a93a037
+hash_a_before: 805bc308814f7b845ebab98bf209eb2480c9c775962fa8eefd6dec4bcb0de248
+hash_a_after: 3c3d921026dfe459e01fee67ceb5c4905ab18ddf99ed27a3eb74ad01f7776660
+actor: null
+timestamp: 2026-10-18 15:30:56.729947+00:00
+previous_hash: bb1f2e0b097d88e02798c446cfbb6be53f36b3a6f18fa35af49ef1f12bae1cc8
+entry_hash: 0cae8b1655dee19163ad49b5f823a73b0fe7ce10f03d83261751d13596860dee

@@ -1,0 +1,35 @@
+name: task-paper-v2-reframe-notes-as-warrant-and-reasoning-readiness-check
+path: desk/tasks/task-paper-v2-reframe-notes-as-warrant-and-reasoning-readiness-check.md
+source_hash: 4f54650e687079e078f9ccd3978884a7ae610dba8aa04912139ceb1e66f3c2f2
+content_hash: f115e566905c30e6f308c281c5efde0e1f5eb0444306fc7ada9c138aac038673
+field_hashes:
+  title: 058ebea013bbcf3faacb0263b8201ea2e171e50f695ef903d70480c8167f65c1
+  id: c92351a71fe3da0db6cbb6958c70803928b467cb2e1aec0ee2cc3a5d092bb24e
+  status: 6ae048f08fcab44bfbc8463f074bfdb40f94c6bdf56d3aad9a7e1c05e5d5b5c1
+  summary: 635e5543304ad18bab301690b2034153c1a5d4169cb58d0b9185d42a6ac5dbe3
+  tags: 2d0be12ff9bc4357b252b30d267a36cda026119f3bf4451e59b20651daee3ae3
+  current_node: ff5161892aac34735bf10c411f7230b62b7b56446e230a5d26fb75afde4704b6
+  history: 067fbeb2ff501d49c8fb29297040a413f15634ce4dc20d0213ef2c7f6f4ce4d4
+  why: 646784ef0e9088c063f7dfb02c42e4e637dd96ad3e805cf9bc0ffa675c20fa95
+  goal: db8756fe711178f3ea440862e956c9ee090435f4ac324592bf2450f89b6d4dd1
+  scope: 24049bd75c8c403ec67907d0c2fc39007f0a8d6db07365e92c28ab80a37d3e16
+  references: 48ce0bfa0d8f3a25fde4b8278a75a984852b3254f97a1d787c28b56e0c7e4a29
+  depends_on: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  pills: 905420e32ab6afe55bbff1a0da55dcc06c3ebd7791068f410913e67ac15bc5c4
+  files: 8c14d83c7848e4adf46bd6d73747ead9eb013b68b434221fec0e3014bbad2fc0
+  implementation_path: 12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126
+  validation: cb62d40619d4abc7c2bb65365650127c1113fa70cf32c096f72bf710a0ff3e39
+  done_when: c909da8f766894fdc91779396645c186be61050e6f0fb28bf1bc77e16b3f0cb8
+  task_type: 1688d51cb2decc79d2c2d21d78c57a76c7ed3e9bd2a2e245da0c35e213c857a9
+  inherits_from: d7fd517b00996d959033db4bd3d3b86159ad19b3ce25762bf85edc016e757b6b
+  inherit_acceptance_context: b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+  atoms: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk

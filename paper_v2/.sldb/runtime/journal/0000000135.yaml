@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-activate-to-testing
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 386b7d2e45c7f76a1688b3c3fc668dde26a7a249eb05c86ff0a53597aed6d695
+hash_d_before: null
+hash_d_after: f13373b738f82c6c28bacf93c74a00c71426c966b024e8148b4f988b3d79a48c
+hash_a_before: f40f5d372f99a57173ee1f0239c5064981971372fd8484b5cde89925ed482e86
+hash_a_after: 03ede45edb120b96baef32204c00487822ed587302bf022a155e417f8872ab96
+actor: null
+timestamp: 2026-09-30 13:44:46.190513+00:00
+previous_hash: ef353e764d9452e8fbe145d3428fcdd65d26ac3262e70e167bc00e962615cda4
+entry_hash: e57564114977388f4275da6cefaffad064e253cdf085105d918c0c2f5806eb9e

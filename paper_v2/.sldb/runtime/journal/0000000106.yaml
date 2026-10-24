@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-reframe-notes-as-warrant-and-reasoning
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 50837754174c840b6551e7b1e4dedb21bfeccac8c96c67f6e71f3214f3cca9e5
+hash_d_before: null
+hash_d_after: 9a29e861eccfbce11e8e067a66f84ee720d8ea18d4c0ac6b2635d1cf636dc12c
+hash_a_before: 7603a7056d3cb9b9718db3e55f9f065111fdb0747a36150c03d253e7b43f00e9
+hash_a_after: 190dbcf3c9fdd70bd7e7f8ae124c0acdcf4889fd712b22d362bb009f09e5a6e6
+actor: null
+timestamp: 2026-09-30 13:44:44.079242+00:00
+previous_hash: 64dadda514612ec6ef321e4cf536e555bbd62b2bda911ffd0951b0a5dd8a755e
+entry_hash: 118487639b5328f5a3d07847377b18309cff7b840bb81e378e4dac0306c63cdc

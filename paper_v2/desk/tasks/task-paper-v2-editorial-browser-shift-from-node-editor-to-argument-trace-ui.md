@@ -7,10 +7,10 @@ tags:
 - artifact:task
 - topic:ui
 - topic:editorial-browser
-routine: routine-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui
-current_node: checklist-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-execution-ready
+current_node: ritual-execution
 history:
-- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow acceptance changes.
+- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
+  acceptance changes.
 references:
 - ../spec/component/paper-v2-editorial-browser.yml
 - ../spec/matrix/ui-components.yml
@@ -23,10 +23,6 @@ pills:
 files:
 - astro_app/src/pages/index.astro
 - astro_app/src/pages/api/graph.json.ts
-checklists:
-- checklist-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-execution-ready
-- checklist-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-testing-ready
-- checklist-task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-closeout-ready
 task_type: design
 resolver_role: supervisor
 inherits_from: []

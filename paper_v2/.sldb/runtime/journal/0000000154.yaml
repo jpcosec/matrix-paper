@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-derive-editorial-trace-status-in-graph-payload-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: f67b426c994b692dd48ebee69292e3e812c42087b3796bd989037a7b26aa88fd
+hash_d_before: null
+hash_d_after: 573ff607618f6435cd4393a85dc5e95c5505ac4a59e4ec6a1dae785c8ff7c95e
+hash_a_before: 24c3626ce4e24bcadf43575201e331b6ba33f93d8a9b0a348389797700605a13
+hash_a_after: 4842e2664a33fb2723f3f0679f37b21624cccef52bff1c55f295528a5c7d370a
+actor: null
+timestamp: 2026-09-30 13:44:47.712734+00:00
+previous_hash: aad625c8c4102337d49d3e3a95c6d6c2e3cb6a1df3039ee2d8e91a7f4ffe4f48
+entry_hash: 0112a7c9f57e90ded9360104edeaf6b27527e00ce3ae61f444e1eb8b1d940f6a

@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-derive-editorial-trace-status-in-graph-payload-ready-for-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 12b7e0611d928c4e3634c01ec1038764a7fdd72873b3407d7efc2309a4d216eb
+hash_d_before: null
+hash_d_after: eb7da1eabdb90e5801be632cc18d9c27cb2ec822818ba318650a18a4964d7f73
+hash_a_before: 5e2b2f3ca16d74f1d265c20dac935a3585926596234baca13e773b13c72b92c9
+hash_a_after: 34618b2b19c4bc542660be7b6a87b1a1b2dc6c4ced0f65365db68e48a5629099
+actor: null
+timestamp: 2026-09-30 13:44:37.764423+00:00
+previous_hash: e3564d540997de29190e6564ce9c78f2f3a980241f62910e9897a296f0ad795f
+entry_hash: c98f0dc8de072255efbce6a8c40b7def9acc763ff0ba9b0783acd802bf451d73

@@ -1,0 +1,190 @@
+doc_name: task-paper-v2-add-editorial-validation-language-and-interruption-cues
+sections:
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues
+  title: 'paper_v2: add editorial validation language and interruption cues'
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: paper-v2-add-editorial-validation-language-and-interruption-cues
+  level: 1
+  line_start: 50
+  line_end: 92
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues/rationale
+  title: Rationale
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - Rationale
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - Rationale
+  - rationale
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: rationale
+  level: 2
+  line_start: 52
+  line_end: 57
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues/goal
+  title: Goal
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - Goal
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - Goal
+  - goal
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: goal
+  level: 2
+  line_start: 58
+  line_end: 63
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues/scope
+  title: Scope
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - Scope
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - Scope
+  - scope
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: scope
+  level: 2
+  line_start: 64
+  line_end: 69
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues/implementation-path
+  title: Implementation Path
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - Implementation Path
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - Implementation Path
+  - implementation path
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: implementation-path
+  level: 2
+  line_start: 70
+  line_end: 75
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues/validation
+  title: Validation
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - Validation
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - Validation
+  - validation
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: validation
+  level: 2
+  line_start: 76
+  line_end: 87
+- path: paper-v2-add-editorial-validation-language-and-interruption-cues/done-when
+  title: Done When
+  breadcrumbs:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - Done When
+  about:
+  - 'paper_v2: add editorial validation language and interruption cues'
+  - paper v2 add editorial validation language and interruption cues
+  - Done When
+  - done when
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - artifact:task
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.task
+  - workspace.desk
+  - workspace:desk
+  slug: done-when
+  level: 2
+  line_start: 88
+  line_end: 92
+source_hash: cf984b68ccfc8590b42977c798d325c91f8a8f345d48d5d71645fc9dc662f18a
+sections_version: '2'

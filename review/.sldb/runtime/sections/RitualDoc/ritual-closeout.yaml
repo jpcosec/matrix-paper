@@ -1,0 +1,26 @@
+doc_name: ritual-closeout
+sections:
+- path: closeout-ritual
+  title: Closeout ritual
+  breadcrumbs:
+  - Closeout ritual
+  about:
+  - Closeout ritual
+  - closeout ritual
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.ritual
+  - workspace.desk
+  - workspace:desk
+  semantic_tags:
+  - representation.markdown
+  - source.document.markdown
+  - type.workflow.ritual
+  - workspace.desk
+  - workspace:desk
+  slug: closeout-ritual
+  level: 1
+  line_start: 8
+  line_end: 10
+source_hash: 0f61c72feb9e20a04d1907fabc5835eb02af2ea594c9d6e1cd076da416596f8e
+sections_version: '2'

@@ -1,0 +1,16 @@
+operation: inherit_model
+address: BoardDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: d9bee1daecffe19abea36159a12fcc613570131badf9582e48ae942b555cfcb8
+hash_a_after: d9bee1daecffe19abea36159a12fcc613570131badf9582e48ae942b555cfcb8
+actor: null
+timestamp: 2026-10-18 15:59:15.825841+00:00
+previous_hash: 354ddf8aa5f5265681bfe61a8ce8629a1a319b3bedf7936f0372dbb97de8b96a
+entry_hash: 7bc36a79f3f0663970e8c438736ea67a899c4625d61d50628e97650f29ac748b

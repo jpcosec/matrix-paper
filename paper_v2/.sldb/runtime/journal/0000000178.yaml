@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-turn-the-sections-column-into-editorial-context-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 4f70fb8b8d21976f6e3a9f52e7460f1d3984b4c1f145599605925403dc666ee9
+hash_d_before: null
+hash_d_after: 8739c5a02782e671aca7de302fc346b20f56801d8bec4c22c01cc6ef6a3692d0
+hash_a_before: daa71cd9371f9603d8ba3eda79bfd910f343fd21f3ade4ff5f29fd7298162c87
+hash_a_after: c719726b86071f97d84ffe4cf6146704dc5b3100a927fb482bd2f5ff86d1277b
+actor: null
+timestamp: 2026-09-30 13:44:49.529679+00:00
+previous_hash: 794cc1df3b40991f236606e49c224f10f91b480eed75a023e7877e139bb735e6
+entry_hash: ea2cf8d08f3820e737603ca8ca55d2ed91323269d28577d2cf7cfdfb79b9c6ad

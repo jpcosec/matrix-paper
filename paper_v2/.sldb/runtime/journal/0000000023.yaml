@@ -1,0 +1,15 @@
+operation: track_document_file
+address: RoutineDoc:routine-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 25d576167e7935974f33679733e8dddbca1333e7f9becd20a15c9fee3f2cefa1
+hash_d_before: null
+hash_d_after: 3bf913612a69c1e1f977999348fcf67ea5cfa1d350cff15ff60367ed58ae8537
+hash_a_before: 52f34e94656b71a5252b94863e3e32ec98cd5dfc963b9c8e8ae59979b6ba411a
+hash_a_after: 9f82e38523a8e333239751f906159c18cf9308102b31c024557bca03b3c0ec63
+actor: null
+timestamp: 2026-09-30 13:44:38.205424+00:00
+previous_hash: 6fb90800d062f93c0b35c2b85fc98fb0563e9799c7d623e2b60c649a9abb8db3
+entry_hash: 38eeedbbfcc88ef7567cac5f7bb8973b854fb291458e274ac3938c75b56bcbfe

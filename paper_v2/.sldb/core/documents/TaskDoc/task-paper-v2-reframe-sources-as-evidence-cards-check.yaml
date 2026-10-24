@@ -1,0 +1,34 @@
+name: task-paper-v2-reframe-sources-as-evidence-cards-check
+path: desk/tasks/task-paper-v2-reframe-sources-as-evidence-cards-check.md
+source_hash: ad56064290cbb789d5c0651a9ff2fddd2864787985e7f2005c9d1187754aaddc
+content_hash: 0205c35638bcee9378c6c7dac21a73da68b4a2e9dca4c9c1c87e119735850e83
+field_hashes:
+  title: c53cdf89e28a94be2f7fca78884bcd42a4c25c583cb74da552f53ae4f3a67b61
+  id: 90ba13cb17dfb4f220da984037b2328188f508c7c0c23d2f70d230d7eeee36b2
+  status: 6ae048f08fcab44bfbc8463f074bfdb40f94c6bdf56d3aad9a7e1c05e5d5b5c1
+  summary: e0fb9faf37a860400c3828b2c5598063fe0a400307312ff21d1224fc8adb7c4f
+  tags: a14ce436a6b3dae40c071ab2563dd771257f250e1455cb46ebac51a56233eca9
+  current_node: ff5161892aac34735bf10c411f7230b62b7b56446e230a5d26fb75afde4704b6
+  history: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  why: 64900a3ac539c7f0b74ad1fbd3db06bf7b39930993d1eef691b979e71aadd6a8
+  goal: 54302b4467bf8bf6b80d8bf8f99e590060263d7bc40eba88bf7191f14d75eb1e
+  scope: bd8a19c3f89795e3a7d1d563cf3c21900a8da60df0d164e21a7701f30d71d5f6
+  references: 436a9fa24bbebef8562e97d655defb1c41c14ecf70d067a8b28e107d38a67c7b
+  depends_on: 2a6512264e22840d1917a6954bc4cc028ed9855f1e68b78ae939176e12ea5bab
+  pills: ece8d18a1414310f4650fbe1b4e67a72f65ca2685512a2fa5064421812d66cec
+  files: b1a05612c64e46369e714bd5e4184231e1e4e3f6d893bdc242244590610cf201
+  implementation_path: 12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126
+  validation: 09058448bca51f7613e397f29c19d88a20c81402e9c53b5bc4190cb3e0daae67
+  done_when: fe5c84de4371719f338c99eec460020eb1409afb71c0661e90bdce3740f15d85
+  task_type: 3535caa73907c0bd432ee44d37fc78c69e591aa4c7842d6383048fd1298ef666
+  inherits_from: 6796d06196e5bda638512ec6e787d3b9777a0dd6f3995524c4bde3795ebcf532
+  inherit_acceptance_context: b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+  atoms: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:closeout
+- type.workflow.task
+- workspace.desk
+- workspace:desk

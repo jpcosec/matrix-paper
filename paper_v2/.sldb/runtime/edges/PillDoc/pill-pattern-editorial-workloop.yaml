@@ -1,0 +1,850 @@
+edges_version: 4|sections:2
+nodes:
+- id: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  node_type: PillDoc
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop
+    name: pill-pattern-editorial-workloop
+    model: PillDoc
+    path: desk/contexts/pill-pattern-editorial-workloop.md
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    hash_c: 70cdb2ccda81508b614d3ea40f1872deaf6a709f1b157158245bd9e373f83a5b
+    hash_d: 33f971f1fdfd404563445cc30f8aecaff367c3e26bba0e963d27c69987d1d990
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pill-xxx
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pill-xxx
+    title: pill-xxx
+    breadcrumbs:
+    - pill-xxx
+    about:
+    - pill-xxx
+    - pill xxx
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: pill-xxx
+    level: 1
+    line_start: 2
+    line_end: 3
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: e-g-language-python-library-pydantic
+    title: e.g., language:python, library:pydantic
+    breadcrumbs:
+    - e.g., language:python, library:pydantic
+    about:
+    - e.g., language:python, library:pydantic
+    - e g language python library pydantic
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: e-g-language-python-library-pydantic
+    level: 1
+    line_start: 4
+    line_end: 11
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop
+    title: 'Pattern: editorial work loop'
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: pattern-editorial-work-loop
+    level: 1
+    line_start: 12
+    line_end: 75
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop/what
+    title: What
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    - What
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - What
+    - what
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: what
+    level: 2
+    line_start: 14
+    line_end: 19
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop/why
+    title: Why
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    - Why
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - Why
+    - why
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: why
+    level: 2
+    line_start: 20
+    line_end: 25
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop/when
+    title: When
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    - When
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - When
+    - when
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: when
+    level: 2
+    line_start: 26
+    line_end: 31
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop/where
+    title: Where
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    - Where
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - Where
+    - where
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: where
+    level: 2
+    line_start: 32
+    line_end: 41
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop/how
+    title: How
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    - How
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - How
+    - how
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: how
+    level: 2
+    line_start: 42
+    line_end: 63
+  facets: {}
+- id: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  node_type: sldb_section
+  semantics:
+    export_id: PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+    document_id: PillDoc:pill-pattern-editorial-workloop
+    path: pattern-editorial-work-loop/how-not
+    title: How Not
+    breadcrumbs:
+    - 'Pattern: editorial work loop'
+    - How Not
+    about:
+    - 'Pattern: editorial work loop'
+    - pattern editorial work loop
+    - How Not
+    - how not
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    semantic_tags:
+    - representation.markdown
+    - source.document.markdown
+    - system:sldb
+    - topic:editorial-workflow
+    - topic:ui
+    - type.workflow.pill
+    - workspace.desk
+    - workspace:desk
+    slug: how-not
+    level: 2
+    line_start: 64
+    line_end: 75
+  facets: {}
+- id: sldb://semantic_tag/representation.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: representation.markdown
+  facets: {}
+- id: sldb://semantic_tag/source.document.markdown
+  node_type: semantic_tag
+  semantics:
+    tag: source.document.markdown
+  facets: {}
+- id: sldb://semantic_tag/system:sldb
+  node_type: semantic_tag
+  semantics:
+    tag: system:sldb
+  facets: {}
+- id: sldb://semantic_tag/topic:editorial-workflow
+  node_type: semantic_tag
+  semantics:
+    tag: topic:editorial-workflow
+  facets: {}
+- id: sldb://semantic_tag/topic:ui
+  node_type: semantic_tag
+  semantics:
+    tag: topic:ui
+  facets: {}
+- id: sldb://semantic_tag/type.workflow.pill
+  node_type: semantic_tag
+  semantics:
+    tag: type.workflow.pill
+  facets: {}
+- id: sldb://semantic_tag/workspace.desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace.desk
+  facets: {}
+- id: sldb://semantic_tag/workspace:desk
+  node_type: semantic_tag
+  semantics:
+    tag: workspace:desk
+  facets: {}
+edges:
+- source: sldb://model/PillDoc
+  target: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  relation: has_document
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  relation: has_section
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://document/PillDoc:pill-pattern-editorial-workloop
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pill-xxx
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#e-g-language-python-library-pydantic
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/what
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/why
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/when
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/where
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/representation.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/source.document.markdown
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/system:sldb
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/topic:editorial-workflow
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/topic:ui
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/type.workflow.pill
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/workspace.desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+- source: sldb://section/PillDoc:pill-pattern-editorial-workloop#pattern-editorial-work-loop/how-not
+  target: sldb://semantic_tag/workspace:desk
+  relation: tagged_as
+  metadata:
+    origin: structural
+doc_name: pill-pattern-editorial-workloop
+model_name: PillDoc
+source_hash: 70cdb2ccda81508b614d3ea40f1872deaf6a709f1b157158245bd9e373f83a5b
+content_hash: 33f971f1fdfd404563445cc30f8aecaff367c3e26bba0e963d27c69987d1d990
+contract_hash: 16cbc282a5f20f99f8e31d890d1006d8c243049a78e1d1fca1c0a62737fee5a6
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- system:sldb
+- topic:editorial-workflow
+- topic:ui
+- type.workflow.pill
+- workspace.desk
+- workspace:desk

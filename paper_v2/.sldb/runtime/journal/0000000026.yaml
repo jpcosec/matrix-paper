@@ -1,0 +1,15 @@
+operation: track_document_file
+address: RoutineDoc:routine-task-paper-v2-reframe-notes-as-warrant-and-reasoning
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 87b6cd1cf8ab3e4ef40c8cb2b4535105c4dfc20731cf2c14e74b01fa9f1f97b6
+hash_d_before: null
+hash_d_after: 43996353b9712de8d310cdb71095ce367a8c96284ee3d7883ea4c22ddf7a4a23
+hash_a_before: 11b01ab9927c56bca13c5d7b99fed08fecabf9c74005ff71558c38564aabb66f
+hash_a_after: d89ddb5e9514dbb5b0f9fa5983dd3ffed556b67795813576e8fbf6d9fd8308d4
+actor: null
+timestamp: 2026-09-30 13:44:38.407652+00:00
+previous_hash: 0e4df6ca5790b97fe4261a50c11e498803647f15d8f3654d8f7439e38ea196dd
+entry_hash: 405dfa1307b2edd18f05e68f32e67c313c8c592ca46e439d71bc27cf3c834439

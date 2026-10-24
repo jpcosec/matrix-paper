@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-enforce-paragraph-to-note-to-source-trace-navigation-closeout-to-close
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 57a4fc5e4b6c99cff683a63aeb9427a8c76a1a10d01b610ce879bc1193b93a35
+hash_d_before: null
+hash_d_after: efa71b1100bd9c9bc94ca8f7e5d8b11668889f2f81f3c736407c1932ee750af0
+hash_a_before: be6ab6f8c676a2c105e0ae173d92a064c741992c522adad2c9f217c89a40ea1a
+hash_a_after: 051ec84d8b2009c935753fcc7acf4ad6e6b7ca7be67e3a8e938ece178c67a843
+actor: null
+timestamp: 2026-09-30 13:44:40.160716+00:00
+previous_hash: 2a3be292c45e9a0fc2346b4e79a0348bad1658a7df80603e3ee22e2a5b40a3ef
+entry_hash: 64e834e069a94bbb24dd64833c6b2def147d23369ab7b4d76db72528fe2139dc

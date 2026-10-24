@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-reframe-notes-as-warrant-and-reasoning-ready-for-closeout
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 3448c7534e7029382eb427bae58942f49782bf52185c1c527cd953a8546163c8
+hash_d_before: null
+hash_d_after: 8dd1a5d633365c48da93409e7f883269346d9839dbf3971a96422b8768901960
+hash_a_before: b2d62559e4235e8e123f2bd0e345a82a2c35df386c015a9961ac28d64c824d90
+hash_a_after: cdabe0a6cf0ba6d22f2efaad1d7036f02268855f1d50383fa1d3f68762e29f54
+actor: null
+timestamp: 2026-09-30 13:44:46.408282+00:00
+previous_hash: 53e063ed57ca3a130197afe8f86565ca945cee5fa76f2a9a20c53251e055f00d
+entry_hash: 6382a68899a5734a4e3494a283b9d75783650636bb5be7a213c6c122db4d4469

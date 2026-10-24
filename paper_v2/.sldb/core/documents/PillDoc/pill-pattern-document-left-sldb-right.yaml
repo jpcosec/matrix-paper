@@ -1,0 +1,22 @@
+name: pill-pattern-document-left-sldb-right
+path: desk/contexts/pill-pattern-document-left-sldb-right.md
+source_hash: acb0518402059c936ad587e6f42e69b13f2d7c00f88033664773f6e00ba63c9b
+content_hash: f14a3e1808d72ce0077596c16cbb18d7896ca928ac1de3ea26f1b8561587745d
+field_hashes:
+  title: cf41f242a5487f455d2a4e4ba07067edaf74b2c8ca1aef008c1dc668fa5f5a5f
+  id: 77cb6ef6b8a2e37f14b8b652f9dcd8e53626f43773610a919cdf708ad34340ce
+  tags: ca7032fb1296c6768e91e3e42bc2f1104443e50edc6939de83dd4b10c4502567
+  what: 64ebdb7accf490bca73bde8850fac2b0b2e0f3a3c37ff09e66e906ba017591d4
+  why: 2c08e0bdcedb88b8265461e7303cf8056ba3ee5f9c74bff4a7f59c9e474ae4a1
+  when: 11f080973010b18c8ed4bab57febc20b502371cf4b28c9c91c1167ed8e4b4373
+  where: 4dc3ef4a994ff4ef499b8c1dfd19a4cd262c47c4ec375a61a264a3ea78333e41
+  how: ad821bed8afa2f32927757e7c28f1374dcdbdddd215f0e34676c26ebc256b087
+  how_not: c5afcb2161da49531838c5c6f3b900722f3f046fa7e63abc32933b34d27e952c
+semantic_tags:
+- representation.markdown
+- source.document.markdown
+- system:sldb
+- topic:ui
+- type.workflow.pill
+- workspace.desk
+- workspace:desk

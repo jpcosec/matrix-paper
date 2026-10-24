@@ -1,0 +1,15 @@
+operation: track_document_file
+address: TaskDoc:task-paper-v2-turn-the-sections-column-into-editorial-context-readiness-check
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 54f77816953ecb393ef12a6ba9c4f7e20865af1895ddd103cd6534c865c9353f
+hash_d_before: null
+hash_d_after: 5746565f52cb9f0ab092f348744caeb79c6dca1f3d978f5604d9221c4975bc00
+hash_a_before: 34618b2b19c4bc542660be7b6a87b1a1b2dc6c4ced0f65365db68e48a5629099
+hash_a_after: b78ed0c3f5cbbc141e39bcdee053788737816344bf07aed3f013ed922ce41212
+actor: null
+timestamp: 2026-09-30 13:44:37.854124+00:00
+previous_hash: c98f0dc8de072255efbce6a8c40b7def9acc763ff0ba9b0783acd802bf451d73
+entry_hash: 4ac348f383370a9c280b240a26d71b3ecca17edce44ff2eea3407c3064cd2446

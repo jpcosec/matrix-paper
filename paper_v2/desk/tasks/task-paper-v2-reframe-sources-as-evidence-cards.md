@@ -5,10 +5,10 @@ summary: Render sources as scannable evidence cards inside the SLDB inspector.
 tags:
 - workspace:desk
 - artifact:task
-routine: routine-task-paper-v2-reframe-sources-as-evidence-cards
-current_node: checklist-task-paper-v2-reframe-sources-as-evidence-cards-execution-ready
+current_node: ritual-execution
 history:
-- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow acceptance changes.
+- 2026-08-04 - reopened for fresh-context readiness/test/check hardening after workflow
+  acceptance changes.
 - 2026-08-04 - validated npm run build in astro_app after UI/spec workflow alignment.
 - 2026-08-04 - validated python3 build_pipeline.py from paper_v2 root.
 - 2026-08-04 - validated the live app with Playwright smoke checks on the split document/SLDB
@@ -25,10 +25,6 @@ pills:
 - desk/contexts/pill-pattern-document-left-sldb-right.md
 files:
 - astro_app/src/pages/index.astro
-checklists:
-- checklist-task-paper-v2-reframe-sources-as-evidence-cards-execution-ready
-- checklist-task-paper-v2-reframe-sources-as-evidence-cards-testing-ready
-- checklist-task-paper-v2-reframe-sources-as-evidence-cards-closeout-ready
 task_type: implementation
 resolver_role: executor
 inherits_from:

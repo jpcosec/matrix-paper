@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-turn-the-sections-column-into-editorial-context-execution-to-activate
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 49574f5a2e1f9ea2a350d1ccfebc5101b64b6605d6c0bf6deeae653a0d81a889
+hash_d_before: null
+hash_d_after: a63f880695580c420a682bba61d25deb91a8f93284a9c09e8689a731559e4b9e
+hash_a_before: 21288bc311fb8247b36dcee776a1ddeef56f6047450183c2bbed8c9220cde95e
+hash_a_after: 0d511db69771c6ecd9985b810955ee89db7c8e19b7087edfc067ff286077a358
+actor: null
+timestamp: 2026-09-30 13:44:48.885266+00:00
+previous_hash: bd43ac58999926347984f8f63a04804ebbfe0327f275248492c5a4dd40776616
+entry_hash: be775ad238b89a2a373a6e0e83049409d3d34d67ab6159da0e2733aa9e004e4c

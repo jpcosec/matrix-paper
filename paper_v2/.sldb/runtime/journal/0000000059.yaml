@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-rebuild-manuscript-pane-as-trace-first-reading-surface-has-implementation-path
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 1d72d66d5ef34241bc1d7adb77836cf5b08eb5732e676ae3ceea77c6151204e5
+hash_d_before: null
+hash_d_after: 6138ae5045fe308ac13a00229c11506c50be77140aa6e5d597592b24eebc0854
+hash_a_before: 3ed89c18fb0d4f0b194aa1f8fe94d478cccf59af54af0bab676f71ce5a011d83
+hash_a_after: 0f1eb519121aead5ed2712ffea91168a1b02b4c9e68e9e381d9c96cd3f146d0d
+actor: null
+timestamp: 2026-09-30 13:44:40.671162+00:00
+previous_hash: 0e3e5a05ad00c903590b0d876958526647fcaab2ef0e3f1da0a1d0059837ae78
+entry_hash: 179864bb2916430aa8cb5fa12f01d8663646faf68e3fd4fceee08cd72187c478

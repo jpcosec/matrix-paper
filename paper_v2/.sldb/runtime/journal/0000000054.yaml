@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-reframe-sources-as-evidence-cards-execution-to-activate
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: c102f1b99b7998565c3631500dc09fffec38c6aad2a3bbb9a7d37f413be4b6e1
+hash_d_before: null
+hash_d_after: 1c78aa3928553146a4622a18e044efee5ae53ce83de5a4e807cf76a24d54e972
+hash_a_before: 8b42d27c22cc80631d88a495568c5e5b3fbe8e492350e151b1333075bc1af7e3
+hash_a_after: e57d5910bc5be9331cde3e2a97c80fdfce6b1c52fac5b3eb487fedabfe8b5159
+actor: null
+timestamp: 2026-09-30 13:44:40.308202+00:00
+previous_hash: c1e33a9274c3728219653e9f3314545e18de1832eb922f6be4a89f79fbeed2d4
+entry_hash: c91fef2ee129a9f54d92287906dd4cd1164612d984c4b1c5e207b8dfdbd8fc5f

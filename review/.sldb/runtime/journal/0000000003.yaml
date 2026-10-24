@@ -1,0 +1,16 @@
+operation: inherit_model
+address: FAQDoc
+field: null
+previous_value: null
+new_value:
+  origin: deskops
+hash_c_before: null
+hash_c_after: null
+hash_d_before: null
+hash_d_after: null
+hash_a_before: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+hash_a_after: 4b64bb6edab86a13fbe6b24b2ce71f22f081273874b1bc19a6ee07b7736cae7d
+actor: null
+timestamp: 2026-10-18 15:31:09.011904+00:00
+previous_hash: 28806b80c7f7b77b661548650cfef6f974f634fb4fe7535fe5f1700925e4a78b
+entry_hash: 40e61c8a143c9d813a5c7af894dff38c288bf8814b15b7c60070ebc150528faf

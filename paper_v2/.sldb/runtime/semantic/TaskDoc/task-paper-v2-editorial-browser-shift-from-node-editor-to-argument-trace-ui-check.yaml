@@ -1,0 +1,11 @@
+model: TaskDoc
+path: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-check.md
+tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:closeout
+- type.workflow.task
+- workspace.desk
+- workspace:desk
+source_hash: 79d21705c614ba08cf7b4a0fe4d06b86e7f546ad2d9d335761ae02fd6875ffac

@@ -1,0 +1,11 @@
+model: AtomDoc
+path: desk/atoms/atom-tractatus-ir-for_whom.md
+tags:
+- kind:code
+- project:tractatus-ir
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms
+source_hash: 56116f4912b175212940711addf43a26a28787d910f7232c300345cbb876af27

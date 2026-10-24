@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ChecklistDoc:checklist-task-paper-v2-turn-the-sections-column-into-editorial-context-execution-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 3af35a26ef268f5b6b01efd3346f48d44a8a1a3823a3bf17a4f5d400c75775ed
+hash_d_before: null
+hash_d_after: 1eb25e7201682fd1db9d145d4e4cc85283da218880a1441ca1cc8ee659a04771
+hash_a_before: 61886b63ed2e74cf0733a80fd663aeebf68e1b48485b8aa98940a7cd8993642b
+hash_a_after: bf9ecd712f785e15b2f539ae25dbf77166bef2906f9c1b2a6c8652ab231a5eb3
+actor: null
+timestamp: 2026-09-30 13:44:48.015444+00:00
+previous_hash: 213cab06d1c9760dbe92d3e0cd9616e538d04bde44e4a7ccc29aeceab0087e7e
+entry_hash: c2507266c54c772921ad663b35e08649b01acd0d9518630abe39c5d6434c0427

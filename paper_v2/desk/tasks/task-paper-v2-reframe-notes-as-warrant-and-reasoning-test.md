@@ -7,7 +7,6 @@ tags:
 - workspace:desk
 - artifact:task
 - topic:acceptance
-routine: ''
 current_node: complete
 history: []
 references:
@@ -26,7 +25,6 @@ files:
 - desk/tasks/task-paper-v2-add-editorial-validation-language-and-interruption-cues.md
 - astro_app/src/pages/index.astro
 - astro_app/scripts/stress-test.mjs
-checklists: []
 task_type: test
 inherits_from:
 - task-paper-v2-reframe-notes-as-warrant-and-reasoning

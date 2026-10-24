@@ -1,0 +1,35 @@
+name: task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-readiness-check
+path: desk/tasks/task-paper-v2-editorial-browser-shift-from-node-editor-to-argument-trace-ui-readiness-check.md
+source_hash: cb20fdd00fc9b99ce12553180ff84fa93dc5532fa634ccfe28ee57425e06cc61
+content_hash: 187f613fe8e47a3f96b52d0c9e6a560267813a4e1816c1a711dc82399b5603e2
+field_hashes:
+  title: 0c0dac831b34d4f77c84ca52cb4daaf9a7ad3f3e919a58d1e2ce3271e230f391
+  id: 3fc57733430cb1a611f74b4bc97977660e99aaf40e28f6c4f1baaf4f81670943
+  status: 6ae048f08fcab44bfbc8463f074bfdb40f94c6bdf56d3aad9a7e1c05e5d5b5c1
+  summary: a70c012a6f1302cc36bdd2fdbce0e6e8df6122bf5ffdc1a3e351fd19fe816d41
+  tags: 2d0be12ff9bc4357b252b30d267a36cda026119f3bf4451e59b20651daee3ae3
+  current_node: ff5161892aac34735bf10c411f7230b62b7b56446e230a5d26fb75afde4704b6
+  history: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  why: 646784ef0e9088c063f7dfb02c42e4e637dd96ad3e805cf9bc0ffa675c20fa95
+  goal: db8756fe711178f3ea440862e956c9ee090435f4ac324592bf2450f89b6d4dd1
+  scope: 86d2ad8bc080e8d61f242e4bb8a80c2c38455c226753d5542af04b21903f0c89
+  references: 745478952027844eaf915f4a4d8362c68b97d126c32f76f274b2e58eb8f0ac2a
+  depends_on: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+  pills: 905420e32ab6afe55bbff1a0da55dcc06c3ebd7791068f410913e67ac15bc5c4
+  files: 56818eca77993bcce806326dd3fd8febdfe21e7f6a311feadc1b46e3a48ff45d
+  implementation_path: 12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126
+  validation: f7fb5056583b1424f4401d477a79f5142c28e2fac87cdd5a2e045055f1b5334e
+  done_when: e570faf3ad1a815871fc67782dc8106fd93eb47f39f8d16f7c1cb335027fec40
+  task_type: 1688d51cb2decc79d2c2d21d78c57a76c7ed3e9bd2a2e245da0c35e213c857a9
+  inherits_from: 5297d4f5afcbdbf42acc2d615b066df270ecd756e6bd9bb52310c3ec2ab1b06d
+  inherit_acceptance_context: b5bea41b6c623f7c09f1bf24dcae58ebab3c0cdd90ad966bc43a45b44867e12b
+  atoms: 4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945
+semantic_tags:
+- artifact:task
+- representation.markdown
+- source.document.markdown
+- topic:readiness
+- topic:workflow
+- type.workflow.task
+- workspace.desk
+- workspace:desk

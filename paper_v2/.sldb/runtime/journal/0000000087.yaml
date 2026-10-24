@@ -1,0 +1,15 @@
+operation: track_document_file
+address: ConditionDoc:condition-task-paper-v2-make-the-paragraph-column-an-assertion-surface-has-validation
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: bb4a8496d5e8863f7a9966a12b1dea80330822de3a6a5908ecbebbabda585093
+hash_d_before: null
+hash_d_after: ab2b4fadbb8056045f5f96801b08e213170b0a7fb1849de8eb3451c28cd58d30
+hash_a_before: 728a933b25a046e363ca8ec63b10ee12e014e2d3e84176625ad7d73a96439193
+hash_a_after: 970cd0ab13a88b1507b1265a8492a9a055213b7a7089a41e18cc8ba3157b4633
+actor: null
+timestamp: 2026-09-30 13:44:42.630298+00:00
+previous_hash: 6ca49ef794289f2a96d5ca6d698dcc4cb489c0830f8bbd4bab546e0d144d846e
+entry_hash: d2eb1d425b9fab35ad2226c09f8c51a2e3d13babb85639942f54ef875a7de0a6

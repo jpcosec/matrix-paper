@@ -1,0 +1,15 @@
+operation: track_document_file
+address: RoutineDoc:routine-task-paper-v2-add-editorial-validation-language-and-interruption-cues
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: c585134cebb157999fc967f2418a7173ca35c5fe5e6fbf49c20adf88cdddb9f7
+hash_d_before: null
+hash_d_after: 651fc44c3d0a1716f21f62574b5315171afa79a304ba21f5ec1d9117c8a30c1e
+hash_a_before: 7b3dcde3e477a512a7ef463bbb7c8def34fe2cab8be7187befae00d793eef4d2
+hash_a_after: b9dddbb9bc529fa6843996f5323f78b526a71c748218d847a156aac6f915c818
+actor: null
+timestamp: 2026-09-30 13:44:47.167144+00:00
+previous_hash: d36fd5f6c5e23ad8ba2faaca7179d383e9a1fca35adfd9ce26db2a1421200190
+entry_hash: 3461cb2a9e65ff70dde727b8322ea341167cd42bf82d0b7d8172f30234c7c439

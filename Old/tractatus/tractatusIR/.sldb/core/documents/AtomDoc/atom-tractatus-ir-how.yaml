@@ -1,0 +1,19 @@
+name: atom-tractatus-ir-how
+path: desk/atoms/atom-tractatus-ir-how.md
+source_hash: e1834900d61f4671ab0418abbdb936ba6b04d170d9a14922653478a9e1176bbe
+content_hash: 1c4f0580042a59297db2504a149dabba69d8a84db4258c8bc834696fcf00dabf
+field_hashes:
+  id: 9e423de8ec2cd30c9d70f71f8ef2bbddd4f987c18f5a7389cd73bca501e1694d
+  title: 65b9a7af4cb3ac47ce61ac0113f569a2dc77878af9761d4ce57c03e00dba3e2f
+  five_wh_one_plus: 5cada7d158df7d5d2f211af6f0f652e095e9f6ed1f2f2da0bd61ecab7e8ee74f
+  answer: d0cfa775e95bbe69ce50733be7b84d62439899cdd7e456dbafd8fae7ae17e041
+  tags: 6c096be361b29d7f640a77a6b850a15d2ebaa48ed607597338d54c969cf992e3
+  provenance: 3f6678bbeeffc6f609fad2d2d7cefe5ec1d7fe99be7ee47bbd42b5bc3d3e1ce9
+semantic_tags:
+- kind:code
+- project:tractatus-ir
+- representation.markdown
+- source.document.markdown
+- source:legacy-brief
+- type.knowledge.atom
+- workspace.desk.atoms

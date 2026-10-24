@@ -1,0 +1,15 @@
+operation: track_document_file
+address: EdgeDoc:edge-task-paper-v2-turn-the-sections-column-into-editorial-context-testing-to-ready
+field: null
+previous_value: null
+new_value: null
+hash_c_before: null
+hash_c_after: 253320be4c3bec4a8a14326ceefcd6b30ff85d0ccbd7f60d85fee19ce833a964
+hash_d_before: null
+hash_d_after: 776439f99a7af9d408da8dde250bf49d9548254d984e3e1d7ee4d6924a794074
+hash_a_before: 118549af3cc9d7c1205411c0ef98fd84eb194d4078c7a6a8df6ab731e53dcb72
+hash_a_after: 21288bc311fb8247b36dcee776a1ddeef56f6047450183c2bbed8c9220cde95e
+actor: null
+timestamp: 2026-09-30 13:44:48.819916+00:00
+previous_hash: 4ade9e89db657b69d9bcdd69a1198648af571ddd4953c5cbc153eac4a93f8bea
+entry_hash: bd43ac58999926347984f8f63a04804ebbfe0327f275248492c5a4dd40776616
